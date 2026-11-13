@@ -1,0 +1,47 @@
+{
+ "mission": "premier-ecran",
+ "taille": "390x844",
+ "depart": "/",
+ "erreurs": [],
+ "etapes": [
+  {
+   "k": 0,
+   "geste": "arrivée",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 3.4,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 8948,
+   "titres": [
+    "h1 LA SOIRÉE, ON LA RÈGLE AVEC VOUS."
+   ],
+   "actions": [
+    "NEWPEARS, accueil",
+    "Ma demande 0",
+    "Menu",
+    "Demander un devis",
+    "06 26 15 24 54",
+    "Ajouter à ma demande",
+    "Appeler",
+    "Devis sous 24 h"
+   ],
+   "prixVus": [
+    "169 €"
+   ],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-0.png"
+  }
+ ]
+}

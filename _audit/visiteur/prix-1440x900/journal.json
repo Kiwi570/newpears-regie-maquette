@@ -1,0 +1,254 @@
+{
+ "mission": "prix",
+ "taille": "1440x900",
+ "depart": "/",
+ "erreurs": [],
+ "etapes": [
+  {
+   "k": 0,
+   "geste": "arrivée",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 3.4,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 7057,
+   "titres": [
+    "h1 LA SOIRÉE, ON LA RÈGLE AVEC VOUS."
+   ],
+   "actions": [
+    "NEWPEARS, accueil",
+    "Location",
+    "Prestation DJ",
+    "Événements",
+    "Contact",
+    "Ma demande 0",
+    "Demander un devis",
+    "06 26 15 24 54",
+    "Ajouter à ma demande"
+   ],
+   "prixVus": [
+    "169 €"
+   ],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-0.png"
+  },
+  {
+   "k": 1,
+   "geste": "cliquer Location",
+   "resultat": "ok",
+   "gestes": 1,
+   "secondes": 5.9,
+   "adresse": "/location",
+   "y": 0,
+   "hauteurPage": 10154,
+   "titres": [
+    "h1 LE MATÉRIEL, LIVRÉ ET INSTALLÉ"
+   ],
+   "actions": [
+    "NEWPEARS, accueil",
+    "Location",
+    "Prestation DJ",
+    "Événements",
+    "Contact",
+    "Ma demande 0",
+    "Les packs",
+    "Demander un devis"
+   ],
+   "prixVus": [
+    "169 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €",
+    "000 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 2,
+   "geste": "attendre 1500",
+   "resultat": "ok",
+   "gestes": 1,
+   "secondes": 7.4,
+   "adresse": "/location",
+   "y": 0,
+   "hauteurPage": 10154,
+   "titres": [
+    "h1 LE MATÉRIEL, LIVRÉ ET INSTALLÉ"
+   ],
+   "actions": [
+    "NEWPEARS, accueil",
+    "Location",
+    "Prestation DJ",
+    "Événements",
+    "Contact",
+    "Ma demande 0",
+    "Les packs",
+    "Demander un devis"
+   ],
+   "prixVus": [
+    "169 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €",
+    "000 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 3,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 1,
+   "secondes": 7.4,
+   "adresse": "/location",
+   "y": 0,
+   "hauteurPage": 10154,
+   "titres": [
+    "h1 LE MATÉRIEL, LIVRÉ ET INSTALLÉ"
+   ],
+   "actions": [
+    "NEWPEARS, accueil",
+    "Location",
+    "Prestation DJ",
+    "Événements",
+    "Contact",
+    "Ma demande 0",
+    "Les packs",
+    "Demander un devis"
+   ],
+   "prixVus": [
+    "169 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €",
+    "000 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-3.png"
+  },
+  {
+   "k": 4,
+   "geste": "cliquer Les packs",
+   "resultat": "ok",
+   "gestes": 2,
+   "secondes": 9.6,
+   "adresse": "/location#packs",
+   "y": 823,
+   "hauteurPage": 10154,
+   "titres": [
+    "h2 CHOISISSEZ L'AMBIANCE, ON S'OCCUPE DU RESTE",
+    "h3 PACK CLUB"
+   ],
+   "actions": [
+    "ESSENTIEL",
+    "CONFORT",
+    "AMBIANCE",
+    "CLUB",
+    "PROFESSIONNEL"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €",
+    "000 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 5,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 3,
+   "secondes": 10.4,
+   "adresse": "/location#packs",
+   "y": 1588,
+   "hauteurPage": 10154,
+   "titres": [
+    "h2 PLUS DE 200 RÉFÉRENCES, RANGÉES PAR FAMILLE"
+   ],
+   "actions": [
+    "Ajouter à ma demande"
+   ],
+   "prixVus": [
+    "169 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €",
+    "000 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 6,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 3,
+   "secondes": 10.4,
+   "adresse": "/location#packs",
+   "y": 1588,
+   "hauteurPage": 10154,
+   "titres": [
+    "h2 PLUS DE 200 RÉFÉRENCES, RANGÉES PAR FAMILLE"
+   ],
+   "actions": [
+    "Ajouter à ma demande"
+   ],
+   "prixVus": [
+    "169 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €",
+    "000 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-6.png"
+  }
+ ]
+}

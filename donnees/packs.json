@@ -1,0 +1,7 @@
+[
+  { "id": "essentiel", "nom": "Pack Essentiel", "image": "pack-essentiel", "pour": "Un petit moment à la maison, un repas de famille.", "contenu": ["1 enceinte amplifiée sur pied", "1 barre de 4 PAR LED sur pied", "1 machine à fumée"], "lyres": 0, "faisceaux": 1 },
+  { "id": "confort", "nom": "Pack Confort", "image": "pack-confort", "pour": "Une petite soirée : anniversaire, repas entre amis.", "contenu": ["2 enceintes amplifiées sur pieds", "1 barre d'éclairage et d'effets sur pied", "1 machine à fumée"], "lyres": 0, "faisceaux": 2 },
+  { "id": "ambiance", "nom": "Pack Ambiance", "image": "pack-ambiance", "pour": "Une salle des fêtes : plus de puissance et de lumière.", "contenu": ["2 enceintes amplifiées sur pieds", "2 colonnes d'effets lumineux", "1 machine à fumée"], "lyres": 0, "faisceaux": 3 },
+  { "id": "club", "nom": "Pack Club", "image": "pack-club", "pour": "Une salle des fêtes qui veut une vraie piste de club.", "contenu": ["2 enceintes amplifiées sur pieds", "2 colonnes avec 4 lyres et 2 PAR LED", "2 machines à effets"], "lyres": 4, "faisceaux": 4 },
+  { "id": "professionnel", "nom": "Pack Professionnel", "image": "pack-professionnel", "pour": "Mariages et grands événements, dans les grandes salles : le plus complet.", "contenu": ["Structure pont avec 6 lyres et 1 laser", "2 enceintes amplifiées sur pieds", "Machine à fumée et effets au sol"], "lyres": 6, "faisceaux": 4 }
+]

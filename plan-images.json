@@ -1,0 +1,281 @@
+[
+  {
+    "source": "recu/site/logo.png",
+    "nom": "logo",
+    "role": "logo",
+    "alt": "NEWPEARS"
+  },
+  {
+    "source": "recu/site/matteo-sacha-platines.jpg",
+    "nom": "duo-fete-musique",
+    "role": "portrait",
+    "ratio": "9:16",
+    "alt": "Mattéo et Sacha de dos aux platines, devant la foule de la Fête de la musique à Saint-Quentin",
+    "beaute": 4,
+    "mobile": false,
+    "largeurs": [
+      480,
+      640
+    ]
+  },
+  {
+    "source": "recu/site/matteo-sacha-platines.jpg",
+    "nom": "duo-platines",
+    "role": "portrait",
+    "ratio": "3:2",
+    "cadrage": [
+      50,
+      55
+    ],
+    "alt": "Mattéo et Sacha aux platines devant la foule de la Fête de la musique à Saint-Quentin",
+    "beaute": 4,
+    "mobile": false,
+    "largeurs": [
+      480,
+      900
+    ]
+  },
+  {
+    "source": "recu/grok/accueil-cabine.jpg",
+    "nom": "grok/accueil-cabine",
+    "role": "ouverture",
+    "page": "accueil",
+    "emplacement": "Ouverture de l'accueil, derrière les lyres (ordinateur)",
+    "priorite": "Indispensable",
+    "consigne_scene": "Wide view from just behind two young DJs seen only from the back as dark silhouettes standing at a DJ controller on a small outdoor stage, looking out over a large crowd on a French town square at night; deep blue night sky filling the upper half, old stone town-hall facades with a slender pointed spire, warm street lamps, the crowd small and backlit in the middle distance, faint violet and teal stage light spilling at the edges, no face visible, no screen content readable.",
+    "alt": "Vue depuis la cabine des DJ sur une place de centre-ville la nuit",
+    "mobile": false,
+    "beaute": 3
+  },
+  {
+    "source": "recu/grok/salle-eteinte.jpg",
+    "nom": "grok/salle-eteinte",
+    "role": "section-fond",
+    "page": "accueil",
+    "emplacement": "La régie : la salle avant la soirée (état 1)",
+    "priorite": "Indispensable",
+    "consigne_scene": "An empty French village party hall at dusk before the guests arrive, seen from the far end of the dance floor: polished wooden parquet, round tables with white tablecloths along both sides, at the back a DJ booth with two black speakers on tripod stands and an aluminium lighting truss with four moving-head lights all switched off (no light beams at all, no colored wash), only dim warm work lights on, faint haze, nobody in the room.",
+    "alt": "La salle des fêtes avant l'arrivée des invités, matériel installé, lumières éteintes",
+    "mobile": false,
+    "ratio": "16:9",
+    "beaute": 4,
+    "cadrage": [
+      50,
+      55
+    ]
+  },
+  {
+    "source": "recu/grok/salle-allumee.jpg",
+    "nom": "grok/salle-allumee",
+    "role": "section-fond",
+    "page": "accueil",
+    "emplacement": "La régie : la même salle en pleine soirée (état 2). Dans Grok, ouvrir salle-eteinte.jpg et demander cette modification, pour garder exactement le même cadrage",
+    "priorite": "Indispensable",
+    "consigne_scene": "The exact same village party hall and the exact same framing as the reference image, now at night during the party: the four moving-head lights on the truss throw violet and teal beams through haze, violet and teal washes on the walls, the white tablecloths glowing, a few dancers on the parquet as motion-blurred dark silhouettes, no face visible.",
+    "alt": "La même salle en pleine soirée, faisceaux violets et verts dans la fumée",
+    "mobile": false,
+    "ratio": "16:9",
+    "beaute": 5,
+    "cadrage": [
+      50,
+      55
+    ]
+  },
+  {
+    "source": "recu/grok/location-ouverture.jpg",
+    "nom": "grok/location-ouverture",
+    "role": "ouverture",
+    "page": "location",
+    "emplacement": "Ouverture de la page Location",
+    "priorite": "Indispensable",
+    "consigne_scene": "Professional sound and light rental equipment lined up on a dark stage floor ready to be loaded: black speakers on tripod stands, a subwoofer, four moving-head lights on the floor, an aluminium truss section, a fog machine, black flight cases with aluminium edges, soft violet and teal rim light from behind, light haze, nobody, no brand names.",
+    "alt": "Matériel de location aligné sur un plateau sombre, prêt à partir",
+    "mobile": false,
+    "zone_texte": "gauche",
+    "beaute": 4
+  },
+  {
+    "source": "recu/grok/location-flight-case.jpg",
+    "nom": "grok/location-flight-case",
+    "role": "section-fond",
+    "page": "location",
+    "emplacement": "Location : le flight case qui s'ouvre",
+    "priorite": "Conseillée",
+    "consigne_scene": "Top-down view of an open black flight case with aluminium edges and grey foam inserts on a dark concrete floor, holding a wireless microphone, coiled XLR cables, a DMX cable and a small LED light, soft overhead light, nobody, no brand names.",
+    "alt": "Flight case ouvert, câbles et micro rangés dans la mousse",
+    "mobile": true,
+    "zone_texte": "droite",
+    "ratio": "3:2",
+    "beaute": 4
+  },
+  {
+    "source": "recu/grok/location-livraison.jpg",
+    "nom": "grok/location-livraison",
+    "role": "vignette",
+    "page": "location",
+    "emplacement": "Location : étape livraison",
+    "priorite": "Conseillée",
+    "consigne_scene": "A white utility van with its rear doors open in the evening in front of a small village hall entrance, black flight cases and speaker stands being unloaded on a hand trolley, warm entrance light, nobody visible, no logo, no license plate visible.",
+    "alt": "Utilitaire ouvert devant une salle, flight cases sur un diable",
+    "mobile": false,
+    "ratio": "3:2",
+    "beaute": 4
+  },
+  {
+    "source": "recu/grok/dj-ouverture.jpg",
+    "nom": "grok/dj-ouverture",
+    "role": "ouverture",
+    "page": "dj",
+    "emplacement": "Ouverture de la page Prestation DJ",
+    "priorite": "Indispensable",
+    "consigne_scene": "Close view of a DJ's hands on a modern two-deck DJ controller at a wedding reception at night, hands slightly motion-blurred on a jog wheel, controller lit by violet and teal stage light, guests dancing as soft blurred silhouettes in the background, shallow depth of field, no face visible, no brand name, no screen content readable.",
+    "alt": "Mains d'un DJ sur un contrôleur pendant une soirée de mariage",
+    "mobile": false,
+    "zone_texte": "gauche",
+    "beaute": 4
+  },
+  {
+    "source": "recu/grok/dj-premiere-danse.jpg",
+    "nom": "grok/dj-premiere-danse",
+    "role": "section-fond",
+    "page": "dj",
+    "emplacement": "Prestation DJ : les temps forts (ouverture du bal)",
+    "priorite": "Indispensable",
+    "consigne_scene": "A newly married couple's first dance seen as dark silhouettes in the middle of a wooden dance floor in a rural reception hall, a single white spotlight falling from above through light haze, teal and violet wash on the stone walls, guests standing around as dark silhouettes, no face visible.",
+    "alt": "Silhouettes des mariés pendant l'ouverture du bal, sous un faisceau blanc",
+    "mobile": false,
+    "zone_texte": "droite",
+    "ratio": "3:2",
+    "beaute": 4
+  },
+  {
+    "source": "recu/grok/dj-micro-gateau.jpg",
+    "nom": "grok/dj-micro-gateau",
+    "role": "vignette",
+    "page": "dj",
+    "emplacement": "Prestation DJ : micro prêt pour les discours",
+    "priorite": "Conseillée",
+    "consigne_scene": "A wireless microphone lying on a white tablecloth beside a tiered celebration cake with lit sparklers, warm candlelight, a violet dance-floor light glowing out of focus behind, nobody.",
+    "alt": "Micro sans fil posé près du gâteau aux étincelles",
+    "mobile": false,
+    "ratio": "3:2",
+    "beaute": 4
+  },
+  {
+    "source": "recu/grok/evenements-ouverture.jpg",
+    "nom": "grok/evenements-ouverture",
+    "role": "ouverture",
+    "page": "evenements",
+    "emplacement": "Ouverture de la page Événements",
+    "priorite": "Indispensable",
+    "consigne_scene": "A summer village fête at night on a small town square: a small open-air stage with a lighting truss and two speakers, strings of warm bulbs between plane trees, a crowd of people dancing seen from behind as dark silhouettes with raised arms, violet and teal beams through haze, deep blue sky, no face visible.",
+    "alt": "Fête de village la nuit, petite scène et guirlandes",
+    "mobile": false,
+    "zone_texte": "gauche",
+    "beaute": 4
+  },
+  {
+    "source": "recu/grok/evt-mariage.jpg",
+    "nom": "grok/evt-mariage",
+    "role": "vignette",
+    "page": "evenements",
+    "emplacement": "Événements : carte mariage",
+    "priorite": "Conseillée",
+    "consigne_scene": "A wedding reception hall at night after dinner, round tables with white tablecloths and candles, a dance floor in the middle with a few dancing silhouettes, violet and teal wash lights and warm string lights, no face visible.",
+    "alt": "Salle de mariage en soirée, piste et tables dressées",
+    "mobile": false,
+    "ratio": "3:2",
+    "beaute": 4
+  },
+  {
+    "source": "recu/grok/evt-anniversaire.jpg",
+    "nom": "grok/evt-anniversaire",
+    "role": "vignette",
+    "page": "evenements",
+    "emplacement": "Événements : carte anniversaire",
+    "priorite": "Conseillée",
+    "consigne_scene": "A birthday party in a small village hall at night, large golden number balloons out of focus, guests dancing as backlit silhouettes, colored beams through haze, confetti in the air, no face visible, no readable number.",
+    "alt": "Anniversaire dans une salle des fêtes, confettis et silhouettes",
+    "mobile": false,
+    "ratio": "3:2",
+    "beaute": 4
+  },
+  {
+    "source": "recu/grok/evt-entreprise.jpg",
+    "nom": "grok/evt-entreprise",
+    "role": "vignette",
+    "page": "evenements",
+    "emplacement": "Événements : carte entreprise",
+    "priorite": "Conseillée",
+    "consigne_scene": "A company evening party in a modern event room with concrete walls, a long bar counter lit warm, guests in smart clothes seen from behind as silhouettes, a DJ booth with violet light at the back, no face visible, no logo.",
+    "alt": "Soirée d'entreprise, bar et piste au fond",
+    "mobile": false,
+    "ratio": "3:2",
+    "beaute": 4
+  },
+  {
+    "source": "recu/grok/evt-seminaire.jpg",
+    "nom": "grok/evt-seminaire",
+    "role": "vignette",
+    "page": "evenements",
+    "emplacement": "Événements : carte seminaire",
+    "priorite": "Conseillée",
+    "consigne_scene": "A seminar room set up for a conference: rows of chairs seen from behind, a video projector beam crossing the room onto a large blank screen, a lectern with a microphone, cool daylight mixed with teal light, nobody on stage, no text on the screen.",
+    "alt": "Salle de séminaire, vidéoprojecteur et micro au pupitre",
+    "mobile": false,
+    "ratio": "3:2",
+    "beaute": 3
+  },
+  {
+    "source": "recu/grok/evt-bar.jpg",
+    "nom": "grok/evt-bar",
+    "role": "vignette",
+    "page": "evenements",
+    "emplacement": "Événements : carte bar",
+    "priorite": "Conseillée",
+    "consigne_scene": "A warm bar at night with a small DJ corner: a DJ controller on a wooden counter, two small speakers, warm Edison bulbs and a violet light on brick walls, customers as blurred silhouettes, no face visible, no brand.",
+    "alt": "Coin DJ dans un bar, briques et lumières chaudes",
+    "mobile": false,
+    "ratio": "3:2",
+    "beaute": 3
+  },
+  {
+    "source": "recu/grok/evt-fin-annee.jpg",
+    "nom": "grok/evt-fin-annee",
+    "role": "vignette",
+    "page": "evenements",
+    "emplacement": "Événements : carte fin-annee",
+    "priorite": "Conseillée",
+    "consigne_scene": "A New Year's Eve party in a village hall at midnight: confetti and streamers falling through violet and teal light beams, guests with raised arms as dark silhouettes, haze, no face visible, no readable numbers.",
+    "alt": "Réveillon, confettis dans les faisceaux",
+    "mobile": false,
+    "ratio": "3:2",
+    "beaute": 4
+  },
+  {
+    "source": "recu/grok/contact-ouverture.jpg",
+    "nom": "grok/contact-ouverture",
+    "role": "ouverture",
+    "page": "contact",
+    "emplacement": "Ouverture de la page Contact",
+    "priorite": "Indispensable",
+    "consigne_scene": "Close view of a lighting control desk in a dark venue: rows of faders and glowing buttons lit violet and teal, a technician's hand slightly blurred on one fader, haze and out-of-focus colored beams in the background, no brand name, no readable screen.",
+    "alt": "Console lumière en gros plan, faders éclairés",
+    "mobile": false,
+    "zone_texte": "gauche",
+    "beaute": 4
+  },
+  {
+    "source": "recu/grok/page-404.jpg",
+    "nom": "grok/page-404",
+    "role": "404",
+    "page": "404",
+    "emplacement": "Page 404",
+    "priorite": "Conseillée",
+    "consigne_scene": "An empty village party hall after the party: chairs stacked on the tables, confetti on the parquet, a single moving-head light pointing straight down onto the empty dance floor through haze, everything else dark, nobody.",
+    "alt": "Salle vide après la fête, une seule lyre allumée",
+    "mobile": true,
+    "zone_texte": "gauche",
+    "beaute": 3
+  }
+]

@@ -1,0 +1,12 @@
+[
+  { "nom": "Saint-Quentin", "lat": 49.8467, "lon": 3.2876, "centre": true },
+  { "nom": "Ribemont", "lat": 49.7956, "lon": 3.4583 },
+  { "nom": "Ham", "lat": 49.7470, "lon": 3.0729 },
+  { "nom": "Bohain-en-Vermandois", "lat": 49.9845, "lon": 3.4532 },
+  { "nom": "Tergnier", "lat": 49.6566, "lon": 3.3011 },
+  { "nom": "Guise", "lat": 49.8996, "lon": 3.6280 },
+  { "nom": "Chauny", "lat": 49.6156, "lon": 3.2190 },
+  { "nom": "Péronne", "lat": 49.9317, "lon": 2.9364 },
+  { "nom": "Laon", "lat": 49.5640, "lon": 3.6199 },
+  { "nom": "Soissons", "lat": 49.3817, "lon": 3.3236 }
+]

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Esquisse A — La régie</title>
+<style>
+@font-face{font-family:Doto;src:url(/_suivi/esquisses/polices/doto-latin-full-normal.woff2) format('woff2');font-weight:100 900}
+@font-face{font-family:BSD;src:url(/_suivi/esquisses/polices/big-shoulders-display-latin-wght-normal.woff2) format('woff2');font-weight:100 900}
+@font-face{font-family:Manrope;src:url(/_suivi/esquisses/polices/manrope-latin-wght-normal.woff2) format('woff2');font-weight:200 800}
+:root{--fond:#07070c;--violet:#8b66d6;--vert:#3cc39a;--texte:#f1efe9;--gris:#a9a7b3}
+*{box-sizing:border-box;margin:0}
+html,body{height:100%;background:var(--fond);color:var(--texte);font-family:Manrope,sans-serif;overflow:hidden}
+.scene{position:relative;height:100vh;overflow:hidden;background:radial-gradient(120% 80% at 70% 110%,#1a1530 0%,#0b0a14 45%,#07070c 75%)}
+.photo{position:absolute;right:0;top:0;width:54%;height:100%;object-fit:cover;object-position:50% 62%;filter:brightness(.92) contrast(1.05) saturate(1.1);
+  -webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 34%,#000 100%);mask-image:linear-gradient(90deg,transparent 0%,#000 34%,#000 100%)}
+.voile-bas{position:absolute;inset:auto 0 0 0;height:42%;background:linear-gradient(transparent,#07070cf0 70%)}
+.truss{position:absolute;top:66px;left:4%;right:4%;height:120px}
+.barre{position:absolute;top:8px;left:0;right:0;height:26px;background:url(/_suivi/detoures/structure-pont.png) center top/100% auto no-repeat;filter:brightness(.55) contrast(1.2);opacity:.95}
+.barre::before{content:"";position:absolute;left:0;right:0;top:0;height:22px;background:repeating-linear-gradient(55deg,transparent 0 9px,#8d909b 9px 11px,transparent 11px 20px),repeating-linear-gradient(-55deg,transparent 0 9px,#6f727c 9px 11px,transparent 11px 20px);border-top:3px solid #9a9daa;border-bottom:3px solid #6f727c;box-shadow:0 6px 14px #000c}
+.lyre{position:absolute;top:14px;width:84px;transform:scaleY(-1) rotate(var(--r,0deg));transform-origin:50% 50%;filter:brightness(.8) drop-shadow(0 0 18px #0008)}
+.faisceaux{position:absolute;inset:0;pointer-events:none;mix-blend-mode:screen}
+.texte{position:absolute;left:7vw;top:25vh;width:48vw;z-index:3}
+.sur{font-family:Doto;font-weight:800;letter-spacing:.06em;font-size:15px;color:var(--vert);text-transform:uppercase}
+h1{font-family:BSD;font-weight:800;font-size:clamp(60px,7.2vw,104px);line-height:.88;letter-spacing:-.01em;text-transform:uppercase;margin:18px 0 22px}
+h1 em{font-style:normal;background:linear-gradient(90deg,var(--violet),var(--vert));-webkit-background-clip:text;background-clip:text;color:transparent}
+.texte p{font-size:18px;line-height:1.5;color:#d4d1db;max-width:34em}
+.btns{display:flex;gap:12px;margin-top:26px}
+.b{font-weight:700;font-size:15px;padding:15px 22px;border-radius:999px;border:1px solid #ffffff40;color:var(--texte);text-decoration:none}
+.b.p{background:linear-gradient(90deg,var(--violet),var(--vert));border:0;color:#06060a}
+.console{position:absolute;left:7vw;bottom:38px;width:min(760px,60vw);height:178px;z-index:4;border-radius:14px;
+  background:linear-gradient(180deg,#1d1e25,#121318);box-shadow:inset 0 1px 0 #ffffff1c,0 30px 60px #000a;display:flex;gap:0;padding:16px 18px;border:1px solid #2a2b33}
+.f{width:96px;position:relative;display:flex;flex-direction:column;align-items:center;border-right:1px solid #2a2b33}
+.f .lab{font-family:Doto;font-weight:800;font-size:13px;color:var(--gris);letter-spacing:.05em}
+.rail{position:relative;width:6px;flex:1;margin:10px 0 6px;background:#05050a;border-radius:3px;box-shadow:inset 0 0 0 1px #000}
+.rail::before{content:"";position:absolute;left:-14px;right:-14px;top:0;bottom:0;background:repeating-linear-gradient(#3a3b44 0 1px,transparent 1px 12px);opacity:.7;z-index:-1}
+.cap{position:absolute;left:50%;width:46px;height:24px;transform:translate(-50%,-50%);border-radius:4px;background:linear-gradient(#e9e8ef,#9c9aa6);box-shadow:0 4px 8px #000c,inset 0 -2px 0 #6b6974}
+.cap::after{content:"";position:absolute;left:4px;right:4px;top:11px;height:2px;background:var(--c,#111)}
+.f .v{font-family:Doto;font-weight:900;font-size:16px;color:var(--texte)}
+.lecture{flex:1;padding:4px 6px 0 22px;display:flex;flex-direction:column}
+.led{font-family:Doto;font-weight:900;font-size:40px;line-height:1;color:var(--vert);text-shadow:0 0 14px #3cc39a88}
+.det{font-size:14px;color:#c8c5d0;margin-top:6px}
+.vu{display:flex;gap:3px;margin-top:10px}.vu i{width:14px;height:8px;border-radius:2px;background:#26272e}.vu i.on{background:var(--vert)}.vu i.on.h{background:#e9b23c}
+.lecture .b{align-self:flex-start;margin-top:auto;padding:11px 18px;font-size:14px}
+.pack{position:absolute;right:5vw;bottom:34px;width:360px;z-index:3;filter:brightness(.9) drop-shadow(0 20px 30px #000)}
+.entete{position:absolute;top:0;left:0;right:0;height:64px;display:flex;align-items:center;justify-content:space-between;padding:0 4vw;z-index:6;background:#07070ce6;border-bottom:1px solid #ffffff12}
+.entete img{height:40px}
+.entete nav{display:flex;gap:28px;font-weight:600;font-size:15px}
+.entete .b{padding:10px 16px;font-size:14px}
+.cible{position:absolute;left:60%;top:60%;width:180px;height:60px;border-radius:50%;background:radial-gradient(#fff6 0,#b48cff33 40%,transparent 70%);filter:blur(6px);mix-blend-mode:screen;z-index:2}
+@media (max-width:700px){
+  .photo{width:100%;-webkit-mask-image:linear-gradient(transparent 0%,#000 25%);mask-image:linear-gradient(transparent 0,#000 25%);opacity:.75;object-position:50% 40%}
+  .entete nav{display:none}.entete img{height:24px}
+  .truss{top:52px;left:-6%;right:-6%}
+  .lyre{width:58px}
+  .texte{left:22px;right:22px;width:auto;top:236px}
+  h1{font-size:54px}.texte p{font-size:16px}.btns{flex-wrap:wrap}
+  .console{left:12px;right:12px;width:auto;bottom:12px;height:214px;flex-wrap:wrap;padding:12px}
+  .f{width:33.3%;height:118px;border-right:0}
+  .lecture{flex-basis:100%;padding:8px 4px 0;flex-direction:row;align-items:center;gap:10px;flex-wrap:wrap}
+  .led{font-size:28px}.det,.vu{display:none}.lecture .b{margin:0 0 0 auto}
+  .pack{display:none}.cible{left:30%;top:58%}
+}
+</style></head><body>
+<div class="scene">
+  <img class="photo" src="/recu/site/matteo-sacha-platines.jpg" alt="">
+  <div class="voile-bas"></div>
+  <svg class="faisceaux" viewBox="0 0 1440 900" preserveAspectRatio="none" aria-hidden="true">
+    <defs>
+      <linearGradient id="fv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c5a6ff" stop-opacity=".95"/><stop offset=".55" stop-color="#8b66d6" stop-opacity=".35"/><stop offset="1" stop-color="#8b66d6" stop-opacity="0"/></linearGradient>
+      <linearGradient id="fg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b9ffe6" stop-opacity=".95"/><stop offset=".55" stop-color="#3cc39a" stop-opacity=".35"/><stop offset="1" stop-color="#3cc39a" stop-opacity="0"/></linearGradient>
+      <filter id="flou"><feGaussianBlur stdDeviation="9"/></filter>
+    </defs>
+    <g filter="url(#flou)"><polygon points="415,160 433,160 905,620 805,640" fill="url(#fv)"/><polygon points="608,160 626,160 940,640 860,640" fill="url(#fg)"/><polygon points="900,160 918,160 905,650 830,630" fill="url(#fv)"/><polygon points="1192,160 1210,160 930,640 850,610" fill="url(#fg)"/></g>
+  </svg>
+  <div class="cible" style="left:57%;top:66%"></div>
+  <div class="truss">
+    <div class="barre"></div>
+    <img class="lyre" src="/_suivi/detoures/lyre-beam-100w.png" style="left:24%;--r:-28deg" alt="">
+    <img class="lyre" src="/_suivi/detoures/lyre-beam-100w.png" style="left:39%;--r:-14deg" alt="">
+    <img class="lyre" src="/_suivi/detoures/lyre-beam-100w.png" style="left:61%;--r:6deg" alt="">
+    <img class="lyre" src="/_suivi/detoures/lyre-beam-100w.png" style="left:83%;--r:24deg" alt="">
+  </div>
+  <header class="entete"><img src="/_suivi/detoures/logo.png" alt="NEWPEARS"><nav><span>Location</span><span>DJ</span><span>Événements</span><span>Contact</span></nav><a class="b p" href="#">Ma demande · 0</a></header>
+  <div class="texte">
+    <div class="sur">Son · Lumière · DJ — Saint-Quentin (02)</div>
+    <h1>La soirée,<br>on la <em>règle</em><br>avec vous.</h1>
+    <p>Location de son et de lumière à la journée, ou deux DJ clé en main. Jusqu'à 50 km autour de Saint-Quentin, devis sous 24 h, 7 j/7.</p>
+    <div class="btns"><a class="b p" href="#">Demander un devis</a><a class="b" href="#">06 26 15 24 54</a></div>
+  </div>
+  <div class="console">
+    <div class="f"><span class="lab">INVITÉS</span><div class="rail"><span class="cap" style="top:38%"></span></div><span class="v">120</span></div>
+    <div class="f"><span class="lab">LUMIÈRE</span><div class="rail"><span class="cap" style="top:28%;--c:#8b66d6"></span></div><span class="v">4 LYRES</span></div>
+    <div class="f"><span class="lab">EFFETS</span><div class="rail"><span class="cap" style="top:62%;--c:#3cc39a"></span></div><span class="v">FUMÉE</span></div>
+    <div class="lecture">
+      <div class="led">PACK CLUB</div>
+      <div class="det">Salle des fêtes · 2 enceintes, 4 lyres sur pieds, fumée</div>
+      <div class="vu"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on h"></i><i></i><i></i><i></i></div>
+      <a class="b p" href="#">Ajouter à ma demande</a>
+    </div>
+  </div>
+  <img class="pack" src="/_suivi/detoures/pack-club.png" alt="">
+</div>
+</body></html>

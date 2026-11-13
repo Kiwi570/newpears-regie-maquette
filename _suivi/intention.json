@@ -1,0 +1,98 @@
+{
+  "client": "NEWPEARS",
+  "depot": "newpears-maquette",
+  "site_actuel": "https://newpears.fr",
+  "activite": "location de son et lumière et DJ à Saint-Quentin",
+  "constat": "Le site actuel cache son vrai trésor : un catalogue de matériel réel (lyres, lasers, enceintes, cinq packs photographiés tels qu'ils sont loués) noyé derrière des photos de banque d'images (concerts géants, bébé dans une bouée, gâteau). Rien ne montre ce que la soirée deviendra, et le chemin vers le devis passe par des pages vides sans JavaScript.",
+  "directions": [
+    {
+      "nom": "La régie",
+      "idee": "Le visiteur prend la place de Mattéo et Sacha à la régie : il oriente les lyres accrochées au pont et pousse trois faders (invités, lumière, effets). La salle s'allume en direct, le vrai pack correspondant se monte sur le plateau, et il part dans la demande de devis. Le site s'allume ensuite de section en section, du noir de l'installation à la piste pleine.",
+      "plan": "outil-d-abord",
+      "palette": ["#07070c", "#f1efe9", "#8b66d6", "#3cc39a"],
+      "polices": ["Big Shoulders Display", "Manrope", "Doto"],
+      "grille": {
+        "objet": "les lyres du pont, qu'on oriente au pointeur ou au doigt, et trois faders qu'on pousse",
+        "fil": "deux lyres restent aux coins de l'écran et visent le titre de chaque section, de page en page",
+        "voile": "un faisceau qui descend du haut, s'élargit jusqu'à couvrir l'écran, puis se resserre sur l'objet de la page suivante",
+        "forme_voile": "propre",
+        "familles": ["lumiere-pointeur", "ambiance-qui-change", "typo-geante"],
+        "signature": "lumiere-pointeur",
+        "modernes": ["faisceaux de lyres qui suivent la main, avec fumée", "salle qui s'allume au fil de la lecture", "styles du DJ en matrice LED géante dont les points s'allument (police variable Doto)"]
+      },
+      "modules": ["panier-en-tiroir", "formulaire-par-etapes"],
+      "sections": [
+        { "role": "ouverture", "reprend": "winsbike-maquette/top", "plus": "pas une lampe d'établi : quatre vraies lyres au-dessus de la vue depuis la cabine des DJ à la Fête de la musique, orientées par le visiteur" },
+        { "role": "offre", "reprend": "nelis-maquette/puissances", "plus": "la jauge devient une console à trois faders qui monte le vrai pack (Essentiel, Confort, Ambiance, Club, Professionnel) photographié par le client" },
+        { "role": "produits", "reprend": "winsbike-maquette/eclatee", "plus": "le flight case s'ouvre au défilement et le matériel en sort famille par famille (son, lumière, effets, structure, vidéo)" },
+        { "role": "contact", "reprend": "myrtille-et-compagnie-maquette/demander-une-communication-formulaire", "plus": "la demande part avec le matériel choisi ; à l'envoi, un jet de CO2 traverse l'écran" }
+      ],
+      "ancrage": [
+        { "element": "Mattéo et Sacha de dos aux platines, la foule de la place à Saint-Quentin", "source": "photo:matteo-sacha-platines.jpg" },
+        { "element": "les lyres Beam et Wash, le pont de structure et les cinq packs photographiés tels qu'ils sont loués", "source": "photo:pack-club.jpg" },
+        { "element": "le logo poire et son dégradé violet vers vert d'eau", "source": "photo:logo.png" },
+        { "element": "choix du pack selon la salle et le nombre d'invités, devis sous 24 h", "source": "site:/location-packs.html" },
+        { "element": "electro house d'origine, clubs lillois et le Joy", "source": "site:/a-propos.html" }
+      ],
+      "invente": ["la console à trois faders comme outil de choix du pack", "le voile en faisceau", "le jet de CO2 à l'envoi de la demande"]
+    },
+    {
+      "nom": "La poire au laser",
+      "idee": "Un seul objet reste à l'écran : la poire du logo, tracée par un vrai laser dans la fumée. Le visiteur tient le faisceau, la ligne suit sa main avec l'inertie d'un balayage laser ; à chaque section, le laser redessine la poire en ce dont on parle (une enceinte, les platines, des alliances, le cercle des 50 km autour de Saint-Quentin, l'enveloppe du devis).",
+      "plan": "objet-unique",
+      "palette": ["#040405", "#eeeef2", "#46f0b0", "#9b74ff"],
+      "polices": ["Josefin Sans", "Manrope"],
+      "grille": {
+        "objet": "le point du laser, qu'on attrape et qui trace",
+        "fil": "la poire au laser, qui change de dessin à chaque section",
+        "voile": "une nappe laser horizontale qui balaie l'écran vers le bas, puis remonte sur la page suivante",
+        "forme_voile": "propre",
+        "familles": ["curseur-vivant", "3d", "morphing"],
+        "signature": "curseur-vivant",
+        "modernes": ["curseur devenu point laser qui trace", "tunnel de nappes laser en perspective au défilement", "la poire qui se redessine en objets du métier"]
+      },
+      "modules": ["formulaire-par-etapes"],
+      "sections": [
+        { "role": "ouverture", "reprend": "francis-gerardin-maquette/hero", "plus": "le trait n'est pas une rature : c'est le faisceau d'un vrai laser loué par le client, qui dessine son logo" },
+        { "role": "offre", "reprend": "willowcamp-maquette/facons", "plus": "chaque pack est dessiné au laser avant d'apparaître en photo" },
+        { "role": "contact", "reprend": "coupdefood-maquette/contact", "plus": "le formulaire se trace ligne par ligne" }
+      ],
+      "ancrage": [
+        { "element": "la poire du logo, dessinée d'un seul trait", "source": "photo:logo.png" },
+        { "element": "lasers 400 mW et 1000 mW à la location", "source": "photo:laser-1000mw.jpg" },
+        { "element": "zone de 40 à 50 km autour de Saint-Quentin, villes citées", "source": "site:/a-propos.html" },
+        { "element": "conseils fumée et effets aux temps forts", "source": "site:/location-effets.html" }
+      ],
+      "invente": ["la poire qui se redessine en objets", "la nappe laser comme transition"]
+    },
+    {
+      "nom": "Le banc d'essai",
+      "idee": "Un showroom clair, comme un banc de test : l'accueil est un index géant de ce qui se loue (enceintes, caissons, lyres, lasers, fumée et CO2, DJ). Chaque mot touché fait venir la vraie photo du matériel, qui s'allume sur la page blanche : la lyre projette son faisceau, la machine souffle sa fumée, le laser trace. Puis on bascule l'interrupteur et la page passe de nuit.",
+      "plan": "index",
+      "palette": ["#f1efea", "#14131a", "#7b5cc0", "#2fa985"],
+      "polices": ["Big Shoulders Display", "Manrope", "Doto"],
+      "grille": {
+        "objet": "chaque matériel qu'on branche d'un interrupteur",
+        "fil": "la page qui s'assombrit du showroom de jour à la soirée",
+        "voile": "extinction : l'écran se ferme en une ligne lumineuse puis se rallume",
+        "forme_voile": "propre",
+        "familles": ["typo-geante", "carrousel", "plongee"],
+        "signature": "typo-geante",
+        "modernes": ["index typographique géant qui allume les objets", "carrousel 3D des cinq packs à tourner à la main", "plongée dans la photo de la Fête de la musique"]
+      },
+      "modules": ["panier-en-tiroir"],
+      "sections": [
+        { "role": "ouverture", "reprend": "d3co-maquette/heros", "plus": "un index de tout le catalogue, chaque objet réel s'allume sur la page" },
+        { "role": "produits", "reprend": "instinct-aventure-maquette/voyages-catalogue", "plus": "filtres par famille et par salle, ajout à la demande" },
+        { "role": "offre", "reprend": "nelis-maquette/puissances", "plus": "les cinq packs en carrousel 3D" }
+      ],
+      "ancrage": [
+        { "element": "les photos du matériel sur fond blanc, une par article loué", "source": "photo:lyre-beam-100w.jpg" },
+        { "element": "recherches populaires : enceinte, caisson, lyres, laser, fumée, micro", "source": "site:/location.html" },
+        { "element": "enceintes dès 30 € et éclairage dès 10 € la journée", "source": "site:/location-sonorisation.html" },
+        { "element": "Mattéo et Sacha aux platines à la Fête de la musique", "source": "photo:matteo-sacha-platines.jpg" }
+      ],
+      "invente": ["l'interrupteur qui fait passer la page de nuit", "le voile en extinction"]
+    }
+  ]
+}

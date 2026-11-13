@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Location son et lumière à Saint-Quentin : packs et matériel · NEWPEARS</title>
+<meta name="description" content="Packs son et lumière dès 169 € la journée, enceintes, lyres, lasers, fumée, CO2, structures et vidéo. Livraison et installation offertes dans 10 km.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://newpears-maquette.vercel.app/location">
+<style>:root{--fond:#07070c;--texte:#f1efe9;--voile-fond:#07070c;--ouverture-fond:#07070c;--menu-fond:#0d0c15}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/polices/big-shoulders-display-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/polices/manrope-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#07070c">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="NEWPEARS">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Location son et lumière à Saint-Quentin : packs et matériel · NEWPEARS">
+<meta property="og:description" content="Packs son et lumière dès 169 € la journée, enceintes, lyres, lasers, fumée, CO2, structures et vidéo. Livraison et installation offertes dans 10 km.">
+<meta property="og:url" content="https://newpears-maquette.vercel.app/location">
+<meta property="og:image" content="https://newpears-maquette.vercel.app/assets/partage/location-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Location de son et de lumière NEWPEARS">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"NEWPEARS","description":"Location de sonorisation, d'éclairage et d'effets, et prestations DJ à Saint-Quentin (Aisne).","telephone":"+33626152454","email":"newpears@icloud.com","areaServed":["Saint-Quentin","Laon","Guise","Chauny","Tergnier","Ham","Bohain-en-Vermandois","Ribemont","Péronne","Soissons"],"address":{"@type":"PostalAddress","addressLocality":"Saint-Quentin","addressRegion":"Aisne","addressCountry":"FR"},"sameAs":["https://www.instagram.com/new.pears","https://www.tiktok.com/@newpears","https://www.facebook.com/newpears"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="faisceau" aria-hidden="true"><div class="voile-contenu"><svg class="voile-poire" viewBox="-30 -30 580 811" aria-hidden="true"><defs><linearGradient id="grad-voile-poire" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9b74ff"/><stop offset="1" stop-color="#46f0b0"/></linearGradient></defs><path class="poire-halo" d="M247,142 L224,145 L206,151 L189,161 L173,179 L167,191 L152,245 L141,272 L119,313 L69,392 L48,432 L36,467 L31,502 L32,543 L39,576 L46,596 L57,619 L82,655 L113,685 L143,705 L186,723 L228,731 L268,731 L311,723 L355,704 L393,677 L417,652 L442,614 L456,580 L463,550 L466,519 L462,477 L456,453 L448,432 L428,393 L381,319 L356,274 L348,255 L334,204 L325,181 L319,172 L308,161 L295,153 L268,144 L249,142 M241,50 L240,43 L232,29 L212,22 L172,19 L152,21 L130,27 L116,33 L91,48 L77,59 L54,82 L31,113 L26,133 M390,497 L386,527 L376,558 L362,583 L352,596 L336,612 L309,631 L285,642 L259,649 L232,651 M240,51 L234,57 L221,61 L187,90 L163,106 L134,122 L108,133 L68,141 L30,139 L26,134 M248,141 L248,57 L242,51" stroke="url(#grad-voile-poire)"/><path class="poire-trait" d="M247,142 L224,145 L206,151 L189,161 L173,179 L167,191 L152,245 L141,272 L119,313 L69,392 L48,432 L36,467 L31,502 L32,543 L39,576 L46,596 L57,619 L82,655 L113,685 L143,705 L186,723 L228,731 L268,731 L311,723 L355,704 L393,677 L417,652 L442,614 L456,580 L463,550 L466,519 L462,477 L456,453 L448,432 L428,393 L381,319 L356,274 L348,255 L334,204 L325,181 L319,172 L308,161 L295,153 L268,144 L249,142 M241,50 L240,43 L232,29 L212,22 L172,19 L152,21 L130,27 L116,33 L91,48 L77,59 L54,82 L31,113 L26,133 M390,497 L386,527 L376,558 L362,583 L352,596 L336,612 L309,631 L285,642 L259,649 L232,651 M240,51 L234,57 L221,61 L187,90 L163,106 L134,122 L108,133 L68,141 L30,139 L26,134 M248,141 L248,57 L242,51" stroke="url(#grad-voile-poire)" pathLength="1"/></svg><span data-voile-libelle>Location</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <div class="ouverture-objet" data-ouverture-objet><svg class="ouverture-poire" viewBox="-30 -30 580 811" aria-hidden="true"><defs><linearGradient id="grad-ouverture-poire" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9b74ff"/><stop offset="1" stop-color="#46f0b0"/></linearGradient></defs><path class="poire-halo" d="M247,142 L224,145 L206,151 L189,161 L173,179 L167,191 L152,245 L141,272 L119,313 L69,392 L48,432 L36,467 L31,502 L32,543 L39,576 L46,596 L57,619 L82,655 L113,685 L143,705 L186,723 L228,731 L268,731 L311,723 L355,704 L393,677 L417,652 L442,614 L456,580 L463,550 L466,519 L462,477 L456,453 L448,432 L428,393 L381,319 L356,274 L348,255 L334,204 L325,181 L319,172 L308,161 L295,153 L268,144 L249,142 M241,50 L240,43 L232,29 L212,22 L172,19 L152,21 L130,27 L116,33 L91,48 L77,59 L54,82 L31,113 L26,133 M390,497 L386,527 L376,558 L362,583 L352,596 L336,612 L309,631 L285,642 L259,649 L232,651 M240,51 L234,57 L221,61 L187,90 L163,106 L134,122 L108,133 L68,141 L30,139 L26,134 M248,141 L248,57 L242,51" stroke="url(#grad-ouverture-poire)"/><path class="poire-trait" d="M247,142 L224,145 L206,151 L189,161 L173,179 L167,191 L152,245 L141,272 L119,313 L69,392 L48,432 L36,467 L31,502 L32,543 L39,576 L46,596 L57,619 L82,655 L113,685 L143,705 L186,723 L228,731 L268,731 L311,723 L355,704 L393,677 L417,652 L442,614 L456,580 L463,550 L466,519 L462,477 L456,453 L448,432 L428,393 L381,319 L356,274 L348,255 L334,204 L325,181 L319,172 L308,161 L295,153 L268,144 L249,142 M241,50 L240,43 L232,29 L212,22 L172,19 L152,21 L130,27 L116,33 L91,48 L77,59 L54,82 L31,113 L26,133 M390,497 L386,527 L376,558 L362,583 L352,596 L336,612 L309,631 L285,642 L259,649 L232,651 M240,51 L234,57 L221,61 L187,90 L163,106 L134,122 L108,133 L68,141 L30,139 L26,134 M248,141 L248,57 L242,51" stroke="url(#grad-ouverture-poire)" pathLength="1"/></svg></div>
+  <img class="ouverture-mot" src="/assets/images/logo-mot.webp" alt="" width="900" height="136">
+  <p class="ouverture-ligne">Son · Lumière · DJ</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="NEWPEARS, accueil" data-libelle="Accueil">
+      <img src="/assets/images/logo-entete-480.webp" alt="NEWPEARS" width="480" height="182">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/location" data-libelle="Location" aria-current="page">Location</a></li><li><a href="/prestation-dj" data-libelle="Prestation DJ">Prestation DJ</a></li><li><a href="/evenements" data-libelle="Événements">Événements</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton bouton--case" href="/contact#demande" data-libelle="Contact" data-demande-cible><span class="case-icone" aria-hidden="true"><i></i></span><span class="case-texte">Ma demande</span> <span class="case-compte" data-demande-compte aria-label="aucun article">0</span></a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/location" class="menu-lien" data-libelle="Location" aria-current="page">Location</a></li><li style="--i:2"><a href="/prestation-dj" class="menu-lien" data-libelle="Prestation DJ">Prestation DJ</a></li><li style="--i:3"><a href="/evenements" class="menu-lien" data-libelle="Événements">Événements</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p class="menu-contacts"><a class="bouton" href="tel:+33626152454">Appeler 06 26 15 24 54</a> <a class="bouton bouton--contour" href="https://wa.me/33626152454" target="_blank" rel="noopener">WhatsApp</a> <a class="bouton bouton--contour" href="mailto:newpears@icloud.com">newpears@icloud.com</a></p>
+</div>
+<div class="fil-lyres" data-grille="fil" data-effet="lyres-fil" aria-hidden="true">
+  <div class="fil-lyre fil-lyre--g"><span class="fil-faisceau"></span><img src="/assets/images/materiel/lyre-beam-100w-360.webp" alt="" width="360" height="449"></div>
+  <div class="fil-lyre fil-lyre--d"><span class="fil-faisceau"></span><img src="/assets/images/materiel/lyre-beam-100w-360.webp" alt="" width="360" height="449"></div>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="tete tete--location" id="debut">
+  <div class="tete-texte">
+    <p class="sur" data-anime="gsap">Location à la journée</p>
+    <h1 data-grille="typo"><span class="ligne-masque"><span class="tete-ligne">Le matériel,</span></span><span class="ligne-masque"><span class="tete-ligne"><em>livré</em> et installé</span></span></h1>
+    <p class="masque-ecran-tres-bas" data-anime="gsap">Son, lumière, effets, structures et vidéo, en packs prêts à l&#39;emploi ou à l&#39;unité. Prix TTC à la journée, hors livraison et options ; week-end sur devis.</p>
+    <p class="tete-actions" data-anime="gsap">
+      <a class="bouton" href="#packs" data-action-principale>Les packs</a>
+      <a href="/contact#demande" class="bouton bouton--contour" data-libelle="Contact">Demander un devis</a>
+    </p>
+    <p class="tete-info" data-info-cle data-anime="gsap">Packs dès 169 € la journée · livraison offerte dans 10 km</p>
+  </div>
+  <div class="tete-ecran" data-iris-centre>
+    <figure class="media tete-media" data-grok data-fx="zoom" data-fx-force="12" style="--cadrage:50% 55%">
+  <picture>
+    <img src="/assets/images/grok/salle-eteinte-1280.webp" srcset="/assets/images/grok/salle-eteinte-640.webp 640w, /assets/images/grok/salle-eteinte-1280.webp 1280w, /assets/images/grok/salle-eteinte-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 55vw" alt="Une salle des fêtes prête pour la soirée, matériel installé, lumières éteintes" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <ul class="tete-packs" aria-hidden="true"><li><img src="/assets/images/materiel/pack-essentiel-360.webp" alt="" loading="lazy"></li><li><img src="/assets/images/materiel/pack-confort-360.webp" alt="" loading="lazy"></li><li><img src="/assets/images/materiel/pack-ambiance-360.webp" alt="" loading="lazy"></li><li><img src="/assets/images/materiel/pack-club-360.webp" alt="" loading="lazy"></li><li><img src="/assets/images/materiel/pack-professionnel-360.webp" alt="" loading="lazy"></li></ul>
+  </div>
+</section>
+<section class="packs" id="packs">
+  <div class="conteneur">
+    <p class="sur">Les packs</p>
+    <h2 data-anime="lignes">Choisissez l&#39;ambiance, on s&#39;occupe du reste</h2>
+    <p class="packs-texte">Chaque pack est montré tel qu&#39;il est loué. Options : plus de basses, un micro pour les discours, un effet pour les temps forts.</p>
+    <div class="packs-choix" role="tablist" aria-label="Les packs" data-anime="cascade">
+      <button type="button" role="tab" id="onglet-essentiel" aria-controls="pack-essentiel" aria-selected="false" tabindex="-1" data-pack-onglet="essentiel"><span class="led-point" aria-hidden="true"></span>Essentiel</button><button type="button" role="tab" id="onglet-confort" aria-controls="pack-confort" aria-selected="false" tabindex="-1" data-pack-onglet="confort"><span class="led-point" aria-hidden="true"></span>Confort</button><button type="button" role="tab" id="onglet-ambiance" aria-controls="pack-ambiance" aria-selected="false" tabindex="-1" data-pack-onglet="ambiance"><span class="led-point" aria-hidden="true"></span>Ambiance</button><button type="button" role="tab" id="onglet-club" aria-controls="pack-club" aria-selected="true" tabindex="0" data-pack-onglet="club"><span class="led-point" aria-hidden="true"></span>Club</button><button type="button" role="tab" id="onglet-professionnel" aria-controls="pack-professionnel" aria-selected="false" tabindex="-1" data-pack-onglet="professionnel"><span class="led-point" aria-hidden="true"></span>Professionnel</button>
+    </div>
+    <div class="packs-scene">
+      <article class="pack-fiche" id="pack-essentiel" role="tabpanel" aria-labelledby="onglet-essentiel" hidden>
+        <div class="pack-visuel" data-visuel data-envol-depuis><img data-effet="packs-selecteur" src="/assets/images/materiel/pack-essentiel-720.webp" alt="Pack Essentiel : 1 enceinte amplifiée sur pied, 1 barre de 4 PAR LED sur pied, 1 machine à fumée" loading="lazy"></div>
+        <div class="pack-texte">
+          <h3>Pack Essentiel</h3>
+          <p class="pack-pour"><strong>Pour qui :</strong> Un petit moment à la maison, un repas de famille.</p>
+          <p class="pack-photo">Sur la photo du pack</p>
+          <ul><li>1 enceinte amplifiée sur pied</li><li>1 barre de 4 PAR LED sur pied</li><li>1 machine à fumée</li></ul>
+          <p class="pack-prix">Tarif du pack donné dans le devis</p>
+          <button type="button" class="bouton" data-ajouter="essentiel" data-ajouter-nom="Pack Essentiel" data-ajouter-image="/assets/images/materiel/pack-essentiel-360.webp">Ajouter à ma demande</button>
+        </div>
+      </article><article class="pack-fiche" id="pack-confort" role="tabpanel" aria-labelledby="onglet-confort" hidden>
+        <div class="pack-visuel" data-visuel data-envol-depuis><img data-effet="packs-selecteur" src="/assets/images/materiel/pack-confort-720.webp" alt="Pack Confort : 2 enceintes amplifiées sur pieds, 1 barre d&#39;éclairage et d&#39;effets sur pied, 1 machine à fumée" loading="lazy"></div>
+        <div class="pack-texte">
+          <h3>Pack Confort</h3>
+          <p class="pack-pour"><strong>Pour qui :</strong> Une petite soirée : anniversaire, repas entre amis.</p>
+          <p class="pack-photo">Sur la photo du pack</p>
+          <ul><li>2 enceintes amplifiées sur pieds</li><li>1 barre d&#39;éclairage et d&#39;effets sur pied</li><li>1 machine à fumée</li></ul>
+          <p class="pack-prix">Tarif du pack donné dans le devis</p>
+          <button type="button" class="bouton" data-ajouter="confort" data-ajouter-nom="Pack Confort" data-ajouter-image="/assets/images/materiel/pack-confort-360.webp">Ajouter à ma demande</button>
+        </div>
+      </article><article class="pack-fiche" id="pack-ambiance" role="tabpanel" aria-labelledby="onglet-ambiance" hidden>
+        <div class="pack-visuel" data-visuel data-envol-depuis><img data-effet="packs-selecteur" src="/assets/images/materiel/pack-ambiance-720.webp" alt="Pack Ambiance : 2 enceintes amplifiées sur pieds, 2 colonnes d&#39;effets lumineux, 1 machine à fumée" loading="lazy"></div>
+        <div class="pack-texte">
+          <h3>Pack Ambiance</h3>
+          <p class="pack-pour"><strong>Pour qui :</strong> Une salle des fêtes : plus de puissance et de lumière.</p>
+          <p class="pack-photo">Sur la photo du pack</p>
+          <ul><li>2 enceintes amplifiées sur pieds</li><li>2 colonnes d&#39;effets lumineux</li><li>1 machine à fumée</li></ul>
+          <p class="pack-prix">Tarif du pack donné dans le devis</p>
+          <button type="button" class="bouton" data-ajouter="ambiance" data-ajouter-nom="Pack Ambiance" data-ajouter-image="/assets/images/materiel/pack-ambiance-360.webp">Ajouter à ma demande</button>
+        </div>
+      </article><article class="pack-fiche actif" id="pack-club" role="tabpanel" aria-labelledby="onglet-club">
+        <div class="pack-visuel" data-visuel data-envol-depuis><img data-effet="packs-selecteur" src="/assets/images/materiel/pack-club-720.webp" alt="Pack Club : 2 enceintes amplifiées sur pieds, 2 colonnes avec 4 lyres et 2 PAR LED, 2 machines à effets" loading="lazy"></div>
+        <div class="pack-texte">
+          <h3>Pack Club</h3>
+          <p class="pack-pour"><strong>Pour qui :</strong> Une salle des fêtes qui veut une vraie piste de club.</p>
+          <p class="pack-photo">Sur la photo du pack</p>
+          <ul><li>2 enceintes amplifiées sur pieds</li><li>2 colonnes avec 4 lyres et 2 PAR LED</li><li>2 machines à effets</li></ul>
+          <p class="pack-prix">Tarif du pack donné dans le devis</p>
+          <button type="button" class="bouton" data-ajouter="club" data-ajouter-nom="Pack Club" data-ajouter-image="/assets/images/materiel/pack-club-360.webp" data-grille="retour">Ajouter à ma demande</button>
+        </div>
+      </article><article class="pack-fiche" id="pack-professionnel" role="tabpanel" aria-labelledby="onglet-professionnel" hidden>
+        <div class="pack-visuel" data-visuel data-envol-depuis><img data-effet="packs-selecteur" src="/assets/images/materiel/pack-professionnel-720.webp" alt="Pack Professionnel : Structure pont avec 6 lyres et 1 laser, 2 enceintes amplifiées sur pieds, Machine à fumée et effets au sol" loading="lazy"></div>
+        <div class="pack-texte">
+          <h3>Pack Professionnel</h3>
+          <p class="pack-pour"><strong>Pour qui :</strong> Mariages et grands événements, dans les grandes salles : le plus complet.</p>
+          <p class="pack-photo">Sur la photo du pack</p>
+          <ul><li>Structure pont avec 6 lyres et 1 laser</li><li>2 enceintes amplifiées sur pieds</li><li>Machine à fumée et effets au sol</li></ul>
+          <p class="pack-prix">Tarif du pack donné dans le devis</p>
+          <button type="button" class="bouton" data-ajouter="professionnel" data-ajouter-nom="Pack Professionnel" data-ajouter-image="/assets/images/materiel/pack-professionnel-360.webp">Ajouter à ma demande</button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="case" id="flight-case" data-scene data-grille="scene">
+  <div class="case-collant" data-collant>
+    <div class="case-fond"><figure class="media case-photo" data-grok style="--cadrage:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/location-flight-case-mobile-640.webp 640w" sizes="100vw">
+    <img src="/assets/images/grok/location-flight-case-1280.webp" srcset="/assets/images/grok/location-flight-case-640.webp 640w, /assets/images/grok/location-flight-case-1280.webp 1280w, /assets/images/grok/location-flight-case-1920.webp 1920w" sizes="100vw" alt="Flight case ouvert, câbles et micro rangés dans la mousse" width="1280" height="853" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure></div>
+    <div class="case-texte conteneur">
+      <p class="sur">Dans le flight case</p>
+      <h2>Plus de 200 références, rangées par famille</h2>
+    </div>
+    <ol class="case-familles">
+      <li class="case-famille actif" data-famille-case="son" data-effet="flight-case">
+        <img class="case-objet" src="/assets/images/materiel/enceinte-amplifiee-720.webp" alt="" loading="lazy">
+        <div class="case-legende"><span class="case-n">01</span><h3>Sonorisation</h3><p>Enceintes, caissons, micros et platines.</p><p class="case-prix">Enceintes dès 30 € la journée</p>
+        <a class="lien-fleche" href="?famille=son#catalogue" data-sans-transition data-filtre-lien="son">Voir la famille</a></div>
+      </li><li class="case-famille" data-famille-case="lumiere" data-effet="flight-case">
+        <img class="case-objet" src="/assets/images/materiel/lyre-beam-100w-720.webp" alt="" loading="lazy">
+        <div class="case-legende"><span class="case-n">02</span><h3>Éclairage</h3><p>Lyres Wash et Beam, lasers, PAR LED, stroboscopes et effets.</p><p class="case-prix">Éclairage dès 10 € la journée</p>
+        <a class="lien-fleche" href="?famille=lumiere#catalogue" data-sans-transition data-filtre-lien="lumiere">Voir la famille</a></div>
+      </li><li class="case-famille" data-famille-case="effets" data-effet="flight-case">
+        <img class="case-objet" src="/assets/images/materiel/machine-effet-co2-720.webp" alt="" loading="lazy">
+        <div class="case-legende"><span class="case-n">03</span><h3>Effets spéciaux</h3><p>Fumée et jets de CO2 pour les temps forts.</p><p class="case-prix">Prix à la journée sur devis</p>
+        <a class="lien-fleche" href="?famille=effets#catalogue" data-sans-transition data-filtre-lien="effets">Voir la famille</a></div>
+      </li><li class="case-famille" data-famille-case="structure" data-effet="flight-case">
+        <img class="case-objet" src="/assets/images/materiel/structure-pont-720.webp" alt="" loading="lazy">
+        <div class="case-legende"><span class="case-n">04</span><h3>Structure</h3><p>Ponts et portiques pour accrocher l&#39;éclairage.</p><p class="case-prix">Prix à la journée sur devis</p>
+        <a class="lien-fleche" href="?famille=structure#catalogue" data-sans-transition data-filtre-lien="structure">Voir la famille</a></div>
+      </li><li class="case-famille" data-famille-case="video" data-effet="flight-case">
+        <img class="case-objet" src="/assets/images/materiel/videoprojecteur-4-000-lumens-720.webp" alt="" loading="lazy">
+        <div class="case-legende"><span class="case-n">05</span><h3>Vidéo</h3><p>Vidéoprojecteur et écran pour les images.</p><p class="case-prix">Prix à la journée sur devis</p>
+        <a class="lien-fleche" href="?famille=video#catalogue" data-sans-transition data-filtre-lien="video">Voir la famille</a></div>
+      </li>
+    </ol>
+  </div>
+</section>
+<section class="catalogue" id="catalogue">
+  <div class="conteneur">
+    <p class="sur">Le catalogue</p>
+    <h2 data-anime="lignes">Composez votre demande</h2>
+    <div class="catalogue-outils">
+      <div class="filtres" role="group" aria-label="Familles">
+        <button type="button" data-filtre="tout" aria-pressed="true">Tout</button>
+        <button type="button" data-filtre="son" aria-pressed="false">Sonorisation</button><button type="button" data-filtre="lumiere" aria-pressed="false">Éclairage</button><button type="button" data-filtre="effets" aria-pressed="false">Effets spéciaux</button><button type="button" data-filtre="structure" aria-pressed="false">Structure</button><button type="button" data-filtre="video" aria-pressed="false">Vidéo</button>
+      </div>
+      <label class="recherche"><span class="visuellement-cache">Chercher un article</span><input type="search" data-recherche placeholder="Enceinte, lyres, laser, fumée…"></label>
+    </div>
+    <ul class="grille-cat" data-anime="cascade" data-effet="catalogue-filtre" aria-label="Catalogue de location">
+      <li class="article" data-famille="son" data-mots="pack son deux enceintes amplifiées sur pieds, pour sonoriser une pièce ou une petite salle. sonorisation">
+        <div class="article-visuel" data-visuel data-envol-depuis><img src="/assets/images/catalogue/pack-480.webp" alt="Pack Son" loading="lazy" width="480" height="360"></div>
+        <p class="article-famille">Sonorisation</p>
+        <h3>Pack Son</h3>
+        <p class="article-detail">Deux enceintes amplifiées sur pieds, pour sonoriser une pièce ou une petite salle.</p>
+        <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="pack-son" data-ajouter-nom="Pack Son" data-ajouter-image="/assets/images/catalogue/pack-480.webp">Ajouter à ma demande</button>
+      </li><li class="article" data-famille="son" data-mots="enceinte amplifiée le cœur de la sono, sur pied. dès 30 € la journée. sonorisation">
+        <div class="article-visuel" data-visuel data-envol-depuis><img src="/assets/images/catalogue/enceinte-amplifiee-480.webp" alt="Enceinte amplifiée" loading="lazy" width="480" height="360"></div>
+        <p class="article-famille">Sonorisation · <span data-prix>dès 30 €</span></p>
+        <h3>Enceinte amplifiée</h3>
+        <p class="article-detail">Le cœur de la sono, sur pied. Dès 30 € la journée.</p>
+        <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="enceinte" data-ajouter-nom="Enceinte amplifiée" data-ajouter-image="/assets/images/catalogue/enceinte-amplifiee-480.webp">Ajouter à ma demande</button>
+      </li><li class="article" data-famille="son" data-mots="caisson de basses pour plus de basses sur la piste. sonorisation">
+        <div class="article-visuel" data-visuel data-envol-depuis><img src="/assets/images/catalogue/caisson-basses-480.webp" alt="Caisson de basses" loading="lazy" width="480" height="360"></div>
+        <p class="article-famille">Sonorisation</p>
+        <h3>Caisson de basses</h3>
+        <p class="article-detail">Pour plus de basses sur la piste.</p>
+        <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="caisson" data-ajouter-nom="Caisson de basses" data-ajouter-image="/assets/images/catalogue/caisson-basses-480.webp">Ajouter à ma demande</button>
+      </li><li class="article" data-famille="son" data-mots="pied d&#39;enceinte pour monter une enceinte à hauteur d&#39;oreille. sonorisation">
+        <div class="article-visuel" data-visuel data-envol-depuis><img src="/assets/images/catalogue/pied-enceinte-480.webp" alt="Pied d&#39;enceinte" loading="lazy" width="480" height="360"></div>
+        <p class="article-famille">Sonorisation</p>
+        <h3>Pied d&#39;enceinte</h3>
+        <p class="article-detail">Pour monter une enceinte à hauteur d&#39;oreille.</p>
+        <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="pied" data-ajouter-nom="Pied d&#39;enceinte" data-ajouter-image="/assets/images/catalogue/pied-enceinte-480.webp">Ajouter à ma demande</button>
+      </li><li class="article" data-famille="son" data-mots="table de mixage 6 voies micros, musique et instruments sur une même table. sonorisation">
+        <div class="article-visuel" data-visuel data-envol-depuis><img src="/assets/images/catalogue/table-mixage-6-voies-480.webp" alt="Table de mixage 6 voies" loading="lazy" width="480" height="360"></div>
+        <p class="article-famille">Sonorisation</p>
+        <h3>Table de mixage 6 voies</h3>
+        <p class="article-detail">Micros, musique et instruments sur une même table.</p>
+        <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="table" data-ajouter-nom="Table de mixage 6 voies" data-ajouter-image="/assets/images/catalogue/table-mixage-6-voies-480.webp">Ajouter à ma demande</button>
+      </li><li class="article" data-famille="son" data-mots="micro sans fil pour les discours, les remerciements et les animations. sonorisation">
+        <div class="article-visuel" data-visuel data-envol-depuis><img src="/assets/images/catalogue/micro-sans-fil-480.webp" alt="Micro sans fil" loading="lazy" width="480" height="360"></div>
+        <p class="article-famille">Sonorisation</p>
+        <h3>Micro sans fil</h3>
+        <p class="article-detail">Pour les discours, les remerciements et les animations.</p>
+        <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="micro" data-ajouter-nom="Micro sans fil" data-ajouter-image="/assets/images/catalogue/micro-sans-fil-480.webp">Ajouter à ma demande</button>
+      </li><li class="article" data-famille="son" data-mots="contrôleur dj pour mixer soi-même. prestation dj possible en option. sonorisation">
+        <div class="article-visuel" data-visuel data-envol-depuis><img src="/assets/images/catalogue/controleur-dj-480.webp" alt="Contrôleur DJ" loading="lazy" width="480" height="360"></div>
+        <p class="article-famille">Sonorisation</p>
+        <h3>Contrôleur DJ</h3>
+        <p class="article-detail">Pour mixer soi-même. Prestation DJ possible en option.</p>
+        <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="controleur" data-ajouter-nom="Contrôleur DJ" data-ajouter-image="/assets/images/catalogue/controleur-dj-480.webp">Ajouter à ma demande</button>
+      </li><li class="article" data-famille="son" data-mots="platines dj le poste de mix complet, pour les dj confirmés. sonorisation">
+        <div class="article-visuel" data-visuel data-envol-depuis><img src="/assets/images/catalogue/platines-dj-480.webp" alt="Platines DJ" loading="lazy" width="480" height="360"></div>
+        <p class="article-famille">Sonorisation</p>
+        <h3>Platines DJ</h3>
+        <p class="article-detail">Le poste de mix complet, pour les DJ confirmés.</p>
+        <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="platines" data-ajouter-nom="Platines DJ" data-ajouter-image="/assets/images/catalogue/platines-dj-480.webp">Ajouter à ma demande</button>
+      </li><li class="article" data-famille="son" data-mots="rallonges &amp; multiprises pour brancher tout le matériel en sécurité. sonorisation">
+        <div class="article-visuel" data-visuel data-envol-depuis><img src="/assets/images/catalogue/rallonges-multiprises-480.webp" alt="Rallonges &amp; multiprises" loading="lazy" width="480" height="360"></div>
+        <p class="article-famille">Sonorisation</p>
+        <h3>Rallonges &amp; multiprises</h3>
+        <p class="article-detail">Pour brancher tout le matériel en sécurité.</p>
+        <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="rallonges" data-ajouter-nom="Rallonges &amp; multiprises" data-ajouter-image="/assets/images/catalogue/rallonges-multiprises-480.webp">Ajouter à ma demande</button>
+      </li><li class="article" data-famille="lumiere" data-mots="lyre beam 100w faisceau serré et mobile, pour animer la piste. éclairage">
+        <div class="article-visuel" data-visuel data-envol-depuis><img src="/assets/images/catalogue/lyre-beam-100w-480.webp" alt="Lyre Beam 100W" loading="lazy" width="480" height="360"></div>
+        <p class="article-famille">Éclairage</p>
+        <h3>Lyre Beam 100W</h3>
+        <p class="article-detail">Faisceau serré et mobile, pour animer la piste.</p>
+        <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="lyre-beam" data-ajouter-nom="Lyre Beam 100W" data-ajouter-image="/assets/images/catalogue/lyre-beam-100w-480.webp">Ajouter à ma demande</button>
+      </li><li class="article" data-famille="lumiere" data-mots="lyre wash 7x12w lumière large et mobile, pour colorer les murs. éclairage">
+        <div class="article-visuel" data-visuel data-envol-depuis><img src="/assets/images/catalogue/lyre-wash-7x12w-480.webp" alt="Lyre Wash 7x12W" loading="lazy" width="480" height="360"></div>
+        <p class="article-famille">Éclairage</p>
+        <h3>Lyre Wash 7x12W</h3>
+        <p class="article-detail">Lumière large et mobile, pour colorer les murs.</p>
+        <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="lyre-wash" data-ajouter-nom="Lyre Wash 7x12W" data-ajouter-image="/assets/images/catalogue/lyre-wash-7x12w-480.webp">Ajouter à ma demande</button>
+      </li><li class="article" data-famille="lumiere" data-mots="laser 1000mw nappes et figures laser dans la fumée. éclairage">
+        <div class="article-visuel" data-visuel data-envol-depuis><img src="/assets/images/catalogue/laser-1000mw-480.webp" alt="Laser 1000mW" loading="lazy" width="480" height="360"></div>
+        <p class="article-famille">Éclairage</p>
+        <h3>Laser 1000mW</h3>
+        <p class="article-detail">Nappes et figures laser dans la fumée.</p>
+        <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="laser-1000" data-ajouter-nom="Laser 1000mW" data-ajouter-image="/assets/images/catalogue/laser-1000mw-480.webp">Ajouter à ma demande</button>
+      </li><li class="article" data-famille="lumiere" data-mots="laser 400mw un laser plus compact pour les petites salles. éclairage">
+        <div class="article-visuel" data-visuel data-envol-depuis><img src="/assets/images/catalogue/laser-400mw-480.webp" alt="Laser 400mW" loading="lazy" width="480" height="360"></div>
+        <p class="article-famille">Éclairage</p>
+        <h3>Laser 400mW</h3>
+        <p class="article-detail">Un laser plus compact pour les petites salles.</p>
+        <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="laser-400" data-ajouter-nom="Laser 400mW" data-ajouter-image="/assets/images/catalogue/laser-400mw-480.webp">Ajouter à ma demande</button>
+      </li><li class="article" data-famille="lumiere" data-mots="par led projecteur de couleur pour éclairer la salle. éclairage">
+        <div class="article-visuel" data-visuel data-envol-depuis><img src="/assets/images/catalogue/led-480.webp" alt="PAR LED" loading="lazy" width="480" height="360"></div>
+        <p class="article-famille">Éclairage</p>
+        <h3>PAR LED</h3>
+        <p class="article-detail">Projecteur de couleur pour éclairer la salle.</p>
+        <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="par" data-ajouter-nom="PAR LED" data-ajouter-image="/assets/images/catalogue/led-480.webp">Ajouter à ma demande</button>
+      </li><li class="article" data-famille="lumiere" data-mots="stroboscope pour les montées et les temps forts. éclairage">
+        <div class="article-visuel" data-visuel data-envol-depuis><img src="/assets/images/catalogue/stroboscope-480.webp" alt="Stroboscope" loading="lazy" width="480" height="360"></div>
+        <p class="article-famille">Éclairage</p>
+        <h3>Stroboscope</h3>
+        <p class="article-detail">Pour les montées et les temps forts.</p>
+        <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="strobo" data-ajouter-nom="Stroboscope" data-ajouter-image="/assets/images/catalogue/stroboscope-480.webp">Ajouter à ma demande</button>
+      </li><li class="article" data-famille="lumiere" data-mots="ludipocket spider effet à faisceaux multiples qui balayent la piste. éclairage">
+        <div class="article-visuel" data-visuel data-envol-depuis><img src="/assets/images/catalogue/ludipocket-spider-480.webp" alt="LudiPocket Spider" loading="lazy" width="480" height="360"></div>
+        <p class="article-famille">Éclairage</p>
+        <h3>LudiPocket Spider</h3>
+        <p class="article-detail">Effet à faisceaux multiples qui balayent la piste.</p>
+        <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="spider" data-ajouter-nom="LudiPocket Spider" data-ajouter-image="/assets/images/catalogue/ludipocket-spider-480.webp">Ajouter à ma demande</button>
+      </li><li class="article" data-famille="lumiere" data-mots="lumière flower effet en pétales de couleurs. éclairage">
+        <div class="article-visuel" data-visuel data-envol-depuis><img src="/assets/images/catalogue/lumiere-flower-480.webp" alt="Lumière Flower" loading="lazy" width="480" height="360"></div>
+        <p class="article-famille">Éclairage</p>
+        <h3>Lumière Flower</h3>
+        <p class="article-detail">Effet en pétales de couleurs.</p>
+        <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="flower" data-ajouter-nom="Lumière Flower" data-ajouter-image="/assets/images/catalogue/lumiere-flower-480.webp">Ajouter à ma demande</button>
+      </li><li class="article" data-famille="lumiere" data-mots="lumière butterfly effet à faisceaux en éventail, avec télécommande. éclairage">
+        <div class="article-visuel" data-visuel data-envol-depuis><img src="/assets/images/catalogue/lumiere-butterfly-480.webp" alt="Lumière Butterfly" loading="lazy" width="480" height="360"></div>
+        <p class="article-famille">Éclairage</p>
+        <h3>Lumière Butterfly</h3>
+        <p class="article-detail">Effet à faisceaux en éventail, avec télécommande.</p>
+        <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="butterfly" data-ajouter-nom="Lumière Butterfly" data-ajouter-image="/assets/images/catalogue/lumiere-butterfly-480.webp">Ajouter à ma demande</button>
+      </li><li class="article" data-famille="effets" data-mots="machine à fumée la fumée rend les faisceaux visibles. effets spéciaux">
+        <div class="article-visuel" data-visuel data-envol-depuis><img src="/assets/images/catalogue/machine-fumee-480.webp" alt="Machine à fumée" loading="lazy" width="480" height="360"></div>
+        <p class="article-famille">Effets spéciaux</p>
+        <h3>Machine à fumée</h3>
+        <p class="article-detail">La fumée rend les faisceaux visibles.</p>
+        <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="fumee" data-ajouter-nom="Machine à fumée" data-ajouter-image="/assets/images/catalogue/machine-fumee-480.webp">Ajouter à ma demande</button>
+      </li><li class="article" data-famille="effets" data-mots="machine à fumée 900w plus de fumée, pour les grandes salles. effets spéciaux">
+        <div class="article-visuel" data-visuel data-envol-depuis><img src="/assets/images/catalogue/machine-fumee-900w-480.webp" alt="Machine à fumée 900W" loading="lazy" width="480" height="360"></div>
+        <p class="article-famille">Effets spéciaux</p>
+        <h3>Machine à fumée 900W</h3>
+        <p class="article-detail">Plus de fumée, pour les grandes salles.</p>
+        <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="fumee-900" data-ajouter-nom="Machine à fumée 900W" data-ajouter-image="/assets/images/catalogue/machine-fumee-900w-480.webp">Ajouter à ma demande</button>
+      </li><li class="article" data-famille="effets" data-mots="machine à effet co2 un jet pour les temps forts : entrée, gâteau, ouverture du bal. effets spéciaux">
+        <div class="article-visuel" data-visuel data-envol-depuis><img src="/assets/images/catalogue/machine-effet-co2-480.webp" alt="Machine à effet CO2" loading="lazy" width="480" height="360"></div>
+        <p class="article-famille">Effets spéciaux</p>
+        <h3>Machine à effet CO2</h3>
+        <p class="article-detail">Un jet pour les temps forts : entrée, gâteau, ouverture du bal.</p>
+        <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="co2" data-ajouter-nom="Machine à effet CO2" data-ajouter-image="/assets/images/catalogue/machine-effet-co2-480.webp">Ajouter à ma demande</button>
+      </li><li class="article" data-famille="structure" data-mots="structure pont le portique qui porte les lyres au-dessus de la piste. structure">
+        <div class="article-visuel" data-visuel data-envol-depuis><img src="/assets/images/catalogue/structure-pont-480.webp" alt="Structure pont" loading="lazy" width="480" height="360"></div>
+        <p class="article-famille">Structure</p>
+        <h3>Structure pont</h3>
+        <p class="article-detail">Le portique qui porte les lyres au-dessus de la piste.</p>
+        <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="pont" data-ajouter-nom="Structure pont" data-ajouter-image="/assets/images/catalogue/structure-pont-480.webp">Ajouter à ma demande</button>
+      </li><li class="article" data-famille="structure" data-mots="portique en t un pied en t pour accrocher des projecteurs. structure">
+        <div class="article-visuel" data-visuel data-envol-depuis><img src="/assets/images/catalogue/portique-t-480.webp" alt="Portique en T" loading="lazy" width="480" height="360"></div>
+        <p class="article-famille">Structure</p>
+        <h3>Portique en T</h3>
+        <p class="article-detail">Un pied en T pour accrocher des projecteurs.</p>
+        <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="portique" data-ajouter-nom="Portique en T" data-ajouter-image="/assets/images/catalogue/portique-t-480.webp">Ajouter à ma demande</button>
+      </li><li class="article" data-famille="video" data-mots="vidéoprojecteur 4 000 lumens pour les diaporamas, les séminaires et les soirées. vidéo">
+        <div class="article-visuel" data-visuel data-envol-depuis><img src="/assets/images/catalogue/videoprojecteur-4-000-lumens-480.webp" alt="Vidéoprojecteur 4 000 lumens" loading="lazy" width="480" height="360"></div>
+        <p class="article-famille">Vidéo</p>
+        <h3>Vidéoprojecteur 4 000 lumens</h3>
+        <p class="article-detail">Pour les diaporamas, les séminaires et les soirées.</p>
+        <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="videoprojecteur" data-ajouter-nom="Vidéoprojecteur 4 000 lumens" data-ajouter-image="/assets/images/catalogue/videoprojecteur-4-000-lumens-480.webp">Ajouter à ma demande</button>
+      </li><li class="article" data-famille="video" data-mots="écran de projection 150 pouces un grand écran sur pieds, qui se monte partout. vidéo">
+        <div class="article-visuel" data-visuel data-envol-depuis><img src="/assets/images/catalogue/ecran-projection-150-pouces-480.webp" alt="Écran de projection 150 pouces" loading="lazy" width="480" height="360"></div>
+        <p class="article-famille">Vidéo</p>
+        <h3>Écran de projection 150 pouces</h3>
+        <p class="article-detail">Un grand écran sur pieds, qui se monte partout.</p>
+        <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="ecran" data-ajouter-nom="Écran de projection 150 pouces" data-ajouter-image="/assets/images/catalogue/ecran-projection-150-pouces-480.webp">Ajouter à ma demande</button>
+      </li>
+    </ul>
+    <p class="catalogue-vide" data-catalogue-vide hidden>Aucun article ne correspond. Essayez « enceinte », « laser » ou « micro ».</p>
+  </div>
+</section>
+<section class="etapes conteneur" id="etapes">
+  <h2 data-anime="lignes">De votre sélection à la récupération</h2>
+  <div class="etapes-grille">
+    <ol class="etapes-liste" data-anime="cascade"><li><span class="etape-n">01</span><h3>Votre sélection</h3><p>Ajoutez les articles : ils sont joints à votre demande.</p></li><li><span class="etape-n">02</span><h3>Votre devis</h3><p>Réponse sous 24 h, avec nos conseils.</p></li><li><span class="etape-n">03</span><h3>Livraison</h3><p>Offerte et installée dans 10 km ; retrait possible pour les petites locations.</p></li><li><span class="etape-n">04</span><h3>Récupération</h3><p>À la date convenue ; la caution par chèque vous est rendue après vérification.</p></li></ol>
+    <figure class="media etapes-media" data-grok data-fx="parallaxe" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/location-livraison-800.webp" srcset="/assets/images/grok/location-livraison-480.webp 480w, /assets/images/grok/location-livraison-640.webp 640w, /assets/images/grok/location-livraison-800.webp 800w" sizes="(max-width: 760px) 100vw, 40vw" alt="Utilitaire ouvert devant une salle, flight cases sur un diable" width="800" height="533" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  </div>
+</section>
+<section class="bon conteneur" id="bon-a-savoir">
+  <div class="bon-tete"><h2 data-anime="lignes">Bon à savoir</h2><img class="bon-visuel" src="/assets/images/materiel/machine-fumee-900w-720.webp" alt="" loading="lazy" data-visuel></div>
+  <ul class="bon-liste" data-anime="cascade">
+    <li><h3>Comment sont calculés les prix ?</h3><p>Les prix sont TTC, pour une journée, hors livraison et options. Les week-ends se font sur devis.</p></li><li><h3>La livraison est-elle offerte ?</h3><p>Oui, avec l&#39;installation, dans un rayon de 10 km autour de Saint-Quentin. Au-delà, elle est facturée au kilomètre.</p></li><li><h3>Puis-je venir chercher le matériel ?</h3><p>Oui, le retrait sur place est possible pour les petites locations.</p></li><li><h3>Y a-t-il une caution ?</h3><p>Oui, par chèque non encaissé : environ 1 500 à 2 000 € pour un pack. Elle vous est rendue au retour du matériel en bon état. En cas de casse, elle peut être conservée.</p></li><li><h3>Faut-il verser un acompte ?</h3><p>Seulement en période de forte demande : 30 % pour confirmer la réservation. Dans ce cas, il n&#39;est pas remboursé en cas d&#39;annulation. Le reste de l&#39;année, prévenez-nous au plus vite.</p></li>
+    <li><h3>Effets</h3><p>Avant la fumée : vérifiez si la salle a des détecteurs de fumée. Le CO2 se garde pour les temps forts.</p></li>
+  </ul>
+  <p class="bon-conseil">Besoin d&#39;aide pour choisir ? Indiquez le nombre d&#39;invités et le type de salle, on vous conseille. <a href="/contact?souhait=aide#demande" class="lien-fleche" data-libelle="Contact">Demander un devis</a></p>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div>
+      <img class="pied-logo" src="/assets/images/logo-entete-480.webp" alt="NEWPEARS" width="480" height="182" loading="lazy">
+      <p>Saint-Quentin et 50 km autour<br>7 j/7 · devis sous 24 h</p>
+    </div>
+    <div>
+      <p><strong>Contact</strong></p>
+      <ul>
+        <li><a href="tel:+33626152454">06 26 15 24 54</a></li>
+        <li><a href="https://wa.me/33626152454" target="_blank" rel="noopener">WhatsApp</a></li>
+        <li><a href="mailto:newpears@icloud.com">newpears@icloud.com</a></li>
+      </ul>
+    </div>
+    <nav aria-label="Pages">
+      <p><strong>Pages</strong></p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/location" data-libelle="Location" aria-current="page">Location</a></li><li><a href="/prestation-dj" data-libelle="Prestation DJ">Prestation DJ</a></li><li><a href="/evenements" data-libelle="Événements">Événements</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p><strong>Nous suivre</strong></p>
+      <ul>
+        <li><a href="https://www.instagram.com/new.pears" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.tiktok.com/@newpears" target="_blank" rel="noopener">TikTok</a></li>
+        <li><a href="https://www.facebook.com/newpears" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales : à compléter · Politique de confidentialité : à compléter</p><p>Maquette de démonstration : formulaire et demande simulés, rien n&#39;est envoyé.</p><p>© NEWPEARS</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33626152454">Appeler</a>
+  <a class="bouton" href="/contact#demande" data-libelle="Contact">Devis sous 24 h</a>
+</div>
+</body>
+</html>

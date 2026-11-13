@@ -1,0 +1,1515 @@
+{
+  "logo": {
+    "nom": "logo",
+    "source": "recu/site/logo.png",
+    "role": "logo",
+    "alt": "NEWPEARS",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "8ec12e085099d8d7",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-240.webp",
+      "logo-480.webp"
+    ],
+    "poids": {
+      "logo-240.webp": 8232,
+      "logo-480.webp": 19368
+    },
+    "media": "c.media({ nom: 'logo', alt: \"NEWPEARS\", sizes: '240px' })"
+  },
+  "duo-fete-musique": {
+    "nom": "duo-fete-musique",
+    "source": "recu/site/matteo-sacha-platines.jpg",
+    "role": "portrait",
+    "alt": "Mattéo et Sacha de dos aux platines, devant la foule de la Fête de la musique à Saint-Quentin",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "1a76dbb8bc86665a",
+    "ratio": "9:16",
+    "largeurs": [
+      480,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "39% 53%",
+    "sujet": {
+      "x": 25,
+      "y": 33.8,
+      "l": 27.9,
+      "h": 36.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.97,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.74,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.72,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.69,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 675,
+      "height": 1200,
+      "source": [
+        675,
+        1200
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "675 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "duo-fete-musique-480.webp",
+      "duo-fete-musique-640.webp"
+    ],
+    "poids": {
+      "duo-fete-musique-480.webp": 20388,
+      "duo-fete-musique-640.webp": 31008
+    },
+    "media": "c.media({ nom: 'duo-fete-musique', alt: \"Mattéo et Sacha de dos aux platines, devant la foule de la Fête de la musique à Saint-Quentin\", cadrage: '39% 53%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '9 / 16' })"
+  },
+  "duo-platines": {
+    "nom": "duo-platines",
+    "source": "recu/site/matteo-sacha-platines.jpg",
+    "role": "portrait",
+    "alt": "Mattéo et Sacha aux platines devant la foule de la Fête de la musique à Saint-Quentin",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "57df5816d24af2de",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      900
+    ],
+    "mobile": null,
+    "cadrage": "50% 56%",
+    "sujet": {
+      "x": 25,
+      "y": 0,
+      "l": 27.9,
+      "h": 98
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.97,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.74,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.72,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.69,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 406,
+      "width": 675,
+      "height": 450,
+      "source": [
+        675,
+        1200
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "675 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,33 fois (source de 675 px après recadrage)",
+      "recadrage fort (38 % de l'image gardée) sur une image qui contient du texte (marque) : texte coupé probable, choisir un autre rôle ou une autre image"
+    ],
+    "fichiers": [
+      "duo-platines-480.webp",
+      "duo-platines-900.webp"
+    ],
+    "poids": {
+      "duo-platines-480.webp": 15752,
+      "duo-platines-900.webp": 35582
+    },
+    "media": "c.media({ nom: 'duo-platines', alt: \"Mattéo et Sacha aux platines devant la foule de la Fête de la musique, place de l'Hôtel de Ville à Saint-Quentin\", cadrage: '50% 56%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '3 / 2' })"
+  },
+  "grok/accueil-cabine": {
+    "nom": "grok/accueil-cabine",
+    "source": "recu/grok/accueil-cabine.jpg",
+    "role": "ouverture",
+    "alt": "Vue depuis la cabine des DJ sur une place de centre-ville la nuit",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 3,
+    "empreinte": "96805bde3ff4ec21",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "48% 47%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.9,
+      "h": 94.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.2,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/accueil-cabine-640.webp",
+      "grok/accueil-cabine-1280.webp",
+      "grok/accueil-cabine-1920.webp"
+    ],
+    "poids": {
+      "grok/accueil-cabine-640.webp": 22470,
+      "grok/accueil-cabine-1280.webp": 46514,
+      "grok/accueil-cabine-1920.webp": 73802
+    },
+    "media": "c.media({ nom: 'grok/accueil-cabine', alt: \"Vue depuis la cabine des DJ sur une place de centre-ville la nuit\", cadrage: '48% 47%', sizes: '100vw', priorite: true })"
+  },
+  "grok/salle-eteinte": {
+    "nom": "grok/salle-eteinte",
+    "source": "recu/grok/salle-eteinte.jpg",
+    "role": "section-fond",
+    "alt": "La salle des fêtes avant l'arrivée des invités, matériel installé, lumières éteintes",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "1feb192f9120970a",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "50% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 22.2,
+      "l": 90.6,
+      "h": 77.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.6,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.42,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.08,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.04,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/salle-eteinte-640.webp",
+      "grok/salle-eteinte-1280.webp",
+      "grok/salle-eteinte-1920.webp"
+    ],
+    "poids": {
+      "grok/salle-eteinte-640.webp": 22444,
+      "grok/salle-eteinte-1280.webp": 47652,
+      "grok/salle-eteinte-1920.webp": 76858
+    },
+    "media": "c.media({ nom: 'grok/salle-eteinte', alt: \"La salle des fêtes avant l'arrivée des invités, matériel installé, lumières éteintes\", cadrage: '50% 55%', sizes: '100vw' })"
+  },
+  "grok/salle-allumee": {
+    "nom": "grok/salle-allumee",
+    "source": "recu/grok/salle-allumee.jpg",
+    "role": "section-fond",
+    "alt": "La même salle en pleine soirée, faisceaux violets et verts dans la fumée",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "0179917e000dfe42",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "50% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 5.6,
+      "l": 100,
+      "h": 94.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.01,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/salle-allumee-640.webp",
+      "grok/salle-allumee-1280.webp",
+      "grok/salle-allumee-1920.webp"
+    ],
+    "poids": {
+      "grok/salle-allumee-640.webp": 33494,
+      "grok/salle-allumee-1280.webp": 72862,
+      "grok/salle-allumee-1920.webp": 114680
+    },
+    "media": "c.media({ nom: 'grok/salle-allumee', alt: \"La même salle en pleine soirée, faisceaux violets et verts dans la fumée\", cadrage: '50% 55%', sizes: '100vw' })"
+  },
+  "grok/location-ouverture": {
+    "nom": "grok/location-ouverture",
+    "source": "recu/grok/location-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Matériel de location aligné sur un plateau sombre, prêt à partir",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "674c693012ef0e07",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "43% 49%",
+    "sujet": {
+      "x": 15.6,
+      "y": 0,
+      "l": 84.4,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.14,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.13,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.03,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "floue"
+    ],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/location-ouverture-640.webp",
+      "grok/location-ouverture-1280.webp",
+      "grok/location-ouverture-1920.webp"
+    ],
+    "poids": {
+      "grok/location-ouverture-640.webp": 17958,
+      "grok/location-ouverture-1280.webp": 38490,
+      "grok/location-ouverture-1920.webp": 64188
+    },
+    "media": "c.media({ nom: 'grok/location-ouverture', alt: \"Matériel de location aligné sur un plateau sombre, prêt à partir\", cadrage: '43% 49%', sizes: '100vw', priorite: true })"
+  },
+  "grok/location-flight-case": {
+    "nom": "grok/location-flight-case",
+    "source": "recu/grok/location-flight-case.jpg",
+    "role": "section-fond",
+    "alt": "Flight case ouvert, câbles et micro rangés dans la mousse",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "35dd7079491b6f3e",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 58%"
+    },
+    "cadrage": "57% 58%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 96.9,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.17,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.04,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "droite",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)",
+      "agrandie 1,28 fois (source de 1500 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/location-flight-case-640.webp",
+      "grok/location-flight-case-1280.webp",
+      "grok/location-flight-case-1920.webp",
+      "grok/location-flight-case-mobile-640.webp"
+    ],
+    "poids": {
+      "grok/location-flight-case-640.webp": 30278,
+      "grok/location-flight-case-1280.webp": 70140,
+      "grok/location-flight-case-1920.webp": 113262,
+      "grok/location-flight-case-mobile-640.webp": 37172
+    },
+    "media": "c.media({ nom: 'grok/location-flight-case', alt: \"Flight case ouvert, câbles et micro rangés dans la mousse\", cadrage: '57% 58%', cadrageMobile: '50% 58%', sizes: '100vw' })"
+  },
+  "grok/location-livraison": {
+    "nom": "grok/location-livraison",
+    "source": "recu/grok/location-livraison.jpg",
+    "role": "vignette",
+    "alt": "Utilitaire ouvert devant une salle, flight cases sur un diable",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "542525c56f6fa40c",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 43%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.16,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/location-livraison-480.webp",
+      "grok/location-livraison-640.webp",
+      "grok/location-livraison-800.webp"
+    ],
+    "poids": {
+      "grok/location-livraison-480.webp": 27524,
+      "grok/location-livraison-640.webp": 40992,
+      "grok/location-livraison-800.webp": 53688
+    },
+    "media": "c.media({ nom: 'grok/location-livraison', alt: \"Utilitaire ouvert devant une salle, flight cases sur un diable\", cadrage: '50% 43%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "grok/dj-ouverture": {
+    "nom": "grok/dj-ouverture",
+    "source": "recu/grok/dj-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Mains d'un DJ sur un contrôleur pendant une soirée de mariage",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "b9d5c301d5a6ec4d",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "57% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.9,
+      "h": 94.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.04,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.04,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/dj-ouverture-640.webp",
+      "grok/dj-ouverture-1280.webp",
+      "grok/dj-ouverture-1920.webp"
+    ],
+    "poids": {
+      "grok/dj-ouverture-640.webp": 25954,
+      "grok/dj-ouverture-1280.webp": 55746,
+      "grok/dj-ouverture-1920.webp": 88124
+    },
+    "media": "c.media({ nom: 'grok/dj-ouverture', alt: \"Mains d'un DJ sur un contrôleur pendant une soirée de mariage\", cadrage: '57% 50%', sizes: '100vw', priorite: true })"
+  },
+  "grok/dj-premiere-danse": {
+    "nom": "grok/dj-premiere-danse",
+    "source": "recu/grok/dj-premiere-danse.jpg",
+    "role": "section-fond",
+    "alt": "Silhouettes des mariés pendant l'ouverture du bal, sous un faisceau blanc",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "40a6aa8078c7df0f",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "63% 32%",
+    "sujet": {
+      "x": 6.3,
+      "y": 0,
+      "l": 93.7,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.34,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.19,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.14,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.13,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "droite",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "floue"
+    ],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 1500 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/dj-premiere-danse-640.webp",
+      "grok/dj-premiere-danse-1280.webp",
+      "grok/dj-premiere-danse-1920.webp"
+    ],
+    "poids": {
+      "grok/dj-premiere-danse-640.webp": 12946,
+      "grok/dj-premiere-danse-1280.webp": 28310,
+      "grok/dj-premiere-danse-1920.webp": 46284
+    },
+    "media": "c.media({ nom: 'grok/dj-premiere-danse', alt: \"Silhouettes des mariés pendant l'ouverture du bal, sous un faisceau blanc\", cadrage: '63% 32%', sizes: '100vw' })"
+  },
+  "grok/dj-micro-gateau": {
+    "nom": "grok/dj-micro-gateau",
+    "source": "recu/grok/dj-micro-gateau.jpg",
+    "role": "vignette",
+    "alt": "Micro sans fil posé près du gâteau aux étincelles",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "f2f7df5dacfabf88",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "58% 63%",
+    "sujet": {
+      "x": 0,
+      "y": 13.6,
+      "l": 100,
+      "h": 81.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.47,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.36,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "floue"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/dj-micro-gateau-480.webp",
+      "grok/dj-micro-gateau-640.webp",
+      "grok/dj-micro-gateau-800.webp"
+    ],
+    "poids": {
+      "grok/dj-micro-gateau-480.webp": 10384,
+      "grok/dj-micro-gateau-640.webp": 14290,
+      "grok/dj-micro-gateau-800.webp": 18458
+    },
+    "media": "c.media({ nom: 'grok/dj-micro-gateau', alt: \"Micro sans fil posé près du gâteau aux étincelles\", cadrage: '58% 63%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "grok/evenements-ouverture": {
+    "nom": "grok/evenements-ouverture",
+    "source": "recu/grok/evenements-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Fête de village la nuit, petite scène et guirlandes",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "b443c52e608c8b2f",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "49% 52%",
+    "sujet": {
+      "x": 0.8,
+      "y": 0,
+      "l": 99.2,
+      "h": 94.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.15,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.05,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 139,
+      "top": 0,
+      "width": 1461,
+      "height": 822,
+      "source": [
+        1600,
+        822
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "floue"
+    ],
+    "avertissements": [
+      "agrandie 1,31 fois (source de 1461 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/evenements-ouverture-640.webp",
+      "grok/evenements-ouverture-1280.webp",
+      "grok/evenements-ouverture-1920.webp"
+    ],
+    "poids": {
+      "grok/evenements-ouverture-640.webp": 21686,
+      "grok/evenements-ouverture-1280.webp": 45824,
+      "grok/evenements-ouverture-1920.webp": 73138
+    },
+    "media": "c.media({ nom: 'grok/evenements-ouverture', alt: \"Fête de village la nuit, petite scène et guirlandes\", cadrage: '49% 52%', sizes: '100vw', priorite: true })"
+  },
+  "grok/evt-mariage": {
+    "nom": "grok/evt-mariage",
+    "source": "recu/grok/evt-mariage.jpg",
+    "role": "vignette",
+    "alt": "Salle de mariage en soirée, piste et tables dressées",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "d06788ec23f86e24",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "40% 51%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.9,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.18,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "floue"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/evt-mariage-480.webp",
+      "grok/evt-mariage-640.webp",
+      "grok/evt-mariage-800.webp"
+    ],
+    "poids": {
+      "grok/evt-mariage-480.webp": 15350,
+      "grok/evt-mariage-640.webp": 20964,
+      "grok/evt-mariage-800.webp": 27062
+    },
+    "media": "c.media({ nom: 'grok/evt-mariage', alt: \"Salle de mariage en soirée, piste et tables dressées\", cadrage: '40% 51%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "grok/evt-anniversaire": {
+    "nom": "grok/evt-anniversaire",
+    "source": "recu/grok/evt-anniversaire.jpg",
+    "role": "vignette",
+    "alt": "Anniversaire dans une salle des fêtes, confettis et silhouettes",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "967ca154e2fe303f",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "62% 55%",
+    "sujet": {
+      "x": 3.1,
+      "y": 9.1,
+      "l": 93.8,
+      "h": 86.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.2,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.11,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "floue"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/evt-anniversaire-480.webp",
+      "grok/evt-anniversaire-640.webp",
+      "grok/evt-anniversaire-800.webp"
+    ],
+    "poids": {
+      "grok/evt-anniversaire-480.webp": 14810,
+      "grok/evt-anniversaire-640.webp": 20114,
+      "grok/evt-anniversaire-800.webp": 25652
+    },
+    "media": "c.media({ nom: 'grok/evt-anniversaire', alt: \"Anniversaire dans une salle des fêtes, confettis et silhouettes\", cadrage: '62% 55%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "grok/evt-entreprise": {
+    "nom": "grok/evt-entreprise",
+    "source": "recu/grok/evt-entreprise.jpg",
+    "role": "vignette",
+    "alt": "Soirée d'entreprise, bar et piste au fond",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "36dec5f7d3c3947d",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "44% 54%",
+    "sujet": {
+      "x": 0,
+      "y": 18.2,
+      "l": 96.9,
+      "h": 68.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.35,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.04,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.02,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "floue"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/evt-entreprise-480.webp",
+      "grok/evt-entreprise-640.webp",
+      "grok/evt-entreprise-800.webp"
+    ],
+    "poids": {
+      "grok/evt-entreprise-480.webp": 14772,
+      "grok/evt-entreprise-640.webp": 20166,
+      "grok/evt-entreprise-800.webp": 26070
+    },
+    "media": "c.media({ nom: 'grok/evt-entreprise', alt: \"Soirée d'entreprise, bar et piste au fond\", cadrage: '44% 54%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "grok/evt-seminaire": {
+    "nom": "grok/evt-seminaire",
+    "source": "recu/grok/evt-seminaire.jpg",
+    "role": "vignette",
+    "alt": "Salle de séminaire, vidéoprojecteur et micro au pupitre",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 3,
+    "empreinte": "c19c809a25189eff",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "49% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 3.6,
+      "l": 100,
+      "h": 73.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.33,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.15,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.12,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.01,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 9,
+      "width": 1486,
+      "height": 991,
+      "source": [
+        1486,
+        1000
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "floue"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/evt-seminaire-480.webp",
+      "grok/evt-seminaire-640.webp",
+      "grok/evt-seminaire-800.webp"
+    ],
+    "poids": {
+      "grok/evt-seminaire-480.webp": 13894,
+      "grok/evt-seminaire-640.webp": 19122,
+      "grok/evt-seminaire-800.webp": 24510
+    },
+    "media": "c.media({ nom: 'grok/evt-seminaire', alt: \"Salle de séminaire, vidéoprojecteur et micro au pupitre\", cadrage: '49% 55%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "grok/evt-bar": {
+    "nom": "grok/evt-bar",
+    "source": "recu/grok/evt-bar.jpg",
+    "role": "vignette",
+    "alt": "Coin DJ dans un bar, briques et lumières chaudes",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 3,
+    "empreinte": "36533cbaceee03a4",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "54% 46%",
+    "sujet": {
+      "x": 0,
+      "y": 13.6,
+      "l": 100,
+      "h": 81.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.3,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "floue"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/evt-bar-480.webp",
+      "grok/evt-bar-640.webp",
+      "grok/evt-bar-800.webp"
+    ],
+    "poids": {
+      "grok/evt-bar-480.webp": 14364,
+      "grok/evt-bar-640.webp": 19604,
+      "grok/evt-bar-800.webp": 25294
+    },
+    "media": "c.media({ nom: 'grok/evt-bar', alt: \"Coin DJ dans un bar, briques et lumières chaudes\", cadrage: '54% 46%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "grok/evt-fin-annee": {
+    "nom": "grok/evt-fin-annee",
+    "source": "recu/grok/evt-fin-annee.jpg",
+    "role": "vignette",
+    "alt": "Réveillon, confettis dans les faisceaux",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "ac1bafeea215a4cc",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "59% 42%",
+    "sujet": {
+      "x": 9.4,
+      "y": 0,
+      "l": 90.6,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.46,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.39,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.26,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "floue"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/evt-fin-annee-480.webp",
+      "grok/evt-fin-annee-640.webp",
+      "grok/evt-fin-annee-800.webp"
+    ],
+    "poids": {
+      "grok/evt-fin-annee-480.webp": 8864,
+      "grok/evt-fin-annee-640.webp": 12396,
+      "grok/evt-fin-annee-800.webp": 15890
+    },
+    "media": "c.media({ nom: 'grok/evt-fin-annee', alt: \"Réveillon, confettis dans les faisceaux\", cadrage: '59% 42%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "grok/contact-ouverture": {
+    "nom": "grok/contact-ouverture",
+    "source": "recu/grok/contact-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Console lumière en gros plan, faders éclairés",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "7a455cb7ff4adac3",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "47% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 90.6,
+      "h": 94.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.2,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.17,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "floue"
+    ],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/contact-ouverture-640.webp",
+      "grok/contact-ouverture-1280.webp",
+      "grok/contact-ouverture-1920.webp"
+    ],
+    "poids": {
+      "grok/contact-ouverture-640.webp": 19920,
+      "grok/contact-ouverture-1280.webp": 43168,
+      "grok/contact-ouverture-1920.webp": 69134
+    },
+    "media": "c.media({ nom: 'grok/contact-ouverture', alt: \"Console lumière en gros plan, faders éclairés\", cadrage: '47% 50%', sizes: '100vw', priorite: true })"
+  },
+  "grok/page-404": {
+    "nom": "grok/page-404",
+    "source": "recu/grok/page-404.jpg",
+    "role": "404",
+    "alt": "Salle vide après la fête, une seule lyre allumée",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 3,
+    "empreinte": "2e48df389fa3dd14",
+    "ratio": "16:9",
+    "largeurs": [
+      800,
+      1600
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 50%"
+    },
+    "cadrage": "34% 50%",
+    "sujet": {
+      "x": 6.3,
+      "y": 33.9,
+      "l": 71.9,
+      "h": 59.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.85,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.69,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.49,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.47,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 69,
+      "width": 1354,
+      "height": 762,
+      "source": [
+        1354,
+        900
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "floue"
+    ],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)",
+      "agrandie 1,18 fois (source de 1354 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/page-404-800.webp",
+      "grok/page-404-1600.webp",
+      "grok/page-404-mobile-640.webp"
+    ],
+    "poids": {
+      "grok/page-404-800.webp": 10812,
+      "grok/page-404-1600.webp": 25584,
+      "grok/page-404-mobile-640.webp": 15082
+    },
+    "media": "c.media({ nom: 'grok/page-404', alt: \"Salle vide après la fête, une seule lyre allumée\", cadrage: '34% 50%', cadrageMobile: '50% 50%', sizes: '100vw', ratio: '16 / 9' })"
+  }
+}

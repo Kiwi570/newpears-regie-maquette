@@ -1,0 +1,467 @@
+{
+ "mission": "tour-accueil",
+ "taille": "1440x900",
+ "depart": "/",
+ "erreurs": [],
+ "etapes": [
+  {
+   "k": 0,
+   "geste": "arrivée",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 3.3,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 7044,
+   "titres": [
+    "h1 LA SOIRÉE, ON LA RÈGLE AVEC VOUS."
+   ],
+   "actions": [
+    "NEWPEARS, accueil",
+    "Location",
+    "Prestation DJ",
+    "Événements",
+    "Contact",
+    "Ma demande 0",
+    "Demander un devis",
+    "06 26 15 24 54",
+    "Ajouter à ma demande"
+   ],
+   "prixVus": [
+    "169 €"
+   ],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-0.png"
+  },
+  {
+   "k": 1,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 1,
+   "secondes": 4.3,
+   "adresse": "/",
+   "y": 758,
+   "hauteurPage": 7044,
+   "titres": [
+    "h2 OUVREZ LE FLIGHT CASE"
+   ],
+   "actions": [
+    "Ajouter à ma demande",
+    "Ouvrir le flight case"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 2,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 2,
+   "secondes": 5.3,
+   "adresse": "/",
+   "y": 1528,
+   "hauteurPage": 7043,
+   "titres": [
+    "h3 ENCEINTE AMPLIFIÉE",
+    "h3 LYRE BEAM 100W",
+    "h3 LASER 1000MW",
+    "h3 MACHINE À FUMÉE",
+    "h3 MICRO SANS FIL",
+    "h3 VOTRE DEMANDE",
+    "h3 VOTRE DEVIS SOUS 24 H",
+    "h3 LA PRÉPARATION"
+   ],
+   "actions": [
+    "Ajouter à ma demande"
+   ],
+   "prixVus": [
+    "30 €",
+    "10 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 3,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 3,
+   "secondes": 6.1,
+   "adresse": "/",
+   "y": 2295,
+   "hauteurPage": 7043,
+   "titres": [
+    "h2 VOUS LOUEZ. ON S'OCCUPE DE TOUT.",
+    "h3 LOCATION",
+    "h3 PRESTATION DJ"
+   ],
+   "actions": [
+    "Voir le matériel",
+    "Découvrir la prestation DJ"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 4,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 4,
+   "secondes": 6.8,
+   "adresse": "/",
+   "y": 3059,
+   "hauteurPage": 7043,
+   "titres": [
+    "h2 L'ELECTRO HOUSE DANS L'ADN, TOUS LES STYLES SUR LA PISTE"
+   ],
+   "actions": [
+    "Voir le matériel",
+    "Découvrir la prestation DJ"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 5,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 5,
+   "secondes": 7.6,
+   "adresse": "/",
+   "y": 3824,
+   "hauteurPage": 7043,
+   "titres": [
+    "h2 L'ELECTRO HOUSE DANS L'ADN, TOUS LES STYLES SUR LA PISTE",
+    "h2 CHAQUE ÉVÉNEMENT A SON AMBIANCE"
+   ],
+   "actions": [
+    "Découvrir la prestation DJ",
+    "Vérifier ma date",
+    "MARIAGE DJ ou Pack Professionnel",
+    "ANNIVERSAIRE Pack Confort ou DJ",
+    "ENTREPRISES DJ, son et lumière"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 6,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 6,
+   "secondes": 8.3,
+   "adresse": "/",
+   "y": 4581,
+   "hauteurPage": 7043,
+   "titres": [
+    "h2 SAINT-QUENTIN ET 50 KM AUTOUR"
+   ],
+   "actions": [
+    "MARIAGE DJ ou Pack Professionnel",
+    "ANNIVERSAIRE Pack Confort ou DJ",
+    "ENTREPRISES DJ, son et lumière",
+    "FÊTES DE FIN D'ANNÉE DJ ou Pack Club",
+    "Tous les événements"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 7,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 7,
+   "secondes": 9.2,
+   "adresse": "/",
+   "y": 5355,
+   "hauteurPage": 7043,
+   "titres": [
+    "h2 SAINT-QUENTIN ET 50 KM AUTOUR"
+   ],
+   "actions": [
+    "Lire nos avis Google"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 8,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 8,
+   "secondes": 9.9,
+   "adresse": "/",
+   "y": 6120,
+   "hauteurPage": 7043,
+   "titres": [
+    "h2 UNE DATE, UN LIEU ?"
+   ],
+   "actions": [
+    "Demander un devis",
+    "06 26 15 24 54",
+    "WhatsApp",
+    "newpears@icloud.com",
+    "Accueil",
+    "Location",
+    "Prestation DJ",
+    "Événements",
+    "Contact",
+    "Instagram",
+    "TikTok",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 9,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 9,
+   "secondes": 10.7,
+   "adresse": "/",
+   "y": 6143,
+   "hauteurPage": 7044,
+   "titres": [
+    "h2 UNE DATE, UN LIEU ?"
+   ],
+   "actions": [
+    "Demander un devis",
+    "06 26 15 24 54",
+    "WhatsApp",
+    "newpears@icloud.com",
+    "Accueil",
+    "Location",
+    "Prestation DJ",
+    "Événements",
+    "Contact",
+    "Instagram",
+    "TikTok",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 10,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 10,
+   "secondes": 11.5,
+   "adresse": "/",
+   "y": 6144,
+   "hauteurPage": 7044,
+   "titres": [
+    "h2 UNE DATE, UN LIEU ?"
+   ],
+   "actions": [
+    "Demander un devis",
+    "06 26 15 24 54",
+    "WhatsApp",
+    "newpears@icloud.com",
+    "Accueil",
+    "Location",
+    "Prestation DJ",
+    "Événements",
+    "Contact",
+    "Instagram",
+    "TikTok",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 11,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 11,
+   "secondes": 12.2,
+   "adresse": "/",
+   "y": 6144,
+   "hauteurPage": 7044,
+   "titres": [
+    "h2 UNE DATE, UN LIEU ?"
+   ],
+   "actions": [
+    "Demander un devis",
+    "06 26 15 24 54",
+    "WhatsApp",
+    "newpears@icloud.com",
+    "Accueil",
+    "Location",
+    "Prestation DJ",
+    "Événements",
+    "Contact",
+    "Instagram",
+    "TikTok",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 12,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 12,
+   "secondes": 12.9,
+   "adresse": "/",
+   "y": 6144,
+   "hauteurPage": 7044,
+   "titres": [
+    "h2 UNE DATE, UN LIEU ?"
+   ],
+   "actions": [
+    "Demander un devis",
+    "06 26 15 24 54",
+    "WhatsApp",
+    "newpears@icloud.com",
+    "Accueil",
+    "Location",
+    "Prestation DJ",
+    "Événements",
+    "Contact",
+    "Instagram",
+    "TikTok",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-12.png"
+  }
+ ]
+}

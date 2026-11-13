@@ -1,0 +1,11 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "NEWPEARS",
+  "description": "Location de sonorisation, d'éclairage et d'effets, et prestations DJ à Saint-Quentin (Aisne).",
+  "telephone": "+33626152454",
+  "email": "newpears@icloud.com",
+  "areaServed": ["Saint-Quentin", "Laon", "Guise", "Chauny", "Tergnier", "Ham", "Bohain-en-Vermandois", "Ribemont", "Péronne", "Soissons"],
+  "address": { "@type": "PostalAddress", "addressLocality": "Saint-Quentin", "addressRegion": "Aisne", "addressCountry": "FR" },
+  "sameAs": ["https://www.instagram.com/new.pears", "https://www.tiktok.com/@newpears", "https://www.facebook.com/newpears"]
+}

@@ -1,0 +1,1080 @@
+{
+  "echecs": [
+    {
+      "niveau": "echec",
+      "controle": "image de partage",
+      "detail": "fichier introuvable : /assets/partage/contact-fr.jpg",
+      "etape": "fichiers",
+      "page": "contact.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "image de partage",
+      "detail": "fichier introuvable : /assets/partage/evenements-fr.jpg",
+      "etape": "fichiers",
+      "page": "evenements.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "image de partage",
+      "detail": "fichier introuvable : /assets/partage/accueil-fr.jpg",
+      "etape": "fichiers",
+      "page": "index.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "image de partage",
+      "detail": "fichier introuvable : /assets/partage/location-fr.jpg",
+      "etape": "fichiers",
+      "page": "location.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "image de partage",
+      "detail": "fichier introuvable : /assets/partage/prestation-dj-fr.jpg",
+      "etape": "fichiers",
+      "page": "prestation-dj.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : titre hors de l’écran",
+      "detail": "haut 321 px, bas 431 px, zone 65–390 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "844×390",
+      "mode": "normal",
+      "selecteur": "section#regie > div.regie-texte:nth-of-type(2) > h1.regie-titre « LA SOIRÉE, ON LA RÈGLE AVEC VOUS. »",
+      "lieux": [
+        "844×390 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : bouton principal hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "844×390",
+      "mode": "normal",
+      "selecteur": "section#regie > div.regie-texte:nth-of-type(2) > p.regie-actions:nth-of-type(3) > a.bouton:nth-of-type(1) « Demander un devis »",
+      "lieux": [
+        "844×390 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "844×390",
+      "mode": "normal",
+      "selecteur": "section#regie > div.regie-texte:nth-of-type(2) > p.regie-info:nth-of-type(4) « Devis gratuit sous 24 h, 7 j/7 · Packs dès 169 € l »",
+      "lieux": [
+        "844×390 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#regie > div.regie-texte:nth-of-type(2) > h1.regie-titre > span.ligne-masque:nth-of-type(1) « LA SOIRÉE, »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.regie-texte:nth-of-type(2) > h1.regie-titre > span.ligne-masque:nth-of-type(1) > span.regie-ligne « LA SOIRÉE, »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#regie > div.regie-texte:nth-of-type(2) > h1.regie-titre > span.ligne-masque:nth-of-type(2) « ON LA RÈGLE »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.regie-texte:nth-of-type(2) > h1.regie-titre > span.ligne-masque:nth-of-type(2) > span.regie-ligne « ON LA RÈGLE »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#regie > div.regie-texte:nth-of-type(2) > h1.regie-titre > span.ligne-masque:nth-of-type(2) « ON LA RÈGLE »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "h1.regie-titre > span.ligne-masque:nth-of-type(2) > span.regie-ligne > em « RÈGLE »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#regie > div.regie-texte:nth-of-type(2) > h1.regie-titre > span.ligne-masque:nth-of-type(3) « AVEC VOUS. »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.regie-texte:nth-of-type(2) > h1.regie-titre > span.ligne-masque:nth-of-type(3) > span.regie-ligne « AVEC VOUS. »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.regie-texte:nth-of-type(2) > h1.regie-titre > span.ligne-masque:nth-of-type(2) > span.regie-ligne « ON LA RÈGLE »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.regie-texte:nth-of-type(2) > h1.regie-titre > span.ligne-masque:nth-of-type(1) > span.regie-ligne « LA SOIRÉE, »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec h1.regie-titre > span.ligne-masque:nth-of-type(2) > span.regie-ligne > em « RÈGLE »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.regie-texte:nth-of-type(2) > h1.regie-titre > span.ligne-masque:nth-of-type(1) > span.regie-ligne « LA SOIRÉE, »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.regie-texte:nth-of-type(2) > h1.regie-titre > span.ligne-masque:nth-of-type(3) > span.regie-ligne « AVEC VOUS. »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.regie-texte:nth-of-type(2) > h1.regie-titre > span.ligne-masque:nth-of-type(2) > span.regie-ligne « ON LA RÈGLE »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.regie-texte:nth-of-type(2) > h1.regie-titre > span.ligne-masque:nth-of-type(3) > span.regie-ligne « AVEC VOUS. »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "h1.regie-titre > span.ligne-masque:nth-of-type(2) > span.regie-ligne > em « RÈGLE »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.conteneur.zone-grille > div.zone-carte:nth-of-type(2) > svg.carte-zone > text.zone-legende:nth-of-type(1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.zone-carte:nth-of-type(2) > svg.carte-zone > g.ville:nth-of-type(4) > text",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.conteneur.zone-grille > div.zone-carte:nth-of-type(2) > svg.carte-zone > text.zone-legende:nth-of-type(1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.zone-carte:nth-of-type(2) > svg.carte-zone > g.ville:nth-of-type(8) > text",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.61:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#dj > div.dj-led:nth-of-type(1) > p.led-rangee:nth-of-type(1) > span:nth-of-type(1) « ELECTRO HOUSE »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.61:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#dj > div.dj-led:nth-of-type(1) > p.led-rangee:nth-of-type(1) > span:nth-of-type(2) « HITS ACTUELS »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.61:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#dj > div.dj-led:nth-of-type(1) > p.led-rangee:nth-of-type(1) > span:nth-of-type(3) « ELECTRO HOUSE »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.61:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#dj > div.dj-led:nth-of-type(1) > p.led-rangee:nth-of-type(1) > span:nth-of-type(4) « HITS ACTUELS »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.61:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#dj > div.dj-led:nth-of-type(1) > p.led-rangee:nth-of-type(1) > span:nth-of-type(5) « ELECTRO HOUSE »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.61:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#dj > div.dj-led:nth-of-type(1) > p.led-rangee:nth-of-type(1) > span:nth-of-type(6) « HITS ACTUELS »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.61:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#dj > div.dj-led:nth-of-type(1) > p.led-rangee:nth-of-type(2) > span:nth-of-type(1) « ANNÉES 80–2000 »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.61:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#dj > div.dj-led:nth-of-type(1) > p.led-rangee:nth-of-type(2) > span:nth-of-type(2) « RAP · RNB »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.61:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#dj > div.dj-led:nth-of-type(1) > p.led-rangee:nth-of-type(2) > span:nth-of-type(3) « ANNÉES 80–2000 »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.61:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#dj > div.dj-led:nth-of-type(1) > p.led-rangee:nth-of-type(2) > span:nth-of-type(4) « RAP · RNB »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.61:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#dj > div.dj-led:nth-of-type(1) > p.led-rangee:nth-of-type(2) > span:nth-of-type(5) « ANNÉES 80–2000 »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.61:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#dj > div.dj-led:nth-of-type(1) > p.led-rangee:nth-of-type(2) > span:nth-of-type(6) « RAP · RNB »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.61:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#dj > div.dj-led:nth-of-type(1) > p.led-rangee:nth-of-type(3) > span:nth-of-type(1) « LATINO · AFRO »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.61:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#dj > div.dj-led:nth-of-type(1) > p.led-rangee:nth-of-type(3) > span:nth-of-type(2) « VARIÉTÉ FRANÇAISE »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.61:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#dj > div.dj-led:nth-of-type(1) > p.led-rangee:nth-of-type(3) > span:nth-of-type(3) « LATINO · AFRO »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.61:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#dj > div.dj-led:nth-of-type(1) > p.led-rangee:nth-of-type(3) > span:nth-of-type(4) « VARIÉTÉ FRANÇAISE »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.61:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#dj > div.dj-led:nth-of-type(1) > p.led-rangee:nth-of-type(3) > span:nth-of-type(5) « LATINO · AFRO »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.61:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#dj > div.dj-led:nth-of-type(1) > p.led-rangee:nth-of-type(3) > span:nth-of-type(6) « VARIÉTÉ FRANÇAISE »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément sans nom accessible",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "body#haut > header > div.entete-rangee > a.entete-logo",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "section sans visuel",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#confiance « EN QUELQUES CHIFFRES ILS NOUS ONT FAIT CONFIANCE 8 »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "section sans visuel",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#fin « UNE DATE, UN LIEU ? Décrivez votre événement : dev »",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "844×390 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "photo faible affichée en grand",
+      "detail": "duo-fete-musique (4/5, faible, 26 % de l'écran) : en vignette, ou une meilleure image",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.conteneur.dj-grille:nth-of-type(2) > figure.media.dj-photo > picture > img « Mattéo et Sacha de dos aux platines devant la foul »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte sous 12 px",
+      "detail": "11.8 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#regie > div.regie-texte:nth-of-type(2) > p.sur:nth-of-type(1) « SON · LUMIÈRE · DJ — SAINT-QUENTIN (02) »",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte sous 12 px",
+      "detail": "11.8 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.console:nth-of-type(3) > div.faders:nth-of-type(1) > label.fader:nth-of-type(1) > span.fader-nom:nth-of-type(1) « INVITÉS »",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte sous 12 px",
+      "detail": "11.8 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.console:nth-of-type(3) > div.faders:nth-of-type(1) > label.fader:nth-of-type(2) > span.fader-nom:nth-of-type(1) « LUMIÈRE »",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte sous 12 px",
+      "detail": "11.8 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.console:nth-of-type(3) > div.faders:nth-of-type(1) > label.fader:nth-of-type(3) > span.fader-nom:nth-of-type(1) « EFFETS »",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte sous 12 px",
+      "detail": "11.5 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#regie > div.console:nth-of-type(3) > div.console-lecture:nth-of-type(2) > p.console-conseil:nth-of-type(1) « NOTRE CONSEIL »",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansWebgl",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "photo faible affichée en grand",
+      "detail": "duo-fete-musique (4/5, faible, 49 % de l'écran) : en vignette, ou une meilleure image",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.conteneur.dj-grille:nth-of-type(2) > figure.media.dj-photo > picture > img « Mattéo et Sacha de dos aux platines devant la foul »",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#deroule > div.deroule-collant « Illustration générée Illustration générée COMMENT  »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "ol.deroule-etapes > li:nth-of-type(4) > div > p « Livraison et installation offertes dans 10 km, la  »",
+      "lieux": [
+        "390×844 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.deroule-collant > div.deroule-salle:nth-of-type(1) > figure.media.salle:nth-of-type(2) > figcaption.mention-ia « Illustration générée »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "div.deroule-collant > div.deroule-salle:nth-of-type(1) > figure.media.salle:nth-of-type(1) > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#deroule > div.deroule-collant « Illustration générée Illustration générée COMMENT  »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "320×568",
+      "mode": "sansJs",
+      "selecteur": "ol.deroule-etapes > li:nth-of-type(3) > div > p « On échange sur le déroulé et la musique. Le matéri »",
+      "lieux": [
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#metiers > p.sur « NOS DEUX MÉTIERS »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "320×568",
+      "mode": "sansJs",
+      "selecteur": "ol.deroule-etapes > li:nth-of-type(4) > div > p « Livraison et installation offertes dans 10 km, la  »",
+      "lieux": [
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#metiers > h2 « VOUS LOUEZ. ON S'OCCUPE DE TOUT. »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "320×568",
+      "mode": "sansJs",
+      "selecteur": "ol.deroule-etapes > li:nth-of-type(4) > div > p « Livraison et installation offertes dans 10 km, la  »",
+      "lieux": [
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste sur image",
+      "detail": "2.52:1 sur les 10 % de la photo les moins favorables (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.regie-texte:nth-of-type(2) > h1.regie-titre > span.ligne-masque:nth-of-type(2) > span.regie-ligne « ON LA RÈGLE »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste sur image",
+      "detail": "2.57:1 sur les 10 % de la photo les moins favorables (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.regie-texte:nth-of-type(2) > h1.regie-titre > span.ligne-masque:nth-of-type(2) > span.regie-ligne « ON LA RÈGLE »",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste sur image",
+      "detail": "1.05:1 sur les 10 % de la photo les moins favorables (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "h1.regie-titre > span.ligne-masque:nth-of-type(2) > span.regie-ligne > em « RÈGLE »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste sur image",
+      "detail": "1.13:1 sur les 10 % de la photo les moins favorables (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "h1.regie-titre > span.ligne-masque:nth-of-type(2) > span.regie-ligne > em « RÈGLE »",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "li[data-etape=\"2\"] > .etape-n ; li[data-etape=\"2\"] > div > h3 ; li[data-etape=\"3\"] > .etape-n",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "li[data-etape=\"2\"] > .etape-n ; li[data-etape=\"2\"] > div > p ; li[data-etape=\"3\"] > .etape-n",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    }
+  ],
+  "aRegarder": [
+    {
+      "niveau": "regarder",
+      "controle": "« à compléter » visible",
+      "detail": "1 fois hors du pied de page : remplacer par une phrase vraie qui oriente le visiteur (« Tarifs selon la saison, donnés à la réservation ») ou retirer l'élément, et le noter dans la fiche du README (sauf sens propre : « dossier à compléter »)",
+      "etape": "fichiers",
+      "page": "contact.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#regie > figure.media.regie-photo > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.deroule-collant > div.deroule-salle:nth-of-type(1) > figure.media.salle:nth-of-type(1) > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.metiers-grille.fx-fini > article.metier.metier--dj:nth-of-type(2) > figure.media.metier-photo > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.evts-grille > div.evts-visuels > figure.media.evt-visuel:nth-of-type(6) > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "effet qui ne bouge pas au défilement",
+      "detail": "regie-faders : il ne bouge ni au défilement ni tout seul à cette taille (effet au survol, au clic, ou réservé à l'ordinateur ?) ; il ne compte pas comme effet de section",
+      "etape": "mouvement",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.faders",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "effet qui dérive sous la souris immobile",
+      "detail": "léger changement (0.3 %) 1,5 à 4,5 s après l’arrêt de la souris",
+      "etape": "mouvement",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "souris",
+      "selecteur": "[data-souris] magnetique",
+      "lieux": [
+        "1366×768 souris"
+      ]
+    }
+  ],
+  "nonLances": [
+    {
+      "controle": "Safari (WebKit)",
+      "raison": "WebKit ne peut pas s’installer ici : vérification à faire dans Safari sur le Mac (liste dans le rapport)",
+      "etape": "safari"
+    }
+  ],
+  "oks": {
+    "vercel.json": 1,
+    ".vercelignore": 1,
+    "robots.txt": 1,
+    "numéro de version": 1,
+    "langues": 1,
+    "grille wouahou": 7,
+    "mesures": 6,
+    "films d’ouverture": 2,
+    "films de transition": 2,
+    "bords de l’écran": 1,
+    "intro accélérable et passable": 7,
+    "menu": 1,
+    "clavier": 1,
+    "liens et boutons": 1,
+    "liens profonds": 13,
+    "liens vers la page en cours": 1,
+    "changements de hauteur": 1,
+    "fluidité": 2,
+    "défilement selon l’appareil": 5,
+    "mouvement": 2,
+    "effets du plan": 17,
+    "souris immobile": 1,
+    "vitesse": 1,
+    "captures": 1
+  },
+  "infos": [
+    "Numéro de version des fichiers : ?v=1",
+    "Journal v1 : 2 étape(s) notée(s), 16 min de travail pour 50 min de budget, 4 min d’attente de l’utilisateur.",
+    "Audit rapide : étapes lourdes sur /.",
+    "Accessibilité : axe-core 4.12.1 en plus des contrôles intégrés.",
+    "Balayage des largeurs : non fait en audit rapide.",
+    "Ouverture / (1366×768) : 2656 ms depuis le premier octet",
+    "Ouverture / (390×844) : 2684 ms depuis le premier octet",
+    "Bords de l’écran : 65 images d’intro, 2 de voile et 23 de menu jugées (panneau immobile couvrant tout l’écran), barre de défilement classique de 15 px.",
+    "Aucun parcours propre au projet (_audit/parcours.mjs) : filtres, calculateurs, panier, réservation, fenêtres testés seulement par les contrôles généraux.",
+    "Tient dans l'écran / : aucune section épinglée ou plein écran.",
+    "Fluidité / 1366×768 (molette) : 1 % d'images lentes sur 461, tâche la plus longue 69 ms",
+    "Fluidité / 390×844 (doigt) : 0 % d'images lentes sur 1403, tâche la plus longue 0 ms",
+    "Vitesse / : 0.43 s de calcul au chargement (téléphone ralenti)."
+  ],
+  "grille": [
+    {
+      "cle": "manipuler",
+      "nom": "1. L’effet signature se manipule",
+      "statut": "présent",
+      "detail": "accueil"
+    },
+    {
+      "cle": "intro",
+      "nom": "2. L’intro devient la page",
+      "statut": "présent",
+      "detail": "objet d’ouverture sur 5 page(s), versObjet dans l’intro"
+    },
+    {
+      "cle": "voile",
+      "nom": "3. La transition reprend le motif",
+      "statut": "présent",
+      "detail": "voile en faisceau"
+    },
+    {
+      "cle": "fil",
+      "nom": "4. Quelque chose relie les sections et les pages",
+      "statut": "présent",
+      "detail": "sur les 5 page(s)"
+    },
+    {
+      "cle": "typo",
+      "nom": "5. Un titre fait l’événement sur chaque page",
+      "statut": "présent",
+      "detail": "sur les 5 page(s)"
+    },
+    {
+      "cle": "scene",
+      "nom": "6. La scène est un geste du métier",
+      "statut": "présent",
+      "detail": "geste du métier sur /, /location"
+    },
+    {
+      "cle": "retour",
+      "nom": "7. L’action principale a un retour physique",
+      "statut": "présent",
+      "detail": "sur /contact, /, /location, /prestation-dj"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+ "mission": "premier-ecran",
+ "taille": "1440x900",
+ "depart": "/",
+ "erreurs": [],
+ "etapes": [
+  {
+   "k": 0,
+   "geste": "arrivée",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 3.6,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 7044,
+   "titres": [
+    "h1 LA SOIRÉE, ON LA RÈGLE AVEC VOUS."
+   ],
+   "actions": [
+    "NEWPEARS, accueil",
+    "Location",
+    "Prestation DJ",
+    "Événements",
+    "Contact",
+    "Ma demande 0",
+    "Demander un devis",
+    "06 26 15 24 54",
+    "Ajouter à ma demande"
+   ],
+   "prixVus": [
+    "169 €"
+   ],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-0.png"
+  }
+ ]
+}

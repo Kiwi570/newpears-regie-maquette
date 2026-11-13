@@ -1,0 +1,6 @@
+[
+  { "valeur": 8, "prefixe": "", "suffixe": " ans", "cle": "mix" },
+  { "valeur": 40, "prefixe": "+", "suffixe": "", "cle": "prestations" },
+  { "valeur": 200, "prefixe": "+", "suffixe": "", "cle": "references" },
+  { "valeur": 5, "prefixe": "", "suffixe": "/5", "cle": "google" }
+]

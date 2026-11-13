@@ -1,0 +1,268 @@
+{
+ "mission": "contact",
+ "taille": "1440x900",
+ "depart": "/",
+ "erreurs": [],
+ "etapes": [
+  {
+   "k": 0,
+   "geste": "arrivée",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 3.4,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 7044,
+   "titres": [
+    "h1 LA SOIRÉE, ON LA RÈGLE AVEC VOUS."
+   ],
+   "actions": [
+    "NEWPEARS, accueil",
+    "Location",
+    "Prestation DJ",
+    "Événements",
+    "Contact",
+    "Ma demande 0",
+    "Demander un devis",
+    "06 26 15 24 54",
+    "Ajouter à ma demande"
+   ],
+   "prixVus": [
+    "169 €"
+   ],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-0.png"
+  },
+  {
+   "k": 1,
+   "geste": "cliquer Contact",
+   "resultat": "ok",
+   "gestes": 1,
+   "secondes": 6.5,
+   "adresse": "/contact",
+   "y": 0,
+   "hauteurPage": 4071,
+   "titres": [
+    "h1 UNE DATE, UN LIEU ?"
+   ],
+   "actions": [
+    "NEWPEARS, accueil",
+    "Location",
+    "Prestation DJ",
+    "Événements",
+    "Contact",
+    "Ma demande 0",
+    "06 26 15 24 54",
+    "Envoyer ma demande",
+    "WhatsApp"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 2,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 1,
+   "secondes": 6.5,
+   "adresse": "/contact",
+   "y": 0,
+   "hauteurPage": 4071,
+   "titres": [
+    "h1 UNE DATE, UN LIEU ?"
+   ],
+   "actions": [
+    "NEWPEARS, accueil",
+    "Location",
+    "Prestation DJ",
+    "Événements",
+    "Contact",
+    "Ma demande 0",
+    "06 26 15 24 54",
+    "Envoyer ma demande",
+    "WhatsApp"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-2.png"
+  },
+  {
+   "k": 3,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 2,
+   "secondes": 7.3,
+   "adresse": "/contact",
+   "y": 765,
+   "hauteurPage": 4071,
+   "titres": [
+    "h2 QUATRE ÉTAPES, UNE MINUTE"
+   ],
+   "actions": [
+    "Continuer"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 4,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 2,
+   "secondes": 7.3,
+   "adresse": "/contact",
+   "y": 765,
+   "hauteurPage": 4071,
+   "titres": [
+    "h2 QUATRE ÉTAPES, UNE MINUTE"
+   ],
+   "actions": [
+    "Continuer"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-4.png"
+  },
+  {
+   "k": 5,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 3,
+   "secondes": 8,
+   "adresse": "/contact",
+   "y": 1530,
+   "hauteurPage": 4071,
+   "titres": [
+    "h2 OU DIRECTEMENT",
+    "h2 OÙ NOUS INTERVENONS"
+   ],
+   "actions": [
+    "06 26 15 24 54",
+    "newpears@icloud.com",
+    "Instagram",
+    "TikTok",
+    "Facebook"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 6,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 3,
+   "secondes": 8,
+   "adresse": "/contact",
+   "y": 1530,
+   "hauteurPage": 4071,
+   "titres": [
+    "h2 OU DIRECTEMENT",
+    "h2 OÙ NOUS INTERVENONS"
+   ],
+   "actions": [
+    "06 26 15 24 54",
+    "newpears@icloud.com",
+    "Instagram",
+    "TikTok",
+    "Facebook"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-6.png"
+  },
+  {
+   "k": 7,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 4,
+   "secondes": 8.7,
+   "adresse": "/contact",
+   "y": 2295,
+   "hauteurPage": 4071,
+   "titres": [
+    "h2 OÙ NOUS INTERVENONS",
+    "h2 LES QUESTIONS QU'ON NOUS POSE"
+   ],
+   "actions": [],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 8,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 4,
+   "secondes": 8.7,
+   "adresse": "/contact",
+   "y": 2295,
+   "hauteurPage": 4071,
+   "titres": [
+    "h2 OÙ NOUS INTERVENONS",
+    "h2 LES QUESTIONS QU'ON NOUS POSE"
+   ],
+   "actions": [],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-8.png"
+  }
+ ]
+}

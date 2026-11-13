@@ -1,0 +1,10 @@
+[
+  { "q": "Comment sont calculés les prix ?", "r": "Les prix sont TTC, pour une journée, hors livraison et options. Les week-ends se font sur devis." },
+  { "q": "La livraison est-elle offerte ?", "r": "Oui, avec l'installation, dans un rayon de 10 km autour de Saint-Quentin. Au-delà, elle est facturée au kilomètre." },
+  { "q": "Puis-je venir chercher le matériel ?", "r": "Oui, le retrait sur place est possible pour les petites locations." },
+  { "q": "Y a-t-il une caution ?", "r": "Oui, par chèque non encaissé : environ 1 500 à 2 000 € pour un pack. Elle vous est rendue au retour du matériel en bon état. En cas de casse, elle peut être conservée." },
+  { "q": "Faut-il verser un acompte ?", "r": "Seulement en période de forte demande : 30 % pour confirmer la réservation. Dans ce cas, il n'est pas remboursé en cas d'annulation. Le reste de l'année, prévenez-nous au plus vite." },
+  { "q": "Que comprend la prestation DJ ?", "r": "Elle est sur devis et comprend la sonorisation, les lumières, le micro, la playlist personnalisée, l'installation, le démontage et le déplacement." },
+  { "q": "Avez-vous une remise fidélité ?", "r": "Oui : 5 % dès la deuxième location, et 5 % quand une personne que vous recommandez réserve." },
+  { "q": "Comment payer ?", "r": "Par carte bancaire, en espèces, par chèque ou par virement." }
+]

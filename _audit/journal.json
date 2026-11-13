@@ -1,0 +1,125 @@
+{
+  "projet": "newpears-maquette",
+  "client": "NEWPEARS",
+  "siteActuel": "https://newpears.fr",
+  "versions": [
+    {
+      "version": 1,
+      "skill": "v10.12",
+      "perimetre": [
+        "accueil",
+        "location",
+        "dj",
+        "evenements",
+        "contact"
+      ],
+      "etapes": [
+        {
+          "etape": "analyse, bibliothèque, directions, esquisses et questions",
+          "budget": 35,
+          "debut": "2026-11-13T12:18:44+01:00",
+          "fin": "2026-11-13T12:30:39+01:00"
+        },
+        {
+          "etape": "plans et document Grok",
+          "budget": 15,
+          "debut": "2026-11-13T12:32:00+01:00",
+          "fin": "2026-11-13T12:36:00+01:00"
+        },
+        {
+          "etape": "construction : accueil",
+          "budget": 45,
+          "debut": "2026-11-13T12:36:00+01:00",
+          "fin": "2026-11-13T13:53:00+01:00"
+        },
+        {
+          "etape": "construction : pages d'onglet",
+          "budget": 25,
+          "debut": "2026-11-13T12:58:00+01:00",
+          "fin": "2026-11-13T13:15:00+01:00"
+        },
+        {
+          "etape": "construction : contact et page de catégorie",
+          "budget": 10,
+          "debut": "2026-11-13T13:00:00+01:00",
+          "fin": "2026-11-13T13:15:00+01:00"
+        },
+        {
+          "etape": "audit, regard neuf et corrections",
+          "budget": 35,
+          "debut": "2026-11-13T13:54:00+01:00",
+          "fin": "2026-11-13T15:42:00+01:00"
+        },
+        {
+          "etape": "livraison",
+          "budget": 5,
+          "debut": "2026-11-13T15:42:00+01:00",
+          "fin": "2026-11-13T15:42:49+01:00"
+        }
+      ],
+      "attentes": [
+        {
+          "pour": "zip des images du site (travail en parallèle, pas d'attente réelle)",
+          "debut": "2026-11-13T12:20:30+01:00",
+          "fin": "2026-11-13T12:23:00+01:00"
+        },
+        {
+          "pour": "réponses aux questions",
+          "debut": "2026-11-13T12:30:39+01:00",
+          "fin": "2026-11-13T12:32:00+01:00"
+        },
+        {
+          "pour": "images Grok (construction faite avec fonds provisoires pendant l'attente)",
+          "debut": "2026-11-13T13:16:00+01:00",
+          "fin": "2026-11-13T13:25:00+01:00"
+        }
+      ],
+      "allersRetours": 1,
+      "modules": [
+        "panier-en-tiroir (mécanique reprise à la main : Ma demande)",
+        "formulaire-par-etapes (mécanique reprise à la main)"
+      ],
+      "audit": {
+        "niveau": "standard, puis passe des formats (v1) et relance ciblée sur / et /location",
+        "echecsPremierPassage": 57,
+        "relances": 5,
+        "passes": [
+          "rapide accueil : 57 échecs",
+          "standard 2 : 21 échecs",
+          "standard 3 : 6 échecs",
+          "standard final : 4 échecs",
+          "ciblée / et /location : 0 échec",
+          "formats : voir le rapport"
+        ],
+        "corrections": [
+          "premier écran : héros qui grandit sur tablette, salle plus basse sur petit téléphone",
+          "mention « Illustration générée » : une seule figure pour la salle éteinte et allumée, mention commune sous les vignettes d'événements",
+          "contraste : mot en couleur pleine dans le titre (le dégradé dans le texte faussait la mesure)",
+          "section sans visuel : récapitulatif vide avec trois vrais produits, vignettes d'événements de 63 px sur téléphone",
+          "photo faible : photo des DJ montrée sous le quart de l'écran",
+          "chevauchements : mention du flight case déplacée, rangée de produits plus basse sur petit téléphone",
+          "information clé du contact sur 320 × 568 : bouton e-mail retiré sur les petits écrans"
+        ]
+      },
+      "effetsRetires": [
+        "ellipses de gobos dessinées (remplacées par la salle qui s'éclaire sous la main)",
+        "couvercle dessiné (boules, tubes) remplacé par la matière de la photo",
+        "ouverture du couvercle liée au défilement"
+      ],
+      "grilleDispenses": {},
+      "notes": "Pages d'onglet, contact et catégorie construites pendant l'attente des images Grok, avant l'aperçu de l'accueil. Regard DA 1 : REFAIRE 2,8 (héros refait : vraie salle éteinte/allumée sous les faders, console pleine largeur, flight case à ouvrir). REFAIRE : +20 min annoncées. Regard DA 2 : REFAIRE 3,2, retouches ciblées choisies par l'utilisateur (+1 h 10 annoncée, v1 vers 15 h 15, livrée vers 15 h 50). Trois vérifications DA de plus pour le flight case et la lumière sous la main. Regard DA 2 : REFAIRE 3,2, retouches ciblées choisies par l'utilisateur (+1 h 10 annoncée, v1 vers 15 h 15, livrée vers 15 h 50). Trois vérifications DA de plus pour le flight case et la lumière sous la main.",
+      "regards": {
+        "da": [
+          "regard 1 : REFAIRE 2,8",
+          "regard 2 : REFAIRE 3,2",
+          "regard 3 : AJUSTER 3,7",
+          "vérification 1 : AJUSTER 3,8",
+          "vérification 2 : AJUSTER 4,1",
+          "vérification 3 : VALIDER 4,3"
+        ],
+        "regardNeuf": "fait sur la v1 : accueil 3,8, location 3,6, contact 3,6, DJ 2,9, 404 2,9, événements 2,8 ; corrigés : date 2018 retirée, vignettes vides remplacées par le matériel, image répétée du contact ; pour la v2 : une ouverture propre à chaque page d'onglet",
+        "visiteur": "7 missions sur téléphone et ordinateur ; corrigés : conseil Mariage, prix par pack retiré, contacts dans le menu et en tête du contact, formulaire (défilement, une colonne, invités repris), mariages au premier écran, preuve Google au premier écran"
+      }
+    }
+  ]
+}

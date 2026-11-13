@@ -1,0 +1,218 @@
+{
+ "explication": "Vitrine du projet : des ouvertures de la bibliothèque à dépasser, jamais à imiter (ni leur idée, ni leur mise en page).",
+ "activite": [
+  "spectacle",
+  "commerce"
+ ],
+ "metier": "DJ location sono lumière événementiel",
+ "besoin": [
+  "devis",
+  "catalogue",
+  "zone-d-intervention"
+ ],
+ "ton": [
+  "énergique"
+ ],
+ "univers": [],
+ "ambiance": [],
+ "concept": [],
+ "depot": "newpears-maquette",
+ "ecartees": [],
+ "ouvertures": [
+  {
+   "rang": 1,
+   "id": "goodlife-maquette/hero",
+   "maquette": "goodlife-maquette",
+   "client": "club de sport associatif (cours collectifs, musculation, coaching, location de salle) au Gosier, Guadeloupe",
+   "metier": "club de sport",
+   "activite": [
+    "sport"
+   ],
+   "pourquoi": [
+    "même métier",
+    "besoin devis, catalogue",
+    "ambiance énergique",
+    "clair et sombre alternés (45 % sombre)",
+    "scene-epinglee",
+    "webgl"
+   ],
+   "lumiere": "mixte",
+   "part_sombre": 45,
+   "note_section": 5,
+   "note_maquette": 87,
+   "titre": "Rideau de palmes",
+   "description": "Héros épinglé : trois couches de palmes en WebGL (OGL) avec vent, ombres portées et translucidité dorée s'écartent au défilement pour révéler la photo de la salle ; titre découpé par lettres, pastille du prix qui tombe en rebond. Repli en canvas 2D par couches sans WebGL ou en mode calme.",
+   "familles": [
+    "scene-epinglee",
+    "webgl"
+   ],
+   "plan": null,
+   "module": "rideau-en-lanieres",
+   "fiche": "sections/goodlife-maquette/hero.json",
+   "capture": "medias/goodlife-maquette/hero-p1440.jpg",
+   "video": "medias/goodlife-maquette/hero-p720.mp4",
+   "en_ligne": "https://goodlife-maquette.vercel.app"
+  },
+  {
+   "rang": 2,
+   "id": "nelis-maquette/haut",
+   "maquette": "nelis-maquette",
+   "client": "froid industriel (vente, location et service de groupes frigorifiques)",
+   "metier": "froid industriel",
+   "activite": [
+    "industrie",
+    "services-b2b"
+   ],
+   "pourquoi": [
+    "même métier",
+    "besoin devis, catalogue",
+    "style sombre (92 % sombre)",
+    "webgl"
+   ],
+   "lumiere": "sombre",
+   "part_sombre": 92,
+   "note_section": 5,
+   "note_maquette": 89,
+   "titre": "Héros givré en WebGL",
+   "description": "Photo produit plein cadre recouverte d'un givre en shader (OGL : bruit fractal, crêtes et cellules de Voronoï) qui pousse depuis les bords et autour du titre, puis fond le long du titre ; la souris fait fondre le givre (texture de fonte dessinée en canvas 2D qui se regèle lentement). Titre découpé en lignes qui montent, repli en givre statique sans WebGL.",
+   "familles": [
+    "webgl"
+   ],
+   "plan": null,
+   "module": "givre-webgl",
+   "fiche": "sections/nelis-maquette/haut.json",
+   "capture": "medias/nelis-maquette/haut-p1440.jpg",
+   "video": "medias/nelis-maquette/haut-p720.mp4",
+   "en_ligne": "https://nelis-maquette.vercel.app"
+  },
+  {
+   "rang": 3,
+   "id": "gwenanou-print-maquette/heros",
+   "maquette": "gwenanou-print-maquette",
+   "client": "atelier de gravure et de découpe laser (objets personnalisés en bois, métal, verre, ardoise, cuir, miroir) avec boutique",
+   "metier": "gravure et découpe laser",
+   "activite": [
+    "artisanat",
+    "commerce"
+   ],
+   "pourquoi": [
+    "même activité",
+    "besoin devis, catalogue",
+    "clair et sombre alternés (30 % sombre)"
+   ],
+   "lumiere": "mixte",
+   "part_sombre": 30,
+   "note_section": 5,
+   "note_maquette": 88,
+   "titre": "Prénom gravé en direct",
+   "description": "Héros : le visiteur tape un prénom et le laser le grave en direct sur la photo d'une planche de noyer posée en perspective (homographie), balayage ligne à ligne avec brûlure qui garde le grain, braise, fumée et étincelles en canvas 2D. Repli : texte gravé final sous réduction des animations.",
+   "familles": [],
+   "plan": null,
+   "module": "texte-grave-en-direct",
+   "fiche": "sections/gwenanou-print-maquette/heros.json",
+   "capture": "medias/gwenanou-print-maquette/heros-p1440.jpg",
+   "video": "medias/gwenanou-print-maquette/heros-p720.mp4",
+   "en_ligne": "https://gwenanou-print-maquette.vercel.app"
+  },
+  {
+   "rang": 4,
+   "id": "loeilsingulier-maquette/hero",
+   "maquette": "loeilsingulier-maquette",
+   "client": "agence franco-britannique d'événementiel d'entreprise et de design graphique",
+   "metier": "agence événementielle et design graphique",
+   "activite": [
+    "services-b2b",
+    "spectacle"
+   ],
+   "pourquoi": [
+    "même métier",
+    "style clair (8 % sombre)",
+    "webgl"
+   ],
+   "lumiere": "clair",
+   "part_sombre": 8,
+   "note_section": 5,
+   "note_maquette": 90,
+   "titre": "Héros à titre doré",
+   "description": "Titre « Donner de la mémoire à l'éphémère » dont les mots dorés sont redessinés en WebGL comme une dorure à chaud froissée (le texte reste dans le DOM), avec tirages photo posés en biais qui se développent.",
+   "familles": [
+    "webgl"
+   ],
+   "plan": null,
+   "module": null,
+   "fiche": "sections/loeilsingulier-maquette/hero.json",
+   "capture": "medias/loeilsingulier-maquette/hero-p1440.jpg",
+   "video": "medias/loeilsingulier-maquette/hero-p720.mp4",
+   "en_ligne": "https://loeilsingulier-maquette.vercel.app"
+  },
+  {
+   "rang": 5,
+   "id": "winsbike-atelier/hero",
+   "maquette": "winsbike-atelier",
+   "client": "distributeur de pièces, outils et protections vélo avec magasin et atelier de réparation",
+   "metier": "pièces et atelier vélo",
+   "activite": [
+    "commerce",
+    "auto-moto"
+   ],
+   "pourquoi": [
+    "même activité",
+    "besoin catalogue",
+    "ambiance énergique",
+    "style sombre (91 % sombre)",
+    "3d",
+    "lumiere-pointeur",
+    "webgl"
+   ],
+   "lumiere": "sombre",
+   "part_sombre": 91,
+   "note_section": 5,
+   "note_maquette": 87,
+   "titre": "Cadre irisé sur métal liquide",
+   "description": "Fond de métal liquide anodisé en WebGL (OGL) derrière un cadre de vélo détouré qui entre en rotation 3D et suit le pointeur ; pastilles de teintes qui recolorent le métal et annoncent le nombre de produits de cette couleur avec un lien filtré vers la boutique. Titre en lettres montantes (SplitText), parallaxe au défilement, dégradé CSS sans WebGL.",
+   "familles": [
+    "3d",
+    "lumiere-pointeur",
+    "webgl"
+   ],
+   "plan": null,
+   "module": null,
+   "fiche": "sections/winsbike-atelier/hero.json",
+   "capture": "medias/winsbike-atelier/hero-p1440.jpg",
+   "video": "medias/winsbike-atelier/hero-p720.mp4",
+   "en_ligne": "https://winsbike-atelier.vercel.app"
+  },
+  {
+   "rang": 6,
+   "id": "la-voie-du-sensible-maquette/debut",
+   "maquette": "la-voie-du-sensible-maquette",
+   "client": "praticienne en soins énergétiques, rituels, Roue Médecine, ateliers de création et art-thérapie dans la Drôme",
+   "metier": "praticienne en soins énergétiques",
+   "activite": [
+    "bien-être",
+    "culture"
+   ],
+   "pourquoi": [
+    "activité proche",
+    "besoin catalogue",
+    "clair et sombre alternés (20 % sombre)",
+    "trait-qui-se-dessine"
+   ],
+   "lumiere": "mixte",
+   "part_sombre": 20,
+   "note_section": 5,
+   "note_maquette": 82,
+   "titre": "La Voiedu Sensible",
+   "description": "« La Voie du Sensible » : portrait dans une roue aux quatre directions (N, E, S, O) dont l'arc de la saison du jour s'allume",
+   "familles": [
+    "trait-qui-se-dessine"
+   ],
+   "plan": null,
+   "module": null,
+   "fiche": "sections/la-voie-du-sensible-maquette/debut.json",
+   "capture": "medias/la-voie-du-sensible-maquette/debut-p1440.jpg",
+   "video": "medias/la-voie-du-sensible-maquette/debut-p720.mp4",
+   "en_ligne": "https://la-voie-du-sensible-maquette.vercel.app"
+  }
+ ]
+}

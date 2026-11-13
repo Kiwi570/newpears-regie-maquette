@@ -1,0 +1,106 @@
+{
+ "mission": "dj-direct",
+ "taille": "390x844",
+ "depart": "/prestation-dj",
+ "erreurs": [],
+ "etapes": [
+  {
+   "k": 0,
+   "geste": "arrivée",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 3.2,
+   "adresse": "/prestation-dj",
+   "y": 0,
+   "hauteurPage": 6354,
+   "titres": [
+    "h1 DEUX DJ, TOUTE LA SOIRÉE",
+    "h2 CE QUE NOUS APPORTONS"
+   ],
+   "actions": [
+    "NEWPEARS, accueil",
+    "Ma demande 0",
+    "Menu",
+    "Vérifier ma date",
+    "06 26 15 24 54",
+    "Appeler",
+    "Devis sous 24 h"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-0.png"
+  },
+  {
+   "k": 1,
+   "geste": "menu",
+   "resultat": "bouton Menu hors de portée (en-tête caché ou bouton masqué)",
+   "gestes": 1,
+   "secondes": 7.3,
+   "adresse": "/prestation-dj",
+   "y": 0,
+   "hauteurPage": 6354,
+   "titres": [
+    "h1 DEUX DJ, TOUTE LA SOIRÉE",
+    "h2 CE QUE NOUS APPORTONS"
+   ],
+   "actions": [
+    "NEWPEARS, accueil",
+    "Ma demande 0",
+    "Menu",
+    "Vérifier ma date",
+    "06 26 15 24 54",
+    "Appeler",
+    "Devis sous 24 h"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 2,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 1,
+   "secondes": 7.3,
+   "adresse": "/prestation-dj",
+   "y": 0,
+   "hauteurPage": 6354,
+   "titres": [
+    "h1 DEUX DJ, TOUTE LA SOIRÉE",
+    "h2 CE QUE NOUS APPORTONS"
+   ],
+   "actions": [
+    "NEWPEARS, accueil",
+    "Ma demande 0",
+    "Menu",
+    "Vérifier ma date",
+    "06 26 15 24 54",
+    "Appeler",
+    "Devis sous 24 h"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-2.png"
+  }
+ ]
+}

@@ -1,0 +1,3842 @@
+{
+  "dossier": "/Users/paul/Downloads/newpears-recu",
+  "date": "2026-11-13T11:21:05.897Z",
+  "detection": "Vision (macOS) + mesures sharp",
+  "planches": [
+    "planche.jpg",
+    "planche-2.jpg",
+    "planche-3.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "logo.png",
+      "nom": "logo",
+      "drapeau": "logo",
+      "largeur": 2000,
+      "hauteur": 1125,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 437489,
+      "transparence": true,
+      "sujet": {
+        "x": 0,
+        "y": 36.8,
+        "l": 93.5,
+        "h": 46.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        40,
+        54
+      ],
+      "cadrage_css": "40% 54%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.82,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0.5
+        },
+        {
+          "cote": "droite",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.39
+        },
+        {
+          "cote": "gauche",
+          "score": 0.33,
+          "ton": "clair",
+          "recouvre_sujet": 0.47
+        }
+      ],
+      "qualite": {
+        "nettete": 17.8,
+        "bruit": 0.03,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "logo",
+        "a_verifier": false,
+        "texte": "VEWPEARS",
+        "blocs": 1,
+        "surface": 15.2,
+        "details": [
+          {
+            "texte": "VEWPEARS",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "00c4d0459c686440",
+      "drapeaux": [
+        "logo",
+        "texte du logo",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "prestataireevenementielde-reference.jpg",
+      "nom": "prestataireevenementielde-reference",
+      "drapeau": "produit",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 224223,
+      "transparence": false,
+      "sujet": {
+        "x": 49.9,
+        "y": 22.9,
+        "l": 35.4,
+        "h": 76.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        64,
+        52
+      ],
+      "cadrage_css": "64% 52%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.78,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.6,
+          "ton": "sombre",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "haut",
+          "score": 0.54,
+          "ton": "moyen",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "droite",
+          "score": 0.36,
+          "ton": "moyen",
+          "recouvre_sujet": 0.49
+        }
+      ],
+      "qualite": {
+        "nettete": 12.7,
+        "bruit": 0.51,
+        "compression": 1.51,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "7c7cf8fcf87cdc9c",
+      "drapeaux": [
+        "produit",
+        "compression visible",
+        "calme gauche"
+      ]
+    },
+    {
+      "fichier": "prestataireevenementielde-reference-2.jpg",
+      "nom": "prestataireevenementielde-reference-2",
+      "drapeau": "produit",
+      "largeur": 1333,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 346860,
+      "transparence": false,
+      "sujet": {
+        "x": 46,
+        "y": 34.2,
+        "l": 46.8,
+        "h": 56.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        59,
+        48
+      ],
+      "cadrage_css": "59% 48%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.67,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.63,
+          "ton": "sombre",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "bas",
+          "score": 0.48,
+          "ton": "sombre",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "droite",
+          "score": 0.45,
+          "ton": "sombre",
+          "recouvre_sujet": 0.46
+        }
+      ],
+      "qualite": {
+        "nettete": 33.5,
+        "bruit": 0.82,
+        "compression": 0.98,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "68b1e26090a084cc",
+      "drapeaux": [
+        "produit",
+        "calme gauche"
+      ]
+    },
+    {
+      "fichier": "prestataireevenementielde-reference-3.jpg",
+      "nom": "prestataireevenementielde-reference-3",
+      "drapeau": "produit",
+      "largeur": 1333,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 248744,
+      "transparence": false,
+      "sujet": {
+        "x": 43,
+        "y": 46.1,
+        "l": 17.7,
+        "h": 37.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        57
+      ],
+      "cadrage_css": "51% 57%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.55,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.53,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.51,
+          "ton": "moyen",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "bas",
+          "score": 0.35,
+          "ton": "sombre",
+          "recouvre_sujet": 0.09
+        }
+      ],
+      "qualite": {
+        "nettete": 34,
+        "bruit": 0.48,
+        "compression": 0.95,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "b7e6fa697d9f93ca",
+      "drapeaux": [
+        "produit"
+      ]
+    },
+    {
+      "fichier": "prestataireevenementielde-reference-4.jpg",
+      "nom": "prestataireevenementielde-reference-4",
+      "drapeau": "produit",
+      "largeur": 2000,
+      "hauteur": 1335,
+      "ratio": "3:2",
+      "ratio_valeur": 1.498,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 490582,
+      "transparence": false,
+      "sujet": {
+        "x": 16.2,
+        "y": 44.1,
+        "l": 60.3,
+        "h": 27.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        58
+      ],
+      "cadrage_css": "46% 58%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.69,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.61,
+          "ton": "sombre",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "droite",
+          "score": 0.55,
+          "ton": "sombre",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "gauche",
+          "score": 0.53,
+          "ton": "sombre",
+          "recouvre_sujet": 0.17
+        }
+      ],
+      "qualite": {
+        "nettete": 87.5,
+        "bruit": 1.71,
+        "compression": 1.06,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "b8f078f0f0f0e4f0",
+      "drapeaux": [
+        "produit",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "prestataireevenementielde-reference-5.jpg",
+      "nom": "prestataireevenementielde-reference-5",
+      "drapeau": "produit",
+      "largeur": 1333,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 428140,
+      "transparence": false,
+      "sujet": {
+        "x": 1.5,
+        "y": 30.6,
+        "l": 77.2,
+        "h": 49.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        54
+      ],
+      "cadrage_css": "43% 54%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.37,
+          "ton": "clair",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "droite",
+          "score": 0.12,
+          "ton": "moyen",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "bas",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "gauche",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.48
+        }
+      ],
+      "qualite": {
+        "nettete": 36,
+        "bruit": 1.05,
+        "compression": 1.01,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "ccc63cb33331b0b0",
+      "drapeaux": [
+        "produit"
+      ]
+    },
+    {
+      "fichier": "prestataireevenementielde-reference-6.jpg",
+      "nom": "prestataireevenementielde-reference-6",
+      "drapeau": "produit",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 228799,
+      "transparence": false,
+      "sujet": {
+        "x": 51.5,
+        "y": 28.4,
+        "l": 26.6,
+        "h": 44.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        65,
+        50
+      ],
+      "cadrage_css": "65% 50%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.76,
+          "ton": "sombre",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "gauche",
+          "score": 0.71,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.64,
+          "ton": "sombre",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "droite",
+          "score": 0.5,
+          "ton": "sombre",
+          "recouvre_sujet": 0.2
+        }
+      ],
+      "qualite": {
+        "nettete": 5.9,
+        "bruit": 0.43,
+        "compression": 1.5,
+        "faible": true,
+        "raisons": [
+          "floue",
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "e2f2f0f86c686009",
+      "drapeaux": [
+        "produit",
+        "floue",
+        "compression visible",
+        "calme bas/gauche"
+      ]
+    },
+    {
+      "fichier": "prestataireevenementielde-reference-7.jpg",
+      "nom": "prestataireevenementielde-reference-7",
+      "drapeau": "produit",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 216987,
+      "transparence": false,
+      "sujet": {
+        "x": 11.8,
+        "y": 13.1,
+        "l": 62.5,
+        "h": 48.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        48
+      ],
+      "cadrage_css": "48% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.73,
+          "ton": "sombre",
+          "recouvre_sujet": 0.39
+        },
+        {
+          "cote": "droite",
+          "score": 0.62,
+          "ton": "sombre",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "gauche",
+          "score": 0.5,
+          "ton": "sombre",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "bas",
+          "score": 0.47,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 5.6,
+        "bruit": 0.31,
+        "compression": 1.61,
+        "faible": true,
+        "raisons": [
+          "floue",
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "59393d4de6e777b6",
+      "drapeaux": [
+        "produit",
+        "floue",
+        "compression visible",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "prestataireevenementielde-reference-8.jpg",
+      "nom": "prestataireevenementielde-reference-8",
+      "drapeau": "produit",
+      "largeur": 1333,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 395160,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 32.8,
+        "l": 55.3,
+        "h": 39.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        32,
+        51
+      ],
+      "cadrage_css": "32% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.91,
+          "ton": "sombre",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "droite",
+          "score": 0.59,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.52,
+          "ton": "sombre",
+          "recouvre_sujet": 0.4
+        },
+        {
+          "cote": "bas",
+          "score": 0.46,
+          "ton": "sombre",
+          "recouvre_sujet": 0.12
+        }
+      ],
+      "qualite": {
+        "nettete": 14.9,
+        "bruit": 0.97,
+        "compression": 0.91,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "cbd34763f0ec6c13",
+      "drapeaux": [
+        "produit",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "prestataireevenementielde-reference-9.jpg",
+      "nom": "prestataireevenementielde-reference-9",
+      "drapeau": "produit",
+      "largeur": 2000,
+      "hauteur": 1335,
+      "ratio": "3:2",
+      "ratio_valeur": 1.498,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 626215,
+      "transparence": false,
+      "sujet": {
+        "x": 14.7,
+        "y": 29.4,
+        "l": 47.1,
+        "h": 61.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        40,
+        60
+      ],
+      "cadrage_css": "40% 60%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.3,
+          "ton": "sombre",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "haut",
+          "score": 0.27,
+          "ton": "sombre",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "gauche",
+          "score": 0.16,
+          "ton": "sombre",
+          "recouvre_sujet": 0.39
+        },
+        {
+          "cote": "bas",
+          "score": 0.16,
+          "ton": "sombre",
+          "recouvre_sujet": 0.35
+        }
+      ],
+      "qualite": {
+        "nettete": 68.7,
+        "bruit": 1.5,
+        "compression": 1.14,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "a6e1e0e0f8f0f068",
+      "drapeaux": [
+        "produit"
+      ]
+    },
+    {
+      "fichier": "prestataireevenementielde-reference-10.jpg",
+      "nom": "prestataireevenementielde-reference-10",
+      "drapeau": "produit",
+      "largeur": 2000,
+      "hauteur": 1825,
+      "ratio": "1.1",
+      "ratio_valeur": 1.096,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 312924,
+      "transparence": false,
+      "sujet": {
+        "x": 4,
+        "y": 33.4,
+        "l": 69.1,
+        "h": 62.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        54
+      ],
+      "cadrage_css": "45% 54%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.91,
+          "ton": "sombre",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "droite",
+          "score": 0.62,
+          "ton": "sombre",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "gauche",
+          "score": 0.24,
+          "ton": "sombre",
+          "recouvre_sujet": 0.56
+        },
+        {
+          "cote": "bas",
+          "score": 0.17,
+          "ton": "sombre",
+          "recouvre_sujet": 0.61
+        }
+      ],
+      "qualite": {
+        "nettete": 27.3,
+        "bruit": 0.9,
+        "compression": 1.17,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "e09ce2e9a9a9f176",
+      "drapeaux": [
+        "produit",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "prestataireevenementielde-reference-11.jpg",
+      "nom": "prestataireevenementielde-reference-11",
+      "drapeau": "produit",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 599929,
+      "transparence": false,
+      "sujet": {
+        "x": 20.6,
+        "y": 52.9,
+        "l": 60.3,
+        "h": 26.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        66
+      ],
+      "cadrage_css": "49% 66%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.39,
+          "ton": "sombre",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "haut",
+          "score": 0.35,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.34,
+          "ton": "sombre",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "droite",
+          "score": 0.32,
+          "ton": "sombre",
+          "recouvre_sujet": 0.14
+        }
+      ],
+      "qualite": {
+        "nettete": 54.9,
+        "bruit": 2.06,
+        "compression": 1.21,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "e8f0e4d0d8f0e11a",
+      "drapeaux": [
+        "produit"
+      ]
+    },
+    {
+      "fichier": "prestataireevenementielde-reference-12.jpg",
+      "nom": "prestataireevenementielde-reference-12",
+      "drapeau": "produit",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 290952,
+      "transparence": false,
+      "sujet": {
+        "x": 8.7,
+        "y": 22.2,
+        "l": 73.5,
+        "h": 45.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        48
+      ],
+      "cadrage_css": "49% 48%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.69,
+          "ton": "sombre",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "droite",
+          "score": 0.62,
+          "ton": "sombre",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "haut",
+          "score": 0.56,
+          "ton": "sombre",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "gauche",
+          "score": 0.47,
+          "ton": "sombre",
+          "recouvre_sujet": 0.35
+        }
+      ],
+      "qualite": {
+        "nettete": 28.1,
+        "bruit": 0.52,
+        "compression": 1.32,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "a0a6565a3e32bafa",
+      "drapeaux": [
+        "produit",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "prestataireevenementielde-reference-13.jpg",
+      "nom": "prestataireevenementielde-reference-13",
+      "drapeau": "produit",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 302168,
+      "transparence": false,
+      "sujet": {
+        "x": 26.5,
+        "y": 33.8,
+        "l": 50,
+        "h": 27.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        49
+      ],
+      "cadrage_css": "52% 49%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.86,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.53,
+          "ton": "sombre",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "gauche",
+          "score": 0.48,
+          "ton": "sombre",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "haut",
+          "score": 0.34,
+          "ton": "sombre",
+          "recouvre_sujet": 0.02
+        }
+      ],
+      "qualite": {
+        "nettete": 25.5,
+        "bruit": 0.53,
+        "compression": 1.22,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "c8d2d0524dcc6626",
+      "drapeaux": [
+        "produit",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "prestataireevenementielde-reference-14.jpg",
+      "nom": "prestataireevenementielde-reference-14",
+      "drapeau": "produit",
+      "largeur": 2000,
+      "hauteur": 1335,
+      "ratio": "3:2",
+      "ratio_valeur": 1.498,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 244243,
+      "transparence": false,
+      "sujet": {
+        "x": 10.5,
+        "y": 27.4,
+        "l": 83.8,
+        "h": 68.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        53
+      ],
+      "cadrage_css": "51% 53%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.19,
+          "ton": "sombre",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "gauche",
+          "score": 0.17,
+          "ton": "sombre",
+          "recouvre_sujet": 0.5
+        },
+        {
+          "cote": "haut",
+          "score": 0.16,
+          "ton": "sombre",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "droite",
+          "score": 0.13,
+          "ton": "sombre",
+          "recouvre_sujet": 0.59
+        }
+      ],
+      "qualite": {
+        "nettete": 12.3,
+        "bruit": 0.33,
+        "compression": 1.51,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "b0f7f9696d6d6326",
+      "drapeaux": [
+        "produit",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "prestataireevenementielde-reference-15.jpg",
+      "nom": "prestataireevenementielde-reference-15",
+      "drapeau": "produit",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 222159,
+      "transparence": false,
+      "sujet": {
+        "x": 22.2,
+        "y": 15.1,
+        "l": 62.3,
+        "h": 47,
+        "source": "corps"
+      },
+      "visages": 1,
+      "cadrage": [
+        68,
+        37
+      ],
+      "cadrage_css": "68% 37%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.77,
+          "ton": "clair",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "bas",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.67,
+          "ton": "clair",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "droite",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.29
+        }
+      ],
+      "qualite": {
+        "nettete": 11.1,
+        "bruit": 0.49,
+        "compression": 1.6,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "e8bcb3839b3307c4",
+      "drapeaux": [
+        "produit",
+        "visage",
+        "compression visible",
+        "calme haut/bas/gauche"
+      ]
+    },
+    {
+      "fichier": "prestataireevenementielde-reference-16.jpg",
+      "nom": "prestataireevenementielde-reference-16",
+      "drapeau": "produit",
+      "largeur": 2000,
+      "hauteur": 1499,
+      "ratio": "4:3",
+      "ratio_valeur": 1.334,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 746261,
+      "transparence": false,
+      "sujet": {
+        "x": 33.3,
+        "y": 31.8,
+        "l": 47.9,
+        "h": 38.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        43
+      ],
+      "cadrage_css": "53% 43%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.2,
+          "ton": "sombre",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "gauche",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "haut",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "droite",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 0.21
+        }
+      ],
+      "qualite": {
+        "nettete": 67.7,
+        "bruit": 1.35,
+        "compression": 1.14,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "c4e4e4c5cda4a637",
+      "drapeaux": [
+        "produit"
+      ]
+    },
+    {
+      "fichier": "pack-confort.jpg",
+      "nom": "pack-confort",
+      "drapeau": "produit",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 113265,
+      "transparence": false,
+      "sujet": {
+        "x": 11.8,
+        "y": 5.1,
+        "l": 75.4,
+        "h": 51.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        32
+      ],
+      "cadrage_css": "49% 32%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.28,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.24,
+          "ton": "clair",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "gauche",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "haut",
+          "score": 0.02,
+          "ton": "clair",
+          "recouvre_sujet": 0.64
+        }
+      ],
+      "qualite": {
+        "nettete": 30.2,
+        "bruit": 0.38,
+        "compression": 1.15,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "FOGBURST 900",
+        "blocs": 1,
+        "surface": 0.2,
+        "details": [
+          {
+            "texte": "FOGBURST 900",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "963769694979694b",
+      "drapeaux": [
+        "produit",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "pack-ambiance.jpg",
+      "nom": "pack-ambiance",
+      "drapeau": "produit",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 101789,
+      "transparence": false,
+      "sujet": {
+        "x": 32.4,
+        "y": 2.9,
+        "l": 33.8,
+        "h": 86.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        35
+      ],
+      "cadrage_css": "50% 35%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.3,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "haut",
+          "score": 0.25,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "bas",
+          "score": 0.13,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        }
+      ],
+      "qualite": {
+        "nettete": 35.2,
+        "bruit": 0.33,
+        "compression": 1.16,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "9696336b63176d6d",
+      "drapeaux": [
+        "produit",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "pack-professionnel.jpg",
+      "nom": "pack-professionnel",
+      "drapeau": "produit",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 151355,
+      "transparence": false,
+      "sujet": {
+        "x": 19.1,
+        "y": 4,
+        "l": 39.1,
+        "h": 68.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        40
+      ],
+      "cadrage_css": "48% 40%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.36,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.35,
+          "ton": "clair",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "gauche",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "haut",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 0.35
+        }
+      ],
+      "qualite": {
+        "nettete": 71.7,
+        "bruit": 0.39,
+        "compression": 0.91,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "ALTO · FOGBURST 900",
+        "blocs": 2,
+        "surface": 0.3,
+        "details": [
+          {
+            "texte": "ALTO",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "FOGBURST 900",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "33332b292b2b332b",
+      "drapeaux": [
+        "produit",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "enceinte-amplifiee.jpg",
+      "nom": "enceinte-amplifiee",
+      "drapeau": "produit",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 182217,
+      "transparence": false,
+      "sujet": {
+        "x": 29.2,
+        "y": 3.4,
+        "l": 42.8,
+        "h": 91.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        64
+      ],
+      "cadrage_css": "51% 64%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.51,
+          "ton": "clair",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "droite",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "bas",
+          "score": 0.43,
+          "ton": "clair",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "haut",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0.39
+        }
+      ],
+      "qualite": {
+        "nettete": 35.2,
+        "bruit": 0.65,
+        "compression": 0.91,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "8686868686868686",
+      "drapeaux": [
+        "produit",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "matteo-sacha-platines.jpg",
+      "nom": "matteo-sacha-platines",
+      "drapeau": "plat",
+      "largeur": 675,
+      "hauteur": 1200,
+      "ratio": "9:16",
+      "ratio_valeur": 0.563,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 50241,
+      "transparence": false,
+      "sujet": {
+        "x": 25,
+        "y": 33.8,
+        "l": 27.9,
+        "h": 36.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        39,
+        53
+      ],
+      "cadrage_css": "39% 53%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.97,
+          "ton": "sombre",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "droite",
+          "score": 0.74,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.72,
+          "ton": "sombre",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "bas",
+          "score": 0.69,
+          "ton": "sombre",
+          "recouvre_sujet": 0.04
+        }
+      ],
+      "qualite": {
+        "nettete": 30.1,
+        "bruit": 0.35,
+        "compression": 1.24,
+        "faible": true,
+        "raisons": [
+          "675 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "cordbal",
+        "blocs": 1,
+        "surface": 0.1,
+        "details": [
+          {
+            "texte": "cordbal",
+            "niveau": "marque"
+          }
+        ]
+      },
+      "empreinte": "000008f4e0ca29c8",
+      "drapeaux": [
+        "plat",
+        "petite",
+        "filigrane ou marque",
+        "calme haut/droite/gauche/bas"
+      ]
+    },
+    {
+      "fichier": "finissez-annee-beaute.jpg",
+      "nom": "finissez-annee-beaute",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1335,
+      "ratio": "3:2",
+      "ratio_valeur": 1.498,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 676544,
+      "transparence": false,
+      "sujet": {
+        "x": 29.4,
+        "y": 7.4,
+        "l": 45.6,
+        "h": 75,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        46
+      ],
+      "cadrage_css": "54% 46%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "gauche",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "droite",
+          "score": 0.12,
+          "ton": "moyen",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "haut",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.36
+        }
+      ],
+      "qualite": {
+        "nettete": 72.7,
+        "bruit": 1.41,
+        "compression": 1.23,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "f6d0f0e9f9f8b9ec",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "machine-fumee.jpg",
+      "nom": "machine-fumee",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 83148,
+      "transparence": false,
+      "sujet": {
+        "x": 10.8,
+        "y": 7,
+        "l": 65.4,
+        "h": 76.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        41
+      ],
+      "cadrage_css": "43% 41%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.4,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "droite",
+          "score": 0.38,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "gauche",
+          "score": 0.34,
+          "ton": "clair",
+          "recouvre_sujet": 0.56
+        },
+        {
+          "cote": "haut",
+          "score": 0.3,
+          "ton": "clair",
+          "recouvre_sujet": 0.52
+        }
+      ],
+      "qualite": {
+        "nettete": 12.8,
+        "bruit": 0.18,
+        "compression": 1.05,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "9a8e16271f9e4d5a",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "machine-fumee-900w.jpg",
+      "nom": "machine-fumee-900w",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 102157,
+      "transparence": false,
+      "sujet": {
+        "x": 4.9,
+        "y": 12.1,
+        "l": 91.2,
+        "h": 74.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        49
+      ],
+      "cadrage_css": "52% 49%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.35,
+          "ton": "clair",
+          "recouvre_sujet": 0.56
+        },
+        {
+          "cote": "gauche",
+          "score": 0.25,
+          "ton": "clair",
+          "recouvre_sujet": 0.65
+        },
+        {
+          "cote": "haut",
+          "score": 0.24,
+          "ton": "clair",
+          "recouvre_sujet": 0.6
+        },
+        {
+          "cote": "droite",
+          "score": 0.16,
+          "ton": "clair",
+          "recouvre_sujet": 0.67
+        }
+      ],
+      "qualite": {
+        "nettete": 7.9,
+        "bruit": 0.19,
+        "compression": 1.1,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "power · FOGBURST 900",
+        "blocs": 2,
+        "surface": 11.4,
+        "details": [
+          {
+            "texte": "power",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "FOGBURST 900",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "c6070d7d77271e91",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "machine-effet-co2.jpg",
+      "nom": "machine-effet-co2",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 119112,
+      "transparence": false,
+      "sujet": {
+        "x": 3.7,
+        "y": 7.7,
+        "l": 89.7,
+        "h": 88.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        41,
+        49
+      ],
+      "cadrage_css": "41% 49%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.15,
+          "ton": "clair",
+          "recouvre_sujet": 0.79
+        },
+        {
+          "cote": "gauche",
+          "score": 0.13,
+          "ton": "clair",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "droite",
+          "score": 0.11,
+          "ton": "clair",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "haut",
+          "score": 0.06,
+          "ton": "clair",
+          "recouvre_sujet": 0.7
+        }
+      ],
+      "qualite": {
+        "nettete": 8.8,
+        "bruit": 0.23,
+        "compression": 1.11,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Zibeamz · BLAZE",
+        "blocs": 2,
+        "surface": 3.4,
+        "details": [
+          {
+            "texte": "Zibeamz",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "BLAZE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "193e5b793307c525",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "fete-coeur-commune.jpg",
+      "nom": "fete-coeur-commune",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 333925,
+      "transparence": false,
+      "sujet": {
+        "x": 27.9,
+        "y": 14.7,
+        "l": 42.6,
+        "h": 58.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        47
+      ],
+      "cadrage_css": "49% 47%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.57,
+          "ton": "sombre",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "bas",
+          "score": 0.33,
+          "ton": "sombre",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "droite",
+          "score": 0.27,
+          "ton": "sombre",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "gauche",
+          "score": 0.26,
+          "ton": "sombre",
+          "recouvre_sujet": 0.18
+        }
+      ],
+      "qualite": {
+        "nettete": 44.2,
+        "bruit": 0.66,
+        "compression": 1.25,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "c6029696f0985212",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "micro-sans-fil.jpg",
+      "nom": "micro-sans-fil",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 69953,
+      "transparence": false,
+      "sujet": {
+        "x": 35.6,
+        "y": 3.2,
+        "l": 28.2,
+        "h": 92.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        45
+      ],
+      "cadrage_css": "50% 45%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.9,
+          "ton": "clair",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "gauche",
+          "score": 0.84,
+          "ton": "clair",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "haut",
+          "score": 0.61,
+          "ton": "clair",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "bas",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.25
+        }
+      ],
+      "qualite": {
+        "nettete": 20.4,
+        "bruit": 0.15,
+        "compression": 0.97,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "PROFESSI · less Microphone · 61522 · -SIO SAINTES",
+        "blocs": 4,
+        "surface": 0.8,
+        "details": [
+          {
+            "texte": "PROFESSI",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "less Microphone",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "61522",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "-SIO SAINTES",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "25252d4d4a4a5a5a",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme droite/gauche"
+      ]
+    },
+    {
+      "fichier": "table-mixage-6-voies.jpg",
+      "nom": "table-mixage-6-voies",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 223846,
+      "transparence": false,
+      "sujet": {
+        "x": 19.1,
+        "y": 5.4,
+        "l": 62.7,
+        "h": 89.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        39
+      ],
+      "cadrage_css": "53% 39%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.49
+        },
+        {
+          "cote": "gauche",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.47
+        },
+        {
+          "cote": "bas",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "haut",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.53
+        }
+      ],
+      "qualite": {
+        "nettete": 49.8,
+        "bruit": 0.89,
+        "compression": 1.07,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "MIC/LINE · ONYX MIC PRE · MIC/LINE · ONYX MIC PRE · OFF · LOW CUT (100H2) · LOW CUT (100H2) · LEVEL · SET · LEVEL · SET · 140 · +6640 · GAIN · GAIN · 12K-2 · LO",
+        "blocs": 63,
+        "surface": 3.2,
+        "details": [
+          {
+            "texte": "MIC/LINE",
+            "niveau": "marque"
+          },
+          {
+            "texte": "ONYX MIC PRE",
+            "niveau": "marque"
+          },
+          {
+            "texte": "MIC/LINE",
+            "niveau": "marque"
+          },
+          {
+            "texte": "ONYX MIC PRE",
+            "niveau": "marque"
+          },
+          {
+            "texte": "OFF",
+            "niveau": "marque"
+          },
+          {
+            "texte": "LOW CUT (100H2)",
+            "niveau": "marque"
+          },
+          {
+            "texte": "LOW CUT (100H2)",
+            "niveau": "marque"
+          },
+          {
+            "texte": "LEVEL",
+            "niveau": "marque"
+          },
+          {
+            "texte": "SET",
+            "niveau": "marque"
+          },
+          {
+            "texte": "LEVEL",
+            "niveau": "marque"
+          },
+          {
+            "texte": "SET",
+            "niveau": "marque"
+          },
+          {
+            "texte": "140",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "2333333b2b3b3b2b",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "donnez-rythme-soirees.jpg",
+      "nom": "donnez-rythme-soirees",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 770069,
+      "transparence": false,
+      "sujet": {
+        "x": 13.2,
+        "y": 20.6,
+        "l": 52.9,
+        "h": 47.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        43
+      ],
+      "cadrage_css": "42% 43%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.33,
+          "ton": "sombre",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "sombre",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "haut",
+          "score": 0.19,
+          "ton": "sombre",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "gauche",
+          "score": 0.16,
+          "ton": "sombre",
+          "recouvre_sujet": 0.32
+        }
+      ],
+      "qualite": {
+        "nettete": 79.7,
+        "bruit": 1.92,
+        "compression": 1.13,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "da6be3d97964e8ec",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "lyre-beam-100w.jpg",
+      "nom": "lyre-beam-100w",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 103212,
+      "transparence": false,
+      "sujet": {
+        "x": 23.5,
+        "y": 4.9,
+        "l": 53.5,
+        "h": 87.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        54
+      ],
+      "cadrage_css": "47% 54%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.41,
+          "ton": "clair",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "gauche",
+          "score": 0.38,
+          "ton": "clair",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "haut",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "bas",
+          "score": 0.25,
+          "ton": "clair",
+          "recouvre_sujet": 0.42
+        }
+      ],
+      "qualite": {
+        "nettete": 14,
+        "bruit": 0.24,
+        "compression": 1.11,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "WARNING · ANMIN DSIAACE OF · NTERALS FROK TRE · DONTROL AAMCE · REO · MENU · 000 · OONN BNTER",
+        "blocs": 8,
+        "surface": 0.7,
+        "details": [
+          {
+            "texte": "WARNING",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ANMIN DSIAACE OF",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "NTERALS FROK TRE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "DONTROL AAMCE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "REO",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "MENU",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "000",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "OONN BNTER",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "9c86869696961786",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "lyre-wash-7x12w.jpg",
+      "nom": "lyre-wash-7x12w",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 141095,
+      "transparence": false,
+      "sujet": {
+        "x": 26.8,
+        "y": 5.4,
+        "l": 46.3,
+        "h": 89.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        49
+      ],
+      "cadrage_css": "51% 49%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.45,
+          "ton": "clair",
+          "recouvre_sujet": 0.29
+        },
+        {
+          "cote": "droite",
+          "score": 0.36,
+          "ton": "clair",
+          "recouvre_sujet": 0.29
+        },
+        {
+          "cote": "bas",
+          "score": 0.29,
+          "ton": "clair",
+          "recouvre_sujet": 0.39
+        },
+        {
+          "cote": "haut",
+          "score": 0.27,
+          "ton": "clair",
+          "recouvre_sujet": 0.39
+        }
+      ],
+      "qualite": {
+        "nettete": 36.3,
+        "bruit": 0.53,
+        "compression": 1.07,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "algam · Lighting · Miniwash · 710 · MODE · Miniwash 710 · algam · DMX SIGNAL · ENTER",
+        "blocs": 9,
+        "surface": 2,
+        "details": [
+          {
+            "texte": "algam",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Lighting",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Miniwash",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "710",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "MODE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Miniwash 710",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "algam",
+            "niveau": "marque"
+          },
+          {
+            "texte": "DMX SIGNAL",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ENTER",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "4c8e9e8e8e96860e",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "filigrane ou marque"
+      ]
+    },
+    {
+      "fichier": "laser-1000mw.jpg",
+      "nom": "laser-1000mw",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 108977,
+      "transparence": false,
+      "sujet": {
+        "x": 16,
+        "y": 4.6,
+        "l": 70.2,
+        "h": 89.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        53
+      ],
+      "cadrage_css": "52% 53%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.39,
+          "ton": "clair",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "droite",
+          "score": 0.36,
+          "ton": "clair",
+          "recouvre_sujet": 0.59
+        },
+        {
+          "cote": "bas",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.59
+        },
+        {
+          "cote": "gauche",
+          "score": 0.24,
+          "ton": "clair",
+          "recouvre_sujet": 0.54
+        }
+      ],
+      "qualite": {
+        "nettete": 14,
+        "bruit": 0.23,
+        "compression": 1.04,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Acomeo · colbun dr · LUKE · 1OCORGE",
+        "blocs": 4,
+        "surface": 2,
+        "details": [
+          {
+            "texte": "Acomeo",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "colbun dr",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LUKE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "1OCORGE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "3323071f0f1f9f9c",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "laser-400mw.jpg",
+      "nom": "laser-400mw",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 106427,
+      "transparence": false,
+      "sujet": {
+        "x": 12.9,
+        "y": 3.8,
+        "l": 75.1,
+        "h": 90.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        54
+      ],
+      "cadrage_css": "53% 54%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.31,
+          "ton": "clair",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "haut",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "droite",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.64
+        },
+        {
+          "cote": "bas",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.64
+        }
+      ],
+      "qualite": {
+        "nettete": 14,
+        "bruit": 0.21,
+        "compression": 1.07,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "KUB · 400 AGB",
+        "blocs": 2,
+        "surface": 2.3,
+        "details": [
+          {
+            "texte": "KUB",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "400 AGB",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "2b6b332b2f373307",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "stroboscope.jpg",
+      "nom": "stroboscope",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 94589,
+      "transparence": false,
+      "sujet": {
+        "x": 17.3,
+        "y": 5.1,
+        "l": 66.7,
+        "h": 89,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        50
+      ],
+      "cadrage_css": "54% 50%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "bas",
+          "score": 0.43,
+          "ton": "clair",
+          "recouvre_sujet": 0.55
+        },
+        {
+          "cote": "gauche",
+          "score": 0.36,
+          "ton": "clair",
+          "recouvre_sujet": 0.51
+        },
+        {
+          "cote": "haut",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.57
+        }
+      ],
+      "qualite": {
+        "nettete": 7.2,
+        "bruit": 0.19,
+        "compression": 1.14,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "9c2d1f3b3b339b46",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "led.jpg",
+      "nom": "led",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 110537,
+      "transparence": false,
+      "sujet": {
+        "x": 14.5,
+        "y": 4.2,
+        "l": 70.6,
+        "h": 82.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        41
+      ],
+      "cadrage_css": "49% 41%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.31,
+          "ton": "clair",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "gauche",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "droite",
+          "score": 0.25,
+          "ton": "clair",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "bas",
+          "score": 0.18,
+          "ton": "clair",
+          "recouvre_sujet": 0.44
+        }
+      ],
+      "qualite": {
+        "nettete": 12.6,
+        "bruit": 0.23,
+        "compression": 1.01,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "8e962b2b2b170f2b",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "lumiere-flower.jpg",
+      "nom": "lumiere-flower",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 54739,
+      "transparence": false,
+      "sujet": {
+        "x": 14.5,
+        "y": 9.3,
+        "l": 74.1,
+        "h": 86,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        52
+      ],
+      "cadrage_css": "49% 52%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0.54
+        },
+        {
+          "cote": "droite",
+          "score": 0.61,
+          "ton": "clair",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "gauche",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.55
+        },
+        {
+          "cote": "bas",
+          "score": 0.56,
+          "ton": "clair",
+          "recouvre_sujet": 0.64
+        }
+      ],
+      "qualite": {
+        "nettete": 5.6,
+        "bruit": 0.09,
+        "compression": 1.1,
+        "faible": true,
+        "raisons": [
+          "1200 px de large",
+          "floue"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "0c165b07272f2e18",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "floue",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "ludipocket-spider.jpg",
+      "nom": "ludipocket-spider",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 122886,
+      "transparence": false,
+      "sujet": {
+        "x": 6.9,
+        "y": 5,
+        "l": 84.4,
+        "h": 90.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        53
+      ],
+      "cadrage_css": "51% 53%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0.75
+        },
+        {
+          "cote": "bas",
+          "score": 0.1,
+          "ton": "clair",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "droite",
+          "score": 0.06,
+          "ton": "clair",
+          "recouvre_sujet": 0.71
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.72
+        }
+      ],
+      "qualite": {
+        "nettete": 9.7,
+        "bruit": 0.23,
+        "compression": 1.14,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "SPIDER POCKET LYRE QUAD",
+        "blocs": 1,
+        "surface": 3.9,
+        "details": [
+          {
+            "texte": "SPIDER POCKET LYRE QUAD",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0701730f37169696",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "lumiere-butterfly.jpg",
+      "nom": "lumiere-butterfly",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 141020,
+      "transparence": false,
+      "sujet": {
+        "x": 19.1,
+        "y": 4.8,
+        "l": 63.4,
+        "h": 89.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        43
+      ],
+      "cadrage_css": "48% 43%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.37,
+          "ton": "clair",
+          "recouvre_sujet": 0.5
+        },
+        {
+          "cote": "haut",
+          "score": 0.22,
+          "ton": "clair",
+          "recouvre_sujet": 0.55
+        },
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0.47
+        },
+        {
+          "cote": "bas",
+          "score": 0.12,
+          "ton": "clair",
+          "recouvre_sujet": 0.53
+        }
+      ],
+      "qualite": {
+        "nettete": 25.9,
+        "bruit": 0.34,
+        "compression": 1.08,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "biza · LIGHT",
+        "blocs": 2,
+        "surface": 3.8,
+        "details": [
+          {
+            "texte": "biza",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LIGHT",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "1d9e27171313160e",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "structure-pont.jpg",
+      "nom": "structure-pont",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 107101,
+      "transparence": false,
+      "sujet": {
+        "x": 12.6,
+        "y": 3.4,
+        "l": 58.1,
+        "h": 18.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        18
+      ],
+      "cadrage_css": "45% 18%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.53,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.49,
+          "ton": "clair",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "gauche",
+          "score": 0.33,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "haut",
+          "score": 0.17,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        }
+      ],
+      "qualite": {
+        "nettete": 26.2,
+        "bruit": 0.28,
+        "compression": 1.11,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "2e2b292b2b2b3321",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "portique-t.jpg",
+      "nom": "portique-t",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 50820,
+      "transparence": false,
+      "sujet": {
+        "x": 35.2,
+        "y": 11.3,
+        "l": 28.2,
+        "h": 76.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        37
+      ],
+      "cadrage_css": "50% 37%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.72,
+          "ton": "clair",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "droite",
+          "score": 0.72,
+          "ton": "clair",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "bas",
+          "score": 0.48,
+          "ton": "clair",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "haut",
+          "score": 0.47,
+          "ton": "clair",
+          "recouvre_sujet": 0.19
+        }
+      ],
+      "qualite": {
+        "nettete": 15.1,
+        "bruit": 0.08,
+        "compression": 0.93,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "0b2f0c4d4d4e1e96",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme gauche/droite"
+      ]
+    },
+    {
+      "fichier": "videoprojecteur-4-000-lumens.jpg",
+      "nom": "videoprojecteur-4-000-lumens",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 57423,
+      "transparence": false,
+      "sujet": {
+        "x": 4.8,
+        "y": 21.8,
+        "l": 91.4,
+        "h": 54.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        47
+      ],
+      "cadrage_css": "55% 47%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.78,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "bas",
+          "score": 0.49,
+          "ton": "clair",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "gauche",
+          "score": 0.48,
+          "ton": "clair",
+          "recouvre_sujet": 0.48
+        },
+        {
+          "cote": "droite",
+          "score": 0.38,
+          "ton": "clair",
+          "recouvre_sujet": 0.5
+        }
+      ],
+      "qualite": {
+        "nettete": 18.1,
+        "bruit": 0.18,
+        "compression": 1.08,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "EPSON · JLEM",
+        "blocs": 2,
+        "surface": 0.4,
+        "details": [
+          {
+            "texte": "EPSON",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "JLEM",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "000b0b6766630986",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "ecran-projection-150-pouces.jpg",
+      "nom": "ecran-projection-150-pouces",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 46708,
+      "transparence": false,
+      "sujet": {
+        "x": 9.7,
+        "y": 4.9,
+        "l": 81.2,
+        "h": 67,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        42
+      ],
+      "cadrage_css": "50% 42%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.46,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "droite",
+          "score": 0.43,
+          "ton": "clair",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "gauche",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0.51
+        },
+        {
+          "cote": "haut",
+          "score": 0.27,
+          "ton": "clair",
+          "recouvre_sujet": 0.7
+        }
+      ],
+      "qualite": {
+        "nettete": 15.8,
+        "bruit": 0.05,
+        "compression": 0.64,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "5f515555555d5d50",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "pied-enceinte.jpg",
+      "nom": "pied-enceinte",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 39044,
+      "transparence": false,
+      "sujet": {
+        "x": 50.2,
+        "y": 7.3,
+        "l": 13.3,
+        "h": 78.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        38
+      ],
+      "cadrage_css": "55% 38%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.93,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.87,
+          "ton": "clair",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "haut",
+          "score": 0.82,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "bas",
+          "score": 0.61,
+          "ton": "clair",
+          "recouvre_sujet": 0.08
+        }
+      ],
+      "qualite": {
+        "nettete": 12,
+        "bruit": 0.06,
+        "compression": 0.72,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "042d2d2d2d4d0416",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme gauche/droite/haut"
+      ]
+    },
+    {
+      "fichier": "rallonges-multiprises.jpg",
+      "nom": "rallonges-multiprises",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 70382,
+      "transparence": false,
+      "sujet": {
+        "x": 4.2,
+        "y": 22,
+        "l": 91.1,
+        "h": 59.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        48
+      ],
+      "cadrage_css": "44% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.76,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "gauche",
+          "score": 0.63,
+          "ton": "clair",
+          "recouvre_sujet": 0.54
+        },
+        {
+          "cote": "bas",
+          "score": 0.63,
+          "ton": "clair",
+          "recouvre_sujet": 0.44
+        },
+        {
+          "cote": "droite",
+          "score": 0.56,
+          "ton": "clair",
+          "recouvre_sujet": 0.53
+        }
+      ],
+      "qualite": {
+        "nettete": 6.9,
+        "bruit": 0.15,
+        "compression": 1.17,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "00506e673b030320",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "controleur-dj.jpg",
+      "nom": "controleur-dj",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 136569,
+      "transparence": false,
+      "sujet": {
+        "x": 2.4,
+        "y": 22.5,
+        "l": 95.4,
+        "h": 54.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        46
+      ],
+      "cadrage_css": "50% 46%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "bas",
+          "score": 0.25,
+          "ton": "clair",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "gauche",
+          "score": 0.1,
+          "ton": "clair",
+          "recouvre_sujet": 0.51
+        },
+        {
+          "cote": "droite",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 0.52
+        }
+      ],
+      "qualite": {
+        "nettete": 15.3,
+        "bruit": 0.26,
+        "compression": 1.05,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Numark · LoI · TH DE TOCC · o ja la ic ic · serato",
+        "blocs": 5,
+        "surface": 3.4,
+        "details": [
+          {
+            "texte": "Numark",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LoI",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "TH DE TOCC",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "o ja la ic ic",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "serato",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "00355d4d4d4d6900",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "pack.jpg",
+      "nom": "pack",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 104479,
+      "transparence": false,
+      "sujet": {
+        "x": 27.9,
+        "y": 3.4,
+        "l": 50.8,
+        "h": 40.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        29
+      ],
+      "cadrage_css": "53% 29%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.49,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "bas",
+          "score": 0.48,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.38,
+          "ton": "clair",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "droite",
+          "score": 0.37,
+          "ton": "clair",
+          "recouvre_sujet": 0.19
+        }
+      ],
+      "qualite": {
+        "nettete": 43,
+        "bruit": 0.35,
+        "compression": 0.96,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "939393931292134b",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "caisson-basses.jpg",
+      "nom": "caisson-basses",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 363012,
+      "transparence": false,
+      "sujet": {
+        "x": 16.7,
+        "y": 3.9,
+        "l": 66.7,
+        "h": 90.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        31
+      ],
+      "cadrage_css": "50% 31%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.36,
+          "ton": "moyen",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "bas",
+          "score": 0.33,
+          "ton": "moyen",
+          "recouvre_sujet": 0.56
+        },
+        {
+          "cote": "gauche",
+          "score": 0.32,
+          "ton": "moyen",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "haut",
+          "score": 0.23,
+          "ton": "moyen",
+          "recouvre_sujet": 0.59
+        }
+      ],
+      "qualite": {
+        "nettete": 78.3,
+        "bruit": 1.66,
+        "compression": 0.99,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "ALTO · PROEEOSIONA",
+        "blocs": 2,
+        "surface": 0.3,
+        "details": [
+          {
+            "texte": "ALTO",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "PROEEOSIONA",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0723030b2b2b230f",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "platines-dj.jpg",
+      "nom": "platines-dj",
+      "drapeau": "plat",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 214548,
+      "transparence": false,
+      "sujet": {
+        "x": 2.1,
+        "y": 17.6,
+        "l": 95.5,
+        "h": 64.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        44
+      ],
+      "cadrage_css": "48% 44%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.48
+        },
+        {
+          "cote": "haut",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 0.47
+        },
+        {
+          "cote": "gauche",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.61
+        }
+      ],
+      "qualite": {
+        "nettete": 27.8,
+        "bruit": 0.52,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "3 ME · XDJ-XZ · 001B",
+        "blocs": 3,
+        "surface": 0.6,
+        "details": [
+          {
+            "texte": "3 ME",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "XDJ-XZ",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "001B",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "000d253571454d00",
+      "drapeaux": [
+        "plat",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "pack-club.jpg",
+      "nom": "pack-club",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 119423,
+      "transparence": false,
+      "sujet": {
+        "x": 8.7,
+        "y": 23.8,
+        "l": 43.4,
+        "h": 53.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        40,
+        47
+      ],
+      "cadrage_css": "40% 47%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.17,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "bas",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "gauche",
+          "score": 0.05,
+          "ton": "clair",
+          "recouvre_sujet": 0.42
+        }
+      ],
+      "qualite": {
+        "nettete": 28.7,
+        "bruit": 0.39,
+        "compression": 1.02,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "9617515555551596",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "pack-essentiel.jpg",
+      "nom": "pack-essentiel",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 900,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 99618,
+      "transparence": false,
+      "sujet": {
+        "x": 14.4,
+        "y": 8.6,
+        "l": 60.9,
+        "h": 85.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        48
+      ],
+      "cadrage_css": "52% 48%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.51
+        },
+        {
+          "cote": "gauche",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.55
+        },
+        {
+          "cote": "droite",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "haut",
+          "score": 0.07,
+          "ton": "clair",
+          "recouvre_sujet": 0.46
+        }
+      ],
+      "qualite": {
+        "nettete": 29,
+        "bruit": 0.31,
+        "compression": 0.95,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "LTO · FOGBURST 900",
+        "blocs": 2,
+        "surface": 0.6,
+        "details": [
+          {
+            "texte": "LTO",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "FOGBURST 900",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "4b6f6626276b6666",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    }
+  ]
+}

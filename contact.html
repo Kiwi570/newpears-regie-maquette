@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact et devis sous 24 h · NEWPEARS Saint-Quentin</title>
+<meta name="description" content="Demandez votre devis gratuit sous 24 h, 7 j/7 : téléphone, WhatsApp, e-mail ou formulaire. Saint-Quentin et 40 à 50 km autour.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://newpears-maquette.vercel.app/contact">
+<style>:root{--fond:#07070c;--texte:#f1efe9;--voile-fond:#07070c;--ouverture-fond:#07070c;--menu-fond:#0d0c15}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/polices/big-shoulders-display-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/polices/manrope-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#07070c">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="NEWPEARS">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Contact et devis sous 24 h · NEWPEARS Saint-Quentin">
+<meta property="og:description" content="Demandez votre devis gratuit sous 24 h, 7 j/7 : téléphone, WhatsApp, e-mail ou formulaire. Saint-Quentin et 40 à 50 km autour.">
+<meta property="og:url" content="https://newpears-maquette.vercel.app/contact">
+<meta property="og:image" content="https://newpears-maquette.vercel.app/assets/partage/contact-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Contacter NEWPEARS">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"NEWPEARS","description":"Location de sonorisation, d'éclairage et d'effets, et prestations DJ à Saint-Quentin (Aisne).","telephone":"+33626152454","email":"newpears@icloud.com","areaServed":["Saint-Quentin","Laon","Guise","Chauny","Tergnier","Ham","Bohain-en-Vermandois","Ribemont","Péronne","Soissons"],"address":{"@type":"PostalAddress","addressLocality":"Saint-Quentin","addressRegion":"Aisne","addressCountry":"FR"},"sameAs":["https://www.instagram.com/new.pears","https://www.tiktok.com/@newpears","https://www.facebook.com/newpears"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="faisceau" aria-hidden="true"><div class="voile-contenu"><svg class="voile-poire" viewBox="-30 -30 580 811" aria-hidden="true"><defs><linearGradient id="grad-voile-poire" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9b74ff"/><stop offset="1" stop-color="#46f0b0"/></linearGradient></defs><path class="poire-halo" d="M247,142 L224,145 L206,151 L189,161 L173,179 L167,191 L152,245 L141,272 L119,313 L69,392 L48,432 L36,467 L31,502 L32,543 L39,576 L46,596 L57,619 L82,655 L113,685 L143,705 L186,723 L228,731 L268,731 L311,723 L355,704 L393,677 L417,652 L442,614 L456,580 L463,550 L466,519 L462,477 L456,453 L448,432 L428,393 L381,319 L356,274 L348,255 L334,204 L325,181 L319,172 L308,161 L295,153 L268,144 L249,142 M241,50 L240,43 L232,29 L212,22 L172,19 L152,21 L130,27 L116,33 L91,48 L77,59 L54,82 L31,113 L26,133 M390,497 L386,527 L376,558 L362,583 L352,596 L336,612 L309,631 L285,642 L259,649 L232,651 M240,51 L234,57 L221,61 L187,90 L163,106 L134,122 L108,133 L68,141 L30,139 L26,134 M248,141 L248,57 L242,51" stroke="url(#grad-voile-poire)"/><path class="poire-trait" d="M247,142 L224,145 L206,151 L189,161 L173,179 L167,191 L152,245 L141,272 L119,313 L69,392 L48,432 L36,467 L31,502 L32,543 L39,576 L46,596 L57,619 L82,655 L113,685 L143,705 L186,723 L228,731 L268,731 L311,723 L355,704 L393,677 L417,652 L442,614 L456,580 L463,550 L466,519 L462,477 L456,453 L448,432 L428,393 L381,319 L356,274 L348,255 L334,204 L325,181 L319,172 L308,161 L295,153 L268,144 L249,142 M241,50 L240,43 L232,29 L212,22 L172,19 L152,21 L130,27 L116,33 L91,48 L77,59 L54,82 L31,113 L26,133 M390,497 L386,527 L376,558 L362,583 L352,596 L336,612 L309,631 L285,642 L259,649 L232,651 M240,51 L234,57 L221,61 L187,90 L163,106 L134,122 L108,133 L68,141 L30,139 L26,134 M248,141 L248,57 L242,51" stroke="url(#grad-voile-poire)" pathLength="1"/></svg><span data-voile-libelle>Contact</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <div class="ouverture-objet" data-ouverture-objet><svg class="ouverture-poire" viewBox="-30 -30 580 811" aria-hidden="true"><defs><linearGradient id="grad-ouverture-poire" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9b74ff"/><stop offset="1" stop-color="#46f0b0"/></linearGradient></defs><path class="poire-halo" d="M247,142 L224,145 L206,151 L189,161 L173,179 L167,191 L152,245 L141,272 L119,313 L69,392 L48,432 L36,467 L31,502 L32,543 L39,576 L46,596 L57,619 L82,655 L113,685 L143,705 L186,723 L228,731 L268,731 L311,723 L355,704 L393,677 L417,652 L442,614 L456,580 L463,550 L466,519 L462,477 L456,453 L448,432 L428,393 L381,319 L356,274 L348,255 L334,204 L325,181 L319,172 L308,161 L295,153 L268,144 L249,142 M241,50 L240,43 L232,29 L212,22 L172,19 L152,21 L130,27 L116,33 L91,48 L77,59 L54,82 L31,113 L26,133 M390,497 L386,527 L376,558 L362,583 L352,596 L336,612 L309,631 L285,642 L259,649 L232,651 M240,51 L234,57 L221,61 L187,90 L163,106 L134,122 L108,133 L68,141 L30,139 L26,134 M248,141 L248,57 L242,51" stroke="url(#grad-ouverture-poire)"/><path class="poire-trait" d="M247,142 L224,145 L206,151 L189,161 L173,179 L167,191 L152,245 L141,272 L119,313 L69,392 L48,432 L36,467 L31,502 L32,543 L39,576 L46,596 L57,619 L82,655 L113,685 L143,705 L186,723 L228,731 L268,731 L311,723 L355,704 L393,677 L417,652 L442,614 L456,580 L463,550 L466,519 L462,477 L456,453 L448,432 L428,393 L381,319 L356,274 L348,255 L334,204 L325,181 L319,172 L308,161 L295,153 L268,144 L249,142 M241,50 L240,43 L232,29 L212,22 L172,19 L152,21 L130,27 L116,33 L91,48 L77,59 L54,82 L31,113 L26,133 M390,497 L386,527 L376,558 L362,583 L352,596 L336,612 L309,631 L285,642 L259,649 L232,651 M240,51 L234,57 L221,61 L187,90 L163,106 L134,122 L108,133 L68,141 L30,139 L26,134 M248,141 L248,57 L242,51" stroke="url(#grad-ouverture-poire)" pathLength="1"/></svg></div>
+  <img class="ouverture-mot" src="/assets/images/logo-mot.webp" alt="" width="900" height="136">
+  <p class="ouverture-ligne">Son · Lumière · DJ</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="NEWPEARS, accueil" data-libelle="Accueil">
+      <img src="/assets/images/logo-entete-480.webp" alt="NEWPEARS" width="480" height="182">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/location" data-libelle="Location">Location</a></li><li><a href="/prestation-dj" data-libelle="Prestation DJ">Prestation DJ</a></li><li><a href="/evenements" data-libelle="Événements">Événements</a></li><li><a href="/contact" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton bouton--case" href="/contact#demande" data-libelle="Contact" data-demande-cible><span class="case-icone" aria-hidden="true"><i></i></span><span class="case-texte">Ma demande</span> <span class="case-compte" data-demande-compte aria-label="aucun article">0</span></a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/location" class="menu-lien" data-libelle="Location">Location</a></li><li style="--i:2"><a href="/prestation-dj" class="menu-lien" data-libelle="Prestation DJ">Prestation DJ</a></li><li style="--i:3"><a href="/evenements" class="menu-lien" data-libelle="Événements">Événements</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+  <p class="menu-contacts"><a class="bouton" href="tel:+33626152454">Appeler 06 26 15 24 54</a> <a class="bouton bouton--contour" href="https://wa.me/33626152454" target="_blank" rel="noopener">WhatsApp</a> <a class="bouton bouton--contour" href="mailto:newpears@icloud.com">newpears@icloud.com</a></p>
+</div>
+<div class="fil-lyres" data-grille="fil" data-effet="lyres-fil" aria-hidden="true">
+  <div class="fil-lyre fil-lyre--g"><span class="fil-faisceau"></span><img src="/assets/images/materiel/lyre-beam-100w-360.webp" alt="" width="360" height="449"></div>
+  <div class="fil-lyre fil-lyre--d"><span class="fil-faisceau"></span><img src="/assets/images/materiel/lyre-beam-100w-360.webp" alt="" width="360" height="449"></div>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="tete tete--contact" id="debut">
+  <div class="tete-texte conteneur">
+    <p class="sur" data-anime="gsap">Contact et devis</p>
+    <h1 data-grille="typo"><span class="ligne-masque"><span class="tete-ligne">Une date, un lieu ?</span></span></h1>
+    <a class="numero-led" href="tel:+33626152454" data-iris-centre data-anime="gsap" data-effet="numero-led" aria-label="Appeler le 06 26 15 24 54">06 26 15 24 54</a>
+    <p class="tete-actions" data-anime="gsap"><a class="bouton" href="#demande" data-action-principale>Envoyer ma demande</a><a class="bouton bouton--contour" href="https://wa.me/33626152454" target="_blank" rel="noopener">WhatsApp</a><a class="bouton bouton--contour" href="mailto:newpears@icloud.com">newpears@icloud.com</a><span class="tete-info" data-info-cle>Réponse sous 24 h, 7 j/7, y compris pour les demandes de dernière minute.</span></p>
+  </div>
+  <figure class="media tete-bande" data-grok data-fx="parallaxe" data-fx-force="14" style="--cadrage:50% 60%">
+  <picture>
+    <img src="/assets/images/grok/location-livraison-800.webp" srcset="/assets/images/grok/location-livraison-480.webp 480w, /assets/images/grok/location-livraison-640.webp 640w, /assets/images/grok/location-livraison-800.webp 800w" sizes="100vw" alt="Utilitaire ouvert devant une salle, flight cases sur un diable" width="800" height="533" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+</section>
+<section class="demande" id="demande">
+  <div class="conteneur demande-grille">
+    <form class="devis" data-formulaire data-devis novalidate>
+      <p class="sur">Votre demande</p>
+      <h2 data-anime="lignes">Quatre étapes, une minute</h2>
+      <ol class="devis-etapes" aria-label="Étapes"><li data-pastille="1" aria-current="step"><span>1</span>L&#39;événement</li><li data-pastille="2"><span>2</span>Date et lieu</li><li data-pastille="3"><span>3</span>Ce que vous souhaitez</li><li data-pastille="4"><span>4</span>Vos coordonnées</li></ol>
+      <p class="devis-progression" data-progression aria-live="polite">Étape 1 sur 4</p>
+      <fieldset class="devis-etape" data-etape="1">
+        <legend>L&#39;événement</legend>
+        <div class="champ"><label for="type">Type d&#39;événement</label><select id="type" name="type" required><option value="">Choisir</option><option value="mariage">Mariage</option><option value="anniversaire">Anniversaire</option><option value="famille">Baptême et famille</option><option value="entreprise">Entreprises</option><option value="seminaire">Séminaires et conférences</option><option value="festival">Festivals et concerts en plein air</option><option value="associations">Associations</option><option value="bars">Bars et restaurants</option><option value="mairies">Mairies et collectivités</option><option value="fin-annee">Fêtes de fin d&#39;année</option><option value="autre">Autre événement</option></select></div>
+        <div class="champ"><label for="invites">Nombre d&#39;invités (facultatif)</label><input id="invites" name="invites" type="number" min="1" inputmode="numeric"></div>
+      </fieldset>
+      <fieldset class="devis-etape" data-etape="2" hidden>
+        <legend>Date et lieu</legend>
+        <div class="champ"><label for="date">Date de l&#39;événement</label><input id="date" name="date" type="date" required></div>
+        <div class="champ"><label for="lieu">Ville ou lieu</label><input id="lieu" name="lieu" type="text" required autocomplete="address-level2"></div>
+      </fieldset>
+      <fieldset class="devis-etape" data-etape="3" hidden>
+        <legend>Ce que vous souhaitez</legend>
+        <div class="choix" role="radiogroup" aria-label="Vous souhaitez">
+          <label><input type="radio" name="souhait" value="dj" required> Une prestation DJ</label>
+          <label><input type="radio" name="souhait" value="location"> Une location de matériel</label>
+          <label><input type="radio" name="souhait" value="dj-location"> DJ et location</label>
+          <label><input type="radio" name="souhait" value="aide"> De l&#39;aide pour choisir</label>
+        </div>
+        <div class="choix" role="radiogroup" aria-label="Livraison">
+          <label><input type="radio" name="livraison" value="installation" checked> Livraison et installation</label>
+          <label><input type="radio" name="livraison" value="retrait"> Retrait sur place</label>
+        </div>
+        <div class="selection"><p class="selection-titre">Votre sélection</p><ul data-selection></ul><p class="selection-vide" data-selection-vide>Aucun article pour l&#39;instant. Ajoutez du matériel depuis le catalogue : <a href="/location#catalogue" class="lien-fleche" data-libelle="Location">Catalogue</a></p></div>
+      </fieldset>
+      <fieldset class="devis-etape" data-etape="4" hidden>
+        <legend>Vos coordonnées</legend>
+        <div class="champs-2"><div class="champ"><label for="prenom">Prénom</label><input id="prenom" name="prenom" type="text" required autocomplete="given-name"></div><div class="champ"><label for="nom">Nom</label><input id="nom" name="nom" type="text" required autocomplete="family-name"></div></div>
+        <div class="champs-2"><div class="champ"><label for="email">E-mail</label><input id="email" name="email" type="email" required autocomplete="email"></div><div class="champ"><label for="tel">Téléphone</label><input id="tel" name="tel" type="tel" required autocomplete="tel"></div></div>
+        <div class="champ"><label for="message">Message (facultatif)</label><textarea id="message" name="message" rows="3"></textarea></div>
+        <div class="champ champ--case"><label><input type="checkbox" name="consentement" required> J&#39;accepte que mes données servent seulement à répondre à ma demande.</label><p class="mention-donnees">La politique de confidentialité sera publiée avec le site.</p></div>
+      </fieldset>
+      <div class="devis-boutons">
+        <button type="button" class="bouton bouton--contour" data-precedent hidden>Retour</button>
+        <button type="button" class="bouton" data-suivant>Continuer</button>
+        <button type="submit" class="bouton" data-envoyer data-grille="retour" hidden>Envoyer ma demande</button>
+      </div>
+      <p data-message-envoi data-texte="Demande simulée : rien n&#39;a été envoyé. Sur le site final, elle partira chez NEWPEARS, qui répond sous 24 h." hidden tabindex="-1"></p>
+      <div class="tampon" data-tampon aria-hidden="true">Demande reçue</div>
+    </form>
+    <aside class="recap" data-recap>
+      <p class="recap-titre">Récapitulatif</p>
+      <dl data-recap-liste></dl>
+      <img class="recap-case" src="/assets/images/materiel/pack-club-360.webp" alt="" loading="lazy" data-recap-image hidden>
+      <div class="recap-vide" data-recap-vide>
+        <p class="recap-vide-images" aria-hidden="true"><img src="/assets/images/materiel/enceinte-amplifiee-360.webp" alt="" width="72" height="72" loading="lazy" decoding="async"><img src="/assets/images/materiel/lyre-beam-100w-360.webp" alt="" width="72" height="72" loading="lazy" decoding="async"><img src="/assets/images/materiel/micro-sans-fil-360.webp" alt="" width="72" height="72" loading="lazy" decoding="async"></p>
+        <p class="recap-vide-texte"><a href="/location#catalogue" class="lien-fleche" data-libelle="Location">Ajouter du matériel à la demande</a></p>
+      </div>
+    </aside>
+  </div>
+</section>
+<section class="joindre conteneur" id="joindre">
+  <div class="joindre-tete"><h2 data-anime="lignes">Ou directement</h2><img class="joindre-visuel" src="/assets/images/materiel/table-mixage-6-voies-720.webp" alt="" loading="lazy" data-visuel></div>
+  <ul class="joindre-liste" data-anime="cascade">
+    <li><span>Téléphone</span><a href="tel:+33626152454">06 26 15 24 54</a></li>
+    <li><span>WhatsApp</span><a href="https://wa.me/33626152454" target="_blank" rel="noopener">06 26 15 24 54</a></li>
+    <li><span>E-mail</span><a href="mailto:newpears@icloud.com">newpears@icloud.com</a></li>
+    <li><span>Réseaux</span><span class="reseaux"><a href="https://www.instagram.com/new.pears" target="_blank" rel="noopener">Instagram</a> <a href="https://www.tiktok.com/@newpears" target="_blank" rel="noopener">TikTok</a> <a href="https://www.facebook.com/newpears" target="_blank" rel="noopener">Facebook</a></span></li>
+  </ul>
+</section>
+<section class="zone" id="zone">
+  <div class="conteneur zone-grille">
+    <div>
+      <h2 data-anime="lignes">Où nous intervenons</h2>
+      <p data-anime>Livraison et installation offertes dans un rayon de 10 km. Au-delà, elles sont facturées au kilomètre, et nous allons plus loin sur demande.</p>
+    </div>
+    <div class="zone-carte" data-visuel data-fx="trace"><svg class="carte-zone" viewBox="0 0 600 600" role="img" aria-label="Où nous intervenons">
+  <circle class="zone-50" cx="300" cy="300" r="220.00000000000003" data-fx-trait/>
+  <circle class="zone-10" cx="300" cy="300" r="44" data-fx-trait/>
+  <g class="ville ville--centre" transform="translate(300.0 300.0)"><circle r="7"/><text x="12" y="4">Saint-Quentin</text></g><g class="ville" transform="translate(353.9 324.9)"><circle r="4.5"/><text x="9" y="4">Ribemont</text></g><g class="ville" transform="translate(232.2 348.5)"><circle r="4.5"/><text x="9" y="4">Ham</text></g><g class="ville" transform="translate(352.3 233.0)"><circle r="4.5"/><text x="9" y="4">Bohain-en-Vermandois</text></g><g class="ville" transform="translate(304.3 392.5)"><circle r="4.5"/><text x="9" y="4">Tergnier</text></g><g class="ville" transform="translate(407.5 274.3)"><circle r="4.5"/><text x="9" y="4">Guise</text></g><g class="ville" transform="translate(278.3 412.4)"><circle r="4.5"/><text x="9" y="4">Chauny</text></g><g class="ville" transform="translate(189.1 258.6)"><circle r="4.5"/><text x="9" y="4">Péronne</text></g><g class="ville" transform="translate(405.0 437.5)"><circle r="4.5"/><text x="9" y="4">Laon</text></g><g class="ville" transform="translate(311.4 526.2)"><circle r="4.5"/><text x="9" y="4">Soissons</text></g>
+</svg>
+<ul class="zone-legendes"><li><i class="pastille-10"></i>10 km : livraison offerte</li><li><i class="pastille-50"></i>40 à 50 km</li></ul></div>
+  </div>
+</section>
+<section class="questions conteneur" id="questions">
+  <h2 data-anime="lignes">Les questions qu&#39;on nous pose</h2>
+  <div class="questions-grille">
+    <div class="questions-liste" data-anime="cascade"><details class="faq-item"><summary>Comment sont calculés les prix ?</summary><p>Les prix sont TTC, pour une journée, hors livraison et options. Les week-ends se font sur devis.</p></details><details class="faq-item"><summary>La livraison est-elle offerte ?</summary><p>Oui, avec l&#39;installation, dans un rayon de 10 km autour de Saint-Quentin. Au-delà, elle est facturée au kilomètre.</p></details><details class="faq-item"><summary>Puis-je venir chercher le matériel ?</summary><p>Oui, le retrait sur place est possible pour les petites locations.</p></details><details class="faq-item"><summary>Y a-t-il une caution ?</summary><p>Oui, par chèque non encaissé : environ 1 500 à 2 000 € pour un pack. Elle vous est rendue au retour du matériel en bon état. En cas de casse, elle peut être conservée.</p></details><details class="faq-item"><summary>Faut-il verser un acompte ?</summary><p>Seulement en période de forte demande : 30 % pour confirmer la réservation. Dans ce cas, il n&#39;est pas remboursé en cas d&#39;annulation. Le reste de l&#39;année, prévenez-nous au plus vite.</p></details><details class="faq-item"><summary>Que comprend la prestation DJ ?</summary><p>Elle est sur devis et comprend la sonorisation, les lumières, le micro, la playlist personnalisée, l&#39;installation, le démontage et le déplacement.</p></details><details class="faq-item"><summary>Avez-vous une remise fidélité ?</summary><p>Oui : 5 % dès la deuxième location, et 5 % quand une personne que vous recommandez réserve.</p></details><details class="faq-item"><summary>Comment payer ?</summary><p>Par carte bancaire, en espèces, par chèque ou par virement.</p></details></div>
+    <figure class="questions-media questions-media--produit" data-visuel><img src="/assets/images/catalogue/pack-ambiance-900.webp" alt="Le Pack Ambiance de NEWPEARS : enceintes, lumières et pieds" width="900" height="675" loading="lazy" decoding="async"></figure>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div>
+      <img class="pied-logo" src="/assets/images/logo-entete-480.webp" alt="NEWPEARS" width="480" height="182" loading="lazy">
+      <p>Saint-Quentin et 50 km autour<br>7 j/7 · devis sous 24 h</p>
+    </div>
+    <div>
+      <p><strong>Contact</strong></p>
+      <ul>
+        <li><a href="tel:+33626152454">06 26 15 24 54</a></li>
+        <li><a href="https://wa.me/33626152454" target="_blank" rel="noopener">WhatsApp</a></li>
+        <li><a href="mailto:newpears@icloud.com">newpears@icloud.com</a></li>
+      </ul>
+    </div>
+    <nav aria-label="Pages">
+      <p><strong>Pages</strong></p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/location" data-libelle="Location">Location</a></li><li><a href="/prestation-dj" data-libelle="Prestation DJ">Prestation DJ</a></li><li><a href="/evenements" data-libelle="Événements">Événements</a></li><li><a href="/contact" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p><strong>Nous suivre</strong></p>
+      <ul>
+        <li><a href="https://www.instagram.com/new.pears" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.tiktok.com/@newpears" target="_blank" rel="noopener">TikTok</a></li>
+        <li><a href="https://www.facebook.com/newpears" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales : à compléter · Politique de confidentialité : à compléter</p><p>Maquette de démonstration : formulaire et demande simulés, rien n&#39;est envoyé.</p><p>© NEWPEARS</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33626152454">Appeler</a>
+  <a class="bouton" href="/contact#demande" data-libelle="Contact">Devis sous 24 h</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,285 @@
+{
+ "mission": "premier-ecran-attente",
+ "taille": "1440x900",
+ "depart": "/",
+ "erreurs": [],
+ "etapes": [
+  {
+   "k": 0,
+   "geste": "arrivée",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 3.3,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 7057,
+   "titres": [
+    "h1 LA SOIRÉE, ON LA RÈGLE AVEC VOUS."
+   ],
+   "actions": [
+    "NEWPEARS, accueil",
+    "Location",
+    "Prestation DJ",
+    "Événements",
+    "Contact",
+    "Ma demande 0",
+    "Demander un devis",
+    "06 26 15 24 54",
+    "Ajouter à ma demande"
+   ],
+   "prixVus": [
+    "169 €"
+   ],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-0.png"
+  },
+  {
+   "k": 1,
+   "geste": "attendre 1000",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 4.3,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 7057,
+   "titres": [
+    "h1 LA SOIRÉE, ON LA RÈGLE AVEC VOUS."
+   ],
+   "actions": [
+    "NEWPEARS, accueil",
+    "Location",
+    "Prestation DJ",
+    "Événements",
+    "Contact",
+    "Ma demande 0",
+    "Demander un devis",
+    "06 26 15 24 54",
+    "Ajouter à ma demande"
+   ],
+   "prixVus": [
+    "169 €"
+   ],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 2,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 4.3,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 7057,
+   "titres": [
+    "h1 LA SOIRÉE, ON LA RÈGLE AVEC VOUS."
+   ],
+   "actions": [
+    "NEWPEARS, accueil",
+    "Location",
+    "Prestation DJ",
+    "Événements",
+    "Contact",
+    "Ma demande 0",
+    "Demander un devis",
+    "06 26 15 24 54",
+    "Ajouter à ma demande"
+   ],
+   "prixVus": [
+    "169 €"
+   ],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-2.png"
+  },
+  {
+   "k": 3,
+   "geste": "attendre 2000",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 6.3,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 7057,
+   "titres": [
+    "h1 LA SOIRÉE, ON LA RÈGLE AVEC VOUS."
+   ],
+   "actions": [
+    "NEWPEARS, accueil",
+    "Location",
+    "Prestation DJ",
+    "Événements",
+    "Contact",
+    "Ma demande 0",
+    "Demander un devis",
+    "06 26 15 24 54",
+    "Ajouter à ma demande"
+   ],
+   "prixVus": [
+    "169 €"
+   ],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 4,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 6.3,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 7057,
+   "titres": [
+    "h1 LA SOIRÉE, ON LA RÈGLE AVEC VOUS."
+   ],
+   "actions": [
+    "NEWPEARS, accueil",
+    "Location",
+    "Prestation DJ",
+    "Événements",
+    "Contact",
+    "Ma demande 0",
+    "Demander un devis",
+    "06 26 15 24 54",
+    "Ajouter à ma demande"
+   ],
+   "prixVus": [
+    "169 €"
+   ],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-4.png"
+  },
+  {
+   "k": 5,
+   "geste": "attendre 3000",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 9.3,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 7057,
+   "titres": [
+    "h1 LA SOIRÉE, ON LA RÈGLE AVEC VOUS."
+   ],
+   "actions": [
+    "NEWPEARS, accueil",
+    "Location",
+    "Prestation DJ",
+    "Événements",
+    "Contact",
+    "Ma demande 0",
+    "Demander un devis",
+    "06 26 15 24 54",
+    "Ajouter à ma demande"
+   ],
+   "prixVus": [
+    "169 €"
+   ],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 6,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 9.3,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 7057,
+   "titres": [
+    "h1 LA SOIRÉE, ON LA RÈGLE AVEC VOUS."
+   ],
+   "actions": [
+    "NEWPEARS, accueil",
+    "Location",
+    "Prestation DJ",
+    "Événements",
+    "Contact",
+    "Ma demande 0",
+    "Demander un devis",
+    "06 26 15 24 54",
+    "Ajouter à ma demande"
+   ],
+   "prixVus": [
+    "169 €"
+   ],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-6.png"
+  }
+ ]
+}

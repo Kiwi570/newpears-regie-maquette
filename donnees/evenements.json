@@ -1,0 +1,13 @@
+[
+  { "id": "mariage", "nom": "Mariage", "phrase": "Entrée des mariés, discours, gâteau, ouverture du bal : chaque temps fort a sa musique et son micro prêt.", "image": "grok/evt-mariage", "teinte": "#8b66d6", "formule": "DJ ou Pack Professionnel" },
+  { "id": "anniversaire", "nom": "Anniversaire", "phrase": "À la maison ou en salle, un pack prêt à brancher ou un DJ pour toute la soirée.", "image": "grok/evt-anniversaire", "teinte": "#c25fb5", "formule": "Pack Confort ou DJ" },
+  { "id": "famille", "nom": "Baptême et famille", "phrase": "Un son clair pour le repas, puis de quoi danser.", "teinte": "#5d8fd6", "formule": "Pack Essentiel ou Confort" },
+  { "id": "entreprise", "nom": "Entreprises", "phrase": "Soirées du personnel, inaugurations, lancements.", "image": "grok/evt-entreprise", "teinte": "#3cc39a", "formule": "DJ, son et lumière" },
+  { "id": "seminaire", "nom": "Séminaires et conférences", "phrase": "Micros, vidéoprojecteur et écran, installés avant votre arrivée.", "image": "grok/evt-seminaire", "teinte": "#4fb3c9", "formule": "Location son et vidéo" },
+  { "id": "festival", "nom": "Festivals et concerts en plein air", "phrase": "La puissance qu'il faut dehors, avec structure et éclairage.", "teinte": "#e0a43a", "formule": "Son, lumière et structure" },
+  { "id": "associations", "nom": "Associations", "phrase": "Galas, soirées dansantes, lotos.", "teinte": "#d66a6a", "formule": "Pack ou DJ" },
+  { "id": "bars", "nom": "Bars et restaurants", "phrase": "Soirées à thème et DJ sets.", "image": "grok/evt-bar", "teinte": "#e07a3a", "formule": "DJ set ou location" },
+  { "id": "mairies", "nom": "Mairies et collectivités", "phrase": "Fêtes de village, 14 juillet, cérémonies.", "teinte": "#6a7ad6", "formule": "Son, lumière et micro" },
+  { "id": "fin-annee", "nom": "Fêtes de fin d'année", "phrase": "Noël, Saint-Sylvestre, repas de fin d'année.", "image": "grok/evt-fin-annee", "teinte": "#b48cff", "formule": "DJ ou Pack Club" },
+  { "id": "autre", "nom": "Autre événement", "phrase": "Dites-nous la date, le lieu et le nombre d'invités : on vous conseille.", "teinte": "#9a98a6", "formule": "Aide au choix" }
+]

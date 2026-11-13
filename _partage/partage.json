@@ -1,0 +1,180 @@
+{
+  "avertissements": [],
+  "cartes": [
+    {
+      "page": "accueil",
+      "langue": "fr",
+      "fichier": "assets/partage/accueil-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/salle-allumee-1280.webp",
+      "poids": 65024,
+      "sujet": {
+        "x": 600,
+        "y": 35,
+        "l": 600,
+        "h": 595
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "contact",
+      "langue": "fr",
+      "fichier": "assets/partage/contact-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/location-livraison-800.webp",
+      "poids": 74498,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 573
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "evenements",
+      "langue": "fr",
+      "fichier": "assets/partage/evenements-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/salle-allumee-1280.webp",
+      "poids": 66799,
+      "sujet": {
+        "x": 600,
+        "y": 35,
+        "l": 600,
+        "h": 595
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "location",
+      "langue": "fr",
+      "fichier": "assets/partage/location-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/location-flight-case-1280.webp",
+      "poids": 60639,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 602
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "prestation-dj",
+      "langue": "fr",
+      "fichier": "assets/partage/prestation-dj-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/dj-ouverture-1280.webp",
+      "poids": 57234,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 595
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 299,
+          "l": 480,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    }
+  ]
+}

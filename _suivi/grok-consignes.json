@@ -1,0 +1,317 @@
+{
+  "client": "NEWPEARS",
+  "activite": "spectacle",
+  "direction": "La régie",
+  "date": "2026-11-13T11:34:25.381Z",
+  "images": [
+    {
+      "nom": "accueil-cabine",
+      "fichier": "accueil-cabine.jpg",
+      "page": "accueil",
+      "emplacement": "Ouverture de l'accueil, derrière les lyres (ordinateur) (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "visages"
+      ],
+      "consigne": "Wide view from just behind two young DJs seen only from the back as dark silhouettes standing at a DJ controller on a small outdoor stage, looking out over a large crowd on a French town square at night; deep blue night sky filling the upper half, old stone town-hall facades with a slender pointed spire, warm street lamps, the crowd small and backlit in the middle distance, faint violet and teal stage light spilling at the edges, no face visible, no screen content readable. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Cinematic night-event photography, nocturnal, energetic yet warm mood, palette of deep blue-black night, violet (#8b66d6) and sea-green teal (#3cc39a) stage light, a touch of warm white, moving-head light beams through light haze, violet and teal washes, warm practical lights, tactile black speaker cabinets, aluminium truss, polished wooden parquet, white tablecloths, set in a small town in northern France on a mild evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. Seen strictly from behind, face never visible, head turned away, or cropped at the shoulders. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "salle-eteinte",
+      "fichier": "salle-eteinte.jpg",
+      "page": "accueil",
+      "emplacement": "La régie : la salle avant la soirée (état 1)",
+      "role": "section-fond",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "section-fond",
+      "pieges": [],
+      "consigne": "An empty French village party hall at dusk before the guests arrive, seen from the far end of the dance floor: polished wooden parquet, round tables with white tablecloths along both sides, at the back a DJ booth with two black speakers on tripod stands and an aluminium lighting truss with four moving-head lights all switched off (no light beams at all, no colored wash), only dim warm work lights on, faint haze, nobody in the room. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, nocturnal, energetic yet warm mood, palette of deep blue-black night, violet (#8b66d6) and sea-green teal (#3cc39a) stage light, a touch of warm white, moving-head light beams through light haze, violet and teal washes, warm practical lights, tactile black speaker cabinets, aluminium truss, polished wooden parquet, white tablecloths, set in a small town in northern France on a mild evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "salle-allumee",
+      "fichier": "salle-allumee.jpg",
+      "page": "accueil",
+      "emplacement": "La régie : la même salle en pleine soirée (état 2). Dans Grok, ouvrir salle-eteinte.jpg et demander cette modification, pour garder exactement le même cadrage",
+      "role": "section-fond",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "section-fond",
+      "pieges": [],
+      "consigne": "The exact same village party hall and the exact same framing as the reference image, now at night during the party: the four moving-head lights on the truss throw violet and teal beams through haze, violet and teal washes on the walls, the white tablecloths glowing, a few dancers on the parquet as motion-blurred dark silhouettes, no face visible. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, nocturnal, energetic yet warm mood, palette of deep blue-black night, violet (#8b66d6) and sea-green teal (#3cc39a) stage light, a touch of warm white, moving-head light beams through light haze, violet and teal washes, warm practical lights, tactile black speaker cabinets, aluminium truss, polished wooden parquet, white tablecloths, set in a small town in northern France on a mild evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "location-ouverture",
+      "fichier": "location-ouverture.jpg",
+      "page": "location",
+      "emplacement": "Ouverture de la page Location (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "Professional sound and light rental equipment lined up on a dark stage floor ready to be loaded: black speakers on tripod stands, a subwoofer, four moving-head lights on the floor, an aluminium truss section, a fog machine, black flight cases with aluminium edges, soft violet and teal rim light from behind, light haze, nobody, no brand names. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Cinematic night-event photography, nocturnal, energetic yet warm mood, palette of deep blue-black night, violet (#8b66d6) and sea-green teal (#3cc39a) stage light, a touch of warm white, moving-head light beams through light haze, violet and teal washes, warm practical lights, tactile black speaker cabinets, aluminium truss, polished wooden parquet, white tablecloths, set in a small town in northern France on a mild evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "location-ouverture",
+      "fichier": "location-ouverture-mobile.jpg",
+      "page": "location",
+      "emplacement": "Ouverture de la page Location (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "Professional sound and light rental equipment lined up on a dark stage floor ready to be loaded: black speakers on tripod stands, a subwoofer, four moving-head lights on the floor, an aluminium truss section, a fog machine, black flight cases with aluminium edges, soft violet and teal rim light from behind, light haze, nobody, no brand names. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, nocturnal, energetic yet warm mood, palette of deep blue-black night, violet (#8b66d6) and sea-green teal (#3cc39a) stage light, a touch of warm white, moving-head light beams through light haze, violet and teal washes, warm practical lights, tactile black speaker cabinets, aluminium truss, polished wooden parquet, white tablecloths, set in a small town in northern France on a mild evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "location-ouverture-mobile",
+      "fichier": "location-ouverture-mobile.jpg",
+      "page": "location",
+      "emplacement": "Ouverture de la page Location (téléphone, portrait)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "Vertical composition: a stack of black flight cases with aluminium edges, a black speaker on a tripod stand beside them and two moving-head lights on top, on a dark stage floor, soft violet and teal rim light from behind, light haze, nobody, no brand names, empty dark space in the upper third. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, nocturnal, energetic yet warm mood, palette of deep blue-black night, violet (#8b66d6) and sea-green teal (#3cc39a) stage light, a touch of warm white, moving-head light beams through light haze, violet and teal washes, warm practical lights, tactile black speaker cabinets, aluminium truss, polished wooden parquet, white tablecloths, set in a small town in northern France on a mild evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "location-flight-case",
+      "fichier": "location-flight-case.jpg",
+      "page": "location",
+      "emplacement": "Location : le flight case qui s'ouvre",
+      "role": "section-fond",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "section-fond",
+      "pieges": [
+        "mains en trop",
+        "écrans"
+      ],
+      "consigne": "Top-down view of an open black flight case with aluminium edges and grey foam inserts on a dark concrete floor, holding a wireless microphone, coiled XLR cables, a DMX cable and a small LED light, soft overhead light, nobody, no brand names. Landscape composition, aspect ratio 3:2, calm empty area in the right third of the frame for a title. Cinematic night-event photography, nocturnal, energetic yet warm mood, palette of deep blue-black night, violet (#8b66d6) and sea-green teal (#3cc39a) stage light, a touch of warm white, moving-head light beams through light haze, violet and teal washes, warm practical lights, tactile black speaker cabinets, aluminium truss, polished wooden parquet, white tablecloths, set in a small town in northern France on a mild evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. Only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame. Screen turned away from the camera, or showing only a soft abstract glow with no interface; plain unbranded devices. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "location-livraison",
+      "fichier": "location-livraison.jpg",
+      "page": "location",
+      "emplacement": "Location : étape livraison",
+      "role": "vignette",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "mains en trop",
+        "véhicules"
+      ],
+      "consigne": "A white utility van with its rear doors open in the evening in front of a small village hall entrance, black flight cases and speaker stands being unloaded on a hand trolley, warm entrance light, nobody visible, no logo, no license plate visible. Landscape composition, aspect ratio 3:2. Cinematic night-event photography, nocturnal, energetic yet warm mood, palette of deep blue-black night, violet (#8b66d6) and sea-green teal (#3cc39a) stage light, a touch of warm white, moving-head light beams through light haze, violet and teal washes, warm practical lights, tactile black speaker cabinets, aluminium truss, polished wooden parquet, white tablecloths, set in a small town in northern France on a mild evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. Only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame. No vehicles visible, only blurred light trails; or a plain unmarked vehicle with no license plate, no badge and no lettering. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "dj-ouverture",
+      "fichier": "dj-ouverture.jpg",
+      "page": "dj",
+      "emplacement": "Ouverture de la page Prestation DJ",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "mains en trop",
+        "paysage qui dérive"
+      ],
+      "consigne": "Close view of a DJ's hands on a modern two-deck DJ controller at a wedding reception at night, hands slightly motion-blurred on a jog wheel, controller lit by violet and teal stage light, guests dancing as soft blurred silhouettes in the background, shallow depth of field, no face visible, no brand name, no screen content readable. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Cinematic night-event photography, nocturnal, energetic yet warm mood, palette of deep blue-black night, violet (#8b66d6) and sea-green teal (#3cc39a) stage light, a touch of warm white, moving-head light beams through light haze, violet and teal washes, warm practical lights, tactile black speaker cabinets, aluminium truss, polished wooden parquet, white tablecloths, set in a small town in northern France on a mild evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. Only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame. A small town in northern France landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "dj-premiere-danse",
+      "fichier": "dj-premiere-danse.jpg",
+      "page": "dj",
+      "emplacement": "Prestation DJ : les temps forts (ouverture du bal)",
+      "role": "section-fond",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "section-fond",
+      "pieges": [],
+      "consigne": "A newly married couple's first dance seen as dark silhouettes in the middle of a wooden dance floor in a rural reception hall, a single white spotlight falling from above through light haze, teal and violet wash on the stone walls, guests standing around as dark silhouettes, no face visible. Landscape composition, aspect ratio 3:2, calm empty area in the right third of the frame for a title. Cinematic night-event photography, nocturnal, energetic yet warm mood, palette of deep blue-black night, violet (#8b66d6) and sea-green teal (#3cc39a) stage light, a touch of warm white, moving-head light beams through light haze, violet and teal washes, warm practical lights, tactile black speaker cabinets, aluminium truss, polished wooden parquet, white tablecloths, set in a small town in northern France on a mild evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "dj-micro-gateau",
+      "fichier": "dj-micro-gateau.jpg",
+      "page": "dj",
+      "emplacement": "Prestation DJ : micro prêt pour les discours",
+      "role": "vignette",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "écrans"
+      ],
+      "consigne": "A wireless microphone lying on a white tablecloth beside a tiered celebration cake with lit sparklers, warm candlelight, a violet dance-floor light glowing out of focus behind, nobody. Landscape composition, aspect ratio 3:2. Cinematic night-event photography, nocturnal, energetic yet warm mood, palette of deep blue-black night, violet (#8b66d6) and sea-green teal (#3cc39a) stage light, a touch of warm white, moving-head light beams through light haze, violet and teal washes, warm practical lights, tactile black speaker cabinets, aluminium truss, polished wooden parquet, white tablecloths, set in a small town in northern France on a mild evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. Screen turned away from the camera, or showing only a soft abstract glow with no interface; plain unbranded devices. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "evenements-ouverture",
+      "fichier": "evenements-ouverture.jpg",
+      "page": "evenements",
+      "emplacement": "Ouverture de la page Événements (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "visages"
+      ],
+      "consigne": "A summer village fête at night on a small town square: a small open-air stage with a lighting truss and two speakers, strings of warm bulbs between plane trees, a crowd of people dancing seen from behind as dark silhouettes with raised arms, violet and teal beams through haze, deep blue sky, no face visible. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Cinematic night-event photography, nocturnal, energetic yet warm mood, palette of deep blue-black night, violet (#8b66d6) and sea-green teal (#3cc39a) stage light, a touch of warm white, moving-head light beams through light haze, violet and teal washes, warm practical lights, tactile black speaker cabinets, aluminium truss, polished wooden parquet, white tablecloths, set in a small town in northern France on a mild evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. Seen strictly from behind, face never visible, head turned away, or cropped at the shoulders. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "evenements-ouverture",
+      "fichier": "evenements-ouverture-mobile.jpg",
+      "page": "evenements",
+      "emplacement": "Ouverture de la page Événements (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "visages"
+      ],
+      "consigne": "A summer village fête at night on a small town square: a small open-air stage with a lighting truss and two speakers, strings of warm bulbs between plane trees, a crowd of people dancing seen from behind as dark silhouettes with raised arms, violet and teal beams through haze, deep blue sky, no face visible. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, nocturnal, energetic yet warm mood, palette of deep blue-black night, violet (#8b66d6) and sea-green teal (#3cc39a) stage light, a touch of warm white, moving-head light beams through light haze, violet and teal washes, warm practical lights, tactile black speaker cabinets, aluminium truss, polished wooden parquet, white tablecloths, set in a small town in northern France on a mild evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. Seen strictly from behind, face never visible, head turned away, or cropped at the shoulders. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "evenements-ouverture-mobile",
+      "fichier": "evenements-ouverture-mobile.jpg",
+      "page": "evenements",
+      "emplacement": "Ouverture de la page Événements (téléphone, portrait)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "visages"
+      ],
+      "consigne": "Vertical composition of a summer village fête at night: strings of warm bulbs between plane trees in the upper half, a small open-air stage with a lighting truss below, people dancing seen from behind as dark silhouettes with raised arms at the bottom, violet and teal beams through haze, no face visible. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, nocturnal, energetic yet warm mood, palette of deep blue-black night, violet (#8b66d6) and sea-green teal (#3cc39a) stage light, a touch of warm white, moving-head light beams through light haze, violet and teal washes, warm practical lights, tactile black speaker cabinets, aluminium truss, polished wooden parquet, white tablecloths, set in a small town in northern France on a mild evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. Seen strictly from behind, face never visible, head turned away, or cropped at the shoulders. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "evt-mariage",
+      "fichier": "evt-mariage.jpg",
+      "page": "evenements",
+      "emplacement": "Événements : carte mariage",
+      "role": "vignette",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A wedding reception hall at night after dinner, round tables with white tablecloths and candles, a dance floor in the middle with a few dancing silhouettes, violet and teal wash lights and warm string lights, no face visible. Landscape composition, aspect ratio 3:2. Cinematic night-event photography, nocturnal, energetic yet warm mood, palette of deep blue-black night, violet (#8b66d6) and sea-green teal (#3cc39a) stage light, a touch of warm white, moving-head light beams through light haze, violet and teal washes, warm practical lights, tactile black speaker cabinets, aluminium truss, polished wooden parquet, white tablecloths, set in a small town in northern France on a mild evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "evt-anniversaire",
+      "fichier": "evt-anniversaire.jpg",
+      "page": "evenements",
+      "emplacement": "Événements : carte anniversaire",
+      "role": "vignette",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A birthday party in a small village hall at night, large golden number balloons out of focus, guests dancing as backlit silhouettes, colored beams through haze, confetti in the air, no face visible, no readable number. Landscape composition, aspect ratio 3:2. Cinematic night-event photography, nocturnal, energetic yet warm mood, palette of deep blue-black night, violet (#8b66d6) and sea-green teal (#3cc39a) stage light, a touch of warm white, moving-head light beams through light haze, violet and teal washes, warm practical lights, tactile black speaker cabinets, aluminium truss, polished wooden parquet, white tablecloths, set in a small town in northern France on a mild evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "evt-entreprise",
+      "fichier": "evt-entreprise.jpg",
+      "page": "evenements",
+      "emplacement": "Événements : carte entreprise",
+      "role": "vignette",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A company evening party in a modern event room with concrete walls, a long bar counter lit warm, guests in smart clothes seen from behind as silhouettes, a DJ booth with violet light at the back, no face visible, no logo. Landscape composition, aspect ratio 3:2. Cinematic night-event photography, nocturnal, energetic yet warm mood, palette of deep blue-black night, violet (#8b66d6) and sea-green teal (#3cc39a) stage light, a touch of warm white, moving-head light beams through light haze, violet and teal washes, warm practical lights, tactile black speaker cabinets, aluminium truss, polished wooden parquet, white tablecloths, set in a small town in northern France on a mild evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "evt-seminaire",
+      "fichier": "evt-seminaire.jpg",
+      "page": "evenements",
+      "emplacement": "Événements : carte seminaire",
+      "role": "vignette",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "écrans"
+      ],
+      "consigne": "A seminar room set up for a conference: rows of chairs seen from behind, a video projector beam crossing the room onto a large blank screen, a lectern with a microphone, cool daylight mixed with teal light, nobody on stage, no text on the screen. Landscape composition, aspect ratio 3:2. Cinematic night-event photography, nocturnal, energetic yet warm mood, palette of deep blue-black night, violet (#8b66d6) and sea-green teal (#3cc39a) stage light, a touch of warm white, moving-head light beams through light haze, violet and teal washes, warm practical lights, tactile black speaker cabinets, aluminium truss, polished wooden parquet, white tablecloths, set in a small town in northern France on a mild evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. Screen turned away from the camera, or showing only a soft abstract glow with no interface; plain unbranded devices. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "evt-bar",
+      "fichier": "evt-bar.jpg",
+      "page": "evenements",
+      "emplacement": "Événements : carte bar",
+      "role": "vignette",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A warm bar at night with a small DJ corner: a DJ controller on a wooden counter, two small speakers, warm Edison bulbs and a violet light on brick walls, customers as blurred silhouettes, no face visible, no brand. Landscape composition, aspect ratio 3:2. Cinematic night-event photography, nocturnal, energetic yet warm mood, palette of deep blue-black night, violet (#8b66d6) and sea-green teal (#3cc39a) stage light, a touch of warm white, moving-head light beams through light haze, violet and teal washes, warm practical lights, tactile black speaker cabinets, aluminium truss, polished wooden parquet, white tablecloths, set in a small town in northern France on a mild evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "evt-fin-annee",
+      "fichier": "evt-fin-annee.jpg",
+      "page": "evenements",
+      "emplacement": "Événements : carte fin-annee",
+      "role": "vignette",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A New Year's Eve party in a village hall at midnight: confetti and streamers falling through violet and teal light beams, guests with raised arms as dark silhouettes, haze, no face visible, no readable numbers. Landscape composition, aspect ratio 3:2. Cinematic night-event photography, nocturnal, energetic yet warm mood, palette of deep blue-black night, violet (#8b66d6) and sea-green teal (#3cc39a) stage light, a touch of warm white, moving-head light beams through light haze, violet and teal washes, warm practical lights, tactile black speaker cabinets, aluminium truss, polished wooden parquet, white tablecloths, set in a small town in northern France on a mild evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "contact-ouverture",
+      "fichier": "contact-ouverture.jpg",
+      "page": "contact",
+      "emplacement": "Ouverture de la page Contact",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "mains en trop"
+      ],
+      "consigne": "Close view of a lighting control desk in a dark venue: rows of faders and glowing buttons lit violet and teal, a technician's hand slightly blurred on one fader, haze and out-of-focus colored beams in the background, no brand name, no readable screen. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Cinematic night-event photography, nocturnal, energetic yet warm mood, palette of deep blue-black night, violet (#8b66d6) and sea-green teal (#3cc39a) stage light, a touch of warm white, moving-head light beams through light haze, violet and teal washes, warm practical lights, tactile black speaker cabinets, aluminium truss, polished wooden parquet, white tablecloths, set in a small town in northern France on a mild evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. Only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "page-404",
+      "fichier": "page-404.jpg",
+      "page": "404",
+      "emplacement": "Page 404",
+      "role": "404",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "404",
+      "pieges": [],
+      "consigne": "An empty village party hall after the party: chairs stacked on the tables, confetti on the parquet, a single moving-head light pointing straight down onto the empty dance floor through haze, everything else dark, nobody. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Cinematic night-event photography, nocturnal, energetic yet warm mood, palette of deep blue-black night, violet (#8b66d6) and sea-green teal (#3cc39a) stage light, a touch of warm white, moving-head light beams through light haze, violet and teal washes, warm practical lights, tactile black speaker cabinets, aluminium truss, polished wooden parquet, white tablecloths, set in a small town in northern France on a mild evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    }
+  ]
+}

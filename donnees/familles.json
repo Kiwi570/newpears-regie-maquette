@@ -1,0 +1,7 @@
+[
+  { "id": "son", "nom": "Sonorisation", "phrase": "Enceintes, caissons, micros et platines.", "prix": "Enceintes dès 30 € la journée", "image": "enceinte-amplifiee" },
+  { "id": "lumiere", "nom": "Éclairage", "phrase": "Lyres Wash et Beam, lasers, PAR LED, stroboscopes et effets.", "prix": "Éclairage dès 10 € la journée", "image": "lyre-beam-100w" },
+  { "id": "effets", "nom": "Effets spéciaux", "phrase": "Fumée et jets de CO2 pour les temps forts.", "prix": "Prix à la journée sur devis", "image": "machine-effet-co2" },
+  { "id": "structure", "nom": "Structure", "phrase": "Ponts et portiques pour accrocher l'éclairage.", "prix": "Prix à la journée sur devis", "image": "structure-pont" },
+  { "id": "video", "nom": "Vidéo", "phrase": "Vidéoprojecteur et écran pour les images.", "prix": "Prix à la journée sur devis", "image": "videoprojecteur-4-000-lumens" }
+]

@@ -1,0 +1,237 @@
+{
+ "mission": "difference",
+ "taille": "1440x900",
+ "depart": "/",
+ "erreurs": [],
+ "etapes": [
+  {
+   "k": 0,
+   "geste": "arrivée",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 3.3,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 7044,
+   "titres": [
+    "h1 LA SOIRÉE, ON LA RÈGLE AVEC VOUS."
+   ],
+   "actions": [
+    "NEWPEARS, accueil",
+    "Location",
+    "Prestation DJ",
+    "Événements",
+    "Contact",
+    "Ma demande 0",
+    "Demander un devis",
+    "06 26 15 24 54",
+    "Ajouter à ma demande"
+   ],
+   "prixVus": [
+    "169 €"
+   ],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-0.png"
+  },
+  {
+   "k": 1,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 1,
+   "secondes": 4.1,
+   "adresse": "/",
+   "y": 724,
+   "hauteurPage": 7044,
+   "titres": [],
+   "actions": [
+    "Ajouter à ma demande",
+    "Ouvrir le flight case"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 2,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 1,
+   "secondes": 4.1,
+   "adresse": "/",
+   "y": 724,
+   "hauteurPage": 7044,
+   "titres": [],
+   "actions": [
+    "Ajouter à ma demande",
+    "Ouvrir le flight case"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-2.png"
+  },
+  {
+   "k": 3,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 2,
+   "secondes": 4.9,
+   "adresse": "/",
+   "y": 1530,
+   "hauteurPage": 7043,
+   "titres": [
+    "h3 ENCEINTE AMPLIFIÉE",
+    "h3 LYRE BEAM 100W",
+    "h3 LASER 1000MW",
+    "h3 MACHINE À FUMÉE",
+    "h3 MICRO SANS FIL",
+    "h3 VOTRE DEMANDE",
+    "h3 VOTRE DEVIS SOUS 24 H",
+    "h3 LA PRÉPARATION"
+   ],
+   "actions": [
+    "Ajouter à ma demande"
+   ],
+   "prixVus": [
+    "30 €",
+    "10 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 4,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 2,
+   "secondes": 4.9,
+   "adresse": "/",
+   "y": 1530,
+   "hauteurPage": 7043,
+   "titres": [
+    "h3 ENCEINTE AMPLIFIÉE",
+    "h3 LYRE BEAM 100W",
+    "h3 LASER 1000MW",
+    "h3 MACHINE À FUMÉE",
+    "h3 MICRO SANS FIL",
+    "h3 VOTRE DEMANDE",
+    "h3 VOTRE DEVIS SOUS 24 H",
+    "h3 LA PRÉPARATION"
+   ],
+   "actions": [
+    "Ajouter à ma demande"
+   ],
+   "prixVus": [
+    "30 €",
+    "10 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-4.png"
+  },
+  {
+   "k": 5,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 3,
+   "secondes": 5.6,
+   "adresse": "/",
+   "y": 2295,
+   "hauteurPage": 7043,
+   "titres": [
+    "h2 VOUS LOUEZ. ON S'OCCUPE DE TOUT.",
+    "h3 LOCATION",
+    "h3 PRESTATION DJ"
+   ],
+   "actions": [
+    "Voir le matériel",
+    "Découvrir la prestation DJ"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 6,
+   "geste": "capture",
+   "resultat": "ok",
+   "gestes": 3,
+   "secondes": 5.6,
+   "adresse": "/",
+   "y": 2295,
+   "hauteurPage": 7043,
+   "titres": [
+    "h2 VOUS LOUEZ. ON S'OCCUPE DE TOUT.",
+    "h3 LOCATION",
+    "h3 PRESTATION DJ"
+   ],
+   "actions": [
+    "Voir le matériel",
+    "Découvrir la prestation DJ"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-6.png"
+  }
+ ]
+}

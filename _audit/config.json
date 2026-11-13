@@ -1,0 +1,32 @@
+{
+  "siteActuel": "newpears.fr",
+  "pagesTypes": [
+    "/",
+    "/location",
+    "/prestation-dj",
+    "/evenements",
+    "/contact"
+  ],
+  "effets": [
+    "regie-faisceaux",
+    "metier-pack",
+    "led-styles",
+    "evts-ambiance",
+    "fin-balayage",
+    "lyres-fil",
+    "packs-selecteur",
+    "flight-case",
+    "catalogue-filtre",
+    "vumetre",
+    "inclus-led",
+    "egaliseur",
+    "index-ambiance",
+    "numero-led",
+    "console-vu",
+    "couvercle",
+    "salle-allume"
+  ],
+  "grille": {
+    "dispenses": {}
+  }
+}

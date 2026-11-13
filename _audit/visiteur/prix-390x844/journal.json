@@ -1,0 +1,162 @@
+{
+ "mission": "prix",
+ "taille": "390x844",
+ "depart": "/",
+ "erreurs": [],
+ "etapes": [
+  {
+   "k": 0,
+   "geste": "arrivée",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 3.4,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 8948,
+   "titres": [
+    "h1 LA SOIRÉE, ON LA RÈGLE AVEC VOUS."
+   ],
+   "actions": [
+    "NEWPEARS, accueil",
+    "Ma demande 0",
+    "Menu",
+    "Demander un devis",
+    "06 26 15 24 54",
+    "Ajouter à ma demande",
+    "Appeler",
+    "Devis sous 24 h"
+   ],
+   "prixVus": [
+    "169 €"
+   ],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-0.png"
+  },
+  {
+   "k": 1,
+   "geste": "menu",
+   "resultat": "ok",
+   "gestes": 1,
+   "secondes": 4.7,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 8948,
+   "titres": [
+    "h1 LA SOIRÉE, ON LA RÈGLE AVEC VOUS."
+   ],
+   "actions": [
+    "NEWPEARS, accueil",
+    "Ma demande 0",
+    "Fermer",
+    "ACCUEIL",
+    "LOCATION",
+    "PRESTATION DJ",
+    "ÉVÉNEMENTS",
+    "CONTACT",
+    "Appeler 06 26 15 24 54",
+    "Demander un devis",
+    "06 26 15 24 54",
+    "Ajouter à ma demande",
+    "Appeler",
+    "Devis sous 24 h"
+   ],
+   "prixVus": [
+    "169 €"
+   ],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": true
+  },
+  {
+   "k": 2,
+   "geste": "cliquer LOCATION",
+   "resultat": "ok",
+   "gestes": 2,
+   "secondes": 7.1,
+   "adresse": "/location",
+   "y": 0,
+   "hauteurPage": 20351,
+   "titres": [
+    "h1 LE MATÉRIEL, LIVRÉ ET INSTALLÉ"
+   ],
+   "actions": [
+    "NEWPEARS, accueil",
+    "Ma demande 0",
+    "Menu",
+    "Les packs",
+    "Demander un devis",
+    "Appeler",
+    "Devis sous 24 h"
+   ],
+   "prixVus": [
+    "169 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €",
+    "000 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 3,
+   "geste": "cliquer Les packs",
+   "resultat": "ok",
+   "gestes": 3,
+   "secondes": 9.3,
+   "adresse": "/location#packs",
+   "y": 740,
+   "hauteurPage": 20351,
+   "titres": [
+    "h2 CHOISISSEZ L'AMBIANCE, ON S'OCCUPE DU RESTE"
+   ],
+   "actions": [
+    "ESSENTIEL",
+    "CONFORT",
+    "AMBIANCE",
+    "CLUB",
+    "PROFESSIONNEL",
+    "Appeler",
+    "Devis sous 24 h"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €",
+    "000 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-3.png"
+  }
+ ]
+}

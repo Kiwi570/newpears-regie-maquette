@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Esquisse C — Le banc d'essai</title>
+<style>
+@font-face{font-family:BSD;src:url(/_suivi/esquisses/polices/big-shoulders-display-latin-wght-normal.woff2) format('woff2');font-weight:100 900}
+@font-face{font-family:Manrope;src:url(/_suivi/esquisses/polices/manrope-latin-wght-normal.woff2) format('woff2');font-weight:200 800}
+@font-face{font-family:Doto;src:url(/_suivi/esquisses/polices/doto-latin-full-normal.woff2) format('woff2');font-weight:100 900}
+:root{--fond:#f1efea;--encre:#14131a;--violet:#7b5cc0;--vert:#2fa985;--gris:#6d6a75}
+*{box-sizing:border-box;margin:0}
+html,body{height:100%;background:var(--fond);color:var(--encre);font-family:Manrope,sans-serif;overflow:hidden}
+.scene{position:relative;height:100vh;overflow:hidden;background:radial-gradient(60% 70% at 78% 52%,#ffffff 0%,#f6f5f1 45%,#ecebe5 100%)}
+.entete{position:absolute;top:0;left:0;right:0;height:68px;display:flex;align-items:center;justify-content:space-between;padding:0 4vw;z-index:6;background:#f1efeaee;border-bottom:1px solid #14131a14}
+.entete img{height:42px}.entete nav{display:flex;gap:30px;font-weight:600;font-size:15px}
+.b{font-weight:700;font-size:15px;padding:14px 22px;border-radius:999px;border:1.5px solid var(--encre);color:var(--encre);text-decoration:none;display:inline-block}
+.b.p{background:var(--encre);color:#fff}
+.sur{position:absolute;left:4vw;top:96px;font-family:Doto;font-weight:900;font-size:15px;letter-spacing:.04em;color:var(--gris)}
+.index{position:absolute;left:4vw;top:126px;list-style:none;padding:0;z-index:3}
+.index li{font-family:BSD;font-weight:900;text-transform:uppercase;font-size:clamp(46px,7.4vh,82px);line-height:.9;letter-spacing:-.005em;color:#14131a24;display:flex;align-items:baseline;gap:18px}
+.index li small{font-family:Manrope;font-weight:700;font-size:14px;letter-spacing:0;color:var(--gris);text-transform:none}
+.index li.on{color:var(--encre);font-size:clamp(70px,13vh,140px);line-height:.92}
+.index li.on span{background:linear-gradient(90deg,var(--violet),var(--vert));-webkit-background-clip:text;background-clip:text;color:transparent}
+.index li.on small{color:var(--encre);font-size:16px}
+.objet{position:absolute;right:9vw;top:20vh;width:30vw;max-width:470px;z-index:2;mix-blend-mode:multiply}
+.faisceau{position:absolute;inset:0;z-index:1;pointer-events:none;mix-blend-mode:multiply}
+.fiche{position:absolute;right:5vw;bottom:8vh;width:330px;z-index:4;background:#fff;border-radius:14px;padding:18px 20px;box-shadow:0 20px 40px #14131a1a;border:1px solid #14131a12}
+.fiche h2{font-family:BSD;font-weight:800;font-size:30px;text-transform:uppercase;line-height:1}
+.fiche p{font-size:14px;color:#4a4752;margin:6px 0 12px;line-height:1.45}
+.fiche .ligne{display:flex;justify-content:space-between;align-items:center}
+.fiche .prix{font-family:Doto;font-weight:900;font-size:22px}
+.inter{display:flex;align-items:center;gap:10px;font-weight:700;font-size:13px}
+.inter i{width:46px;height:26px;border-radius:13px;background:linear-gradient(90deg,var(--violet),var(--vert));position:relative}
+.inter i::after{content:"";position:absolute;right:3px;top:3px;width:20px;height:20px;border-radius:50%;background:#fff}
+.bas{position:absolute;left:4vw;bottom:6vh;z-index:4;max-width:540px}
+.bas h1{font-size:19px;font-weight:700;line-height:1.35}
+.bas p{font-size:16px;color:#4a4752;margin:8px 0 18px;line-height:1.5}
+.bas .btns{display:flex;gap:10px}
+@media (max-width:700px){
+  .entete nav{display:none}.entete img{height:30px}
+  .sur{top:84px;left:20px;font-size:12px}
+  .index{top:108px;left:20px}
+  .index li{font-size:34px}.index li.on{font-size:64px}.index li small{display:none}.index li.on small{display:inline;font-size:13px}
+  .objet{right:-4vw;top:28vh;width:62vw}
+  .fiche{display:none}
+  .bas{left:20px;right:20px;bottom:24px}.bas h1{font-size:17px}.bas p{font-size:15px}
+}
+</style></head><body>
+<div class="scene">
+  <svg class="faisceau" viewBox="0 0 1440 900" preserveAspectRatio="none" aria-hidden="true">
+    <defs><linearGradient id="fb" x1="1" y1=".5" x2="0" y2=".2"><stop offset="0" stop-color="#7b5cc0" stop-opacity=".55"/><stop offset=".6" stop-color="#8f74d4" stop-opacity=".18"/><stop offset="1" stop-color="#2fa985" stop-opacity="0"/></linearGradient>
+    <filter id="f"><feGaussianBlur stdDeviation="14"/></filter></defs>
+    <polygon filter="url(#f)" points="1060,330 1080,372 280,520 230,250" fill="url(#fb)"/>
+  </svg>
+  <header class="entete"><img src="/_suivi/detoures/logo.png" alt="NEWPEARS"><nav><span>Location</span><span>Packs</span><span>DJ</span><span>Événements</span><span>Contact</span></nav><a class="b p" href="#">Ma demande · 0</a></header>
+  <div class="sur">CE QU'ON LOUE À LA JOURNÉE — +200 RÉFÉRENCES</div>
+  <ul class="index">
+    <li>Enceintes <small>dès 30 € / jour</small></li>
+    <li>Caissons</li>
+    <li class="on"><span>Lyres</span> <small>Éclairage dès 10 € / jour</small></li>
+    <li>Lasers</li>
+    <li>Fumée &amp; CO₂</li>
+    <li>DJ</li>
+  </ul>
+  <img class="objet" src="/recu/site/lyre-beam-100w.jpg" alt="">
+  <div class="fiche"><h2>Lyre Beam 100 W</h2><p>Le faisceau serré qui anime la piste. Livrée et installée, offerte dans 10 km.</p>
+    <div class="ligne"><span class="inter"><i></i> Allumée</span><a class="b p" href="#" style="padding:10px 16px;font-size:14px">Ajouter</a></div></div>
+  <div class="bas">
+    <h1>Location de son, de lumière et DJ à Saint-Quentin</h1>
+    <p>Packs prêts à l'emploi ou matériel à l'unité, livré et installé. Devis sous 24 h, 7 j/7.</p>
+    <div class="btns"><a class="b p" href="#">Demander un devis</a><a class="b" href="#">Voir les packs</a></div>
+  </div>
+</div>
+</body></html>

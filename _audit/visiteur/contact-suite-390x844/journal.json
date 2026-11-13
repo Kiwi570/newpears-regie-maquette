@@ -1,0 +1,319 @@
+{
+ "mission": "contact-suite",
+ "taille": "390x844",
+ "depart": "/",
+ "erreurs": [],
+ "etapes": [
+  {
+   "k": 0,
+   "geste": "arrivée",
+   "resultat": "ok",
+   "gestes": 0,
+   "secondes": 3.3,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 8948,
+   "titres": [
+    "h1 LA SOIRÉE, ON LA RÈGLE AVEC VOUS."
+   ],
+   "actions": [
+    "NEWPEARS, accueil",
+    "Ma demande 0",
+    "Menu",
+    "Demander un devis",
+    "06 26 15 24 54",
+    "Ajouter à ma demande",
+    "Appeler",
+    "Devis sous 24 h"
+   ],
+   "prixVus": [
+    "169 €"
+   ],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-0.png"
+  },
+  {
+   "k": 1,
+   "geste": "menu",
+   "resultat": "ok",
+   "gestes": 1,
+   "secondes": 4.3,
+   "adresse": "/",
+   "y": 0,
+   "hauteurPage": 8948,
+   "titres": [
+    "h1 LA SOIRÉE, ON LA RÈGLE AVEC VOUS."
+   ],
+   "actions": [
+    "NEWPEARS, accueil",
+    "Ma demande 0",
+    "Fermer",
+    "ACCUEIL",
+    "LOCATION",
+    "PRESTATION DJ",
+    "ÉVÉNEMENTS",
+    "CONTACT",
+    "Appeler 06 26 15 24 54",
+    "Demander un devis",
+    "06 26 15 24 54",
+    "Ajouter à ma demande",
+    "Appeler",
+    "Devis sous 24 h"
+   ],
+   "prixVus": [
+    "169 €"
+   ],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [
+    "169 €",
+    "30 €",
+    "10 €"
+   ],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": true
+  },
+  {
+   "k": 2,
+   "geste": "cliquer CONTACT",
+   "resultat": "ok",
+   "gestes": 2,
+   "secondes": 6.7,
+   "adresse": "/contact",
+   "y": 0,
+   "hauteurPage": 5266,
+   "titres": [
+    "h1 UNE DATE, UN LIEU ?",
+    "h2 QUATRE ÉTAPES, UNE MINUTE"
+   ],
+   "actions": [
+    "NEWPEARS, accueil",
+    "Ma demande 0",
+    "Menu",
+    "06 26 15 24 54",
+    "Envoyer ma demande",
+    "WhatsApp"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 3,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 3,
+   "secondes": 7.8,
+   "adresse": "/contact",
+   "y": 717,
+   "hauteurPage": 5266,
+   "titres": [
+    "h2 QUATRE ÉTAPES, UNE MINUTE"
+   ],
+   "actions": [
+    "Continuer"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 4,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 4,
+   "secondes": 9.1,
+   "adresse": "/contact",
+   "y": 1434,
+   "hauteurPage": 5266,
+   "titres": [
+    "h2 OU DIRECTEMENT"
+   ],
+   "actions": [
+    "06 26 15 24 54",
+    "newpears@icloud.com",
+    "Instagram",
+    "TikTok",
+    "Facebook",
+    "Appeler",
+    "Devis sous 24 h"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 5,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 5,
+   "secondes": 10.2,
+   "adresse": "/contact",
+   "y": 2151,
+   "hauteurPage": 5266,
+   "titres": [
+    "h2 OÙ NOUS INTERVENONS"
+   ],
+   "actions": [
+    "newpears@icloud.com",
+    "Instagram",
+    "TikTok",
+    "Facebook",
+    "Appeler",
+    "Devis sous 24 h"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 6,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 6,
+   "secondes": 11.4,
+   "adresse": "/contact",
+   "y": 2868,
+   "hauteurPage": 5266,
+   "titres": [
+    "h2 LES QUESTIONS QU'ON NOUS POSE"
+   ],
+   "actions": [
+    "Appeler",
+    "Devis sous 24 h"
+   ],
+   "prixVus": [
+    "2 000 €"
+   ],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 7,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 7,
+   "secondes": 12.6,
+   "adresse": "/contact",
+   "y": 3585,
+   "hauteurPage": 5266,
+   "titres": [],
+   "actions": [
+    "06 26 15 24 54",
+    "WhatsApp",
+    "newpears@icloud.com"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 8,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 8,
+   "secondes": 13.8,
+   "adresse": "/contact",
+   "y": 4302,
+   "hauteurPage": 5266,
+   "titres": [],
+   "actions": [
+    "06 26 15 24 54",
+    "WhatsApp",
+    "newpears@icloud.com",
+    "Accueil",
+    "Location",
+    "Prestation DJ",
+    "Événements",
+    "Contact",
+    "Instagram",
+    "TikTok",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [
+    "06 26 15 24 54"
+   ],
+   "prixDansLaPage": [],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false
+  },
+  {
+   "k": 9,
+   "geste": "defiler 1",
+   "resultat": "ok",
+   "gestes": 9,
+   "secondes": 14.7,
+   "adresse": "/contact",
+   "y": 4422,
+   "hauteurPage": 5266,
+   "titres": [],
+   "actions": [
+    "Accueil",
+    "Location",
+    "Prestation DJ",
+    "Événements",
+    "Contact",
+    "Instagram",
+    "TikTok",
+    "Facebook",
+    "Retour en haut"
+   ],
+   "prixVus": [],
+   "telephonesVus": [],
+   "prixDansLaPage": [],
+   "telephones": [
+    "06 26 15 24 54"
+   ],
+   "menuOuvert": false,
+   "capture": "etape-9.png"
+  }
+ ]
+}
