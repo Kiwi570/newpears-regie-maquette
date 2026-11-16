@@ -19,7 +19,7 @@ html,body{margin:0;width:1200px;height:630px;overflow:hidden;background:var(--fo
 </head><body>
 <div class="carte">
   <div class="carte-texte">
-    <img src="/assets/images/logo-entete-480.webp" alt="" style="width:260px;height:auto">
+    <img src="/assets/images/logo-entete-clair-480.webp" alt="" style="width:260px;height:auto">
     <p class="carte-titre">${c.t(`pages.${cle}.accroche`)}</p>
     <p class="carte-nom">${c.site.nom}</p>
   </div>

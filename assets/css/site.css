@@ -1431,3 +1431,6 @@ em, .regie-titre em, .tete--ambiances h1 em { background: none; -webkit-backgrou
 .clair .index-n, .clair .index-item.actif .index-n { color: #5d5969; }
 .led-rangee span { color: #858292; }
 .clair .dj-mur .dj-photo .media-legende, .clair .dj-grille .dj-photo .media-legende { color: #4a4757; background: #f1efe9; }
+/* v6 : logo en version claire sur les fonds sombres, un peu plus grand dans l'en-tête. */
+.entete-logo img { height: 46px; }
+@media (max-width: 380px) { .entete-logo img { height: 40px; } }

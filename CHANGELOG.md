@@ -1,5 +1,10 @@
 # Journal des versions — maquette NEWPEARS
 
+## v6 — 16 novembre 2026
+
+- Logo de l'en-tête, du pied de page et de l'intro en version claire (même dégradé violet-vert, éclairci) : il se lit sur le fond sombre ; un peu plus grand dans l'en-tête (46 px).
+- Images de partage refaites avec ce logo.
+
 ## v5 — 16 novembre 2026
 
 Encore plus sobre et plus clair, à la demande du client.

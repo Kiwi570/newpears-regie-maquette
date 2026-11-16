@@ -56,7 +56,7 @@ function entete(c) {
   return html`<header data-entete>
   <div class="entete-rangee">
     <a class="entete-logo" href="${c.url('accueil')}" aria-label="${c.s('commun.logo')}" data-libelle="${c.libelle('accueil')}"${c.page.cle === 'accueil' ? brut(' aria-current="page"') : ''}>
-      <img src="/assets/images/logo-entete-480.webp" alt="${c.site.nom}" width="480" height="182">
+      <img src="/assets/images/logo-entete-clair-480.webp" srcset="/assets/images/logo-entete-clair-480.webp 480w, /assets/images/logo-entete-clair-960.webp 960w" sizes="122px" alt="${c.site.nom}" width="480" height="182">
     </a>
     <nav data-nav aria-label="${c.s('commun.navigation')}">
       <ul>${navigation(c).filter((k) => k !== 'accueil').map((k) => html`<li>${c.lien(k)}</li>`)}</ul>
@@ -98,7 +98,7 @@ function pied(c) {
   return html`<footer class="pied" id="pied">
   <div class="conteneur pied-grille">
     <div>
-      <img class="pied-logo" src="/assets/images/logo-entete-480.webp" alt="${c.site.nom}" width="480" height="182" loading="lazy">
+      <img class="pied-logo" src="/assets/images/logo-entete-clair-480.webp" alt="${c.site.nom}" width="480" height="182" loading="lazy">
       <p>${c.t('commun.zone')}<br>${c.t('commun.dispo')}</p>
     </div>
     <div>
@@ -153,7 +153,7 @@ ${tete(c)}
 ${voile(c)}
 <div class="ouverture-panneau" data-ouverture aria-hidden="true">
   <div class="ouverture-objet" data-ouverture-objet>${poire('ouverture-poire')}</div>
-  <img class="ouverture-mot" src="/assets/images/logo-mot.webp" alt="" width="900" height="136">
+  <img class="ouverture-mot" src="/assets/images/logo-mot-clair.webp" alt="" width="900" height="136">
   <p class="ouverture-ligne">${c.t('commun.introLigne')}</p>
 </div>
 <a class="evitement" href="#contenu">${c.t('commun.evitement')}</a>
