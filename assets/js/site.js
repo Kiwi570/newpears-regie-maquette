@@ -1,6 +1,6 @@
 /* NEWPEARS — effets propres au client (direction « La régie »). Le socle gère l'ouverture, les transitions,
    l'en-tête, le menu, les boucles, les mesures et la bibliothèque d'effets. Chaque effet propre porte data-effet. */
-import { demarrer, boucle, versObjet, quand } from './socle/index.js?v=7';
+import { demarrer, boucle, versObjet, quand } from './socle/index.js?v=8';
 
 const gsap = window.gsap;
 const $ = (s, r = document) => r.querySelector(s);

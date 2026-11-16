@@ -398,6 +398,38 @@
         "consigne Tirez pour ouvrir",
         "bouton Ouvrir le flight case"
       ]
+    },
+    {
+      "version": 8,
+      "skill": "v10.12",
+      "perimetre": [
+        "entete",
+        "fil-progression"
+      ],
+      "etapes": [
+        {
+          "etape": "barre de progression qui suit l'en-tête caché",
+          "budget": 10,
+          "debut": "2026-11-16T20:55:00+01:00",
+          "fin": "2026-11-16T21:00:00+01:00"
+        },
+        {
+          "etape": "audit ciblé et livraison",
+          "budget": 15,
+          "debut": "2026-11-16T21:00:00+01:00",
+          "fin": "2026-11-16T21:03:00+01:00"
+        }
+      ],
+      "attentes": [],
+      "allersRetours": 1,
+      "modules": [],
+      "audit": {
+        "niveau": "ciblé sur les 6 pages (fichiers, mesures)",
+        "echecsPremierPassage": 0,
+        "relances": 0,
+        "corrections": []
+      },
+      "effetsRetires": []
     }
   ],
   "depot": "newpears-regie-maquette",

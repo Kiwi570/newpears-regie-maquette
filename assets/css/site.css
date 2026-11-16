@@ -1438,3 +1438,6 @@ em, .regie-titre em, .tete--ambiances h1 em { background: none; -webkit-backgrou
 .couvercle, .couvercle:active { cursor: auto; touch-action: auto; }
 .couvercle-loquet { transform-origin: 50% 100%; transform: perspective(420px) rotateX(calc(var(--loquets, 0) * 64deg)) translateY(calc(var(--loquets, 0) * 6px)); }
 .couvercle-logo { opacity: 1; }
+/* v8 : la barre de progression suit l'en-tête quand il se cache (même durée, même courbe) et se colle en haut. */
+.fil-progression { transition: transform .35s var(--courbe); }
+html.entete-cache .fil-progression, html.scene-sans-entete:not(.menu-ouvert) .fil-progression { transform: translateY(calc(-1 * var(--entete-h))); }

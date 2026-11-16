@@ -1,5 +1,9 @@
 # Journal des versions — maquette NEWPEARS
 
+## v8 — 16 novembre 2026
+
+- Barre de progression du haut : quand l'en-tête se cache en descendant, elle remonte avec lui et se colle en haut de l'écran (elle restait suspendue à 67 px) ; elle redescend avec lui quand il revient.
+
 ## v7 — 16 novembre 2026
 
 - Flight case de l'accueil : le couvercle s'ouvre tout seul au défilement. Les loquets sautent d'abord, puis il se soulève avec un léger rebond, et les produits sortent un par un. Plus de consigne « Tirez pour ouvrir » ni de bouton.
