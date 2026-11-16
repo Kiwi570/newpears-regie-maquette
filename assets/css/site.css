@@ -1434,3 +1434,7 @@ em, .regie-titre em, .tete--ambiances h1 em { background: none; -webkit-backgrou
 /* v6 : logo en version claire sur les fonds sombres, un peu plus grand dans l'en-tête. */
 .entete-logo img { height: 46px; }
 @media (max-width: 380px) { .entete-logo img { height: 40px; } }
+/* v7 : le couvercle s'ouvre au défilement (plus de geste ni de consigne). Les loquets sautent d'abord. */
+.couvercle, .couvercle:active { cursor: auto; touch-action: auto; }
+.couvercle-loquet { transform-origin: 50% 100%; transform: perspective(420px) rotateX(calc(var(--loquets, 0) * 64deg)) translateY(calc(var(--loquets, 0) * 6px)); }
+.couvercle-logo { opacity: 1; }

@@ -74,11 +74,10 @@ export default (c) => {
       <span class="couvercle-coin couvercle-coin--hg"></span><span class="couvercle-coin couvercle-coin--hd"></span><span class="couvercle-coin couvercle-coin--bg"></span><span class="couvercle-coin couvercle-coin--bd"></span>
       <img class="couvercle-loquet couvercle-loquet--g" src="/assets/images/case-loquet.webp" alt="" width="180" height="240" loading="lazy" decoding="async">
       <img class="couvercle-loquet couvercle-loquet--d" src="/assets/images/case-loquet.webp" alt="" width="180" height="240" loading="lazy" decoding="async">
-      <span class="couvercle-logo"><img src="/assets/images/logo-entete-480.webp" alt="" width="480" height="182" loading="lazy"></span>
+      <span class="couvercle-logo"><img src="/assets/images/logo-entete-clair-480.webp" alt="" width="480" height="182" loading="lazy"></span>
       <span class="couvercle-poignee"></span>
-      <span class="couvercle-consigne"><span class="consigne-souris">${c.t('accueil.case.tirez')}</span><span class="consigne-tactile">${c.t('accueil.case.touchez')}</span></span>
+      
     </div>
-    <button type="button" class="case-bouton" data-case-bouton aria-pressed="false">${c.t('accueil.case.ouvrir')}</button>
   </div>
   <ol class="conteneur frise" data-anime="cascade">
     ${[1, 2, 3, 4].map((n) => html`<li><span class="frise-n">0${n}</span><h3>${c.t(`accueil.deroule.e${n}t`)}</h3><p>${c.t(`accueil.frise.e${n}`)}</p></li>`)}

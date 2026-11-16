@@ -1,17 +1,13 @@
 {
- "id": "20261116-152826-standard-partiel",
- "date": "2026-11-16T15:32:56.978Z",
+ "id": "20261116-165925-standard-cible",
+ "date": "2026-11-16T17:04:40.749Z",
  "niveau": "standard",
- "pages": "toutes",
- "etapes": [
-  "fichiers",
-  "mesures",
-  "films"
- ],
- "version": "6",
+ "pages": "/",
+ "etapes": "toutes",
+ "version": "7",
  "echecs": 0,
- "aRegarder": 0,
- "nonLances": 0,
+ "aRegarder": 1,
+ "nonLances": 1,
  "manquants": 0,
  "statut": "complet"
 }

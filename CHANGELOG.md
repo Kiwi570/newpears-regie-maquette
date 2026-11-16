@@ -1,5 +1,11 @@
 # Journal des versions — maquette NEWPEARS
 
+## v7 — 16 novembre 2026
+
+- Flight case de l'accueil : le couvercle s'ouvre tout seul au défilement. Les loquets sautent d'abord, puis il se soulève avec un léger rebond, et les produits sortent un par un. Plus de consigne « Tirez pour ouvrir » ni de bouton.
+- Au clavier, arriver sur un produit ouvre le flight case en entier ; avec les animations réduites, il est ouvert d'emblée.
+- Logo du couvercle en version claire.
+
 ## v6 — 16 novembre 2026
 
 - Logo de l'en-tête, du pied de page et de l'intro en version claire (même dégradé violet-vert, éclairci) : il se lit sur le fond sombre ; un peu plus grand dans l'en-tête (46 px).

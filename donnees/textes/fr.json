@@ -175,17 +175,14 @@
     "case": {
       "sur": "Le matériel",
       "titre": "Ouvrez le flight case",
-      "texte": "Plus de 200 références, entretenues et testées avant chaque prestation. Tirez le couvercle : les plus demandées sont dedans.",
-      "tirez": "Tirez pour ouvrir",
-      "ouvrir": "Ouvrir le flight case",
+      "texte": "Plus de 200 références, entretenues et testées avant chaque prestation. Les plus demandées sont dedans.",
       "fermer": "Refermer le flight case",
       "prix_son": "Sonorisation · prix dans le devis",
       "prix_lumiere": "Gamme éclairage dès 10 € la journée",
       "prix_effets": "Effets spéciaux · prix dans le devis",
       "prix_structure": "Structure · prix dans le devis",
       "prix_video": "Vidéo · prix dans le devis",
-      "prix_enceinte": "Sonorisation · dès 30 € la journée",
-      "touchez": "Touchez pour ouvrir"
+      "prix_enceinte": "Sonorisation · dès 30 € la journée"
     },
     "frise": {
       "e1": "Date, lieu, invités, envies : votre sélection part avec.",

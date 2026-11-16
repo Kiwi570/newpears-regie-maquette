@@ -1,6 +1,6 @@
 /* NEWPEARS — effets propres au client (direction « La régie »). Le socle gère l'ouverture, les transitions,
    l'en-tête, le menu, les boucles, les mesures et la bibliothèque d'effets. Chaque effet propre porte data-effet. */
-import { demarrer, boucle, versObjet, quand } from './socle/index.js?v=6';
+import { demarrer, boucle, versObjet, quand } from './socle/index.js?v=7';
 
 const gsap = window.gsap;
 const $ = (s, r = document) => r.querySelector(s);
@@ -156,51 +156,39 @@ const caseJeu = { final: null };
 function initCase() {
   const scene = $('[data-case]');
   if (!scene) return;
-  const couvercle = $('[data-couvercle]', scene), bouton = $('[data-case-bouton]', scene), liste = $('.case-produits', scene);
+  const couvercle = $('[data-couvercle]', scene);
   const produits = $$('.case-produit', scene);
-  let p = 0, main = false, H = scene.offsetHeight;
-  const poser = (v) => {
-    p = Math.max(0, Math.min(1, v));
-    couvercle.style.setProperty('--ouvert', p.toFixed(3));
-    couvercle.style.pointerEvents = p > 0.9 ? 'none' : '';
-    produits.forEach((el, i) => el.style.setProperty('--sortie', Math.max(0, Math.min(1, (p - (0.28 + i * 0.09)) / 0.26)).toFixed(3)));
-    const ouvert = p > 0.6;
-    liste.inert = !ouvert;
-    bouton.setAttribute('aria-pressed', String(ouvert));
-    bouton.textContent = ouvert ? 'Refermer le flight case' : 'Ouvrir le flight case';
+  const borne = (x) => Math.max(0, Math.min(1, x));
+  /* Le couvercle suit le défilement : les loquets sautent d'abord, puis il se soulève.
+     Un ressort léger (un peu de rebond) suit la position du défilement : c'est fluide et vivant. */
+  let p = 0, vitesse = 0, cible = 0, fige = false, boucle = 0, avant = 0;
+  const appliquer = () => {
+    const loquets = borne(p / 0.16), ouvert = Math.max(0, (p - 0.12) / 0.88);
+    couvercle.style.setProperty('--loquets', loquets.toFixed(3));
+    couvercle.style.setProperty('--ouvert', ouvert.toFixed(4));
+    couvercle.style.pointerEvents = ouvert > 0.85 ? 'none' : '';
+    produits.forEach((el, i) => el.style.setProperty('--sortie', borne((ouvert - (0.32 + i * 0.08)) / 0.24).toFixed(3)));
   };
-  const vers = (v) => gsap ? gsap.to({ x: p }, { x: v, duration: 0.7, ease: 'power3.out', onUpdate() { poser(this.targets()[0].x); } }) : poser(v);
-  poser(0);
-  /* Le visiteur tire le couvercle vers le haut. À l'arrivée, le couvercle se soulève un peu pour inviter au geste ;
-     il ne s'ouvre seul que si personne n'y a touché au bout de 3,5 s à l'écran. */
-  let attente = null;
-  if ('IntersectionObserver' in window) {
-    const io = new IntersectionObserver((es) => es.forEach((en) => {
-      if (main) return;
-      if (en.isIntersecting) {
-        if (!couvercle.dataset.invite) { couvercle.dataset.invite = '1'; couvercle.classList.add('invite'); couvercle.addEventListener('animationend', () => couvercle.classList.remove('invite'), { once: true }); }
-        /* Sur téléphone, le couvercle s'ouvre dès qu'il est entier à l'écran ; sur ordinateur, après 3,5 s sans geste. */
-        const tel = matchMedia('(max-width: 760px)').matches;
-        if (en.intersectionRatio >= 0.95) { if (attente) clearTimeout(attente); attente = setTimeout(() => { if (!main) { main = true; vers(1); } }, tel ? 350 : 1000); }
-        else if (!attente && !tel) attente = setTimeout(() => { if (!main) { main = true; vers(1); } }, 3500);
-      } else if (attente) { clearTimeout(attente); attente = null; }
-    }), { threshold: [0.55, 0.95] });
-    io.observe(scene);
-  }
-  let y0 = 0, p0 = 0, glisse = false;
-  couvercle.addEventListener('pointerdown', (e) => {
-    main = true; if (attente) { clearTimeout(attente); attente = null; } couvercle.classList.remove('invite');
-    y0 = e.clientY; p0 = p; glisse = false; H = scene.offsetHeight;
-    if (e.pointerType === 'mouse' || e.pointerType === 'pen') couvercle.setPointerCapture(e.pointerId);
-  });
-  couvercle.addEventListener('pointermove', (e) => { if (couvercle.hasPointerCapture(e.pointerId)) { if (Math.abs(y0 - e.clientY) > 4) glisse = true; poser(p0 + (y0 - e.clientY) / (H * 0.55)); } });
-  /* Au doigt, la page défile normalement : un toucher ouvre ou referme le couvercle. */
-  couvercle.addEventListener('click', () => { if (!glisse) vers(p > 0.5 ? 0 : 1); });
-  const lacher = (e) => { if (couvercle.hasPointerCapture && couvercle.hasPointerCapture(e.pointerId)) { couvercle.releasePointerCapture(e.pointerId); if (glisse) vers(p > 0.4 ? 1 : 0); } };
-  couvercle.addEventListener('pointerup', lacher);
-  couvercle.addEventListener('pointercancel', lacher);
-  bouton.addEventListener('click', () => { main = true; vers(p > 0.6 ? 0 : 1); });
-  caseJeu.final = () => { main = true; poser(1); };
+  /* Début quand le haut de la scène entre en bas de l'écran ; ouvert quand il arrive vers le tiers haut. */
+  const mesurer = () => { const r = scene.getBoundingClientRect(), h = innerHeight; return borne((h * 0.92 - r.top) / (h * 0.55)); };
+  const pas = (t) => {
+    const dt = Math.min(0.033, avant ? (t - avant) / 1000 : 0.016); avant = t;
+    vitesse += (90 * (cible - p) - 13 * vitesse) * dt;
+    p += vitesse * dt;
+    if (Math.abs(cible - p) < 0.0005 && Math.abs(vitesse) < 0.0005) { p = cible; vitesse = 0; boucle = 0; avant = 0; appliquer(); return; }
+    appliquer();
+    boucle = requestAnimationFrame(pas);
+  };
+  const relancer = () => { if (!fige) cible = mesurer(); if (!boucle) boucle = requestAnimationFrame(pas); };
+  const ouvrirTout = () => { fige = true; cible = 1; relancer(); };
+  /* Au chargement (ou au rechargement au milieu de la page), le couvercle prend tout de suite sa place. */
+  cible = p = mesurer(); appliquer();
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) { fige = true; p = cible = 1; appliquer(); }
+  addEventListener('scroll', relancer, { passive: true });
+  addEventListener('resize', relancer);
+  /* Au clavier, arriver sur un produit ouvre le flight case en entier. */
+  scene.addEventListener('focusin', ouvrirTout);
+  caseJeu.final = () => { fige = true; p = cible = 1; vitesse = 0; appliquer(); };
 }
 
 /* ---------- 2 bis. La salle s'allume au fil des étapes (ancienne scène, plus utilisée sur l'accueil) ---------- */
