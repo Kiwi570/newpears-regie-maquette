@@ -1,13 +1,13 @@
 {
- "id": "20261113-162227-complet-cible-partiel",
- "date": "2026-11-13T16:25:31.339Z",
- "niveau": "complet",
- "pages": "/,/contact,/evenements",
+ "id": "20261116-130747-standard-cible-partiel",
+ "date": "2026-11-16T13:08:09.532Z",
+ "niveau": "standard",
+ "pages": "/prestation-dj",
  "etapes": [
   "fichiers",
   "mesures"
  ],
- "version": "3",
+ "version": "4",
  "echecs": 0,
  "aRegarder": 0,
  "nonLances": 0,

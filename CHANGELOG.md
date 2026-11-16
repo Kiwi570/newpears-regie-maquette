@@ -1,5 +1,10 @@
 # Journal des versions — maquette NEWPEARS
 
+## v4 — 16 novembre 2026
+
+- **Prestation DJ** : l'ouverture montre des platines dessinées (deux plateaux et une table de mixage, en traits fins violets et verts), nettes à toutes les tailles. Elles remplacent la photo du contrôleur, floue sur les écrans haute définition. Les plateaux tournent toujours seuls, suivent le défilement et se font tourner à la main ; leur étiquette porte la poire du logo.
+- La photo `controleur-dj-1100.webp`, qui ne sert plus, est retirée. Le numéro de version passe à 4.
+
 ## v3 — 13 novembre 2026
 
 Corrections de l'audit complet, lancé quand la maquette a été validée.
