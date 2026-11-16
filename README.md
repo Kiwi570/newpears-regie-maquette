@@ -1,6 +1,6 @@
 # NEWPEARS — maquette (direction « La régie »)
 
-Maquette de démonstration du futur site de NEWPEARS (location de son, de lumière et DJ à Saint-Quentin), faite à partir du site actuel newpears.fr. Adresse : https://newpears-maquette.vercel.app
+Maquette de démonstration du futur site de NEWPEARS (location de son, de lumière et DJ à Saint-Quentin), faite à partir du site actuel newpears.fr. Adresse : https://newpears-regie.vercel.app
 
 - Site statique (HTML, CSS, JavaScript), généré depuis `donnees/` et `source/` par `node outils/generer.mjs`. Ne jamais modifier les pages `.html` à la main.
 - Pages : accueil, location (packs, flight case, catalogue), prestation DJ, événements, contact et devis, 404.
@@ -28,7 +28,7 @@ Maquette de démonstration du futur site de NEWPEARS (location de son, de lumiè
 | Prix du Pack Essentiel : l'accueil du site actuel annonce « dès 79 € », la page Packs « dès 169 € » | Location, accueil | « Packs dès 169 € » (choix validé), sans prix sur chaque pack ; à confirmer avec le client |
 | Contenu exact des packs | Location | Décrit d'après la photo de chaque pack (« Sur la photo du pack ») |
 | Prix à l'unité du catalogue | Location | Prix seulement par famille (enceintes dès 30 €, éclairage dès 10 €) |
-| Seuils d'invités du conseil de pack (régie de l'accueil) | Accueil | Conseil indicatif ; seuils à valider : 40, 80, 150, 220 invités ; l'interrupteur « Mariage » conseille toujours le Pack Professionnel (à valider) |
+| Seuils d'invités du conseil de pack (régie de l'accueil) | Accueil | Conseil indicatif ; seuils à valider : 40, 80, 120 et 200 invités ; l’interrupteur « Mariage » conseille toujours le Pack Professionnel (à valider) |
 | Textes des avis Google | Accueil | Lien « Lire nos avis Google » |
 | « 100 % de clients satisfaits » (sans source) | Accueil | Retiré |
 | Dates 2018 et 2022 (« à confirmer » sur le site actuel) | Prestation DJ | Retirées toutes les deux ; « 8 ans de mix » et « création en avril 2025 » gardés |

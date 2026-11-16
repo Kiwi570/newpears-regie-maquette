@@ -1,13 +1,13 @@
 {
- "id": "20261113-144004-complet-cible-partiel",
- "date": "2026-11-13T14:42:28.279Z",
+ "id": "20261113-162227-complet-cible-partiel",
+ "date": "2026-11-13T16:25:31.339Z",
  "niveau": "complet",
- "pages": "/,/location",
+ "pages": "/,/contact,/evenements",
  "etapes": [
   "fichiers",
   "mesures"
  ],
- "version": "1",
+ "version": "3",
  "echecs": 0,
  "aRegarder": 0,
  "nonLances": 0,

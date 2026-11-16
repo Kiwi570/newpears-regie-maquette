@@ -1,0 +1,17 @@
+{
+ "id": "20261113-161342-complet-partiel",
+ "date": "2026-11-13T16:21:57.512Z",
+ "niveau": "complet",
+ "pages": "toutes",
+ "etapes": [
+  "fichiers",
+  "mesures",
+  "films"
+ ],
+ "version": "3",
+ "echecs": 3,
+ "aRegarder": 1,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

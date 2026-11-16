@@ -7,7 +7,7 @@ export const page = { cle: 'prestation-dj', fichier: 'prestation-dj', imageParta
 const STYLES = ['Electro House', 'Généraliste', 'Années 80–2000', 'Hits actuels', 'Rap / RnB', 'Latino / Afro', 'Variété française'];
 
 export default (c) => html`
-<section class="tete tete--dj" id="debut">
+<section class="tete tete--dj tete--controleur" id="debut">
   <div class="tete-texte conteneur">
     <p class="sur" data-anime="gsap">${c.t('dj.tete.sur')}</p>
     <h1 data-grille="typo" class="titre-led"><span class="ligne-masque"><span class="tete-ligne">Deux DJ,</span></span><span class="ligne-masque"><span class="tete-ligne">toute la <em>soirée</em></span></span></h1>
@@ -17,9 +17,11 @@ export default (c) => html`
       <span class="tete-info" data-info-cle>${c.t('dj.tete.info')} · tarif sur devis</span>
     </p>
   </div>
-  <div class="tete-bandeau" data-iris-centre>
-    ${c.media({ nom: 'grok/dj-ouverture', alt: c.s('dj.tete.alt'), priorite: true, classe: 'tete-media', cadrage: '50% 55%', sizes: '100vw', attrs: 'data-fx="parallaxe" data-fx-force="12"' })}
-    <div class="vumetre" data-effet="vumetre" data-boucle-css aria-hidden="true">${Array.from({ length: 16 }, (_, i) => html`<i style="--i:${i}"></i>`)}</div>
+  <div class="controleur" data-controleur data-iris-centre data-visuel>
+    <img class="controleur-photo" src="/assets/images/materiel/controleur-dj-1100.webp" alt="${c.s('dj.controleur.alt')}" width="1084" height="480" fetchpriority="high" decoding="async">
+    <span class="jog jog--g" data-jog data-effet="jogs" aria-hidden="true"></span>
+    <span class="jog jog--d" data-jog aria-hidden="true"></span>
+    <p class="controleur-consigne" aria-hidden="true"><span class="consigne-souris">${c.t('dj.controleur.consigne')}</span><span class="consigne-tactile">${c.t('dj.controleur.consigneTactile')}</span></p>
   </div>
   <p class="tete-texte-bas conteneur masque-ecran-bas" data-anime="gsap">${c.t('dj.tete.texte')}</p>
 </section>
@@ -44,7 +46,7 @@ export default (c) => html`
       </ul>
     </div>
     <div class="playlist-ecran" data-visuel>
-      <div class="egaliseur" data-effet="egaliseur" data-boucle-css aria-hidden="true">${Array.from({ length: 24 }, (_, i) => html`<i style="--i:${i}"></i>`)}</div>
+      <div class="egaliseur" aria-hidden="true">${Array.from({ length: 24 }, (_, i) => html`<i style="--i:${i}"></i>`)}</div>
       <div class="playlist-colonnes" aria-live="polite">
         <div><p class="playlist-titre">${c.t('dj.playlist.garder')}</p><ul data-liste="garder"><li class="vide">${c.t('dj.playlist.vide')}</li></ul></div>
         <div><p class="playlist-titre playlist-titre--eviter">${c.t('dj.playlist.eviter')}</p><ul data-liste="eviter"><li class="vide">${c.t('dj.playlist.vide')}</li></ul></div>
@@ -59,7 +61,7 @@ export default (c) => html`
   <h2 data-anime="lignes">${c.t('dj.temps.titre')}</h2>
   <p class="temps-texte">${c.t('dj.temps.texte')}</p>
   <div class="temps-grille">
-    ${c.media({ nom: 'grok/accueil-cabine', alt: c.s('accueil.deroule.alt2'), classe: 'temps-grand', sizes: '(max-width: 760px) 100vw, 60vw', attrs: 'data-anime="rideau"' })}
+    ${c.media({ nom: 'grok/dj-ouverture', alt: c.s('dj.tete.alt'), classe: 'temps-grand', sizes: '(max-width: 760px) 100vw, 60vw', attrs: 'data-anime="rideau"' })}
     <ol class="temps-liste" data-anime="cascade">${[1, 2, 3, 4].map((n) => html`<li><span class="etape-n">0${n}</span>${c.t(`dj.temps.t${n}`)}</li>`)}</ol>
     ${c.media({ nom: 'grok/dj-micro-gateau', alt: c.s('dj.temps.altMicro'), classe: 'temps-petit', sizes: '(max-width: 760px) 100vw, 30vw', attrs: 'data-fx="parallaxe"' })}
   </div>
@@ -80,7 +82,7 @@ export default (c) => html`
 </section>
 
 <section class="fin fin--page" id="fin">
-  <div class="fin-balayage" data-boucle-css data-visuel aria-hidden="true"><span data-effet="fin-balayage"></span><span></span></div>
+  <div class="fin-balayage" data-visuel aria-hidden="true"><span></span><span></span></div>
   <div class="conteneur fin-texte">
     <h2 data-anime="lignes">${c.t('dj.fin.titre')}</h2>
     <p data-anime>${c.t('dj.fin.texte')}</p>

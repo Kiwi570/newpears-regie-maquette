@@ -1,15 +1,46 @@
 {
   "nom": "NEWPEARS",
-  "adresse": "https://newpears-maquette.vercel.app",
+  "adresse": "https://newpears-regie.vercel.app",
   "siteActuel": "newpears.fr",
-  "version": 1,
-  "langues": ["fr"],
-  "navigation": ["accueil", "location", "prestation-dj", "evenements", "contact"],
-  "actionEntete": { "page": "contact", "ancre": "demande" },
-  "couleurs": { "fond": "#07070c", "texte": "#f1efe9", "voile": "#07070c", "theme": "#07070c", "ouverture": "#07070c", "menu": "#0d0c15" },
+  "version": 3,
+  "langues": [
+    "fr"
+  ],
+  "navigation": [
+    "accueil",
+    "location",
+    "prestation-dj",
+    "evenements",
+    "contact"
+  ],
+  "actionEntete": {
+    "page": "contact",
+    "ancre": "demande"
+  },
+  "couleurs": {
+    "fond": "#07070c",
+    "texte": "#f1efe9",
+    "voile": "#07070c",
+    "theme": "#07070c",
+    "ouverture": "#07070c",
+    "menu": "#0d0c15"
+  },
   "formeVoile": "faisceau",
-  "contact": { "telephone": "06 26 15 24 54", "telephoneLien": "+33626152454", "whatsapp": "https://wa.me/33626152454", "email": "newpears@icloud.com", "adresse": "Saint-Quentin (Aisne)", "instagram": "https://www.instagram.com/new.pears", "tiktok": "https://www.tiktok.com/@newpears", "facebook": "https://www.facebook.com/newpears", "avis": "https://share.google/NU3Ol2L7jlCV3ppGP" },
-  "polices": ["/assets/polices/big-shoulders-display-latin-wght-normal.woff2", "/assets/polices/manrope-latin-wght-normal.woff2"],
+  "contact": {
+    "telephone": "06 26 15 24 54",
+    "telephoneLien": "+33626152454",
+    "whatsapp": "https://wa.me/33626152454",
+    "email": "newpears@icloud.com",
+    "adresse": "Saint-Quentin (Aisne)",
+    "instagram": "https://www.instagram.com/new.pears",
+    "tiktok": "https://www.tiktok.com/@newpears",
+    "facebook": "https://www.facebook.com/newpears",
+    "avis": "https://share.google/NU3Ol2L7jlCV3ppGP"
+  },
+  "polices": [
+    "/assets/polices/big-shoulders-display-latin-wght-normal.woff2",
+    "/assets/polices/manrope-latin-wght-normal.woff2"
+  ],
   "imagePartage": "grok/accueil-cabine-1280.webp",
   "curseur": false
 }

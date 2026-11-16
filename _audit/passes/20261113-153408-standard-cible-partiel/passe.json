@@ -1,0 +1,17 @@
+{
+ "id": "20261113-153408-standard-cible-partiel",
+ "date": "2026-11-13T15:38:31.818Z",
+ "niveau": "standard",
+ "pages": "/,/contact,/evenements,/location,/prestation-dj",
+ "etapes": [
+  "fichiers",
+  "mesures",
+  "films"
+ ],
+ "version": "2",
+ "echecs": 9,
+ "aRegarder": 1,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

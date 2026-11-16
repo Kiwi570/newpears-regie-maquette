@@ -11,16 +11,6 @@ export const page = { cle: 'accueil', fichier: 'index', imagePartage: 'grok/sall
 const mat = (nom, alt = '', classe = '', taille = 720) => html`<img class="${classe}" src="/assets/images/materiel/${nom}-${taille}.webp" alt="${alt}" loading="lazy" decoding="async">`;
 
 
-/* La salle éteinte et la salle allumée dans une seule figure : une seule mention « Illustration générée », au-dessus des deux photos. */
-const texte = (v) => v[Object.getOwnPropertySymbols(v)[0]];
-const salle = (c) => {
-  const eteinte = texte(c.media({ nom: 'grok/salle-eteinte', alt: c.s('accueil.regie.alt'), cadrage: '100% 70%', cadrageMobile: '62% 70%', priorite: true, classe: 'regie-photo', sizes: '100vw' }));
-  const allumee = texte(c.media({ nom: 'grok/salle-allumee', alt: c.s('accueil.regie.altAllumee'), cadrage: '100% 70%', cadrageMobile: '62% 70%', priorite: true, classe: 'x', sizes: '100vw' }));
-  const image = allumee.slice(allumee.indexOf('<picture>'), allumee.indexOf('</picture>') + 10).replace('<picture>', '<picture class="regie-photo--allumee" data-effet="salle-allume">');
-  const fin = eteinte.indexOf('</picture>') + 10;
-  return brut(eteinte.slice(0, fin) + image + eteinte.slice(fin));
-};
-
 export default (c) => {
   const packs = c.donnees.packs;
   const club = packs.find((p) => p.id === 'club');
@@ -29,12 +19,9 @@ export default (c) => {
   const evts = c.donnees.evenements.filter((e) => e.image);
   const styles = [['ELECTRO HOUSE', 'HITS ACTUELS'], ['ANNÉES 80–2000', 'RAP · RNB'], ['LATINO · AFRO', 'VARIÉTÉ FRANÇAISE']];
   return html`
-<section class="regie" id="regie" data-section>
-  <div class="regie-salle" data-visuel>
-    ${salle(c)}
-    <div class="regie-lumiere" data-regie-lumiere aria-hidden="true"><div class="regie-lumiere-photo"></div></div>
-    <canvas class="regie-faisceaux" data-effet="regie-faisceaux" data-audit-ignorer aria-hidden="true"></canvas>
-  </div>
+<section class="regie regie--sobre" id="regie" data-section>
+  <div class="regie-faisceau" data-regie-faisceau data-effet="regie-faisceau" aria-hidden="true"><span class="regie-cone"></span></div>
+  <span class="regie-halo" data-regie-halo aria-hidden="true"></span>
   <div class="regie-texte">
     <p class="sur" data-anime="gsap">${c.t('accueil.regie.sur')}</p>
     <h1 class="regie-titre" data-grille="typo" data-iris-centre>
@@ -42,7 +29,7 @@ export default (c) => {
       <span class="ligne-masque"><span class="regie-ligne">${c.t('accueil.regie.titre2')} <em>${c.t('accueil.regie.titre2b')}</em></span></span>
       <span class="ligne-masque"><span class="regie-ligne">${c.t('accueil.regie.titre3')}</span></span>
     </h1>
-    <p class="regie-intro masque-ecran-tres-bas" data-anime="gsap">${c.t('accueil.regie.texte')}</p>
+    <p class="regie-intro" data-anime="gsap">${c.t('accueil.regie.texte')}</p>
     <p class="regie-actions" data-anime="gsap">
       ${c.lien('contact', { ancre: 'demande', classe: 'bouton', texte: c.t('accueil.regie.action'), attrs: 'data-action-principale' })}
       <a class="bouton bouton--contour" href="tel:${c.site.contact.telephoneLien}">${c.site.contact.telephone}</a>
@@ -50,27 +37,17 @@ export default (c) => {
     <p class="regie-info" data-info-cle data-anime="gsap">${c.t('accueil.regie.info')} · ${c.t('accueil.regie.prix')}</p>
     <p class="regie-preuve" data-anime="gsap"><a href="${c.site.contact.avis}" target="_blank" rel="noopener"><span class="etoiles" aria-hidden="true">★★★★★</span> ${c.t('accueil.regie.preuve')}</a></p>
   </div>
-  <div class="console" data-grille="manipuler" data-anime="gsap">
-    <div class="faders">
-      <label class="fader"><span class="fader-nom">${c.t('accueil.regie.invites')}</span><span class="fader-rail"><input type="range" min="10" max="300" step="10" value="150" data-fader="invites"></span><output data-sortie="invites">150</output></label>
-      <label class="fader fader--lumiere"><span class="fader-nom">${c.t('accueil.regie.lumiere')}</span><span class="fader-rail"><input type="range" min="0" max="2" step="1" value="2" data-fader="lumiere" data-libelles="${c.s('accueil.regie.lumiere0')}|${c.s('accueil.regie.lumiere1')}|${c.s('accueil.regie.lumiere2')}"></span><output data-sortie="lumiere">${c.t('accueil.regie.lumiere2')}</output></label>
-      <label class="fader fader--effets"><span class="fader-nom">${c.t('accueil.regie.effets')}</span><span class="fader-rail"><input type="range" min="0" max="2" step="1" value="1" data-fader="effets" data-libelles="${c.s('accueil.regie.effets0')}|${c.s('accueil.regie.effets1')}|${c.s('accueil.regie.effets2')}"></span><output data-sortie="effets">${c.t('accueil.regie.effets1')}</output></label>
-    </div>
-    <div class="console-ecran">
-      <p class="console-conseil">${c.t('accueil.regie.conseil')}</p>
-      <p class="console-pack" data-pack-nom aria-live="polite">${club.nom}</p>
-      <p class="console-pour" data-pack-pour>${club.pour}</p>
-      <label class="console-mariage"><input type="checkbox" data-mariage> <span class="interrupteur" aria-hidden="true"></span>${c.t('accueil.regie.mariage')}</label>
-      <div class="console-vu" data-effet="console-vu" aria-hidden="true">${Array.from({ length: 14 }, (_, i) => html`<i style="--i:${i}"></i>`)}</div>
-      <p class="console-consigne"><span class="consigne-souris">${c.t('accueil.regie.consigne')}</span><span class="consigne-tactile">${c.t('accueil.regie.consigneTactile')}</span></p>
-    </div>
-    <div class="console-fiche">
-      <div class="console-photo" data-envol-depuis>${packs.map((p) => html`<img class="fiche-pack${p.id === 'club' ? ' actif' : ''}" data-plateau="${p.id}" src="/assets/images/catalogue/${p.image}-480.webp" alt="${p.nom}" width="480" height="360" decoding="async"${p.id === 'club' ? '' : brut(' loading="lazy"')}>`)}</div>
-      <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="${club.id}" data-ajouter-nom="${club.nom}" data-ajouter-image="/assets/images/materiel/${club.image}-360.webp" data-grille="retour">${c.t('commun.ajouter')}</button>
-      <p class="console-note">${c.t('accueil.regie.indicatif')}</p>
-    </div>
+  <div class="regie-scene" data-visuel>
+    <div class="regie-pack" data-envol-depuis>${packs.map((p) => html`<img class="fiche-pack${p.id === 'club' ? ' actif' : ''}" data-plateau="${p.id}" src="/assets/images/materiel/${p.image}-720.webp" alt="${p.id === 'club' ? p.nom : ''}" width="720" height="640" decoding="async"${p.id === 'club' ? brut(' fetchpriority="high"') : brut(' loading="lazy"')}>`)}</div>
+    <span class="regie-sol" aria-hidden="true"></span>
   </div>
-  <script type="application/json" data-packs>${brut(JSON.stringify(packs.map((p) => ({ id: p.id, nom: p.nom, pour: p.pour, image: p.image, faisceaux: p.faisceaux }))))}</script>
+  <div class="conseil" data-grille="manipuler" data-anime="gsap">
+    <label class="conseil-invites"><span class="conseil-libelle">${c.t('accueil.regie.pour')}</span><input type="range" min="10" max="300" step="10" value="150" data-fader="invites" aria-label="${c.s('accueil.regie.invites')}"><output data-sortie="invites">150</output><span class="conseil-unite">${c.t('accueil.regie.invitesUnite')}</span></label>
+    <p class="conseil-pack"><span class="conseil-libelle">${c.t('accueil.regie.conseilCourt')}</span> <strong data-pack-nom aria-live="polite">${club.nom}</strong></p>
+    <label class="console-mariage"><input type="checkbox" class="interrupteur-case" data-mariage>${c.t('accueil.regie.mariage')}</label>
+    <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="${club.id}" data-ajouter-nom="${club.nom}" data-ajouter-image="/assets/images/materiel/${club.image}-360.webp" data-grille="retour">${c.t('commun.ajouter')}</button>
+  </div>
+  <script type="application/json" data-packs>${brut(JSON.stringify(packs.map((p) => ({ id: p.id, nom: p.nom, pour: p.pour, image: p.image }))))}</script>
 </section>
 
 <section class="case-jeu" id="flight-case" data-grille="scene" data-section>
@@ -108,12 +85,12 @@ export default (c) => {
   </ol>
 </section>
 
-<section class="metiers conteneur" id="metiers">
+<section class="clair metiers conteneur" id="metiers">
   <p class="sur">${c.t('accueil.metiers.sur')}</p>
   <h2 data-anime="lignes">${c.t('accueil.metiers.titre')}</h2>
   <div class="metiers-grille" data-anime="cascade">
     <article class="metier metier--loc">
-      <div class="metier-visuel metier-visuel--produit" data-visuel><img class="metier-produit" src="/assets/images/catalogue/pack-professionnel-900.webp" alt="" loading="lazy" width="900" height="675"><span class="metier-halo" data-effet="metier-pack" aria-hidden="true"></span></div>
+      <div class="metier-visuel metier-visuel--produit" data-visuel><img class="metier-produit" src="/assets/images/catalogue/pack-professionnel-900.webp" alt="" loading="lazy" width="900" height="675"></div>
       <h3>${c.t('accueil.metiers.locT')}</h3>
       <p>${c.t('accueil.metiers.loc')}</p>
       ${c.lien('location', { classe: 'lien-fleche', texte: c.t('accueil.metiers.locLien') })}
@@ -160,7 +137,7 @@ export default (c) => {
   </div>
 </section>
 
-<section class="zone" id="zone">
+<section class="clair zone" id="zone">
   <div class="conteneur zone-grille">
     <div>
       <p class="sur">${c.t('accueil.zone.sur')}</p>
@@ -176,7 +153,7 @@ export default (c) => {
 </section>
 
 <section class="fin" id="fin">
-  <div class="fin-balayage" data-boucle-css data-visuel aria-hidden="true"><span data-effet="fin-balayage"></span><span></span></div>
+  <div class="fin-balayage" data-visuel aria-hidden="true"><span></span><span></span></div>
   <div class="conteneur fin-texte">
     <h2 data-anime="lignes">${c.t('accueil.fin.titre')}</h2>
     <p data-anime>${c.t('accueil.fin.texte')}</p>

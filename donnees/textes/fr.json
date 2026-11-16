@@ -100,7 +100,10 @@
       "prix": "Packs dès 169 € la journée",
       "altAllumee": "La même salle en pleine soirée, faisceaux violets et verts dans la fumée",
       "mariage": "Mariage",
-      "preuve": "5/5 sur Google · 8 ans de mix · +40 prestations par an"
+      "preuve": "5/5 sur Google · 8 ans de mix · +40 prestations par an",
+      "pour": "Pour",
+      "invitesUnite": "invités",
+      "conseilCourt": "notre conseil"
     },
     "deroule": {
       "sur": "Comment ça marche",
@@ -238,6 +241,11 @@
       "conseil": "Besoin d'aide pour choisir ? Indiquez le nombre d'invités et le type de salle, on vous conseille.",
       "effets": "Avant la fumée : vérifiez si la salle a des détecteurs de fumée. Le CO2 se garde pour les temps forts.",
       "cgl": "Les conditions générales de location complètes seront reprises sur le site final."
+    },
+    "rack": {
+      "voir": "Voir ce pack",
+      "consigne": "Passez sur un pack : la poursuite l'éclaire.",
+      "consigneTactile": "Touchez un pack pour l'éclairer."
     }
   },
   "dj": {
@@ -291,6 +299,11 @@
       "titre": "Les week-ends partent vite",
       "texte": "Surtout en saison des mariages. Donnez-nous votre date : réponse sous 24 h.",
       "action": "Demander un devis DJ"
+    },
+    "controleur": {
+      "alt": "Le contrôleur DJ de NEWPEARS, vu de dessus",
+      "consigne": "Faites tourner les platines.",
+      "consigneTactile": "Faites tourner les platines du doigt."
     }
   },
   "evenements": {
@@ -319,6 +332,10 @@
     "fin": {
       "titre": "Votre événement n'est pas dans la liste ?",
       "texte": "Dites-nous la date, le lieu et le nombre d'invités : on vous conseille."
+    },
+    "ambiances": {
+      "consigne": "Passez sur un événement : la salle prend sa couleur.",
+      "titre": "Onze ambiances, une même salle"
     }
   },
   "contact": {
@@ -380,6 +397,16 @@
     },
     "zone": {
       "titre": "Où nous intervenons"
+    },
+    "plan": {
+      "titre": "Votre salle, en plan",
+      "legende": "Le plan suit votre nombre d'invités : une table ronde pour dix.",
+      "moins": "Dix invités de moins",
+      "plus": "Dix invités de plus",
+      "piste": "Piste",
+      "cabine": "Cabine DJ",
+      "enceinte": "Enceinte",
+      "aria": "Plan de salle : piste de danse au centre, cabine DJ et enceintes au fond, quatre lyres, tables rondes autour"
     }
   },
   "introuvable": {

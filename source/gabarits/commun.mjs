@@ -158,10 +158,7 @@ ${voile(c)}
 </div>
 <a class="evitement" href="#contenu">${c.t('commun.evitement')}</a>
 ${entete(c)}
-<div class="fil-lyres" data-grille="fil" data-effet="lyres-fil" aria-hidden="true">
-  <div class="fil-lyre fil-lyre--g"><span class="fil-faisceau"></span><img src="/assets/images/materiel/lyre-beam-100w-360.webp" alt="" width="360" height="449"></div>
-  <div class="fil-lyre fil-lyre--d"><span class="fil-faisceau"></span><img src="/assets/images/materiel/lyre-beam-100w-360.webp" alt="" width="360" height="449"></div>
-</div>
+<div class="fil-progression" data-grille="fil" data-effet="fil-progression" aria-hidden="true"><span></span></div>
 <main id="contenu" tabindex="-1"${c.page.sansAction ? brut(' data-sans-action') : ''}${c.page.sansEffet ? brut(' data-sans-effet') : ''}>
 ${contenu}
 </main>

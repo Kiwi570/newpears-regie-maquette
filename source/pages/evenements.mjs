@@ -10,18 +10,22 @@ const OBJETS = { famille: 'micro-sans-fil', festival: 'lyre-beam-100w', associat
 export default (c) => {
   const evts = c.donnees.evenements;
   return html`
-<section class="tete tete--evts" id="debut">
+<section class="tete tete--evts tete--ambiances" id="debut" data-ambiances style="--teinte:${evts[0].teinte}">
+  <div class="ambiances-salle" data-iris-centre data-visuel>
+    ${c.media({ nom: 'grok/salle-eteinte', alt: c.s('accueil.regie.alt'), priorite: true, classe: 'ambiances-photo', cadrage: '72% 60%', cadrageMobile: '62% 60%', sizes: '100vw' })}
+    <span class="ambiances-lumiere" data-effet="ambiances" aria-hidden="true"></span>
+    <span class="ambiances-halo" aria-hidden="true"></span>
+  </div>
   <div class="tete-texte conteneur">
     <p class="sur" data-anime="gsap">${c.t('evenements.tete.sur')}</p>
     <h1 data-grille="typo"><span class="ligne-masque"><span class="tete-ligne">Chaque événement</span></span><span class="ligne-masque"><span class="tete-ligne">a son <em>ambiance</em></span></span></h1>
-    <div class="tete-bas" data-anime="gsap">
-      <p class="masque-ecran-tres-bas">${c.t('evenements.tete.texte')}</p>
-      <p class="tete-actions"><a class="bouton" href="#index" data-action-principale>${c.t('evenements.index.sur')}</a><span class="tete-info" data-info-cle>${c.t('evenements.tete.info')}</span></p>
-    </div>
+    <p class="masque-ecran-tres-bas" data-anime="gsap">${c.t('evenements.tete.texte')}</p>
+    <p class="tete-actions" data-anime="gsap"><a class="bouton" href="#index" data-action-principale>${c.t('evenements.index.sur')}</a><span class="tete-info" data-info-cle>${c.t('evenements.tete.info')}</span></p>
   </div>
-  <div class="tete-bandeau tete-bandeau--large" data-iris-centre>
-    ${c.media({ nom: 'grok/salle-allumee', alt: c.s('accueil.regie.altAllumee'), priorite: true, classe: 'tete-media', cadrage: '50% 62%', sizes: '100vw', attrs: 'data-fx="zoom" data-fx-force="16"' })}
-  </div>
+  <ul class="ambiances-noms" aria-label="${c.s('evenements.ambiances.titre')}">
+    ${evts.map((e, i) => html`<li><a href="#${e.id}" data-ambiance="${e.id}" style="--t:${e.teinte}"${i === 0 ? brut(' class="actif"') : ''}>${e.nom}</a></li>`)}
+  </ul>
+  <p class="ambiances-actuel" aria-hidden="true" data-ambiance-actuel>${evts[0].nom}</p>
 </section>
 
 <section class="index-evts" id="index" data-effet="index-ambiance">
@@ -51,7 +55,7 @@ export default (c) => {
 </section>
 
 <section class="fin fin--page" id="fin">
-  <div class="fin-balayage" data-boucle-css data-visuel aria-hidden="true"><span data-effet="fin-balayage"></span><span></span></div>
+  <div class="fin-balayage" data-visuel aria-hidden="true"><span></span><span></span></div>
   <div class="conteneur fin-texte">
     <h2 data-anime="lignes">${c.t('evenements.fin.titre')}</h2>
     <p data-anime>${c.t('evenements.fin.texte')}</p>

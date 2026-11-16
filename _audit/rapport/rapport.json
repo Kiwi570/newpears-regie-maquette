@@ -8,14 +8,12 @@
     "robots.txt": 1,
     "numéro de version": 1,
     "langues": 1,
-    "mesures": 78,
-    "balayage": 2
+    "mesures": 117,
+    "balayage": 3
   },
   "infos": [
-    "Numéro de version des fichiers : ?v=1",
-    "Journal v1 : 5 étape(s) notée(s), 125 min de travail pour 130 min de budget, 13 min d’attente de l’utilisateur.",
-    "Journal : « construction : accueil » 77 min pour 45 prévues.",
-    "Journal : « construction : contact et page de catégorie » 15 min pour 10 prévues.",
+    "Numéro de version des fichiers : ?v=3",
+    "Journal v3 : 0 étape(s) notée(s), 0 min de travail, 0 min d’attente de l’utilisateur.",
     "Accessibilité : axe-core 4.12.1 en plus des contrôles intégrés."
   ],
   "grille": []

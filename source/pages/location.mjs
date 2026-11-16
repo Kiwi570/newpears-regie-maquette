@@ -8,7 +8,7 @@ export default (c) => {
   const packs = c.donnees.packs, fam = c.donnees.familles, cat = c.donnees.catalogue;
   const nomFam = Object.fromEntries(fam.map((f) => [f.id, f.nom]));
   return html`
-<section class="tete tete--location" id="debut">
+<section class="tete tete--location tete--rack" id="debut">
   <div class="tete-texte">
     <p class="sur" data-anime="gsap">${c.t('location.tete.sur')}</p>
     <h1 data-grille="typo"><span class="ligne-masque"><span class="tete-ligne">Le matériel,</span></span><span class="ligne-masque"><span class="tete-ligne"><em>livré</em> et installé</span></span></h1>
@@ -19,9 +19,14 @@ export default (c) => {
     </p>
     <p class="tete-info" data-info-cle data-anime="gsap">${c.t('location.tete.info')}</p>
   </div>
-  <div class="tete-ecran" data-iris-centre>
-    ${c.media({ nom: 'grok/salle-eteinte', alt: c.s('accueil.regie.alt'), priorite: true, classe: 'tete-media', cadrage: '50% 55%', sizes: '(max-width: 760px) 100vw, 55vw', attrs: 'data-fx="zoom" data-fx-force="12"' })}
-    <ul class="tete-packs" aria-hidden="true">${packs.map((p) => html`<li><img src="/assets/images/materiel/${p.image}-360.webp" alt="" loading="lazy"></li>`)}</ul>
+  <div class="etal" data-rack data-iris-centre data-visuel>
+    <span class="etal-poursuite" data-rack-poursuite data-effet="rack-poursuite" aria-hidden="true"></span>
+    <ul class="etal-packs" data-superpose>
+      ${packs.map((p, i) => html`<li style="--i:${i}"><button type="button" class="etal-pack${p.id === 'club' ? ' actif' : ''}" data-rack-pack="${p.id}" aria-pressed="${p.id === 'club' ? 'true' : 'false'}" aria-label="${p.nom}"><img src="/assets/images/materiel/${p.image}-720.webp" alt="" width="720" height="640" decoding="async"${i < 2 ? '' : brut(' loading="lazy"')}><span class="etal-nom" aria-hidden="true">${p.nom.replace('Pack ', '')}</span></button></li>`)}
+    </ul>
+    <p class="etal-legende" aria-live="polite"><strong class="etal-legende-nom" data-rack-nom>Pack Club</strong> <span data-rack-pour>${packs.find((p) => p.id === 'club').pour}</span> <a class="lien-fleche" href="#packs" data-rack-lien>${c.t('location.rack.voir')}</a></p>
+    <p class="etal-consigne" aria-hidden="true"><span class="consigne-souris">${c.t('location.rack.consigne')}</span><span class="consigne-tactile">${c.t('location.rack.consigneTactile')}</span></p>
+    <script type="application/json" data-rack-packs>${brut(JSON.stringify(packs.map((p) => ({ id: p.id, nom: p.nom, pour: p.pour }))))}</script>
   </div>
 </section>
 
@@ -66,7 +71,7 @@ export default (c) => {
   </div>
 </section>
 
-<section class="catalogue" id="catalogue">
+<section class="clair catalogue" id="catalogue">
   <div class="conteneur">
     <p class="sur">${c.t('location.catalogue.sur')}</p>
     <h2 data-anime="lignes">${c.t('location.catalogue.titre')}</h2>
@@ -98,7 +103,7 @@ export default (c) => {
   </div>
 </section>
 
-<section class="bon conteneur" id="bon-a-savoir">
+<section class="clair bon conteneur" id="bon-a-savoir">
   <div class="bon-tete"><h2 data-anime="lignes">${c.t('location.bon.titre')}</h2><img class="bon-visuel" src="/assets/images/materiel/machine-fumee-900w-720.webp" alt="" loading="lazy" data-visuel></div>
   <ul class="bon-liste" data-anime="cascade">
     ${c.donnees.faq.slice(0, 5).map((f) => html`<li><h3>${f.q}</h3><p>${f.r}</p></li>`)}

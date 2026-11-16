@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="3">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>NEWPEARS : location son, lumière et DJ à Saint-Quentin (Aisne)</title>
 <meta name="description" content="Location de sonorisation, d&#39;éclairage et d&#39;effets à la journée, packs dès 169 €, et deux DJ clé en main. Saint-Quentin et 50 km autour, devis sous 24 h.">
 <meta name="robots" content="noindex, nofollow">
-<link rel="canonical" href="https://newpears-maquette.vercel.app/">
+<link rel="canonical" href="https://newpears-regie.vercel.app/">
 <style>:root{--fond:#07070c;--texte:#f1efe9;--voile-fond:#07070c;--ouverture-fond:#07070c;--menu-fond:#0d0c15}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
 <script>(function () {
 var d = document.documentElement, ss = null, ls = null;
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/polices/big-shoulders-display-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/polices/manrope-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=3">
+<link rel="stylesheet" href="/assets/css/site.css?v=3">
+<link rel="modulepreload" href="/assets/js/site.js?v=3">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=3">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=3"></script>
 <meta name="theme-color" content="#07070c">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -51,8 +51,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <meta property="og:locale" content="fr_FR">
 <meta property="og:title" content="NEWPEARS : location son, lumière et DJ à Saint-Quentin (Aisne)">
 <meta property="og:description" content="Location de sonorisation, d&#39;éclairage et d&#39;effets à la journée, packs dès 169 €, et deux DJ clé en main. Saint-Quentin et 50 km autour, devis sous 24 h.">
-<meta property="og:url" content="https://newpears-maquette.vercel.app/">
-<meta property="og:image" content="https://newpears-maquette.vercel.app/assets/partage/accueil-fr.jpg">
+<meta property="og:url" content="https://newpears-regie.vercel.app/">
+<meta property="og:image" content="https://newpears-regie.vercel.app/assets/partage/accueil-fr.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="NEWPEARS, son, lumière et DJ à Saint-Quentin">
@@ -103,23 +103,11 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil" aria-current="page">Accueil</a></li><li style="--i:1"><a href="/location" class="menu-lien" data-libelle="Location">Location</a></li><li style="--i:2"><a href="/prestation-dj" class="menu-lien" data-libelle="Prestation DJ">Prestation DJ</a></li><li style="--i:3"><a href="/evenements" class="menu-lien" data-libelle="Événements">Événements</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
   <p class="menu-contacts"><a class="bouton" href="tel:+33626152454">Appeler 06 26 15 24 54</a> <a class="bouton bouton--contour" href="https://wa.me/33626152454" target="_blank" rel="noopener">WhatsApp</a> <a class="bouton bouton--contour" href="mailto:newpears@icloud.com">newpears@icloud.com</a></p>
 </div>
-<div class="fil-lyres" data-grille="fil" data-effet="lyres-fil" aria-hidden="true">
-  <div class="fil-lyre fil-lyre--g"><span class="fil-faisceau"></span><img src="/assets/images/materiel/lyre-beam-100w-360.webp" alt="" width="360" height="449"></div>
-  <div class="fil-lyre fil-lyre--d"><span class="fil-faisceau"></span><img src="/assets/images/materiel/lyre-beam-100w-360.webp" alt="" width="360" height="449"></div>
-</div>
+<div class="fil-progression" data-grille="fil" data-effet="fil-progression" aria-hidden="true"><span></span></div>
 <main id="contenu" tabindex="-1">
-<section class="regie" id="regie" data-section>
-  <div class="regie-salle" data-visuel>
-    <figure class="media regie-photo" data-grok style="--cadrage:100% 70%;--cadrage-mobile:62% 70%">
-  <picture>
-    <img src="/assets/images/grok/salle-eteinte-1280.webp" srcset="/assets/images/grok/salle-eteinte-640.webp 640w, /assets/images/grok/salle-eteinte-1280.webp 1280w, /assets/images/grok/salle-eteinte-1920.webp 1920w" sizes="100vw" alt="Une salle des fêtes prête pour la soirée, matériel installé, lumières éteintes" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
-  </picture><picture class="regie-photo--allumee" data-effet="salle-allume">
-    <img src="/assets/images/grok/salle-allumee-1280.webp" srcset="/assets/images/grok/salle-allumee-640.webp 640w, /assets/images/grok/salle-allumee-1280.webp 1280w, /assets/images/grok/salle-allumee-1920.webp 1920w" sizes="100vw" alt="La même salle en pleine soirée, faisceaux violets et verts dans la fumée" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
-  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
-</figure>
-    <div class="regie-lumiere" data-regie-lumiere aria-hidden="true"><div class="regie-lumiere-photo"></div></div>
-    <canvas class="regie-faisceaux" data-effet="regie-faisceaux" data-audit-ignorer aria-hidden="true"></canvas>
-  </div>
+<section class="regie regie--sobre" id="regie" data-section>
+  <div class="regie-faisceau" data-regie-faisceau data-effet="regie-faisceau" aria-hidden="true"><span class="regie-cone"></span></div>
+  <span class="regie-halo" data-regie-halo aria-hidden="true"></span>
   <div class="regie-texte">
     <p class="sur" data-anime="gsap">Son · Lumière · DJ pour mariages et soirées — Saint‑Quentin (02)</p>
     <h1 class="regie-titre" data-grille="typo" data-iris-centre>
@@ -127,7 +115,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <span class="ligne-masque"><span class="regie-ligne">on la <em>règle</em></span></span>
       <span class="ligne-masque"><span class="regie-ligne">avec vous.</span></span>
     </h1>
-    <p class="regie-intro masque-ecran-tres-bas" data-anime="gsap">Location de son et de lumière à la journée, ou deux DJ clé en main. Jusqu&#39;à 50 km autour de Saint-Quentin.</p>
+    <p class="regie-intro" data-anime="gsap">Location de son et de lumière à la journée, ou deux DJ clé en main. Jusqu&#39;à 50 km autour de Saint-Quentin.</p>
     <p class="regie-actions" data-anime="gsap">
       <a href="/contact#demande" class="bouton" data-libelle="Contact" data-action-principale>Demander un devis</a>
       <a class="bouton bouton--contour" href="tel:+33626152454">06 26 15 24 54</a>
@@ -135,27 +123,17 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <p class="regie-info" data-info-cle data-anime="gsap">Devis gratuit sous 24 h, 7 j/7 · Packs dès 169 € la journée</p>
     <p class="regie-preuve" data-anime="gsap"><a href="https://share.google/NU3Ol2L7jlCV3ppGP" target="_blank" rel="noopener"><span class="etoiles" aria-hidden="true">★★★★★</span> 5/5 sur Google · 8 ans de mix · +40 prestations par an</a></p>
   </div>
-  <div class="console" data-grille="manipuler" data-anime="gsap">
-    <div class="faders">
-      <label class="fader"><span class="fader-nom">Invités</span><span class="fader-rail"><input type="range" min="10" max="300" step="10" value="150" data-fader="invites"></span><output data-sortie="invites">150</output></label>
-      <label class="fader fader--lumiere"><span class="fader-nom">Lumière</span><span class="fader-rail"><input type="range" min="0" max="2" step="1" value="2" data-fader="lumiere" data-libelles="Douce|Piste|Club"></span><output data-sortie="lumiere">Club</output></label>
-      <label class="fader fader--effets"><span class="fader-nom">Effets</span><span class="fader-rail"><input type="range" min="0" max="2" step="1" value="1" data-fader="effets" data-libelles="Sans|Fumée|CO2"></span><output data-sortie="effets">Fumée</output></label>
-    </div>
-    <div class="console-ecran">
-      <p class="console-conseil">Conseil indicatif</p>
-      <p class="console-pack" data-pack-nom aria-live="polite">Pack Club</p>
-      <p class="console-pour" data-pack-pour>Une salle des fêtes qui veut une vraie piste de club.</p>
-      <label class="console-mariage"><input type="checkbox" data-mariage> <span class="interrupteur" aria-hidden="true"></span>Mariage</label>
-      <div class="console-vu" data-effet="console-vu" aria-hidden="true"><i style="--i:0"></i><i style="--i:1"></i><i style="--i:2"></i><i style="--i:3"></i><i style="--i:4"></i><i style="--i:5"></i><i style="--i:6"></i><i style="--i:7"></i><i style="--i:8"></i><i style="--i:9"></i><i style="--i:10"></i><i style="--i:11"></i><i style="--i:12"></i><i style="--i:13"></i></div>
-      <p class="console-consigne"><span class="consigne-souris">Bougez la souris : les lyres suivent. Poussez les faders.</span><span class="consigne-tactile">Glissez sur la salle : les lyres suivent. Poussez les faders.</span></p>
-    </div>
-    <div class="console-fiche">
-      <div class="console-photo" data-envol-depuis><img class="fiche-pack" data-plateau="essentiel" src="/assets/images/catalogue/pack-essentiel-480.webp" alt="Pack Essentiel" width="480" height="360" decoding="async" loading="lazy"><img class="fiche-pack" data-plateau="confort" src="/assets/images/catalogue/pack-confort-480.webp" alt="Pack Confort" width="480" height="360" decoding="async" loading="lazy"><img class="fiche-pack" data-plateau="ambiance" src="/assets/images/catalogue/pack-ambiance-480.webp" alt="Pack Ambiance" width="480" height="360" decoding="async" loading="lazy"><img class="fiche-pack actif" data-plateau="club" src="/assets/images/catalogue/pack-club-480.webp" alt="Pack Club" width="480" height="360" decoding="async"><img class="fiche-pack" data-plateau="professionnel" src="/assets/images/catalogue/pack-professionnel-480.webp" alt="Pack Professionnel" width="480" height="360" decoding="async" loading="lazy"></div>
-      <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="club" data-ajouter-nom="Pack Club" data-ajouter-image="/assets/images/materiel/pack-club-360.webp" data-grille="retour">Ajouter à ma demande</button>
-      <p class="console-note">Conseil indicatif : le bon pack est confirmé dans votre devis.</p>
-    </div>
+  <div class="regie-scene" data-visuel>
+    <div class="regie-pack" data-envol-depuis><img class="fiche-pack" data-plateau="essentiel" src="/assets/images/materiel/pack-essentiel-720.webp" alt="" width="720" height="640" decoding="async" loading="lazy"><img class="fiche-pack" data-plateau="confort" src="/assets/images/materiel/pack-confort-720.webp" alt="" width="720" height="640" decoding="async" loading="lazy"><img class="fiche-pack" data-plateau="ambiance" src="/assets/images/materiel/pack-ambiance-720.webp" alt="" width="720" height="640" decoding="async" loading="lazy"><img class="fiche-pack actif" data-plateau="club" src="/assets/images/materiel/pack-club-720.webp" alt="Pack Club" width="720" height="640" decoding="async" fetchpriority="high"><img class="fiche-pack" data-plateau="professionnel" src="/assets/images/materiel/pack-professionnel-720.webp" alt="" width="720" height="640" decoding="async" loading="lazy"></div>
+    <span class="regie-sol" aria-hidden="true"></span>
   </div>
-  <script type="application/json" data-packs>[{"id":"essentiel","nom":"Pack Essentiel","pour":"Un petit moment à la maison, un repas de famille.","image":"pack-essentiel","faisceaux":1},{"id":"confort","nom":"Pack Confort","pour":"Une petite soirée : anniversaire, repas entre amis.","image":"pack-confort","faisceaux":2},{"id":"ambiance","nom":"Pack Ambiance","pour":"Une salle des fêtes : plus de puissance et de lumière.","image":"pack-ambiance","faisceaux":3},{"id":"club","nom":"Pack Club","pour":"Une salle des fêtes qui veut une vraie piste de club.","image":"pack-club","faisceaux":4},{"id":"professionnel","nom":"Pack Professionnel","pour":"Mariages et grands événements, dans les grandes salles : le plus complet.","image":"pack-professionnel","faisceaux":4}]</script>
+  <div class="conseil" data-grille="manipuler" data-anime="gsap">
+    <label class="conseil-invites"><span class="conseil-libelle">Pour</span><input type="range" min="10" max="300" step="10" value="150" data-fader="invites" aria-label="Invités"><output data-sortie="invites">150</output><span class="conseil-unite">invités</span></label>
+    <p class="conseil-pack"><span class="conseil-libelle">notre conseil</span> <strong data-pack-nom aria-live="polite">Pack Club</strong></p>
+    <label class="console-mariage"><input type="checkbox" class="interrupteur-case" data-mariage>Mariage</label>
+    <button type="button" class="bouton bouton--petit bouton--contour" data-ajouter="club" data-ajouter-nom="Pack Club" data-ajouter-image="/assets/images/materiel/pack-club-360.webp" data-grille="retour">Ajouter à ma demande</button>
+  </div>
+  <script type="application/json" data-packs>[{"id":"essentiel","nom":"Pack Essentiel","pour":"Un petit moment à la maison, un repas de famille.","image":"pack-essentiel"},{"id":"confort","nom":"Pack Confort","pour":"Une petite soirée : anniversaire, repas entre amis.","image":"pack-confort"},{"id":"ambiance","nom":"Pack Ambiance","pour":"Une salle des fêtes : plus de puissance et de lumière.","image":"pack-ambiance"},{"id":"club","nom":"Pack Club","pour":"Une salle des fêtes qui veut une vraie piste de club.","image":"pack-club"},{"id":"professionnel","nom":"Pack Professionnel","pour":"Mariages et grands événements, dans les grandes salles : le plus complet.","image":"pack-professionnel"}]</script>
 </section>
 <section class="case-jeu" id="flight-case" data-grille="scene" data-section>
   <div class="conteneur case-tete">
@@ -215,12 +193,12 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <li><span class="frise-n">01</span><h3>Votre demande</h3><p>Date, lieu, invités, envies : votre sélection part avec.</p></li><li><span class="frise-n">02</span><h3>Votre devis sous 24 h</h3><p>Une formule adaptée à la salle et au budget.</p></li><li><span class="frise-n">03</span><h3>La préparation</h3><p>Le déroulé et la musique ; le matériel est testé.</p></li><li><span class="frise-n">04</span><h3>Le jour J</h3><p>Livré et installé, la soirée, puis le démontage.</p></li>
   </ol>
 </section>
-<section class="metiers conteneur" id="metiers">
+<section class="clair metiers conteneur" id="metiers">
   <p class="sur">Nos deux métiers</p>
   <h2 data-anime="lignes">Vous louez. On s&#39;occupe de tout.</h2>
   <div class="metiers-grille" data-anime="cascade">
     <article class="metier metier--loc">
-      <div class="metier-visuel metier-visuel--produit" data-visuel><img class="metier-produit" src="/assets/images/catalogue/pack-professionnel-900.webp" alt="" loading="lazy" width="900" height="675"><span class="metier-halo" data-effet="metier-pack" aria-hidden="true"></span></div>
+      <div class="metier-visuel metier-visuel--produit" data-visuel><img class="metier-produit" src="/assets/images/catalogue/pack-professionnel-900.webp" alt="" loading="lazy" width="900" height="675"></div>
       <h3>Location</h3>
       <p>Du matériel à l&#39;unité ou en packs prêts à l&#39;emploi : son, lumière, effets, structures et vidéo. Livré et installé.</p>
       <a href="/location" class="lien-fleche" data-libelle="Location">Voir le matériel</a>
@@ -272,7 +250,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <p class="evts-pied"><a href="/evenements" class="lien-fleche" data-libelle="Événements">Tous les événements</a><span class="mention-ia mention-ia--liste">Vignettes : illustrations générées</span></p>
   </div>
 </section>
-<section class="zone" id="zone">
+<section class="clair zone" id="zone">
   <div class="conteneur zone-grille">
     <div>
       <p class="sur">Où nous intervenons</p>
@@ -292,7 +270,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </div>
 </section>
 <section class="fin" id="fin">
-  <div class="fin-balayage" data-boucle-css data-visuel aria-hidden="true"><span data-effet="fin-balayage"></span><span></span></div>
+  <div class="fin-balayage" data-visuel aria-hidden="true"><span></span><span></span></div>
   <div class="conteneur fin-texte">
     <h2 data-anime="lignes">Une date, un lieu ?</h2>
     <p data-anime>Décrivez votre événement : devis gratuit sous 24 h, y compris pour les demandes de dernière minute.</p>

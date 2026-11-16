@@ -8,23 +8,21 @@
     "/contact"
   ],
   "effets": [
-    "regie-faisceaux",
-    "metier-pack",
+    "regie-faisceau",
     "led-styles",
     "evts-ambiance",
-    "fin-balayage",
-    "lyres-fil",
+    "fil-progression",
     "packs-selecteur",
     "flight-case",
     "catalogue-filtre",
-    "vumetre",
     "inclus-led",
-    "egaliseur",
     "index-ambiance",
     "numero-led",
-    "console-vu",
     "couvercle",
-    "salle-allume"
+    "rack-poursuite",
+    "jogs",
+    "ambiances",
+    "plan"
   ],
   "grille": {
     "dispenses": {}

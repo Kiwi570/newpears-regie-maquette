@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="3">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Événements : mariage, anniversaire, entreprise, mairie · NEWPEARS</title>
 <meta name="description" content="DJ, son et lumière pour mariages, anniversaires, entreprises, associations, mairies et fêtes de fin d&#39;année, à Saint-Quentin et dans l&#39;Aisne.">
 <meta name="robots" content="noindex, nofollow">
-<link rel="canonical" href="https://newpears-maquette.vercel.app/evenements">
+<link rel="canonical" href="https://newpears-regie.vercel.app/evenements">
 <style>:root{--fond:#07070c;--texte:#f1efe9;--voile-fond:#07070c;--ouverture-fond:#07070c;--menu-fond:#0d0c15}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
 <script>(function () {
 var d = document.documentElement, ss = null, ls = null;
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/polices/big-shoulders-display-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/polices/manrope-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=3">
+<link rel="stylesheet" href="/assets/css/site.css?v=3">
+<link rel="modulepreload" href="/assets/js/site.js?v=3">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=3">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=3"></script>
 <meta name="theme-color" content="#07070c">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -51,8 +51,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <meta property="og:locale" content="fr_FR">
 <meta property="og:title" content="Événements : mariage, anniversaire, entreprise, mairie · NEWPEARS">
 <meta property="og:description" content="DJ, son et lumière pour mariages, anniversaires, entreprises, associations, mairies et fêtes de fin d&#39;année, à Saint-Quentin et dans l&#39;Aisne.">
-<meta property="og:url" content="https://newpears-maquette.vercel.app/evenements">
-<meta property="og:image" content="https://newpears-maquette.vercel.app/assets/partage/evenements-fr.jpg">
+<meta property="og:url" content="https://newpears-regie.vercel.app/evenements">
+<meta property="og:image" content="https://newpears-regie.vercel.app/assets/partage/evenements-fr.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Les événements de NEWPEARS">
@@ -103,27 +103,28 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/location" class="menu-lien" data-libelle="Location">Location</a></li><li style="--i:2"><a href="/prestation-dj" class="menu-lien" data-libelle="Prestation DJ">Prestation DJ</a></li><li style="--i:3"><a href="/evenements" class="menu-lien" data-libelle="Événements" aria-current="page">Événements</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
   <p class="menu-contacts"><a class="bouton" href="tel:+33626152454">Appeler 06 26 15 24 54</a> <a class="bouton bouton--contour" href="https://wa.me/33626152454" target="_blank" rel="noopener">WhatsApp</a> <a class="bouton bouton--contour" href="mailto:newpears@icloud.com">newpears@icloud.com</a></p>
 </div>
-<div class="fil-lyres" data-grille="fil" data-effet="lyres-fil" aria-hidden="true">
-  <div class="fil-lyre fil-lyre--g"><span class="fil-faisceau"></span><img src="/assets/images/materiel/lyre-beam-100w-360.webp" alt="" width="360" height="449"></div>
-  <div class="fil-lyre fil-lyre--d"><span class="fil-faisceau"></span><img src="/assets/images/materiel/lyre-beam-100w-360.webp" alt="" width="360" height="449"></div>
-</div>
+<div class="fil-progression" data-grille="fil" data-effet="fil-progression" aria-hidden="true"><span></span></div>
 <main id="contenu" tabindex="-1">
-<section class="tete tete--evts" id="debut">
+<section class="tete tete--evts tete--ambiances" id="debut" data-ambiances style="--teinte:#8b66d6">
+  <div class="ambiances-salle" data-iris-centre data-visuel>
+    <figure class="media ambiances-photo" data-grok style="--cadrage:72% 60%;--cadrage-mobile:62% 60%">
+  <picture>
+    <img src="/assets/images/grok/salle-eteinte-1280.webp" srcset="/assets/images/grok/salle-eteinte-640.webp 640w, /assets/images/grok/salle-eteinte-1280.webp 1280w, /assets/images/grok/salle-eteinte-1920.webp 1920w" sizes="100vw" alt="Une salle des fêtes prête pour la soirée, matériel installé, lumières éteintes" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <span class="ambiances-lumiere" data-effet="ambiances" aria-hidden="true"></span>
+    <span class="ambiances-halo" aria-hidden="true"></span>
+  </div>
   <div class="tete-texte conteneur">
     <p class="sur" data-anime="gsap">Événements</p>
     <h1 data-grille="typo"><span class="ligne-masque"><span class="tete-ligne">Chaque événement</span></span><span class="ligne-masque"><span class="tete-ligne">a son <em>ambiance</em></span></span></h1>
-    <div class="tete-bas" data-anime="gsap">
-      <p class="masque-ecran-tres-bas">Mariages, anniversaires, entreprises, associations, mairies : DJ, son et éclairage, à Saint-Quentin et dans l&#39;Aisne.</p>
-      <p class="tete-actions"><a class="bouton" href="#index" data-action-principale>Choisissez votre événement</a><span class="tete-info" data-info-cle>Devis sous 24 h, 7 j/7</span></p>
-    </div>
+    <p class="masque-ecran-tres-bas" data-anime="gsap">Mariages, anniversaires, entreprises, associations, mairies : DJ, son et éclairage, à Saint-Quentin et dans l&#39;Aisne.</p>
+    <p class="tete-actions" data-anime="gsap"><a class="bouton" href="#index" data-action-principale>Choisissez votre événement</a><span class="tete-info" data-info-cle>Devis sous 24 h, 7 j/7</span></p>
   </div>
-  <div class="tete-bandeau tete-bandeau--large" data-iris-centre>
-    <figure class="media tete-media" data-grok data-fx="zoom" data-fx-force="16" style="--cadrage:50% 62%">
-  <picture>
-    <img src="/assets/images/grok/salle-allumee-1280.webp" srcset="/assets/images/grok/salle-allumee-640.webp 640w, /assets/images/grok/salle-allumee-1280.webp 1280w, /assets/images/grok/salle-allumee-1920.webp 1920w" sizes="100vw" alt="La même salle en pleine soirée, faisceaux violets et verts dans la fumée" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
-  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
-</figure>
-  </div>
+  <ul class="ambiances-noms" aria-label="Onze ambiances, une même salle">
+    <li><a href="#mariage" data-ambiance="mariage" style="--t:#8b66d6" class="actif">Mariage</a></li><li><a href="#anniversaire" data-ambiance="anniversaire" style="--t:#c25fb5">Anniversaire</a></li><li><a href="#famille" data-ambiance="famille" style="--t:#5d8fd6">Baptême et famille</a></li><li><a href="#entreprise" data-ambiance="entreprise" style="--t:#3cc39a">Entreprises</a></li><li><a href="#seminaire" data-ambiance="seminaire" style="--t:#4fb3c9">Séminaires et conférences</a></li><li><a href="#festival" data-ambiance="festival" style="--t:#e0a43a">Festivals et concerts en plein air</a></li><li><a href="#associations" data-ambiance="associations" style="--t:#d66a6a">Associations</a></li><li><a href="#bars" data-ambiance="bars" style="--t:#e07a3a">Bars et restaurants</a></li><li><a href="#mairies" data-ambiance="mairies" style="--t:#6a7ad6">Mairies et collectivités</a></li><li><a href="#fin-annee" data-ambiance="fin-annee" style="--t:#b48cff">Fêtes de fin d&#39;année</a></li><li><a href="#autre" data-ambiance="autre" style="--t:#9a98a6">Autre événement</a></li>
+  </ul>
+  <p class="ambiances-actuel" aria-hidden="true" data-ambiance-actuel>Mariage</p>
 </section>
 <section class="index-evts" id="index" data-effet="index-ambiance">
   <div class="conteneur">
@@ -244,7 +245,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </div>
 </section>
 <section class="fin fin--page" id="fin">
-  <div class="fin-balayage" data-boucle-css data-visuel aria-hidden="true"><span data-effet="fin-balayage"></span><span></span></div>
+  <div class="fin-balayage" data-visuel aria-hidden="true"><span></span><span></span></div>
   <div class="conteneur fin-texte">
     <h2 data-anime="lignes">Votre événement n&#39;est pas dans la liste ?</h2>
     <p data-anime>Dites-nous la date, le lieu et le nombre d&#39;invités : on vous conseille.</p>

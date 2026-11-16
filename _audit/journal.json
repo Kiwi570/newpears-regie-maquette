@@ -120,6 +120,125 @@
         "regardNeuf": "fait sur la v1 : accueil 3,8, location 3,6, contact 3,6, DJ 2,9, 404 2,9, événements 2,8 ; corrigés : date 2018 retirée, vignettes vides remplacées par le matériel, image répétée du contact ; pour la v2 : une ouverture propre à chaque page d'onglet",
         "visiteur": "7 missions sur téléphone et ordinateur ; corrigés : conseil Mariage, prix par pack retiré, contacts dans le menu et en tête du contact, formulaire (défilement, une colonne, invités repris), mariages au premier écran, preuve Google au premier écran"
       }
+    },
+    {
+      "version": 2,
+      "skill": "v10.12",
+      "perimetre": [
+        "accueil",
+        "location",
+        "dj",
+        "evenements",
+        "contact"
+      ],
+      "etapes": [
+        {
+          "etape": "ouvertures des pages d'onglet, héros sobre, sections claires, moins d'animations",
+          "budget": 60,
+          "debut": "2026-11-13T15:45:07+01:00",
+          "fin": "2026-11-13T16:05:00+01:00"
+        },
+        {
+          "etape": "audit et corrections",
+          "budget": 20,
+          "debut": "2026-11-13T16:05:00+01:00",
+          "fin": "2026-11-13T16:40:00+01:00"
+        },
+        {
+          "etape": "livraison",
+          "budget": 5,
+          "debut": "2026-11-13T16:40:00+01:00",
+          "fin": "2026-11-13T16:42:12+01:00"
+        }
+      ],
+      "attentes": [
+        {
+          "pour": "mise en ligne v1 bloquée (nom de dépôt déjà pris), question à l'utilisateur",
+          "debut": "2026-11-13T15:45:00+01:00",
+          "fin": "2026-11-13T15:50:00+01:00"
+        },
+        {
+          "pour": "réponses sur le héros sobre et les sections claires",
+          "debut": "2026-11-13T15:56:00+01:00",
+          "fin": "2026-11-13T15:58:00+01:00"
+        }
+      ],
+      "allersRetours": 2,
+      "modules": [],
+      "audit": {
+        "niveau": "standard (5 pages) puis trois relances ciblées",
+        "echecsPremierPassage": 56,
+        "relances": 3,
+        "passes": [
+          "standard : 56 échecs",
+          "ciblée toutes pages (fichiers, mesures, films, parcours) : 21",
+          "ciblée (fichiers, mesures, films) : 9, tous sur /location",
+          "ciblée / et /location : 0"
+        ],
+        "corrections": [
+          "zones tactiles (curseur, noms des événements)",
+          "noms des événements qui se chevauchaient",
+          "mise en page téléphone d'Événements jusqu'à 1000 px",
+          "mot en couleur pleine sur la photo d'Événements",
+          "packs du rack : zone de clic propre, chevauchement voulu déclaré (data-superpose)",
+          "légende du rack à hauteur réservée (CLS)",
+          "tampon du formulaire caché avant l'envoi",
+          "consigne du contrôleur sous le contrôleur",
+          "interrupteur Mariage visible au clavier"
+        ]
+      },
+      "effetsRetires": [
+        "salle générée, faisceaux multiples, brume, CO2 et console du héros (demande du client : plus sobre)",
+        "lyres du fil (remplacées par une ligne de lecture)",
+        "balayage de l'appel final, halo des métiers, vumètre et égaliseur de la page DJ, défilement du mur LED"
+      ],
+      "grilleDispenses": {},
+      "notes": "v2 demandée après le regard neuf : une ouverture propre à chaque page d'onglet (Location rack de packs, DJ contrôleur, Événements salle colorée, Contact plan de salle). Le client a demandé ensuite un héros plus sobre, des sections claires et moins d'animations : fait dans la même v2. Regard DA non relancé (héros dessiné sur consigne du client), aperçu refilmé."
+    },
+    {
+      "version": 3,
+      "skill": "v10.12",
+      "perimetre": [
+        "accueil",
+        "location",
+        "dj",
+        "evenements",
+        "contact"
+      ],
+      "etapes": [
+        {
+          "etape": "audit complet à la validation et corrections",
+          "budget": 20,
+          "debut": "2026-11-13T16:50:00+01:00",
+          "fin": "2026-11-13T17:25:00+01:00"
+        },
+        {
+          "etape": "livraison et ajout à la bibliothèque",
+          "budget": 15,
+          "debut": "2026-11-13T17:25:00+01:00",
+          "fin": ""
+        }
+      ],
+      "attentes": [],
+      "allersRetours": 0,
+      "modules": [],
+      "audit": {
+        "niveau": "complet",
+        "echecsPremierPassage": 4,
+        "relances": 2,
+        "corrections": [
+          "premier écran des petits écrans couchés (accueil, contact)",
+          "numéro LED de 44 px au doigt",
+          "légende du rack à hauteur réservée (CLS)",
+          "couleurs de la salle d'Événements en image de fond (contraste lu par axe)",
+          "photo 4/5 pour les temps forts DJ"
+        ]
+      },
+      "effetsRetires": [],
+      "grilleDispenses": {},
+      "notes": "Validation de la maquette par l'utilisateur après la v2 ; audit complet demandé par la skill avant l'ajout à la bibliothèque."
     }
-  ]
+  ],
+  "depot": "newpears-regie-maquette",
+  "adresse": "https://newpears-regie.vercel.app"
 }

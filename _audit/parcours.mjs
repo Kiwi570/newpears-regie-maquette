@@ -36,11 +36,13 @@ export default async function ({ contexte, attendrePret, attendre, BASE, R, T })
     const lasers = await page.locator('.article:not([hidden])').count();
     if (lasers < 1) R.echec('catalogue', 'la recherche « lasers » (pluriel) ne trouve rien', { page: '/location' });
 
-    /* Régie : 30 invités et lumière douce conseillent un petit pack. */
+    /* Conseil de l'accueil : 30 invités conseillent le plus petit pack, un mariage le plus complet. */
     await autre.locator('[data-fader="invites"]').evaluate((i) => { i.value = '30'; i.dispatchEvent(new Event('input', { bubbles: true })); });
-    await autre.locator('[data-fader="lumiere"]').evaluate((i) => { i.value = '1'; i.dispatchEvent(new Event('input', { bubbles: true })); });
     const pack = (await autre.locator('[data-pack-nom]').textContent()).trim();
-    if (pack !== 'Pack Essentiel') R.echec('régie', `30 invités, lumière « Piste » : ${pack} au lieu de Pack Essentiel`, { page: '/' });
+    if (pack !== 'Pack Essentiel') R.echec('régie', `30 invités : ${pack} au lieu de Pack Essentiel`, { page: '/' });
+    await autre.locator('[data-mariage]').evaluate((i) => { i.checked = true; i.dispatchEvent(new Event('change', { bubbles: true })); });
+    const packMariage = (await autre.locator('[data-pack-nom]').textContent()).trim();
+    if (packMariage !== 'Pack Professionnel') R.echec('régie', `mariage : ${packMariage} au lieu de Pack Professionnel`, { page: '/' });
 
     /* Demande en 4 étapes, préremplie depuis l'adresse, puis envoi simulé. */
     await page.goto(BASE + '/contact?type=mariage#demande', { waitUntil: 'load' });

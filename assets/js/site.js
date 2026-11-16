@@ -1,6 +1,6 @@
 /* NEWPEARS — effets propres au client (direction « La régie »). Le socle gère l'ouverture, les transitions,
    l'en-tête, le menu, les boucles, les mesures et la bibliothèque d'effets. Chaque effet propre porte data-effet. */
-import { demarrer, boucle, versObjet, quand } from './socle/index.js?v=1';
+import { demarrer, boucle, versObjet, quand } from './socle/index.js?v=3';
 
 const gsap = window.gsap;
 const $ = (s, r = document) => r.querySelector(s);
@@ -82,238 +82,72 @@ export function jetCO2(dans = document.body) {
 
 /* ---------- Fil : deux lyres fixes visent le titre de la section en cours ---------- */
 function initFil() {
-  const lyres = $$('.fil-lyre');
-  if (!lyres.length) return;
-  let titres = [], W = innerWidth, H = innerHeight, courant = null, regieH = 0;
-  const mesurer = () => {
-    W = innerWidth; H = innerHeight;
-    const rg = document.getElementById('regie'); regieH = rg ? rg.offsetHeight : 0;
-    titres = $$('main h1, main h2').filter((t) => t.offsetParent).map((t) => {
-      const r = t.getBoundingClientRect();
-      return { y: r.top + scrollY + Math.min(r.height, 120) / 2, x: r.left + Math.min(r.width, W * 0.5) / 2 };
-    });
-    viser();
-  };
-  const viser = () => {
-    const milieu = scrollY + H * 0.42;
-    let meilleur = null, d = Infinity;
-    titres.forEach((t) => { const e = Math.abs(t.y - milieu); if (e < d) { d = e; meilleur = t; } });
-    if (!meilleur) return;
-    const yEcran = meilleur.y - scrollY;
-    lyres.forEach((l, i) => {
-      const ox = i === 0 ? 33 : W - 33, oy = 70;
-      const dx = meilleur.x - ox, dy = Math.max(40, yEcran - oy);
-      const angle = (Math.atan2(dx, dy) * 180) / Math.PI;
-      l.style.setProperty('--angle', `${(-angle).toFixed(1)}deg`);
-      l.style.setProperty('--echelle', (Math.min(H * 1.1, Math.hypot(dx, dy)) / H).toFixed(3));
-      l.style.setProperty('--force', yEcran > -60 && yEcran < H ? '.26' : '.08');
-    });
-    courant = meilleur;
-    /* Sur l'accueil, les lyres du pont font déjà le travail dans le premier écran. */
-    html.classList.toggle('fil-repos', !!regieH && scrollY < regieH * 0.7);
-  };
-  let att = 0;
-  addEventListener('scroll', () => { if (!att) att = requestAnimationFrame(() => { att = 0; viser(); }); }, { passive: true });
-  if (window.ScrollTrigger) window.ScrollTrigger.addEventListener('refresh', mesurer);
-  addEventListener('resize', mesurer);
-  quand('pret', mesurer);
-  mesurer();
+  /* Fil sobre : une ligne de lumière sous l'en-tête suit la lecture de la page. */
+  const fil = $('.fil-progression span');
+  if (!fil) return;
+  let rp = null;
+  const maj = () => { rp = null; const h = document.documentElement.scrollHeight - innerHeight; fil.style.transform = `scaleX(${h > 0 ? Math.min(1, scrollY / h).toFixed(4) : 0})`; };
+  addEventListener('scroll', () => { if (!rp) rp = requestAnimationFrame(maj); }, { passive: true });
+  addEventListener('resize', maj);
+  maj();
 }
 
 /* ---------- 1. La régie : faisceaux au pointeur, faders, pack conseillé ---------- */
 function initRegie() {
   const section = $('#regie');
   if (!section) return;
-  const canvas = $('.regie-faisceaux', section), ctx = canvas.getContext('2d');
-  const lyres = [];
-  /* Lyres visibles sur le pont de la photo de la salle (coordonnées dans l'image d'origine, 1600 × 900). */
-  const LYRES = [[0.296, 0.116], [0.417, 0.111], [0.49, 0.126], [0.567, 0.144], [0.721, 0.108], [0.79, 0.081], [0.91, 0.07]];
-  const photo = $('.regie-photo img', section);
-  const salle = $('.regie-salle', section);
-  const packs = JSON.parse(($('[data-packs]', section) || {}).textContent || '[]');
-  const lum = $('[data-regie-lumiere]', section), lumPhoto = lum && lum.firstElementChild;
-  let lumVisible = false;
-  let W = 0, H = 0, dpr = 1, origines = [], proj = (x, y) => ({ x, y }), sol = { haut: 0, bas: 0, gauche: 0 };
+  /* Un seul faisceau, accroché en haut : il suit la souris (ou le doigt), éclaire le titre au passage,
+     et revient se poser sur le pack conseillé quand la main s'arrête. */
+  const faisceau = $('[data-regie-faisceau]', section), halo = $('[data-regie-halo]', section), pack = $('.regie-pack', section);
+  let ox = 0, oy = 0, cx = 0, cy = 0, vx = 0, vy = 0, main = -10;
   const mesurer = () => {
-    const r = (salle || section).getBoundingClientRect();
-    dpr = innerWidth < 760 ? 0.5 : 0.6; /* faisceaux et fumée sont flous : une demi-résolution suffit et allège le rendu */
-    W = r.width; H = r.height;
-    canvas.width = Math.round(W * dpr); canvas.height = Math.round(H * dpr);
-    /* Projection des lyres de la photo sur l'écran (object-fit: cover, object-position 50 % 55 %) ; sur téléphone,
-       la version en 9:16 est un recadrage centré de l'original. */
-    const iw = 1600, ih = 900, x0 = 0;
-    const pos = (photo ? getComputedStyle(photo).objectPosition : '62% 70%').split(' ').map((v) => (/%$/.test(v) ? parseFloat(v) / 100 : 0.5));
-    const k = Math.max(W / iw, H / ih), dw = iw * k, dh = ih * k, ox = (W - dw) * pos[0], oy = (H - dh) * (pos[1] ?? 0.7);
-    proj = (x, y) => ({ x: ox + x * dw, y: oy + y * dh });
-    sol = { haut: oy + 0.7 * dh, bas: Math.min(H - 24, oy + 0.95 * dh), gauche: innerWidth < 760 ? ox + 0.3 * dw : Math.max(W * 0.44, ox + 0.32 * dw), droite: Math.min(W - 40, ox + 0.86 * dw) };
-    if (lumPhoto) { lumPhoto.style.width = `${W}px`; lumPhoto.style.height = `${H}px`; lumPhoto.style.backgroundPosition = photo ? getComputedStyle(photo).objectPosition : '100% 70%'; }
-    origines = LYRES.map(([x, y]) => ({ x: ox + ((x * 1600 - x0) / iw) * dw, y: oy + y * dh }))
-      .filter((o) => o.x > -20 && o.x < W + 20);
-    if (!regie.vise) regie.cible = { x: W * 0.62, y: H * 0.62 };
+    const r = section.getBoundingClientRect();
+    ox = r.width * (innerWidth < 761 ? 0.72 : 0.7); oy = -20;
+    const q = pack.getBoundingClientRect();
+    cx = q.left - r.left + q.width / 2; cy = q.top - r.top + q.height * 0.55;
+    if (main < 0) { vx = cx; vy = cy; }
   };
   mesurer();
-  if (photo && !photo.complete) photo.addEventListener('load', mesurer, { once: true });
   addEventListener('resize', mesurer);
-  if (window.ScrollTrigger) window.ScrollTrigger.addEventListener('refresh', mesurer);
   quand('pret', mesurer);
-  let haut = 0;
-  const trace = [];
-  const pointe = (x, y, tenue = 1.6) => { const r = (salle || section).getBoundingClientRect(); haut = r.top; regie.vise = { x: x - r.left, y: Math.max(0, Math.min(r.height, y - r.top)) }; regie.inactif = 0; regie.tenue = tenue;
-    const d = trace[trace.length - 1]; if (!d || Math.hypot(d.x - regie.vise.x, d.y - regie.vise.y) > 24) { trace.push({ x: regie.vise.x, y: regie.vise.y, t: t0 }); if (trace.length > 60) trace.shift(); } };
-  /* Poursuite : sous la souris, le voile sombre s'ouvre et laisse voir la salle (mur de briques, tables, bougies). */
-  let rp = null;
-  const poursuite = (e) => { if (rp) return; rp = requestAnimationFrame(() => { rp = null; const r = section.getBoundingClientRect(); section.style.setProperty('--px', `${Math.round(e.clientX - r.left)}px`); section.style.setProperty('--py', `${Math.round(e.clientY - r.top)}px`); }); };
-  section.addEventListener('pointermove', (e) => { if (e.pointerType === 'mouse' || e.buttons) { pointe(e.clientX, e.clientY); if (e.pointerType === 'mouse') poursuite(e); } }, { passive: true });
-  section.addEventListener('pointerdown', (e) => { if (e.pointerType !== 'mouse' && !e.target.closest('.console, a, button, input, label')) pointe(e.clientX, e.clientY, 2.6); }, { passive: true });
-  section.addEventListener('touchmove', (e) => { const t = e.touches[0]; if (t && !e.target.closest('.console')) pointe(t.clientX, t.clientY, 2.6); }, { passive: true });
-  section.addEventListener('pointerleave', () => { regie.vise = null; section.style.removeProperty('--px'); section.style.removeProperty('--py'); });
+  let tx = 0, ty = 0;
+  const viser = (e) => { const r = section.getBoundingClientRect(); tx = e.clientX - r.left; ty = e.clientY - r.top; main = performance.now(); };
+  section.addEventListener('pointermove', (e) => { if (e.pointerType === 'mouse' || e.buttons) viser(e); }, { passive: true });
+  section.addEventListener('pointerdown', (e) => { if (!e.target.closest('a, button, input, label')) viser(e); }, { passive: true });
+  boucle(faisceau, (dt, t) => {
+    const libre = performance.now() - main > 1800;
+    const bx = libre ? cx + Math.sin(t * 0.6) * 26 : tx, by = libre ? cy : ty;
+    const k = 1 - Math.pow(0.003, dt);
+    vx += (bx - vx) * k; vy += (by - vy) * k;
+    const dx = vx - ox, dy = vy - oy, L = Math.hypot(dx, dy) * 1.25, a = Math.atan2(dx, dy);
+    faisceau.style.transform = `translate3d(${ox.toFixed(1)}px,${oy}px,0) rotate(${(-a * 180 / Math.PI).toFixed(2)}deg)`;
+    faisceau.style.height = `${L.toFixed(0)}px`;
+    halo.style.transform = `translate3d(${(vx - 260).toFixed(1)}px,${(vy - 200).toFixed(1)}px,0)`;
+  });
 
-  /* Brume : particules lentes, plus nombreuses avec la fumée. */
-  const brume = Array.from({ length: 30 }, () => ({ x: Math.random(), y: 0.2 + Math.random() * 0.6, r: 60 + Math.random() * 140, v: 0.004 + Math.random() * 0.01, a: Math.random() * 6.28 }));
-  const couleurs = [[180, 155, 255], [111, 227, 189], [180, 155, 255], [111, 227, 189]];
-  let t0 = 0;
-  boucle(canvas, (dt, t) => {
-    t0 = t;
-    if (!W) return;
-    /* Sans pointeur, les faisceaux balayent seuls la piste (ils bougent dès l'arrivée). */
-    regie.inactif += dt;
-    const auto = { x: W * (0.6 + 0.26 * Math.sin(t * 0.9)), y: H * (0.6 + 0.1 * Math.sin(t * 1.3 + 1)) };
-    const main = regie.vise && regie.inactif < (regie.tenue || 1.6);
-    /* Avec la main, la tache de gobos se pose sur le parquet sous le pointeur, partout dans la salle. */
-    const but = main ? { x: Math.max(sol.gauche, Math.min(sol.droite, regie.vise.x)), y: Math.max(sol.haut, Math.min(sol.bas, regie.vise.y)) } : auto;
-    const k = 1 - Math.pow(0.002, dt);
-    regie.cible.x += (but.x - regie.cible.x) * k; regie.cible.y += (but.y - regie.cible.y) * k;
-    regie.serre += ((main ? 1 : 0) - regie.serre) * (1 - Math.pow(0.02, dt));
-    /* Sous la main, la salle elle-même s'éclaire : une version plus lumineuse de la photo, révélée en ellipse sur le parquet. */
-    if (lum) {
-      if (main !== lumVisible) { lumVisible = !!main; lum.classList.toggle('actif', lumVisible); }
-      if (regie.serre > 0.01) { const lx = Math.round(regie.cible.x - 230), ly = Math.round(regie.cible.y - 85); lum.style.transform = `translate3d(${lx}px,${ly}px,0)`; lumPhoto.style.transform = `translate3d(${-lx}px,${-ly}px,0)`; }
-    }
-    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    ctx.clearRect(0, 0, W, H);
-    const A = regie.allumage;
-    if (A <= 0.01) return;
-    ctx.globalCompositeOperation = 'lighter';
-    /* Fumée. */
-    if (regie.fumee > 0) {
-      brume.forEach((p) => {
-        p.x += p.v * dt * 3; if (p.x > 1.2) p.x = -0.2;
-        const x = p.x * W, y = p.y * H + Math.sin(t * 0.3 + p.a) * 14;
-        const g = ctx.createRadialGradient(x, y, 0, x, y, p.r);
-        g.addColorStop(0, `rgba(185,175,235,${0.085 * regie.fumee * A})`); g.addColorStop(1, 'rgba(185,175,235,0)');
-        ctx.fillStyle = g; ctx.beginPath(); ctx.arc(x, y, p.r, 0, 6.29); ctx.fill();
-      });
-    }
-    /* Faisceaux : chaque lyre vise un point autour de la cible. */
-    origines.forEach((o, i) => {
-      if (i >= regie.faisceaux) return;
-      const libre = 1 - regie.serre;
-      const ecart = (i - 1.5) * (34 + 60 * (0.5 + 0.5 * Math.sin(t * 0.7))) * libre + (i - (regie.faisceaux - 1) / 2) * 14 * regie.serre;
-      const tx = regie.cible.x + ecart + Math.sin(t * 1.3 + i * 1.7) * 46 * libre, ty = regie.cible.y + Math.cos(t * 1.1 + i) * (26 * libre + 6);
-      const dx = tx - o.x, dy = ty - o.y, L = Math.hypot(dx, dy) * 1.08, ang = Math.atan2(dy, dx);
-      const largeur = (0.085 + 0.025 * Math.sin(t + i)) * (1 + 0.9 * regie.serre);
-      const [r, g, b] = couleurs[i % 4];
-      const grad = ctx.createLinearGradient(o.x, o.y, o.x + Math.cos(ang) * L, o.y + Math.sin(ang) * L);
-      const f = (0.36 + 0.2 * regie.fumee) * regie.force * A;
-      grad.addColorStop(0, `rgba(255,255,255,${0.85 * f})`);
-      grad.addColorStop(0.06, `rgba(${r},${g},${b},${0.7 * f})`);
-      grad.addColorStop(0.7, `rgba(${r},${g},${b},${0.18 * f})`);
-      grad.addColorStop(1, `rgba(${r},${g},${b},0)`);
-      ctx.fillStyle = grad;
-      ctx.beginPath();
-      ctx.moveTo(o.x + Math.cos(ang + 1.57) * 5, o.y + Math.sin(ang + 1.57) * 5);
-      ctx.lineTo(o.x + Math.cos(ang - largeur) * L, o.y + Math.sin(ang - largeur) * L);
-      ctx.lineTo(o.x + Math.cos(ang + largeur) * L, o.y + Math.sin(ang + largeur) * L);
-      ctx.lineTo(o.x + Math.cos(ang - 1.57) * 5, o.y + Math.sin(ang - 1.57) * 5);
-      ctx.closePath(); ctx.fill();
-      /* Halo autour du faisceau, dans la fumée. */
-      const g2 = ctx.createLinearGradient(o.x, o.y, o.x + Math.cos(ang) * L, o.y + Math.sin(ang) * L);
-      g2.addColorStop(0, `rgba(${r},${g},${b},${0.22 * f})`); g2.addColorStop(1, `rgba(${r},${g},${b},0)`);
-      ctx.fillStyle = g2; ctx.beginPath();
-      ctx.moveTo(o.x, o.y);
-      ctx.lineTo(o.x + Math.cos(ang - largeur * 2.4) * L, o.y + Math.sin(ang - largeur * 2.4) * L);
-      ctx.lineTo(o.x + Math.cos(ang + largeur * 2.4) * L, o.y + Math.sin(ang + largeur * 2.4) * L);
-      ctx.closePath(); ctx.fill();
-      const tache = ctx.createRadialGradient(tx, ty, 0, tx, ty, 70);
-      tache.addColorStop(0, `rgba(${r},${g},${b},${0.5 * f})`); tache.addColorStop(1, `rgba(${r},${g},${b},0)`);
-      ctx.fillStyle = tache; ctx.beginPath(); ctx.ellipse(tx, ty, 110, 40, 0, 0, 6.29); ctx.fill();
-      /* Gobos : sous la main, la tache devient un motif de petits ronds qui tourne sur le parquet. */
-      /* La lyre suit son faisceau. */
-      const l = lyres[i];
-      if (l) l.style.setProperty('--r', `${(90 - (ang * 180) / Math.PI).toFixed(1)}deg`);
-    });
-    /* Poursuite : un cercle de lumière sous la main, et une trace qui s'efface dans la brume en 1,4 s. */
-    while (trace.length && t - trace[0].t > 1.4) trace.shift();
-    trace.forEach((p, n) => {
-      const vie = 1 - (t - p.t) / 1.4, R = 190;
-      const gp = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, R);
-      gp.addColorStop(0, `rgba(255,236,214,${0.12 * vie * A})`); gp.addColorStop(0.55, `rgba(220,200,255,${0.05 * vie * A})`); gp.addColorStop(1, 'rgba(220,200,255,0)');
-      ctx.fillStyle = gp; ctx.beginPath(); ctx.arc(p.x, p.y, R, 0, 6.29); ctx.fill();
-    });
-    /* Jets de CO2 depuis le devant de la scène quand EFFETS est au maximum. */
-    if (regie.fumee >= 1) { regie.co2 = (regie.co2 ?? 4.2) + dt; if (regie.co2 > 4.6) regie.co2 = 0; } else regie.co2 = null;
-    if (regie.co2 != null && regie.co2 < 1.5) {
-      const q = regie.co2 / 1.5, haut = Math.sin(Math.min(1, q * 1.6) * 1.571), alpha = q < 0.3 ? q / 0.3 : 1 - (q - 0.3) / 0.7;
-      [0.47, 0.77].forEach((x) => {
-        const b = proj(x, 0.64), h = 0.42 * (proj(0, 1).y - proj(0, 0).y) * haut, l = 26 + 60 * q;
-        const gj = ctx.createLinearGradient(b.x, b.y, b.x, b.y - h);
-        gj.addColorStop(0, `rgba(255,255,255,${0.75 * alpha * A})`); gj.addColorStop(0.6, `rgba(230,240,255,${0.35 * alpha * A})`); gj.addColorStop(1, 'rgba(230,240,255,0)');
-        ctx.fillStyle = gj; ctx.beginPath(); ctx.moveTo(b.x - 8, b.y); ctx.quadraticCurveTo(b.x - l, b.y - h * 0.6, b.x - l * 0.7, b.y - h); ctx.lineTo(b.x + l * 0.7, b.y - h); ctx.quadraticCurveTo(b.x + l, b.y - h * 0.6, b.x + 8, b.y); ctx.closePath(); ctx.fill();
-      });
-    }
-    ctx.globalCompositeOperation = 'source-over';
-  }, { lourde: true });
-
-  /* Faders : le pack conseillé suit les invités, la lumière et les effets. */
-  const f = Object.fromEntries($$('[data-fader]', section).map((i) => [i.dataset.fader, i]));
-  const sorties = Object.fromEntries($$('[data-sortie]', section).map((o) => [o.dataset.sortie, o]));
-  const nom = $('[data-pack-nom]', section), pour = $('[data-pack-pour]', section), bouton = $('[data-ajouter]', section);
-  const mariage = $('[data-mariage]', section);
-  if (mariage) mariage.addEventListener('change', () => { if (regie.tween) { regie.tween.kill(); regie.tween = null; lumC = null; } regler(); });
+  /* Le conseil : un curseur « invités » et l'interrupteur Mariage donnent le pack, qui s'ajoute à la demande. */
+  const packs = JSON.parse(($('[data-packs]', section) || {}).textContent || '[]');
+  const curseur = $('[data-fader="invites"]', section), sortie = $('[data-sortie="invites"]', section);
+  const nom = $('[data-pack-nom]', section), bouton = $('[data-ajouter]', section), mariage = $('[data-mariage]', section);
   const plateau = $$('[data-plateau]', section);
-  let lumC = null;
-  const allumee = $('.regie-photo--allumee', section);
-  const niveauSalle = () => (allumee ? allumee.style.setProperty('--allume', (regie.allumage * regie.salle).toFixed(3)) : null);
-  regie.majSalle = niveauSalle;
-  let effetsAvant = +(f.effets && f.effets.value);
-  const regler = (e) => {
-    if (!f.invites || !packs.length) return;
-    const inv = +f.invites.value, lum = +f.lumiere.value, eff = +f.effets.value;
-    let idx = inv <= 40 ? 0 : inv <= 80 ? 1 : inv <= 150 ? 2 : inv <= 220 ? 3 : 4;
-    idx = Math.max(0, Math.min(4, idx + (lum === 2 ? 1 : lum === 0 ? -1 : 0)));
-    /* Un mariage : le pack le plus complet, comme le conseille le site. */
+  const regler = () => {
+    if (!curseur || !packs.length) return;
+    const inv = +curseur.value;
+    let idx = inv <= 40 ? 0 : inv <= 80 ? 1 : inv <= 120 ? 2 : inv <= 200 ? 3 : 4;
     if (mariage && mariage.checked) idx = 4;
-    if (lumC === null) { try { localStorage.setItem('newpears-invites', String(inv)); } catch {} }
     const p = packs[idx];
-    sorties.invites.textContent = String(inv);
-    [['lumiere', lum], ['effets', eff]].forEach(([k, v]) => { const l = (f[k].dataset.libelles || '').split('|'); sorties[k].textContent = l[v] || v; f[k].setAttribute('aria-valuetext', l[v] || v); });
-    f.invites.setAttribute('aria-valuetext', `${inv} invités`);
+    sortie.textContent = String(inv);
+    curseur.setAttribute('aria-valuetext', `${inv} invités`);
     nom.textContent = p.nom;
-    pour.textContent = p.pour + (eff === 2 ? ' Option : jet de CO2 pour les temps forts.' : '');
     bouton.dataset.ajouter = p.id; bouton.dataset.ajouterNom = p.nom; bouton.dataset.ajouterImage = `/assets/images/materiel/${p.image}-360.webp`;
-    if (eff === 2) bouton.dataset.ajouterAussi = 'co2|Machine à effet CO2|/assets/images/materiel/machine-effet-co2-360.webp'; else delete bouton.dataset.ajouterAussi;
     delete bouton.dataset.texte;
-    if (lumC === null) plateau.forEach((im) => im.classList.toggle('actif', im.dataset.plateau === p.id));
-    regie.faisceaux = Math.max(1, p.faisceaux - (lum === 0 ? 1 : 0));
-    regie.force = [0.55, 0.85, 1.1][lum];
-    regie.fumee = [0, 0.6, 1][eff];
-    const l = lumC === null ? lum : lumC;
-    regie.salle = Math.min(1, (0.08 + 0.46 * l) * (0.8 + 0.2 * Math.min(1, inv / 150)));
-    niveauSalle();
+    plateau.forEach((im) => { const oui = im.dataset.plateau === p.id; im.classList.toggle('actif', oui); im.alt = oui ? p.nom : ''; });
+    try { localStorage.setItem('newpears-invites', String(inv)); } catch {}
     majDemande();
-    if (e && eff === 2 && effetsAvant !== 2) regie.co2 = 0;
-    effetsAvant = eff;
   };
-  Object.values(f).forEach((i) => i.addEventListener('input', (e) => { if (regie.tween) { regie.tween.kill(); regie.tween = null; lumC = null; } regler(e); }));
-  /* Réglage automatique à l'arrivée : les faders montent seuls et la salle s'allume, puis tout s'arrête sur Pack Club. */
-  regie.auto = () => {
-    if (!gsap) return;
-    const v = { inv: 10, lum: 0, eff: 0 };
-    const poser = () => { f.invites.value = String(Math.round(v.inv / 10) * 10); f.lumiere.value = String(Math.round(v.lum)); f.effets.value = String(Math.round(v.eff)); lumC = v.lum; regler(); };
-    poser();
-    regie.tween = gsap.to(v, { inv: 150, lum: 2, eff: 1, duration: 1.9, ease: 'power2.inOut', onUpdate: poser, onComplete: () => { lumC = null; regie.tween = null; regler(); } });
-  };
-  regie.final = () => { if (regie.tween) regie.tween.kill(); regie.tween = null; lumC = null; f.invites.value = '150'; f.lumiere.value = '2'; f.effets.value = '1'; regler(); };
+  if (curseur) curseur.addEventListener('input', regler);
+  if (mariage) mariage.addEventListener('change', regler);
+  regie.final = regler;
   regler();
 }
 
@@ -406,8 +240,6 @@ function initLed() {
   if (!zone || !window.ScrollTrigger) return;
   const rangees = $$('.led-rangee', zone);
   rangees.forEach((r) => {
-    const sens = +r.dataset.sens || 1;
-    gsap.fromTo(r, { xPercent: sens > 0 ? 0 : -22 }, { xPercent: sens > 0 ? -22 : 0, ease: 'none', scrollTrigger: { trigger: zone, start: 'top bottom', end: 'bottom top', scrub: 0.6 } });
     window.ScrollTrigger.create({ trigger: r, start: 'top 72%', end: 'bottom 28%', toggleClass: { targets: r, className: 'allumee' } });
   });
 }
@@ -434,13 +266,11 @@ function introPartieAccueil(tl, debut) {
   tl.fromTo('.regie .sur', { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.5 }, debut)
     .fromTo('.regie-ligne', { yPercent: 105, opacity: 1 }, { yPercent: 0, opacity: 1, duration: 0.75, stagger: 0.1, ease: 'power3.out' }, debut)
     .fromTo('.regie-intro, .regie-actions, .regie-info, .regie-preuve', { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.55, stagger: 0.08 }, debut + 0.2)
-    .fromTo('.console', { opacity: 0, y: 26 }, { opacity: 1, y: 0, duration: 0.6 }, debut + 0.25)
-    .to(regie, { allumage: 1, duration: 0.8, ease: 'power2.out', onUpdate: () => regie.majSalle && regie.majSalle() }, debut)
-    .call(() => regie.auto && regie.auto(), null, debut);
+    .fromTo('.conseil, .regie-scene', { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, stagger: 0.1 }, debut + 0.25);
 }
 function etatFinalPages() {
   if (!gsap) return;
-  gsap.set('.regie .sur, .regie-ligne, .regie-intro, .regie-actions, .regie-info, .regie-preuve, .console, [data-anime="gsap"]', { clearProps: 'transform,opacity' });
+  gsap.set('.regie .sur, .regie-ligne, .regie-intro, .regie-actions, .regie-info, .regie-preuve, .conseil, .regie-scene, [data-anime="gsap"]', { clearProps: 'transform,opacity' });
   regie.allumage = 1;
   if (regie.final) regie.final();
   if (regie.majSalle) regie.majSalle();
@@ -495,7 +325,133 @@ function initPages() {
   initDevis();
   initTetes();
 }
-function initTetes() {}
+function initTetes() {
+  initRackPacks();
+  initControleur();
+  initAmbiances();
+  initPlan();
+}
+
+/* ---------- v2 · Location : la poursuite éclaire un pack du rack ---------- */
+function initRackPacks() {
+  const rack = $('[data-rack]');
+  if (!rack) return;
+  const boutons = $$('[data-rack-pack]', rack), spot = $('[data-rack-poursuite]', rack);
+  const infos = JSON.parse(($('[data-rack-packs]', rack) || {}).textContent || '[]');
+  const nom = $('[data-rack-nom]', rack), pour = $('[data-rack-pour]', rack), lien = $('[data-rack-lien]', rack);
+  let actif = boutons.findIndex((b) => b.classList.contains('actif')), x = 0, cible = 0, main = 0, tenu = false;
+  const centre = (b) => { const r = rack.getBoundingClientRect(), q = b.getBoundingClientRect(); return q.left - r.left + q.width / 2; };
+  const allumer = (i) => {
+    if (i === actif || i < 0) return;
+    actif = i;
+    boutons.forEach((b, k) => { b.classList.toggle('actif', k === i); b.setAttribute('aria-pressed', String(k === i)); });
+    const p = infos[i]; if (!p) return;
+    nom.textContent = p.nom; pour.textContent = p.pour; lien.dataset.pack = p.id;
+  };
+  const viser = () => { cible = centre(boutons[actif]); };
+  viser(); x = cible;
+  addEventListener('resize', viser);
+  /* Sans geste, la poursuite passe d'un pack à l'autre ; la souris la prend, un toucher ou un clic la pose. */
+  let dernier = 0;
+  rack.addEventListener('pointermove', (e) => {
+    if (e.pointerType !== 'mouse' || tenu) return;
+    main = performance.now();
+    const r = rack.getBoundingClientRect(); cible = e.clientX - r.left;
+    let meilleur = 0, d = Infinity; boutons.forEach((b, k) => { const dd = Math.abs(centre(b) - cible); if (dd < d) { d = dd; meilleur = k; } });
+    allumer(meilleur);
+  }, { passive: true });
+  rack.addEventListener('pointerleave', () => { if (!tenu) viser(); });
+  boutons.forEach((b, k) => {
+    b.addEventListener('click', () => { tenu = true; main = performance.now(); allumer(k); viser(); setTimeout(() => { tenu = false; }, 4000); });
+    b.addEventListener('focus', () => { main = performance.now(); allumer(k); viser(); });
+  });
+  if (lien) lien.addEventListener('click', () => { const o = $(`[data-pack-onglet="${lien.dataset.pack || infos[actif].id}"]`); if (o) o.click(); });
+  boucle(spot, (dt, t) => {
+    const libre = performance.now() - main > 2600;
+    if (libre && t - dernier > 2.4) { dernier = t; allumer((actif + 1) % boutons.length); viser(); }
+    x += (cible - x) * (1 - Math.pow(0.004, dt));
+    spot.style.transform = `translate3d(${(x - spot.offsetWidth / 2).toFixed(1)}px,0,0)`;
+  });
+}
+
+/* ---------- v2 · Prestation DJ : les deux jogs du contrôleur tournent ---------- */
+function initControleur() {
+  const ctl = $('[data-controleur]');
+  if (!ctl) return;
+  const jogs = $$('[data-jog]', ctl).map((el, i) => ({ el, a: i * 40, v: i ? -0.55 : 0.55, saisi: false, prec: 0 }));
+  let vitesseDefil = 0, yPrec = scrollY;
+  addEventListener('scroll', () => { vitesseDefil += (scrollY - yPrec) * 0.6; yPrec = scrollY; }, { passive: true });
+  const angle = (el, e) => { const r = el.getBoundingClientRect(); return (Math.atan2(e.clientY - (r.top + r.height / 2), e.clientX - (r.left + r.width / 2)) * 180) / Math.PI; };
+  jogs.forEach((j) => {
+    j.el.addEventListener('pointerdown', (e) => { j.saisi = true; j.prec = angle(j.el, e); j.el.setPointerCapture(e.pointerId); ctl.classList.add('scratch'); });
+    j.el.addEventListener('pointermove', (e) => { if (!j.saisi) return; const a = angle(j.el, e); let d = a - j.prec; if (d > 180) d -= 360; if (d < -180) d += 360; j.a += d; j.v = d * 6; j.prec = a; });
+    const lacher = () => { j.saisi = false; ctl.classList.remove('scratch'); };
+    j.el.addEventListener('pointerup', lacher); j.el.addEventListener('pointercancel', lacher);
+  });
+  /* Au repos, les plateaux tournent doucement (33 tours) ; le défilement les entraîne, la main les scratche. */
+  boucle(ctl, (dt) => {
+    vitesseDefil *= Math.pow(0.05, dt);
+    jogs.forEach((j, i) => {
+      if (!j.saisi) { const base = (i ? -1 : 1) * 70; j.v += (base - j.v) * (1 - Math.pow(0.2, dt)); j.a += (j.v + (i ? -1 : 1) * vitesseDefil) * dt; }
+      j.el.style.setProperty('--a', `${(j.a % 360).toFixed(1)}deg`);
+    });
+  });
+}
+
+/* ---------- v2 · Événements : la salle prend la couleur de l'événement ---------- */
+function initAmbiances() {
+  const tete = $('[data-ambiances]');
+  if (!tete) return;
+  const liens = $$('[data-ambiance]', tete), actuel = $('[data-ambiance-actuel]', tete);
+  let i = 0, main = 0;
+  const choisir = (k) => {
+    i = k; const a = liens[k];
+    liens.forEach((l) => l.classList.toggle('actif', l === a));
+    tete.style.setProperty('--teinte', a.style.getPropertyValue('--t'));
+    if (actuel) actuel.textContent = a.textContent;
+  };
+  liens.forEach((l, k) => { l.addEventListener('pointerenter', () => { main = performance.now(); choisir(k); }); l.addEventListener('focus', () => { main = performance.now(); choisir(k); }); });
+  /* Sans geste, les ambiances défilent seules, une toutes les 1,6 s. */
+  let dernier = 0;
+  boucle(tete, (dt, t) => { if (performance.now() - main > 3000 && t - dernier > 2.4) { dernier = t; choisir((i + 1) % liens.length); } });
+}
+
+/* ---------- v2 · Contact : le plan de salle se dessine et suit le nombre d'invités ---------- */
+function initPlan() {
+  const plan = $('[data-plan]');
+  if (!plan) return;
+  const svg = $('svg', plan), groupe = $('[data-plan-tables]', plan), sortie = $('[data-plan-invites]', plan);
+  const champ = document.getElementById('invites');
+  const NS = 'http://www.w3.org/2000/svg';
+  /* Emplacements des tables rondes autour de la piste (de la plus proche à la plus lointaine). */
+  const places = [];
+  for (let r = 0; r < 4; r++) {
+    const g = 168 - r * 46, d = 472 + r * 46;
+    for (let y = 168; y <= 380; y += 52) { places.push([g, y]); places.push([d, y]); }
+  }
+  for (let x = 236; x <= 404; x += 56) places.push([x, 372]);
+  for (let x = 236; x <= 404; x += 56) places.push([x, 410]);
+  const tri = places.map((p) => ({ p, d: Math.hypot(p[0] - 320, p[1] - 235) })).sort((a, b) => a.d - b.d).map((o) => o.p);
+  let n = 0;
+  const regler = (inv, depuisChamp) => {
+    inv = Math.max(10, Math.min(300, Math.round(inv / 10) * 10 || 120));
+    const voulu = Math.min(tri.length, Math.ceil(inv / 10));
+    while (n < voulu) { const [x, y] = tri[n]; const c = document.createElementNS(NS, 'circle'); c.setAttribute('cx', x); c.setAttribute('cy', y); c.setAttribute('r', 15); c.classList.add('nouvelle'); groupe.appendChild(c); n++; }
+    while (n > voulu) { groupe.lastChild.remove(); n--; }
+    sortie.textContent = `${inv} invités`;
+    plan.dataset.invites = String(inv);
+    if (champ && !depuisChamp) { champ.value = String(inv); champ.dispatchEvent(new Event('input', { bubbles: true })); }
+    try { localStorage.setItem('newpears-invites', String(inv)); } catch {}
+  };
+  let depart = 120;
+  try { depart = +localStorage.getItem('newpears-invites') || 120; } catch {}
+  regler(depart, true);
+  $$('[data-plan-pas]', plan).forEach((b) => b.addEventListener('click', () => regler((+plan.dataset.invites || 120) + +b.dataset.planPas)));
+  if (champ) champ.addEventListener('input', (e) => { if (e.isTrusted && champ.value) regler(+champ.value, true); });
+  /* Le plan se trace une fois à l'arrivée. */
+  $$('.plan-mur, .plan-piste, .plan-pont, .plan-cabine, .plan-enceinte', svg).forEach((el) => { try { el.style.setProperty('--l', Math.ceil(el.getTotalLength())); } catch {} el.classList.add('plan-trace'); });
+  quand('pret', () => requestAnimationFrame(() => plan.classList.add('trace')));
+}
 
 /* Location : onglets des packs (clavier compris). */
 function initPacks() {

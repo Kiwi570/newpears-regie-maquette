@@ -9,17 +9,43 @@ export default (c) => {
   const k = c.site.contact, f = (x) => c.t(`contact.form.${x}`);
   const champ = (id, type, lib, attrs = '') => html`<div class="champ"><label for="${id}">${lib}</label><input id="${id}" name="${id}" type="${type}"${brut(attrs ? ' ' + attrs : '')}></div>`;
   return html`
-<section class="tete tete--contact" id="debut">
+<section class="tete tete--contact tete--plan" id="debut">
   <div class="tete-texte conteneur">
     <p class="sur" data-anime="gsap">${c.t('contact.tete.sur')}</p>
     <h1 data-grille="typo"><span class="ligne-masque"><span class="tete-ligne">${c.t('contact.tete.titre')}</span></span></h1>
     <a class="numero-led" href="tel:${k.telephoneLien}" data-iris-centre data-anime="gsap" data-effet="numero-led" aria-label="Appeler le ${k.telephone}">${k.telephone}</a>
     <p class="tete-actions" data-anime="gsap"><a class="bouton" href="#demande" data-action-principale>${f('envoyer')}</a><a class="bouton bouton--contour" href="${k.whatsapp}" target="_blank" rel="noopener">${c.t('commun.whatsapp')}</a><a class="bouton bouton--contour" href="mailto:${k.email}">${k.email}</a><span class="tete-info" data-info-cle>${c.t('contact.tete.texte')}</span></p>
   </div>
-  ${c.media({ nom: 'grok/location-livraison', alt: c.s('location.etapes.alt'), priorite: true, classe: 'tete-bande', cadrage: '50% 60%', sizes: '100vw', attrs: 'data-fx="parallaxe" data-fx-force="14"' })}
+  <div class="plan" data-plan data-visuel>
+    <p class="plan-titre">${c.t('contact.plan.titre')}</p>
+    <svg class="plan-svg" viewBox="0 0 640 440" role="img" aria-label="${c.s('contact.plan.aria')}">
+      <defs>
+        <pattern id="parquet" width="24" height="8" patternUnits="userSpaceOnUse"><rect width="24" height="8" fill="#1a1520"/><path d="M0 7.5H24M12 0V8" stroke="#3a2f45" stroke-width="1"/></pattern>
+        <radialGradient id="faisceau-plan" cx="50%" cy="0%" r="100%"><stop offset="0" stop-color="#b49bff" stop-opacity=".55"/><stop offset="1" stop-color="#b49bff" stop-opacity="0"/></radialGradient>
+      </defs>
+      <rect class="plan-mur" x="12" y="12" width="616" height="416" rx="10"/>
+      <rect class="plan-piste" x="200" y="150" width="240" height="170" rx="6" fill="url(#parquet)"/>
+      <g class="plan-faisceaux" data-plan-faisceaux data-effet="plan">
+        <path d="M232 92 L205 250 L265 250 Z"/><path d="M290 88 L262 250 L322 250 Z"/><path d="M350 88 L318 250 L378 250 Z"/><path d="M408 92 L375 250 L435 250 Z"/>
+      </g>
+      <line class="plan-pont" x1="210" y1="90" x2="430" y2="90"/>
+      <g class="plan-lyres">${[232, 290, 350, 408].map((x) => html`<circle cx="${x}" cy="90" r="7"/>`)}</g>
+      <rect class="plan-cabine" x="270" y="44" width="100" height="30" rx="4"/>
+      <rect class="plan-enceinte" x="222" y="46" width="26" height="26" rx="3"/><rect class="plan-enceinte" x="392" y="46" width="26" height="26" rx="3"/>
+      <text class="plan-etiquette" x="320" y="64" text-anchor="middle">${c.t('contact.plan.cabine')}</text>
+      <text class="plan-etiquette plan-etiquette--piste" x="320" y="296" text-anchor="middle">${c.t('contact.plan.piste')}</text>
+      <g class="plan-tables" data-plan-tables></g>
+    </svg>
+    <div class="plan-reglage">
+      <button type="button" class="plan-bouton" data-plan-pas="-10" aria-label="${c.s('contact.plan.moins')}">−</button>
+      <output class="plan-invites" data-plan-invites aria-live="polite">120 invités</output>
+      <button type="button" class="plan-bouton" data-plan-pas="10" aria-label="${c.s('contact.plan.plus')}">+</button>
+    </div>
+    <p class="plan-legende">${c.t('contact.plan.legende')}</p>
+  </div>
 </section>
 
-<section class="demande" id="demande">
+<section class="clair demande" id="demande">
   <div class="conteneur demande-grille">
     <form class="devis" data-formulaire data-devis novalidate>
       <p class="sur">${f('sur')}</p>
@@ -97,7 +123,7 @@ export default (c) => {
   </div>
 </section>
 
-<section class="questions conteneur" id="questions">
+<section class="clair questions conteneur" id="questions">
   <h2 data-anime="lignes">${c.t('contact.faq.titre')}</h2>
   <div class="questions-grille">
     <div class="questions-liste" data-anime="cascade">${c.donnees.faq.map((q) => html`<details class="faq-item"><summary>${q.q}</summary><p>${q.r}</p></details>`)}</div>
