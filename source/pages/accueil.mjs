@@ -50,7 +50,7 @@ export default (c) => {
   <script type="application/json" data-packs>${brut(JSON.stringify(packs.map((p) => ({ id: p.id, nom: p.nom, pour: p.pour, image: p.image }))))}</script>
 </section>
 
-<section class="case-jeu" id="flight-case" data-grille="scene" data-section>
+<section class="clair case-jeu" id="flight-case" data-grille="scene" data-section>
   <div class="conteneur case-tete">
     <div>
       <p class="sur">${c.t('accueil.case.sur')}</p>
@@ -104,7 +104,7 @@ export default (c) => {
   </div>
 </section>
 
-<section class="dj" id="dj">
+<section class="clair dj" id="dj">
   <div class="dj-mur">
     <div class="dj-led" data-grille="typo" aria-hidden="true" data-ruban data-audit-ignorer>
       ${styles.map((r, i) => html`<p class="led-rangee" data-effet="led-styles" data-sens="${i % 2 ? -1 : 1}">${[...r, ...r, ...r].map((m) => html`<span>${m}</span>`)}</p>`)}
@@ -126,7 +126,7 @@ export default (c) => {
   </div>
 </section>
 
-<section class="evts" id="evenements" data-effet="evts-ambiance">
+<section class="clair evts" id="evenements" data-effet="evts-ambiance">
   <div class="conteneur" data-grok>
     <p class="sur">${c.t('accueil.evenements.sur')}</p>
     <h2 data-anime="lignes">${c.t('accueil.evenements.titre')}</h2>

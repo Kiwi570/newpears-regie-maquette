@@ -103,7 +103,7 @@ export default (c) => {
   </div>
 </section>
 
-<section class="joindre conteneur" id="joindre">
+<section class="clair joindre conteneur" id="joindre">
   <div class="joindre-tete"><h2 data-anime="lignes">${c.t('contact.joindre.titre')}</h2><img class="joindre-visuel" src="/assets/images/materiel/table-mixage-6-voies-720.webp" alt="" loading="lazy" data-visuel></div>
   <ul class="joindre-liste" data-anime="cascade">
     <li><span>${c.t('contact.joindre.tel')}</span><a href="tel:${k.telephoneLien}">${k.telephone}</a></li>
@@ -113,7 +113,7 @@ export default (c) => {
   </ul>
 </section>
 
-<section class="zone" id="zone">
+<section class="clair zone" id="zone">
   <div class="conteneur zone-grille">
     <div>
       <h2 data-anime="lignes">${c.t('contact.zone.titre')}</h2>

@@ -13,7 +13,7 @@ export default (c) => {
 <section class="tete tete--evts tete--ambiances" id="debut" data-ambiances style="--teinte:${evts[0].teinte}">
   <div class="ambiances-salle" data-iris-centre data-visuel>
     ${c.media({ nom: 'grok/salle-eteinte', alt: c.s('accueil.regie.alt'), priorite: true, classe: 'ambiances-photo', cadrage: '72% 60%', cadrageMobile: '62% 60%', sizes: '100vw' })}
-    <span class="ambiances-lumiere" data-effet="ambiances" aria-hidden="true"></span>
+    <span class="ambiances-lumiere" aria-hidden="true"></span>
     <span class="ambiances-halo" aria-hidden="true"></span>
   </div>
   <div class="tete-texte conteneur">
@@ -22,13 +22,13 @@ export default (c) => {
     <p class="masque-ecran-tres-bas" data-anime="gsap">${c.t('evenements.tete.texte')}</p>
     <p class="tete-actions" data-anime="gsap"><a class="bouton" href="#index" data-action-principale>${c.t('evenements.index.sur')}</a><span class="tete-info" data-info-cle>${c.t('evenements.tete.info')}</span></p>
   </div>
-  <ul class="ambiances-noms" aria-label="${c.s('evenements.ambiances.titre')}">
+  <ul class="ambiances-noms" data-effet="ambiances" aria-label="${c.s('evenements.ambiances.titre')}">
     ${evts.map((e, i) => html`<li><a href="#${e.id}" data-ambiance="${e.id}" style="--t:${e.teinte}"${i === 0 ? brut(' class="actif"') : ''}>${e.nom}</a></li>`)}
   </ul>
-  <p class="ambiances-actuel" aria-hidden="true" data-ambiance-actuel>${evts[0].nom}</p>
+  <p class="ambiances-actuel" aria-hidden="true" data-ambiance-actuel data-effet="ambiances">${evts[0].nom}</p>
 </section>
 
-<section class="index-evts" id="index" data-effet="index-ambiance">
+<section class="clair index-evts" id="index" data-effet="index-ambiance">
   <div class="conteneur">
     <p class="sur">${c.t('evenements.index.sur')}</p>
     <h2 data-anime="lignes">${c.t('evenements.index.titre')}</h2>
@@ -45,7 +45,7 @@ export default (c) => {
   </div>
 </section>
 
-<section class="formules conteneur" id="formules">
+<section class="clair formules conteneur" id="formules">
   <p class="sur">${c.t('evenements.formules.sur')}</p>
   <h2 data-anime="lignes">${c.t('evenements.formules.titre')}</h2>
   <div class="formules-grille" data-anime="cascade">

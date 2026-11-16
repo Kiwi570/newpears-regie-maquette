@@ -1,5 +1,23 @@
 # Journal des versions — maquette NEWPEARS
 
+## v5 — 16 novembre 2026
+
+Encore plus sobre et plus clair, à la demande du client.
+
+- **Fond clair majoritaire** : toutes les sections passent en blanc cassé, sauf l'ouverture de chaque page, l'appel final et le pied de page, qui restent sombres comme des moments de scène.
+  - Accueil : le flight case, les métiers, côté platines, les événements et la zone.
+  - Location : les packs, la scène du flight case (les objets seuls sur fond clair), le catalogue, les étapes et le bon à savoir.
+  - Prestation DJ : ce qui est compris, la playlist, les temps forts, Mattéo et Sacha.
+  - Événements : l'index et les formules.
+  - Contact : la demande, les moyens directs, la zone et les questions.
+- **Sans néons** :
+  - plus de lueurs autour des textes, des chiffres ni des objets ;
+  - les mots de couleur des titres sont en couleur pleine, plus en dégradé ;
+  - le faisceau du héros est plus discret.
+- **Police à points réservée aux chiffres** : le numéro, les chiffres clés et les compteurs la gardent. Les surtitres, les onglets des packs, les étiquettes et les consignes passent dans la police du texte. Le mur des styles de l'accueil devient une grande typographie (violet et vert sur fond clair).
+- **Boutons unis** : un violet plein au lieu du dégradé violet-vert.
+- Le numéro de version passe à 5.
+
 ## v4 — 16 novembre 2026
 
 - **Prestation DJ** : l'ouverture montre des platines dessinées (deux plateaux et une table de mixage, en traits fins violets et verts), nettes à toutes les tailles. Elles remplacent la photo du contrôleur, floue sur les écrans haute définition. Les plateaux tournent toujours seuls, suivent le défilement et se font tourner à la main ; leur étiquette porte la poire du logo.

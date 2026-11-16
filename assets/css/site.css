@@ -1362,3 +1362,72 @@ html.entete-cache .fil-lyre { --dy: -4px; }
 .ctl-jog { transform-box: fill-box; transform-origin: center; transform: rotate(var(--a, 0deg)); cursor: grab; touch-action: none; will-change: transform; }
 .ctl-jog:active { cursor: grabbing; }
 .controleur::before { inset: 14% -4% -10%; }
+
+/* ===================== v5 : plus sobre, clair majoritaire ===================== */
+/* Boutons unis. */
+.bouton { background: #6b48cf; color: #ffffff; }
+.bouton:hover { background: #5a3cc0; }
+.bouton--contour, .bouton--contour:hover { background: transparent; color: var(--texte); }
+.bouton--case, .bouton--case:hover { background: var(--vert-clair); color: #07070c; }
+.clair .bouton--contour { color: var(--texte); }
+/* Plus de néons : ni lueurs de texte, ni mots en dégradé, ni halos colorés. */
+*, *::before, *::after { text-shadow: none !important; }
+em, .regie-titre em, .tete--ambiances h1 em { background: none; -webkit-background-clip: border-box; background-clip: border-box; color: var(--violet-clair); }
+.fil-progression span { box-shadow: none; }
+.frise li::before { box-shadow: none; }
+.inclus-liste.vu .voyant, .pastille[data-etat="garder"] .pastille-etat { box-shadow: none; }
+.packs-choix button[aria-selected="true"] { box-shadow: 0 0 0 1px var(--vert); }
+.etal-packs li .etal-pack.actif img { filter: brightness(1.06) drop-shadow(0 18px 18px #0009); }
+.case-cadre img { filter: drop-shadow(0 14px 14px #000a); }
+.bon-visuel, .inclus-visuel, .joindre-visuel { filter: drop-shadow(0 14px 18px #0006); }
+.couvercle-logo { filter: none; }
+.case-objet { filter: drop-shadow(0 26px 30px #0005); }
+.controleur::before, .etal::before { display: none; }
+.regie-halo { opacity: .45; }
+.regie-cone { opacity: .16; }
+.chiffre, .numero-led { text-shadow: none; }
+/* Police à points seulement pour les chiffres. */
+.sur { font-family: var(--police-texte); font-weight: 700; font-size: .78rem; letter-spacing: .16em; }
+.ouverture-ligne, .playlist-colonnes ul, .tampon, .couvercle-consigne, .etal-nom, .plan-titre, .plan-invites, .fader-nom { font-family: var(--police-texte); letter-spacing: .06em; }
+.plan-invites { font-weight: 800; }
+.ctl-marque { font-family: var(--police-texte); font-weight: 800; letter-spacing: .2em; font-size: 13px; }
+/* Mur des styles : grande typographie au lieu des lettres à points. */
+.led-rangee { font-family: var(--police-titres); font-weight: 800; text-transform: uppercase; font-size: clamp(2.2rem, 5.6vw, 5.2rem); line-height: 1.04; gap: .5em; }
+.led-rangee span { font-weight: 800; color: #d9d6e0; }
+.led-rangee.allumee span { color: #6b48cf; }
+.led-rangee.allumee:nth-child(2) span { color: #0f7a60; }
+/* Sections claires : composants qui restaient sombres. */
+.clair .packs-choix button { background: #ffffff; border-color: #16151d26; color: var(--texte); }
+.clair .packs-choix button[aria-selected="true"] { border-color: #0f7a60; color: #0f7a60; box-shadow: 0 0 0 1px #0f7a60; }
+.clair .pack-fiche, .clair .packs-scene { background: #ffffff; border-color: #16151d14; color: var(--texte); }
+.clair .pastille { background: #ffffff; border-color: #16151d33; color: var(--texte); }
+.clair .pastille-etat { background: #cfcbd8; }
+.clair .pastille[data-etat="garder"] { border-color: #0f7a60; color: #0f7a60; }
+.clair .pastille[data-etat="garder"] .pastille-etat { background: #0f7a60; }
+.clair .pastille[data-etat="eviter"] { border-color: #c2413a; color: #b3372f; }
+.clair .duo-reperes strong, .clair .case-n, .clair .frise-n, .clair .etape-n, .clair .index-n { color: #5a3cc0; }
+.clair .duo-reperes li, .clair .inclus-liste li, .clair .temps-liste li, .clair .formule, .clair .joindre-liste li, .clair .etapes-ligne li, .clair .index-item { background: #ffffff; border-color: #16151d14; }
+.clair .frise::before { opacity: .5; }
+.clair .case-legende p, .clair .case-texte p { color: #45424f; }
+/* Location : la scène du flight case passe en clair, les objets seuls sur le fond. */
+.case.clair { background: #f1efe9; }
+.case.clair .case-fond { display: none; }
+.case.clair .case-collant { background: #f1efe9; }
+.duo-reperes strong { font-weight: 900; }
+.clair .duo-reperes li { color: #45424f; }
+.clair .pack-fiche li, .clair .pack-fiche p, .clair .pack-texte, .clair .pack-pour { color: #45424f; }
+.clair .pack-visuel img { filter: drop-shadow(0 20px 24px #0003); }
+.packs-choix button { font-family: var(--police-texte); font-weight: 700; letter-spacing: .04em; }
+/* Audit v5 : surtitres à 13 px, contrastes des sections claires. */
+.sur { font-size: .82rem; }
+/* Les objets sombres posés dans une section claire gardent leurs couleurs claires. */
+.clair .couvercle, .clair .case-bouton, .clair .case-produits, .clair .playlist-ecran, .clair .egaliseur { --texte: #f1efe9; --gris: #b3b0bd; --vert-clair: #6fe3bd; --violet-clair: #b49bff; color: #f1efe9; }
+.couvercle-consigne { color: #6fe3bd; }
+.case-bouton { color: #f1efe9; }
+.clair .mention-ia.mention-ia--liste { color: #5d5969; }
+.clair .evts-liste li.actif .evt-lien { color: color-mix(in srgb, var(--teinte) 40%, #16151d); }
+.clair .index-item h3 { color: #16151d; }
+.clair .index-item.actif h3 { color: color-mix(in srgb, var(--teinte) 40%, #16151d); }
+.clair .index-n, .clair .index-item.actif .index-n { color: #5d5969; }
+.led-rangee span { color: #858292; }
+.clair .dj-mur .dj-photo .media-legende, .clair .dj-grille .dj-photo .media-legende { color: #4a4757; background: #f1efe9; }

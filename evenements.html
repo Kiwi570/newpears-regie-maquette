@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="4">
+<html lang="fr" data-v="5">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/polices/big-shoulders-display-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/polices/manrope-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=4">
-<link rel="stylesheet" href="/assets/css/site.css?v=4">
-<link rel="modulepreload" href="/assets/js/site.js?v=4">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=4">
+<link rel="stylesheet" href="/assets/css/socle.css?v=5">
+<link rel="stylesheet" href="/assets/css/site.css?v=5">
+<link rel="modulepreload" href="/assets/js/site.js?v=5">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=5">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=4"></script>
+<script type="module" src="/assets/js/site.js?v=5"></script>
 <meta name="theme-color" content="#07070c">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -112,7 +112,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <img src="/assets/images/grok/salle-eteinte-1280.webp" srcset="/assets/images/grok/salle-eteinte-640.webp 640w, /assets/images/grok/salle-eteinte-1280.webp 1280w, /assets/images/grok/salle-eteinte-1920.webp 1920w" sizes="100vw" alt="Une salle des fêtes prête pour la soirée, matériel installé, lumières éteintes" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
   </picture><figcaption class="mention-ia">Illustration générée</figcaption>
 </figure>
-    <span class="ambiances-lumiere" data-effet="ambiances" aria-hidden="true"></span>
+    <span class="ambiances-lumiere" aria-hidden="true"></span>
     <span class="ambiances-halo" aria-hidden="true"></span>
   </div>
   <div class="tete-texte conteneur">
@@ -121,12 +121,12 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <p class="masque-ecran-tres-bas" data-anime="gsap">Mariages, anniversaires, entreprises, associations, mairies : DJ, son et éclairage, à Saint-Quentin et dans l&#39;Aisne.</p>
     <p class="tete-actions" data-anime="gsap"><a class="bouton" href="#index" data-action-principale>Choisissez votre événement</a><span class="tete-info" data-info-cle>Devis sous 24 h, 7 j/7</span></p>
   </div>
-  <ul class="ambiances-noms" aria-label="Onze ambiances, une même salle">
+  <ul class="ambiances-noms" data-effet="ambiances" aria-label="Onze ambiances, une même salle">
     <li><a href="#mariage" data-ambiance="mariage" style="--t:#8b66d6" class="actif">Mariage</a></li><li><a href="#anniversaire" data-ambiance="anniversaire" style="--t:#c25fb5">Anniversaire</a></li><li><a href="#famille" data-ambiance="famille" style="--t:#5d8fd6">Baptême et famille</a></li><li><a href="#entreprise" data-ambiance="entreprise" style="--t:#3cc39a">Entreprises</a></li><li><a href="#seminaire" data-ambiance="seminaire" style="--t:#4fb3c9">Séminaires et conférences</a></li><li><a href="#festival" data-ambiance="festival" style="--t:#e0a43a">Festivals et concerts en plein air</a></li><li><a href="#associations" data-ambiance="associations" style="--t:#d66a6a">Associations</a></li><li><a href="#bars" data-ambiance="bars" style="--t:#e07a3a">Bars et restaurants</a></li><li><a href="#mairies" data-ambiance="mairies" style="--t:#6a7ad6">Mairies et collectivités</a></li><li><a href="#fin-annee" data-ambiance="fin-annee" style="--t:#b48cff">Fêtes de fin d&#39;année</a></li><li><a href="#autre" data-ambiance="autre" style="--t:#9a98a6">Autre événement</a></li>
   </ul>
-  <p class="ambiances-actuel" aria-hidden="true" data-ambiance-actuel>Mariage</p>
+  <p class="ambiances-actuel" aria-hidden="true" data-ambiance-actuel data-effet="ambiances">Mariage</p>
 </section>
-<section class="index-evts" id="index" data-effet="index-ambiance">
+<section class="clair index-evts" id="index" data-effet="index-ambiance">
   <div class="conteneur">
     <p class="sur">Choisissez votre événement</p>
     <h2 data-anime="lignes">On vient avec ce qu&#39;il faut</h2>
@@ -236,7 +236,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </ol>
   </div>
 </section>
-<section class="formules conteneur" id="formules">
+<section class="clair formules conteneur" id="formules">
   <p class="sur">Deux formules</p>
   <h2 data-anime="lignes">Avec ou sans DJ</h2>
   <div class="formules-grille" data-anime="cascade">

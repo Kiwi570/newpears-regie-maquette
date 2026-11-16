@@ -1,0 +1,38 @@
+{
+  "echecs": [
+    {
+      "niveau": "echec",
+      "controle": "accessibilité (axe) : color-contrast",
+      "detail": "Elements must meet minimum color contrast ratio thresholds",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": ".media-legende",
+      "lieux": [
+        "390×844 normal",
+        "1366×768 normal"
+      ]
+    }
+  ],
+  "aRegarder": [],
+  "nonLances": [],
+  "oks": {
+    "vercel.json": 1,
+    ".vercelignore": 1,
+    "robots.txt": 1,
+    "numéro de version": 1,
+    "langues": 1,
+    "mesures": 33,
+    "balayage": 3,
+    "mouvement": 6,
+    "effets du plan": 15
+  },
+  "infos": [
+    "Numéro de version des fichiers : ?v=5",
+    "Journal v5 : 1 étape(s) notée(s), 8 min de travail pour 40 min de budget, 2 min d’attente de l’utilisateur.",
+    "Audit standard : étapes lourdes sur /, /evenements, /prestation-dj.",
+    "Accessibilité : axe-core 4.12.1 en plus des contrôles intégrés."
+  ],
+  "grille": []
+}

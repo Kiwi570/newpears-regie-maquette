@@ -69,7 +69,7 @@ export default (c) => html`
   <p class="tete-texte-bas conteneur masque-ecran-bas" data-anime="gsap">${c.t('dj.tete.texte')}</p>
 </section>
 
-<section class="inclus conteneur" id="inclus">
+<section class="clair inclus conteneur" id="inclus">
   <p class="sur">${c.t('dj.inclus.sur')}</p>
   <div class="inclus-tete"><h2 data-anime="lignes">${c.t('dj.inclus.titre')}</h2><img class="inclus-visuel" src="/assets/images/materiel/controleur-dj-720.webp" alt="" loading="lazy" data-visuel></div>
   <ul class="inclus-liste" data-anime="cascade">
@@ -77,7 +77,7 @@ export default (c) => html`
   </ul>
 </section>
 
-<section class="playlist" id="playlist">
+<section class="clair playlist" id="playlist">
   <div class="conteneur playlist-grille">
     <div>
       <p class="sur">${c.t('dj.playlist.sur')}</p>
@@ -99,7 +99,7 @@ export default (c) => html`
   </div>
 </section>
 
-<section class="temps conteneur" id="temps-forts">
+<section class="clair temps conteneur" id="temps-forts">
   <p class="sur">${c.t('dj.temps.sur')}</p>
   <h2 data-anime="lignes">${c.t('dj.temps.titre')}</h2>
   <p class="temps-texte">${c.t('dj.temps.texte')}</p>
@@ -110,7 +110,7 @@ export default (c) => html`
   </div>
 </section>
 
-<section class="duo" id="duo">
+<section class="clair duo" id="duo">
   <div class="conteneur duo-grille">
     ${c.media({ nom: 'duo-fete-musique', alt: c.s('dj.duo.alt'), classe: 'duo-photo', cadrage: '50% 50%', sizes: '(max-width: 760px) 100vw, 34vw', attrs: 'data-fx="zoom"' })}
     <div>

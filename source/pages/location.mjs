@@ -30,7 +30,7 @@ export default (c) => {
   </div>
 </section>
 
-<section class="packs" id="packs">
+<section class="clair packs" id="packs">
   <div class="conteneur">
     <p class="sur">${c.t('location.packs.sur')}</p>
     <h2 data-anime="lignes">${c.t('location.packs.titre')}</h2>
@@ -54,7 +54,7 @@ export default (c) => {
   </div>
 </section>
 
-<section class="case" id="flight-case" data-scene data-grille="scene">
+<section class="clair case" id="flight-case" data-scene data-grille="scene">
   <div class="case-collant" data-collant>
     <div class="case-fond">${c.media({ nom: 'grok/location-flight-case', alt: c.s('location.case.alt'), classe: 'case-photo', sizes: '100vw' })}</div>
     <div class="case-texte conteneur">
@@ -95,7 +95,7 @@ export default (c) => {
   </div>
 </section>
 
-<section class="etapes conteneur" id="etapes">
+<section class="clair etapes conteneur" id="etapes">
   <h2 data-anime="lignes">${c.t('location.etapes.titre')}</h2>
   <div class="etapes-grille">
     <ol class="etapes-liste" data-anime="cascade">${[1, 2, 3, 4].map((n) => html`<li><span class="etape-n">0${n}</span><h3>${c.t(`location.etapes.e${n}t`)}</h3><p>${c.t(`location.etapes.e${n}`)}</p></li>`)}</ol>
